@@ -14,7 +14,9 @@ Now what you want to do after downloading your server jar is to create a new fol
 java -Xmx1024M -Xms1024M -jar server.jar nogui 
 PAUSE
 ```
-![server jar and run file](https://imgur.com/a/hJr6u4a)
+
+![server jar and run file](https://i.imgur.com/RDvuoer.png)
+
 1024M is how many megabytes are allocated to the server, 1024M or 2048M is good for our purpose. Save the file and close your text editor, go to the file in File Explorer and right click, rename, and highlight the file extension "txt" and type "bat". This changes it to a batch file so we can run the server jar. We are ready to run the server now! Double click the run.bat file and it should come up with a new terminal window and after a while say "Agree to the minecraft EULA". close out of the terminal window and find a file called "eula.txt" that was generated. Open it and change "eula=false" to "eula=true", save it then double click run.bat again. It may take a while for all the files to generate so be patient, once it's done your server should be good to go!
 To join the server open minecraft, go to multiplayer and add new server, in the server ip add "localhost", click done and join your very own minecraft server!
 
