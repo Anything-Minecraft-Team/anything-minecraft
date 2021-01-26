@@ -8,13 +8,13 @@ To find your server configuration file, you'll need to look in the root director
 
 ## Configuration Options
 
-**You can find the default `server.properties` [here](../../resources/deafault_server.properties) or on the [GitHub](https://github.com/JustDoom/anything-minecraft) if you accidently mess it up, or forget a setting's original value.**
+**You can find the default `server.properties` [here](../../resources/default_server.properties) or on the [GitHub](https://github.com/JustDoom/anything-minecraft) if you accidently mess it up, or forget a setting's original value.**
 
 ### `enable-jmx-monitoring`
 
-Exposes an MBean with the Object name `net.minecraft.server:type=Server` and two attributes `averageTickTime` and `tickTimes` exposing the tick times in milliseconds
+Exposes an MBean, or Managed Bean ([Read More](https://en.wikipedia.org/wiki/Java_Management_Extensions#Managed_beans)) with the Object name `net.minecraft.server:type=Server` and two attributes `averageTickTime` and `tickTimes` exposing the tick times in milliseconds
 
-The default value is `false` and you should leave it at that unless a plugin or other service requests that you enable it.
+The default value is `false` and you should leave it there, unless a plugin or other service requests that you enable it.
 
 ### `rcon.port`
 
@@ -40,7 +40,9 @@ Note: Command blocks can only be placed by players with OP, but if there's a red
 
 ### `enable-query`
 
-Enables GameSpy4 protocol server listener. Used to get information about server. 
+Enables GameSpy4 ([Read More](https://wiki.vg/Query)) protocol server listener. Used to get information about the server. 
+
+The default value is `false` and you should leave it there, unless a plugin or other service requests that you enable it.
 
 ### `generator-settings`
 
@@ -66,7 +68,7 @@ The port for the query server (see [`enable-query`](#enable-query))
 
 ### `pvp`
 
-Whether or not players can harm eachother.
+Whether or not players can harm each other.
 
 ### `generate-structures`
 
@@ -97,7 +99,6 @@ Possible Values: Integer 0 - 2⁶³-1
 ### `use-native-transport`
 
 Linux server performance improvements: optimized packet sending/receiving on Linux
-
 
 ### `max-players`
 
@@ -134,9 +135,11 @@ Integer 0 - 256 (**must be multiple of 8**)
 
 ### `server-ip`
 
-Set if you want the server to a particular IP.
+The player should set this if they want the server to bind to a particular IP. This is most common if you have multiple IPs for a particular machine.
 
-Strongly recommended to leave this blank.
+For almost all uses, this should be blank.
+
+You can read into specific use cases [here](https://www.minecraftforum.net/forums/support/server-support-and/1920697-advanced-server-properties-ip-and-port-settings), if you believe that it may be necessary.
 
 ### `allow-nether`
 
@@ -225,6 +228,8 @@ Can animals spawn?
 
 Sets whether the server sends snoop data regularly to <http://snoop.minecraft.net>
 
+This includes data about the version of Minecraft that you're running, hardware specs, Java version, JVM arguments, and generation settings.  The full list can be found [here](https://wiki.vg/Snoop)
+
 ### `function-permission-level`
 
 Sets the default permission level for functions. (See [`op-permission-level`](#op-permission-level))
@@ -235,7 +240,7 @@ Possible Values: Integer 1 - 4
 
 The type of map to generate
 
-Possible Values: default, flat, largeBiomes, amplified, buffet(1.15+)
+Possible Values: default, flat, largeBiomes, amplified, buffet(1.15+, settings set in [`generator-settings`](#generator-settings))
 
 ### `text-filtering-config`
 
