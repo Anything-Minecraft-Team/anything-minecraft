@@ -8,7 +8,7 @@ To find your server configuration file, you'll need to look in the root director
 
 ## Configuration Options
 
-**You can find the default `server.properties` on the [GitHub](../../resources/deafault_server.properties) if you accidently mess it up, or forget a setting's original value.**
+**You can find the default `server.properties` [here](../../resources/deafault_server.properties) or on the [GitHub](https://github.com/JustDoom/anything-minecraft) if you accidently mess it up, or forget a setting's original value.**
 
 ### `enable-jmx-monitoring`
 
