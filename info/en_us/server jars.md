@@ -29,3 +29,7 @@ Purpur is also a fork of PaperMC but has all tuinity's features. It is recommend
 ## [YatopiaMC](https://github.com/YatopiaMC/Yatopia)
 
 YatopiaMC has a bunch of features that could help make your server run faster but it has had some bugs that just break the game, it is not properly tested and doesnt have all of purpurs features. It is advised to not use this fork.
+
+## [Fabric](https://fabricmc.net/)
+
+Fabric is a modloader like forge but much more lightweight. Its growing in popularity. It also has some of the best fps improving mods for the client (See Sodium mod) and server.
