@@ -33,4 +33,5 @@ java stands for summoning the java enviroment, -Xms512M means that the minium de
 ## How do i get another Spigot version?
 You have two ways; the first one is downloading form a mirror, and the second is building it yourself.
 The first one is very simple: just go to any mirror like [GetBukkit](https://getbukkit.org/), click Downloads and select your version!
+
 The second one is a bit more hard: first, run this command to create a folder called Buildtools `mkdir Buildtools`. Then run `cd Buildtools` to go to the folder that you created. Then run this in your terminal for downloading BuildTools `wget -O BuildTools.jar https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar` and then run `java -jar BuildTools.jar --rev latest` to start building the latest Spigot JAR. You can change `latest` to almost any Minecraft version starting from 1.8. This may take more than 15 minutes if you are on a Pi 3 or lower. When the building process finishes, you will find both Spigot and Crafbukkit. Then just replace your server's `spigot.jar` with the new one.
