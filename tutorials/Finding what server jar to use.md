@@ -7,4 +7,4 @@ The first step to finding the right server jar for you is to know what kind of s
 - 1.13 and above - A good server jar to use is [Purpur](https://github.com/pl3xgaming/Purpur), it optimizes performance a lot and adds a lot of features (FLYING SQUIDS :D) to help optimize even further or just some fun cool things to do.
 - 1.12 and below - PaperMC is generally the best fork for these versions and not much is more is needed.
 
-For more indepth explanations for msot server jars look [here](https://github.com/JustDoom/anything-minecraft/blob/main/info/server%20jars.md#intro)
+For more indepth explanations for most server jars look [here](https://github.com/JustDoom/anything-minecraft/blob/main/info/server%20jars.md#intro)
