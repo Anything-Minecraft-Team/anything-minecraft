@@ -13,7 +13,7 @@ Welcome to the start of a new adventure, here we will show you everything you ne
 
 ## Contributing
 
-If you would like to Contribute just make a pull request with the changes and I'll review it
+If you would like to Contribute just make a pull request with the changes and I'll review it. Before you contribute, please install [nodejs](https://nodejs.org/en/download/) and run `npm install` in the project root. This allows for linting to be setup and styling to be consistent.
 
 > Please help us translate!
 
