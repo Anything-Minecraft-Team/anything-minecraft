@@ -72,6 +72,8 @@ PetBlocks adds commands that can give players pets that can look like custom hea
 
 Dynmap gives players the ability to move around their world through an internet browser
 
+---
+
 ## Creativity Plugins
 
 The plugins in this category have a focus on additions that allow players to express thier creativity the most.
