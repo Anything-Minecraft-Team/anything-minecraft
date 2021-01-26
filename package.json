@@ -1,0 +1,33 @@
+{
+  "name": "anything-minecraft",
+  "version": "1.0.0",
+  "description": "Welcome to the start of a new adventure, here we will show you everything you need to do to setup a Minecraft Java server and host it! We will go through all the steps in as much detail as possible, and who knows? you might become the next hypixel!",
+  "main": "index.js",
+  "scripts": {
+    "lint:markdown": "markdownlint '**/*.md' --ignore node_modules",
+    "lint:prettier": "pretty-quick",
+    "lint": "npm run lint:markdown && npm run lint:prettier"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustDoom/anything-minecraft.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JustDoom/anything-minecraft/issues"
+  },
+  "homepage": "https://github.com/JustDoom/anything-minecraft#readme",
+  "devDependencies": {
+    "husky": "^4.3.8",
+    "markdownlint": "^0.22.0",
+    "markdownlint-cli": "^0.26.0",
+    "prettier": "^2.2.1",
+    "pretty-quick": "^3.1.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  }
+}
