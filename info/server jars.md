@@ -15,3 +15,9 @@ PaperMC is another fork but this time its a fork of SpigotMC, it aims to get bet
 
 ### [Tuinity](https://github.com/Spottedleaf/Tuinity)
 Tuinity is a fork of PaperMC that adds better performance
+
+### [Purpur](https://github.com/pl3xgaming/Purpur)
+Purpur is also a fork of PaperMC but has all tuinity's features. It is recommended to use this over all the other forks. It also has flying squids which is it's best feature.
+
+### [YatopiaMC](https://github.com/YatopiaMC/Yatopia)
+YatopiaMC has a bunch of features that could help make your server run faster but it has had some bugs that just break the game, it is not properly tested and doesnt have all of purpurs features. It is advised to not use this fork.
