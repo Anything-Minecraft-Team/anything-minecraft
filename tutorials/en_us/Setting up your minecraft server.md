@@ -30,28 +30,43 @@ This process is slightly different for a modded server so I will go over it here
 
 Warning: You should rather use your package manager (for example `apt` on Ubuntu and Debian) to install java because it's more organized with the package manager
 Create a folder, for example named "server", for example in your home directory (`~`)
+
 --> `mkdir ~/server`
+
 Copy your server jar to this folder and rename it to "server.jar"
+
 --> `mv ~/Downloads/spigot-1.16.5.jar ~/server/server.jar` (supposing your server jar is in `~/Downloads` and it's name is `spigot-1.16.5.jar`)
+
 Create a text document named `start.sh` and write into it:
 `java -Xmx1024M -jar server-jar nogui` (the `nogui` might not be required)
+
 --> `echo "java -Xmx1024M -jar server.jar nogui" > start.sh`
+
 now add execute permissions to the script and run it
+
 --> `chmod +x start.sh`
+
 --> `./start.sh`
+
 This will say something like
 `You need to agree to the EULA in order to run the server. Go to eula.txt for more info.`
 so you have to edit `eula.txt` to say `eula=true` instead of `eula=false`
+
 --> `echo "eula=true" > eula.txt` (Warning: This overwrites the comment with the link to the EULA)
+
 now launch the server / execute `start.sh` again
+
 --> `./start.sh`
+
 You have your server running. To join, launch Minecraft and join the server at `127.0.0.1` or `localhost`
 
 #### Setup for servers
 
 You need to set up a service if it should, for example automatically launch at boot or restart when it terminates
 So, create a file named `minecraft.service` in `/etc/systemd/system` (May require root permissions)
+
 --> `sudo touch /etc/systemd/system/minecraft.service` (actually optional)
+
 And write into it:
 
 ```txt
@@ -67,11 +82,15 @@ ExecStart=/home/{YOURUSERNAME}/server/start.sh
 ```
 
 of course, replace `{YOURUSERNAME}` with your username
+
 --> `sudo echo "[Unit]\nDescription=A Minecraft Server\nAfter=network.target\nStartLimitIntervalSec=0[Service]\nType=simple\nRestart=alwaysRestartSec=1\nUser=$USER\nExecStart=$HOME/server/start.sh" > /etc/systemd/system/minecraft.service`
 so you can now start the service
+
 --> `systemctl start minecraft`
+
 Now you should be able to join
 It will restart automatically 1 second after it shut down. To make it start at boot, enable it
+
 --> `systemctl enable minecraft`
 
 ### Setup for docker
@@ -90,10 +109,15 @@ ENTRYPOINT ["/root/start.sh"]
 ```
 
 --> `echo "FROM openjdk\nWORKDIR /root\nCOPY ["server.jar","eula.txt", "start.sh"] ./\nEXPOSE 25565\nENTRYPOINT ["/root/start.sh"]" > Dockerfile`
+
 Now, supposing you have docker installed, build the docker image
+
 --> `docker build . -t mcserver` (You can replace `mcserver`, the name of the image, with whatever you want (as long as it doesn't interfere with the images on dockerhub))
+
 Run the docker image
+
 --> `docker run --name mcserver -p 25565:25565 -d --restart unless-stopped mcserver`
+
 or with docker compose, write following in a file named `docker-compose.yml`
 
 ```yml
@@ -107,5 +131,7 @@ services:
 ```
 
 --> `echo "version: "3"\nservices:\n mcserver:\n build: .\n restart: unless stopped\n ports:\n - 25565:25565" > docker-compose.yml`
+
 and run it
+
 --> `docker-compose up -d`
