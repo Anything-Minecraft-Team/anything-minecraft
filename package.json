@@ -4,8 +4,9 @@
   "description": "Welcome to the start of a new adventure, here we will show you everything you need to do to setup a Minecraft Java server and host it! We will go through all the steps in as much detail as possible, and who knows? you might become the next hypixel!",
   "main": "index.js",
   "scripts": {
-    "prelint": "markdownlint '**/*.md' --ignore node_modules",
-    "lint": "pretty-quick"
+    "lint:markdown": "markdownlint '**/*.md' --ignore node_modules",
+    "lint:prettier": "pretty-quick",
+    "lint": "npm run lint:markdown && npm run lint:prettier"
   },
   "repository": {
     "type": "git",
