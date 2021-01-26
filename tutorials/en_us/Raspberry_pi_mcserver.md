@@ -1,5 +1,4 @@
-# RasPiMC-Server
-Here you will learn how to ***easyly*** make a minecraft server on a Raspberry Pi!
+Here you will learn how to ***easily*** make a minecraft server on a Raspberry Pi!
 
 WARNING: You WILL have to open the port of your router, and i will not include a guide here because every router is different.
 
@@ -18,5 +17,5 @@ If you want to change the max/min RAM, you can change it at the start.sh.
 # Step 4
 Now you can configure the server, play with your friends, download plugins...
 You can find **a lot** of plugins on [SpigotMC](https://www.spigotmc.org/resources/) or [Bukkit](https://dev.bukkit.org/bukkit-plugins)
-You may want to install very util plugins like WorldEdit or WorldGuard...
+You may want to install plugins like WorldEdit or WorldGuard...
 And this is the end of the tutorial.
