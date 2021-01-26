@@ -7,3 +7,6 @@ Welcome to the start of a new adventure, here we will show you everything you ne
 
 ## Contributing 
 If you would like to Contribute just make a pull request with the changes and I'll review it
+
+### My plans for this
+My plans for this is to put as much detail into how to run and setup a minecraft server as possible, from finding a host to finding players. I will add as much info on as much stuff as possible, how to setup bungeecord, anti cheat configurations, chat filters etc.
