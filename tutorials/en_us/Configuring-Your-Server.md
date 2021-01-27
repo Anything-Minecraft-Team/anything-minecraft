@@ -18,7 +18,7 @@ The default value is `false` and you should leave it there, unless a plugin or o
 
 ### `rcon.port`
 
-The port that you'll connect with RCON(see [`enable-rcon`](#enable-rcon))
+The port that you'll need to open inorder to connect with RCON(see [`enable-rcon`](#enable-rcon))
 
 ### `level-seed`
 

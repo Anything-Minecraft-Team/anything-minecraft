@@ -30,7 +30,7 @@ And this is the end of the tutorial.
 
 Here are some basic answers.
 
-### How to change RAM?
+### How to change allocated RAM
 
 Open `start.sh` in nano (`nano start.sh`). You will see this:
 `#!/bin/bash
