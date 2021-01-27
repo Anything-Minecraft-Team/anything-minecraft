@@ -50,8 +50,8 @@ Fabric is a modloader like forge but much more lightweight. It’s growing in po
 
 Proxies are servers meant to connect multiple servers together, as a network. These servers can run on the same machine, but even on different machines on different locations. Running your server as a network, can greatly improve performance, as Minecraft can spread the load over multiple cores. But it’s also adding complexity, as setting up and managing multiple servers isn’t as simple as managing one server.
 
-## [Bungeecord](https://ci.md-5.net/job/BungeeCord/)
+### [Bungeecord](https://ci.md-5.net/job/BungeeCord/)
 
-## [Waterfall](https://papermc.io/downloads#Waterfall)
+### [Waterfall](https://papermc.io/downloads#Waterfall)
 
 Waterfall is a fork of Bungeecord. It’s Paper’s version of Bungeecord. It’s aming for mare features an more scalability. In the same way as how Paper relates to Spigot, Waterfall relates to Bungeecord. It pushes much more updates then Bungeecord.
