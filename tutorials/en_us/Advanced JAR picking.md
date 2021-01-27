@@ -1,15 +1,6 @@
 If you want to go a little more in-depth with JAR picking, you've come to the right place.
-Most popular Spigot/Bukkit JARs are :  
-1. PaperSpigot
 
-2. Spigot
-
-3. CraftBukkit (rarely used)                  These support using Spigot/Bukkit plugins, don't try mods with them (won't work)
-
-4. Purpur
-
-5. Tuinity
-#
+# Most popular Spigot/Bukkit JARs are :  
 
 1. PaperSpigot - Most popular JAR for Spigot/Bukkit, quite fast and stable, they roll out small patches at least every 2 days or so, good choice if you're just
                  starting with your MC server and don't have much past experience because it's fast and simple.
@@ -27,16 +18,10 @@ Most popular Spigot/Bukkit JARs are :
 5. Tuinity - PaperSpigot fork aimed at improving stability and performance at high player counts, also never heard of it, by description it seems to be exact same
              performance as PaperSpigot except at the high player counts but I don't think if you're making a new server that you'll soon get up to ~200 players
              daily.
+
+6. Yatopia - Yatopia combines the code from many Paper forks and optimization mods, as well as many unique optimizations.
              
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Most popular network JARs: 
-1. BungeeCord
-
-2. Waterfall                                        These also support plugins, but not your ordinary ones   
-
-3. Travertine
-#
+# Most popular network JARs: 
                             
 1. BungeeCord - Base for the Waterfall fork, these JARs are used for configuring networks of which an example is Hypixel or Mineplex, it is used for distributing
                 workload and players to different lobbies (are actually different server instances run with seperate files and data).
@@ -51,20 +36,15 @@ Most popular network JARs:
 
 3. Travertine - Fork of Waterfall with added 1.7.10 support if you want that old school experience ;) 
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Most popular modded server JARs:  
-1. Forge
-
-2. Fabric           (I've never run a modded server, little to no experience with them)
-#
+# Most popular modded server JARs:  
 
 1. Forge - Most popular JAR for either client or server-side use, has the widest mod support
 
 2. Fabric - Faster than Forge, doesn't run Forge mods and has lesser mod support
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Most popular MOD + PLUGINS server JARs:
 
-Extras: Sponge - Enables use of mods and plugins which are made for Sponge, makes your server extra spicy if you know how to do it right! 
+Sponge - Enables use of mods and plugins which are made for Sponge, makes your server extra spicy if you know how to do it right! 
                  ore.spongepowered.org | The place to get the plugins (has LuckPerms :O)
                           
+Magma - Same as sponge but lets you use bukkit plugins and forge mods! https://magmafoundation.org
