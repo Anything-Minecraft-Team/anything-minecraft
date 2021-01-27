@@ -13,7 +13,7 @@ Welcome to the start of a new adventure, here we will show you everything you ne
 
 ## Contributing
 
-If you would like to Contribute just make a pull request with the changes and I'll review it
+If you would like to Contribute just make a pull request with the changes and I'll review it. More info [here](https://github.com/Anything-Minecraft-Team/anything-minecraft/blob/main/CONTRIBUTING.md)
 
 > Please help us translate!
 
