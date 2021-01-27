@@ -1,26 +1,29 @@
-# Intro
+# Introduction
 
-Welcome to the start of a new adventure, here we will show you everything you need to do to setup a Minecraft Java server and host it! We will go through all the steps in as much detail as possible, and who knows? you might become the next hypixel!
+Welcome to the start of a new adventure! In this repository we will show you everything you need to do to setup a Minecraft Java Edition server! 
+We will go through the steps in as much detail as possible
+Who knows? You might become the next Hypixel!
 
 ## Tutorials
 
-### English
-
-#### Setup
+### Setup
 
 - [Finding what server jar to use](./tutorials/en_us/Finding%20what%20server%20jar%20to%20use.md)
 - [Setting up your minecraft server](./tutorials/en_us/Setting%20up%20your%20minecraft%20server.md)
 
 ## Contributing
 
-If you would like to Contribute just make a pull request with the changes and I'll review it
+If you would like to contribute, pleae make a pull request.
 
-> Please help us translate!
+**Translation Assistance is much appreciated.**
 
-## My plans for this
+## Anything Minecraft Server Guide Plans
 
-My plans for this is to put as much detail into how to run and setup a minecraft server as possible, from finding a host to finding players. I will add as much info on as much stuff as possible, how to setup bungeecord, anti cheat configurations, chat filters etc.
+We plan to put as much detail into how to setup, host and run a Minecraft Java Edition server as possible.
+From finding a host to getting an active playerbase, we endeavour to provide as much information as possibl, including, but not limited to; How to setup bungeecord; Configuring Anti Cheats; Chat filters and more.
 
 ## Discord
 
-Join the discord here <https://discord.gg/QRjusA2uAZ>
+You can join our Discord server here <https://discord.gg/QRjusA2uAZ>
+
+[![Discord Server](https://img.shields.io/discord/803527976670855169?color=7289da&label=DISCORD&style=for-the-badge)](https://discord.gg/QRjusA2uAZ)
