@@ -1,9 +1,9 @@
 # Useful Plugins
 
-Here are some of our recommendations of plugins for you to use on your server.
+We provide some popular plugins that you may find useful on your server.
 
-## Contents
-
+## Table of Contents
+<!--- NOTE, this TOC will need to be rehauled in the future as per our style guide. --->
 This list will be divided into the following categories. Click on one to go to that category.
 
 1. [Utility](#utility-plugins)
@@ -16,25 +16,28 @@ This list will be divided into the following categories. Click on one to go to t
 
 ## Utility Plugins
 
-The plugins in this category have a focus on adding utilities for players to use.
+Utility plugins focus on adding functionality for players to use.
 
 ### [EssentialsX](https://essentialsx.net/)
 
 > EssentialsX is the essential plugin for Spigot servers, providing core features for servers of any size and scale.
 
-Essentials is one of the largest plugins avaliable for download. Essentials adds many different customizable features,like homes, warps, kits, direct messaging, teleports, nicknames and more.
+Essentials adds many different customizable features, such as 
+/homes, /warps, kits, direct messaging, teleporting, nicknames and much more.
+
+<!--- Probably should discuss essentialsChat etc. --->
 
 ### [Vault](https://dev.bukkit.org/projects/vault)
 
 > Vault is a Permissions, Chat, & Economy API to give plugins easy hooks into these systems without needing to hook or depend on each individual plugin themselves.
 
-Vault is a plugin that has economy, chat, and permissions hooks that other plugins can use.
+Vault provides an API for other plugins to use.
 
 ### [PartyChat](https://www.spigotmc.org/resources/partychat.79295/)
 
 > PartyChat is a fully configurable, easy to use plugin, that allows players to chat with their friends in private parties. Only players within the party and admins are able to see the messages.
 
-PartyChat adds some useful commands that allow players to create groups, or "Parties" to have a group private chat system in-game.
+<!--- Anything? --->
 
 ### [PvPToggle](https://www.spigotmc.org/resources/pvptoggle.80533/)
 
