@@ -84,19 +84,19 @@ Dynmap gives players the ability to move around their world through an internet 
 
 The plugins in this category have a focus on additions that allow players to express thier creativity the most.
 
-### [World Edit](https://dev.bukkit.org/projects/worldedit)
+### [WorldEdit](https://dev.bukkit.org/projects/worldedit)
 
 > A Minecraft Map Editor... that runs in-game!  
 > With selections, schematics, copy and paste, brushes, and scripting.  
 > Use it in creative, or use it temporarily in survival.
 
-World Edit is publically known as a great plugin for building and designing. The plugin introduces a lot of new tools for players to play with.
+World Edit is a great plugin for building and designing. It introduces multiple new tools for players to create with.
 
 ### [Fast Async World Edit (FAWE)](https://www.spigotmc.org/resources/fast-async-worldedit.13932/)
 
 > FAWE is designed for efficient world editing.
 
-FAWE is a plugin that focuses on more efficient world edit actions. FAWE has more than 200 commands, unlimited `//undo`s, and much more.
+FAWE is a plugin that focuses on more efficient WorldEdit actions. FAWE has more than 200 commands, unlimited `//undo`s, and much more.
 
 ### [Head Database](https://www.spigotmc.org/resources/head-database.14280/) ![(paid)](https://img.shields.io/badge/paid-darkgreen.svg?style=flat)
 
@@ -116,7 +116,7 @@ The plugins in this category have a focus on preventing and controlling griefing
 
 > Grief Prevention will solve your grief problems without a roster of trained administrators, without 10 different anti-grief plugins, and without disabling any standard game features. Because Grief Prevention teaches players for you, you won't have to publish a training manual or tutorial for players, or add explanatory signs to your world.
 
-Grief prevention allows players to create and modify their own player claims, as well as server admins creating admin claims, which have more customizability for admins and can prevent players from building.
+GriefPrevention allows players to create and modify their own player claims, as well as server admins creating admin claims, which have more customizability for admins and can prevent players from building.
 
 ### [WorldGuard](https://dev.bukkit.org/projects/worldguard)
 
