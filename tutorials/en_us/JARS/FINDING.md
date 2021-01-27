@@ -9,7 +9,7 @@ The first step to finding the right server jar for you is to know what kind of s
 ### For MC 1.6.X
 
 If you are planning on creating a survival server for your friend group [Fabric](https://fabricmc.net/). Fabric is mostly known for modded servers but you can install basic plugin port mods on server side and optimization mods for making chunks load faster, creating lighting better etc. Theres also mods for essentials port and many more plugins you would need on a regular server...
-If instead you are planning on running a public server where you plan to have a **lot of plugins or custom gamemodes** you should go for a spigot fork like [PaperMC](https://papermc.io), or my personal favorite: [Purpur](https://github.com/pl3xgaming/Purpur). Purpur has all the optimization, fixes, and features of paper, tuinity, spigot as well as their own features. I found it to be the most optimized solution for me and I really recommend it. PurpurS as well as most spigot fork support the same plugins that a normal spigot server would.
+If instead you are planning on running a public server where you plan to have a **lot of plugins or custom gamemodes** you should go for a spigot fork like [PaperMC](https://papermc.io), or my personal favorite: [Purpur](https://github.com/pl3xgaming/Purpur). Purpur has all the optimization, fixes, and features of Paper, Tuinity, Spigot as well as their own features. I found it to be the most optimized solution for me and I really recommend it.
 
 ### For MC 1.13+
 
