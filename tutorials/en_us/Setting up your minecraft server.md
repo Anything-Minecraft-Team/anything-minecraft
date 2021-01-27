@@ -23,8 +23,8 @@ PAUSE
 
 1024M is how many megabytes are allocated to the server, 1024M or 2048M is good for our purpose. Save the file and close your text editor, go to the file in File Explorer and right-click, rename, and highlight the file extension "txt" and type "bat". This changes it to a batch file so we can run the server jar. This is not needed but it a good idea.
 
--Xmx1024M is the maximum amount of ram that the server will be running, in this case 1GB.
--Xms1024M is the Initial (Starting) amount of ram that the server will be running, in this case 1GB.
+-Xmx1024M is the maximum amount of ram that the server will be running, in this case 1024MB (1GB).
+-Xms1024M is the Initial (Starting) amount of ram that the server will be running, in this case 1024MB (1GB).
 server.jar is pointing to the server har file in the folder.
 nogui states that the server is to run without a GUI (Graphic User Interface). This will give you only the command promt console and no other fancy GUI. It has been reported 
 that this can increase performance.
