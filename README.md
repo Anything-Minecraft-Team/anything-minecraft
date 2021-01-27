@@ -8,8 +8,8 @@ Welcome to the start of a new adventure, here we will show you everything you ne
 
 #### Setup
 
-- [Finding what server jar to use](./tutorials/en_us/Finding%20what%20server%20jar%20to%20use.md)
-- [Setting up your minecraft server](./tutorials/en_us/Setting%20up%20your%20minecraft%20server.md)
+-   [Finding what server jar to use](./tutorials/en_us/Finding%20what%20server%20jar%20to%20use.md)
+-   [Setting up your minecraft server](./tutorials/en_us/Setting%20up%20your%20minecraft%20server.md)
 
 ## Contributing
 
@@ -23,4 +23,4 @@ My plans for this is to put as much detail into how to run and setup a minecraft
 
 ## Discord
 
-Join the discord here <https://discord.gg/QRjusA2uAZ>
+Join the discord [here](https://discord.gg/QRjusA2uAZ).
