@@ -1,7 +1,0 @@
-# Contributing Guidelines
-
-Coming soon!
-
-
-
-
