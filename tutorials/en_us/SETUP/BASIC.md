@@ -74,8 +74,8 @@ You have your server running. To join, launch Minecraft and join the server at `
 
 If you want to start the server and want to be able to exit out of the terminal without the server closing, there are two ways with which you can do this
 
--   You can use an in-built linux utility called [tmux](https://github.com/tmux/tmux/wiki). Use this if the server is intended to be temporarily up.
--   You can register minecraft as a **system service**. Use this if the server is intended to be up 24/7 and requires automatic restarting in case of host shutdowns/failures.
+- You can use an in-built linux utility called [tmux](https://github.com/tmux/tmux/wiki). Use this if the server is intended to be temporarily up.
+- You can register minecraft as a **system service**. Use this if the server is intended to be up 24/7 and requires automatic restarting in case of host shutdowns/failures.
 
 #### Setup With Tmux
 
@@ -164,11 +164,11 @@ or with docker compose, write following in a file named `docker-compose.yml`
 ```yml
 version: "3"
 services:
-    mcserver:
-        build: .
-        restart: unless stopped
-        ports:
-            - 25565:25565
+  mcserver:
+    build: .
+    restart: unless stopped
+    ports:
+      - 25565:25565
 ```
 
 --> `echo "version: "3"\nservices:\n mcserver:\n build: .\n restart: unless stopped\n ports:\n - 25565:25565" > docker-compose.yml`

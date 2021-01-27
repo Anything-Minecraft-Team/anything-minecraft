@@ -1,10 +1,10 @@
 # Configuring Your Server
 
-There are many ways to configure your server, often depending on what JAR you're using.  There are a few things that you can do with *any* server jar, and that's what we'll show in this tutorial.
+There are many ways to configure your server, often depending on what JAR you're using. There are a few things that you can do with _any_ server jar, and that's what we'll show in this tutorial.
 
 ## Finding Your Configuration File
 
-To find your server configuration file, you'll need to look in the root directory of your server (Where your server JAR is). After you've run your server for the first time, you should have a file called `server.properties`.  This config file has many settings that you can change to modify your server.
+To find your server configuration file, you'll need to look in the root directory of your server (Where your server JAR is). After you've run your server for the first time, you should have a file called `server.properties`. This config file has many settings that you can change to modify your server.
 
 ## Configuration Options
 
@@ -40,7 +40,7 @@ Note: Command blocks can only be placed by players with OP, but if there's a red
 
 ### `enable-query`
 
-Enables GameSpy4 ([Read More](https://wiki.vg/Query)) protocol server listener. Used to get information about the server. 
+Enables GameSpy4 ([Read More](https://wiki.vg/Query)) protocol server listener. Used to get information about the server.
 
 The default value is `false` and you should leave it there, unless a plugin or other service requests that you enable it.
 
@@ -58,7 +58,7 @@ The name of your world folder in your root directory
 
 The motd, or Message Of The Day is the message that displays under the name of the server in a client's server list.
 
-By default, all text will be white. This colour can change through the use of colour codes in the format of `\u00A7` and then one of the sixteen colour codes and six formatting codes, or using the chart found below (the column titled 'MOTD code')
+By default, all text will be white. This colour can change through the use of colour codes in the format of `\u00A7` and then one of the sixteen colour codes and six formatting codes, or using the chart found below (the column titled 'MOTD code'). You can also you a [MOTD generator](https://mctools.org/motd-creator).
 
 ![Image of colour codes](https://lazerstudiozgaming.files.wordpress.com/2015/01/screen-shot-2015-01-03-at-11-27-44-am.png)
 
@@ -84,7 +84,7 @@ Possible values: peaceful, easy, normal, hard
 
 By default it allows packets that are n-1 bytes big to go normally, but a packet of n bytes or more gets compressed down. So, a lower number means more compression but compressing small amounts of bytes might actually end up with a larger result than what went in.
 
-Note: The Ethernet spec requires that packets less than 64 bytes become padded to 64 bytes. Thus, setting a value lower than 64 may not be beneficial. It is also not recommended to exceed the MTU, typically 1500 bytes. 
+Note: The Ethernet spec requires that packets less than 64 bytes become padded to 64 bytes. Thus, setting a value lower than 64 may not be beneficial. It is also not recommended to exceed the MTU, typically 1500 bytes.
 
 Possible values: Integer, -1 means disable compression entirely, 0 means compress everything
 
@@ -106,7 +106,7 @@ Maximum players on at one time
 
 ### `online-mode`
 
-When enabled, the server will assume that it has an intenet connection and check all players joining for a valid Minecraft account.
+When enabled, the server will assume that it has an internet connection and check all players joining for a valid Minecraft account.
 
 ### `enable-status`
 
@@ -122,9 +122,9 @@ Send rcon(see [`enable-rcon`](#enable-rcon)) console command outputs to all onli
 
 ### `view-distance`
 
-The amount of world data the server sends the client.  Value is measured in chunks
+The amount of world data the server sends the client. Value is measured in chunks
 
-Possible Values: Integer (3-32) 
+Possible Values: Integer (3-32)
 
 ### `max-build-height`
 
@@ -200,17 +200,17 @@ Force the player into the default gamemode(see [`gamemode`](#gamemode)) upon joi
 
 ### `rate-limit`
 
-Sets the maximum amount of packets a user can send before getting kicked. 
+Sets the maximum amount of packets a user can send before getting kicked.
 
-0 disables this feature. 
+0 disables this feature.
 
 ### `hardcore`
 
-When enabled, server [difficulty](#difficulty) is ignored, and set to hard. Players are set into spectator mode when they die. 
+When enabled, server [difficulty](#difficulty) is ignored, and set to hard. Players are set into spectator mode when they die.
 
 ### `white-list`
 
-Should whitelist be enabled.  Whitelist can be changed with the `whitelist.json` or in-game with `/whitelist`.
+Should whitelist be enabled. Whitelist can be changed with the `whitelist.json` or in-game with `/whitelist`.
 
 ### `broadcast-console-to-ops`
 
@@ -228,7 +228,7 @@ Can animals spawn?
 
 Sets whether the server sends snoop data regularly to <http://snoop.minecraft.net>
 
-This includes data about the version of Minecraft that you're running, hardware specs, Java version, JVM arguments, and generation settings.  The full list can be found [here](https://wiki.vg/Snoop)
+This includes data about the version of Minecraft that you're running, hardware specs, Java version, JVM arguments, and generation settings. The full list can be found [here](https://wiki.vg/Snoop)
 
 ### `function-permission-level`
 
@@ -256,7 +256,7 @@ When this option is enabled, users who are not present on the whitelist (if it's
 
 ### `resource-pack-sha1`
 
-Optional SHA-1 digest of the resource pack, in lowercase hexadecimal. It is recommended to specify this, because it is used to verify the integrity of the resource pack. 
+Optional SHA-1 digest of the resource pack, in lowercase hexadecimal. It is recommended to specify this, because it is used to verify the integrity of the resource pack.
 
 ### `spawn-protection`
 
