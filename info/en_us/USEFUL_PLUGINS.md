@@ -43,13 +43,14 @@ Vault provides an API for other plugins to use.
 
 > PvPToggle is an easy to use plugin made to allow players more control over their pvp status. Players can decide whether or not they want to pvp with other players and toggle it on and off with a simple /pvp.
 
-PvPToggle allows for players to toggle between allowing PvP and being safe from it. The plugin features completely customizable messages, and is frequenyly updated to the latest releases.
+PvPToggle allows for players to toggle between allowing PvP and being safe from it. The plugin features completely customizable messages, and is frequently updated to the latest releases of Minecraft.
 
 ### [DiscordSRV](https://www.spigotmc.org/resources/discordsrv.18494/)
 
 > The most powerful, configurable, open-source Discord to Minecraft bridging plugin available.
 
-DiscordSRV adds the ability to connect a [Discord](https://discord.com) server. It has the ability to chat in-game with players on your server, a remote console feature, and much more.
+DiscordSRV provides the ability to link in-game chat to your [Discord](https://discord.com) server both ways!
+It also provides a Discord to Minecraft console, whitelisting and much more.
 
 ---
 
