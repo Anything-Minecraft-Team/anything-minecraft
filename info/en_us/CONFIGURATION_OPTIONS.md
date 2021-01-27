@@ -58,7 +58,7 @@ The name of your world folder in your root directory
 
 The motd, or Message Of The Day is the message that displays under the name of the server in a client's server list.
 
-By default, all text will be white. This colour can change through the use of colour codes in the format of `\u00A7` and then one of the sixteen colour codes and six formatting codes, or using the chart found below (the column titled 'MOTD code')
+By default, all text will be white. This colour can change through the use of colour codes in the format of `\u00A7` and then one of the sixteen colour codes and six formatting codes, or using the chart found below (the column titled 'MOTD code'). You can also you a [MOTD generator](https://mctools.org/motd-creator).
 
 ![Image of colour codes](https://lazerstudiozgaming.files.wordpress.com/2015/01/screen-shot-2015-01-03-at-11-27-44-am.png)
 
@@ -106,7 +106,7 @@ Maximum players on at one time
 
 ### `online-mode`
 
-When enabled, the server will assume that it has an intenet connection and check all players joining for a valid Minecraft account.
+When enabled, the server will assume that it has an internet connection and check all players joining for a valid Minecraft account.
 
 ### `enable-status`
 
