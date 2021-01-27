@@ -5,6 +5,7 @@ Here is a list of some anti-cheats, good or bad. Spigot has an own [wiki page on
 Genarely speaking, paid anti-cheat pluigns are better than free ones.
 
 ## Free plugins
+
 This list of free anti-cheats is sorted alphbetically.
 
 - [AntiCheatReloaded](https://www.spigotmc.org/resources/anticheatreloaded.23799/)
