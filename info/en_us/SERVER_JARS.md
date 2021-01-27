@@ -83,5 +83,3 @@ However, it also adds complexity, as setting up and managing multiple servers is
 ### [Waterfall](https://papermc.io/downloads#Waterfall)
 
 Waterfall is a PaperMC's fork of BungeeCord. It aims to provide stability, scalibility and more features. Similar to PaperMC, it has more frequent updates than BungeeCord.
-
-

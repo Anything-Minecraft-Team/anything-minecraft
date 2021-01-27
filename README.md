@@ -4,16 +4,18 @@ Welcome to the start of a new adventure! In this repository we will show you eve
 We will go through the steps in as much detail as possible
 Who knows? You might become the next Hypixel!
 
+## [Table Of Contents](TOC.md)
+
 ## Tutorials
 
 ### Setup
 
-- [Finding what server jar to use](./tutorials/en_us/Finding%20what%20server%20jar%20to%20use.md)
-- [Setting up your minecraft server](./tutorials/en_us/Setting%20up%20your%20minecraft%20server.md)
+- [Finding what server jar to use](tutorials/en_us/JARS/FINDING.md)
+- [Setting up your minecraft server](tutorials/en_us/SETUP/BASIC.md)
 
 ## Contributing
 
-If you would like to contribute, pleae make a pull request.
+If you would like to Contribute just make a pull request with the changes and I'll review it. More info [here](CONTRIBUTING.md)
 
 **Translation Assistance is much appreciated.**
 
