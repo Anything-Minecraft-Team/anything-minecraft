@@ -63,10 +63,12 @@ The plugins in this category have a focus on fun aspects that are added to the s
 > HexNicks gives players the ability to change their nickname to anything they like using both hex color codes and normal color codes. It also adds the ability to use hex color codes in chat.
 
 HexNicks adds a few commands that give the player the ability to change their name into something different that can use hexadecimal color codes and standard Minecraft color codes.
+<!---- Editing note: EssentialsChat can do this, and ties in WAY better with the already suggested Essentials Plugin.--->
+
 
 ### [PetBlocks](https://github.com/Shynixn/PetBlocks)
 
-> PetBlocks is a spigot and also a sponge plugin to use blocks and custom heads as pets in Minecraft.
+> PetBlocks is a Spigot and Sponge plugin to use blocks and custom heads as pets in Minecraft.
 
 PetBlocks adds commands that can give players pets that can look like custom heads or blocks
 
