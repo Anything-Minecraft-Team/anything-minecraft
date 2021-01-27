@@ -76,7 +76,7 @@ Dynmap gives players the ability to move around their world through an internet 
 
 ## Creativity Plugins
 
-The plugins in this category have a focus on additions that allow players to express thier creativity the most.
+The plugins in this category have a focus on additions that allow players to express their creativity the most.
 
 ### [World Edit](https://dev.bukkit.org/projects/worldedit)
 
@@ -100,6 +100,12 @@ FAWE is a plugin that focuses on more efficient world edit actions. FAWE has mor
 
 Head Database allows players to get custom heads that are hosted on <minecraft-heads.com> in-game without needing permission for `/give`. The plugin allows for integration with [Vault](#vault) to use as currency. It also has customizable categories, search function for heads, a heavily customizable GUI, and more.
 
+### [PlotSquared](https://www.spigotmc.org/resources/plotsquared-v5.77506/)
+
+>PlotSquared is a land and world management plugin. It includes several highly configurable world generators. You can create plots of land in existing worlds using plot clusters, or you can have a full world of plots.
+
+PlotSquared is a plugin to generate plots. This plugin is mostly used for creative servers so players have there own place to build. It has many options, for admins and end-users from setting your own paterns for roads and plots to setting the time per plot. It has integration with World Edit and FAWE. The version of Spigot costs $15. [Via GitHub](https://github.com/IntellectualSites/PlotSquared/) you can build your own version, which is free.
+
 ---
 
 ## Anti-Grief Plugins
@@ -116,7 +122,7 @@ Grief prevention allows players to create and modify their own player claims, as
 
 > WorldGuard is a powerful plugin with a large bag of tricks for server owners, server map makers, regular survival servers, and everyone in between!
 
-WorldGuard offers many tools to prevent players from interacting with things, natural issues like fire spread, blacklisting certain items, and more.
+WorldGuard offers many tools to prevent players from interacting with things, natural issues like fire spread, blacklisting certain items, and more. It hooks on to World Edit or FAWE.
 
 ### [CoreProtect](https://www.spigotmc.org/resources/coreprotect.8631/)
 
@@ -138,7 +144,7 @@ The plugins in this category have a focus on giving staff the tools to moderate 
 
 ClearLagg gives staff useful tools for clearing and preventing lag on a Minecraft server.
 
-### [Tebex](https://www.tebex.io/minecraft)(Previously BuyCraft)
+### [Tebex](https://www.tebex.io/minecraft) (Previously BuyCraft)
 
 > Featuring full UUID support and Mojang username verification as well as supporting offline mode servers, Tebex has the ability and the feature set to power even the largest of server communities.
 
