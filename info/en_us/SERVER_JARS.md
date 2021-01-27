@@ -2,7 +2,7 @@
 
 ## What is a Server JAR?
 
-[a server jar is blah blah something]
+<!---- [a server jar is blah blah something] --->
 
 Here we will go into as much detail as possible about each server jar you can use for your server
 
