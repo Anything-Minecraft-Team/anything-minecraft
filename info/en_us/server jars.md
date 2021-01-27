@@ -18,10 +18,11 @@ Spigot is a fork of Bukkit, it has better performance and more features, it also
 
 PaperMC is another fork, but this time it’s a fork of Spigot, it aims to get better performance out of spigot which it does amazingly. It’s updated much more often than Spigot (up to several times a day). This way PaperMC fixes bugs and exploits way quicker then Spigot. Of all the forks, Paper is the most used for recent versions of Miencraft.
 A selection of added features and optimalizations:
--	Async chunck loading and saving
--	Timings reports
--	No-tick view distance
--	Several optimisations on TNT, hoppers and restone
+
+- Async chunck loading and saving
+- Timings reports
+- No-tick view distance
+- Several optimisations on TNT, hoppers and restone
 
 ## [Tuinity](https://github.com/Spottedleaf/Tuinity)
 
@@ -31,9 +32,10 @@ Tuinity is a fork of PaperMC that adds better performance especially for servers
 
 Purpur is also a fork of PaperMC but has all Tuinity's features. It is recommended to use this over the other forks, if you are interested in a server with unique features, as it’s the most feature rich. It also has flying squids which is it's best feature.
 Some of the features it adds:
--	Lots of tweaks for entities. For example: make all mobs ridable, change max health
--	Change mechanics. Such as: mine spawners with sulk touch, mending repairs most damaged equipment, totems of undying are working when only in inventory
--	Lots more
+
+- Lots of tweaks for entities. For example: make all mobs ridable, change max health
+- Change mechanics. Such as: mine spawners with sulk touch, mending repairs most damaged equipment, totems of undying are working when only in inventory
+- Lots more
 
 ## [YatopiaMC](https://github.com/YatopiaMC/Yatopia)
 
@@ -44,7 +46,7 @@ It has had some bugs that break the game, it is not tested in extend and doesn�
 
 Fabric is a modloader like forge but much more lightweight. It’s growing in popularity. It also has some of the best fps improving mods for the client (See Sodium mod) and server.
 
-# Proxies
+## Proxies
 
 Proxies are servers meant to connect multiple servers together, as a network. These servers can run on the same machine, but even on different machines on different locations. Running your server as a network, can greatly improve performance, as Minecraft can spread the load over multiple cores. But it’s also adding complexity, as setting up and managing multiple servers isn’t as simple as managing one server.
 

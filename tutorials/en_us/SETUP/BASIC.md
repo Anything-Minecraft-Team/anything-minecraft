@@ -136,20 +136,48 @@ It will restart automatically 1 second after it shut down. To make it start at b
 
 ### Setup for docker
 
+#### Prebuilt Docker
+
+> Based on the docker image with the most pulls
+> See [itzg/docker-minecraft-server for more details](https://github.com/itzg/docker-minecraft-server)
+
+##### Simple Launch
+
+```sh
+docker run -d -p 25565:25565 --name mc -e EULA=TRUE itzg/minecraft-server
+```
+
+##### Docker Compose
+
+```yml
+version: "3"
+
+services:
+  mc:
+    image: itzg/minecraft-server
+    ports:
+      - 25565:25565
+    environment:
+      EULA: "TRUE"
+    volumes:
+      # attach the relative directory 'data' to the container's /data path
+      ./data:/data
+```
+
+#### You Build Docker
+
 You can use an already built docker image or just create a Dockerfile with following content:
 
 ```dockerfile
 FROM openjdk
-WORKDIR /root
+WORKDIR /data
 
 COPY ["server.jar","eula.txt", "start.sh"] ./
 
 EXPOSE 25565
 
-ENTRYPOINT ["/root/start.sh"]
+ENTRYPOINT ["/data/start.sh"]
 ```
-
---> `echo "FROM openjdk\nWORKDIR /root\nCOPY ["server.jar","eula.txt", "start.sh"] ./\nEXPOSE 25565\nENTRYPOINT ["/root/start.sh"]" > Dockerfile`
 
 Now, supposing you have docker installed, build the docker image
 
@@ -169,10 +197,7 @@ services:
     restart: unless stopped
     ports:
       - 25565:25565
+    volumes: -./server:/root
 ```
 
---> `echo "version: "3"\nservices:\n mcserver:\n build: .\n restart: unless stopped\n ports:\n - 25565:25565" > docker-compose.yml`
-
-and run it
-
---> `docker-compose up -d`
+and run it: `docker-compose up -d`
