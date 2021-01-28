@@ -7,14 +7,13 @@ Most popular Spigot/Bukkit JARs are :
   starting with your MC server and don't have much past experience because it's fast and simple.
 - [Spigot](https://www.spigotmc.org/) - Original fork of Bukkit, improved performance vs CraftBukkit, still widely used, seems to be harder for newbies to download because it links to Jenkins,
   which may look confusing to them and they don't know where to click, recommended alternative if for some reason you don't want to use PaperSpigot.
-- [CraftBukkit](https://getbukkit.org/download/craftbukkit) - I don't know too much about it, it's the BASE for all forks that are out today and they still are updating it to this day, not newbie friendly
+- [CraftBukkit](https://getbukkit.org/download/craftbukkit) - It's the BASE for all forks that are out today and they still are updating it to this day, not newbie friendly
   at all because it requires manual building and doesn't provide an already built JAR (exception is if you use your host to give you JARs).
-- [Purpur](https://purpur.pl3x.net/) - While I have never heard of it, it says it's a fork of both PaperSpigot and Tuinity to deliver very fast performance with stability (and good performance)
+- [Purpur](https://purpur.pl3x.net/) - It's a fork of both PaperSpigot and Tuinity to deliver very fast performance with stability (and good performance)
   for high player counts and it adds a lot of custom features that aren't seen on any other forks.
   (I'll have to try it out one day, seems quite interesting)
 - [Tuinity](https://github.com/Spottedleaf/Tuinity) - PaperMC fork aimed at improving stability and performance at high player counts, also never heard of it, by description it seems to be exact same
-  performance as PaperSpigot except at the high player counts but I don't think if you're making a new server that you'll soon get up to ~200 players
-  daily.
+  performs as PaperSpigot except at the high player counts.
 
 ---
 

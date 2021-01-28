@@ -2,7 +2,7 @@
 
 Here you will learn how to **_easily_** make a minecraft server on a Raspberry Pi!
 
-WARNING: You WILL have to open the port of your router, and i will not include a guide here because every router is different.
+WARNING: You WILL have to open the port of your router, and we will not include a guide here because every router is different.
 
 ## Step 1
 
@@ -38,7 +38,7 @@ Open `start.sh` in nano (`nano start.sh`). You will see this:
 java -Xms512M -Xmx1G -jar spigot.jar nogui`
 java stands for summoning the java enviroment, -Xms512M means that the minium dedicated RAM is 512 MegaBytes, -Xmx1G means the same but this time that 1GB is the maxium amount. So if you want ti change RAM, just change the -Xmx argument.
 
-### How do i get another Spigot version?
+### How do I get another Spigot version?
 
 You have two ways; the first one is downloading form a mirror, and the second is building it yourself.
 The first one is very simple: just go to any mirror like [GetBukkit](https://getbukkit.org/), click Downloads and select your version!

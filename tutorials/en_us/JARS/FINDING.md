@@ -9,7 +9,7 @@ The first step to finding the right server jar for you is to know what kind of s
 ### For MC 1.16.X
 
 If you are planning on creating a survival server for your friend group [Fabric](https://fabricmc.net/). Fabric is mostly known for modded servers but you can install basic plugin port mods on server side and optimization mods for making chunks load faster, creating lighting better etc. Theres also mods for essentials port and many more plugins you would need on a regular server...
-If instead you are planning on running a public server where you plan to have a **lot of plugins or custom gamemodes** you should go for a spigot fork like [PaperMC](https://papermc.io), or my personal favorite: [Purpur](https://github.com/pl3xgaming/Purpur). Purpur has all the optimization, fixes, and features of Paper, Tuinity, Spigot as well as their own features. I found it to be the most optimized solution for me and I really recommend it.
+If instead you are planning on running a public server where you plan to have a **lot of plugins or custom gamemodes** you should go for a spigot fork like [PaperMC](https://papermc.io), or my personal favorite: [Purpur](https://github.com/pl3xgaming/Purpur). Purpur has all the optimization, fixes, and features of Paper, Tuinity, Spigot as well as their own features. We really recommend, it's the best fork we know of.
 
 ### For MC 1.13+
 
@@ -35,8 +35,3 @@ Another important thing in survival servers is to pre-generate your world, becau
 4. Wait for it to finish, it may take a long time and the server will lag while it works. This **MUST** be done with the server empty / closed to public.
 
 You should also use correct startup flags, the [Aikars flags](https://aikar.co/2018/07/02/tuning-the-jvm-g1gc-garbage-collector-flags-for-minecraft/)!
-
-### Fabric Server Side Mods (you can delete or move this somewhere)
-
-I have been using fabric since awhile now and it felt like it has better mob spawning, the mods I used for optimizasion was mostly from [Here](https://gist.github.com/comp500/12417ee3685f6204362e933c9bcde603) except I changed phospor with StarLight, added Helium Fabric mod and didnt use random patches.
-For more in-depth explanations for most server jars look [here](../en_us/Finding%20what%20server%20jar%20to%20use.md)
