@@ -174,7 +174,7 @@ If the ISP/AS sent from the server is different from the one from Mojang Studios
 
 ### `resource-pack`
 
-URL to a resource pack
+URI to a resource pack
 
 Note: In some versions before 1.15.2, the ":" and "=" characters need to be escaped with a backslash (\\)
 
