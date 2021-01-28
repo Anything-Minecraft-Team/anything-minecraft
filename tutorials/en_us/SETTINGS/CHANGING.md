@@ -1,6 +1,6 @@
 # Changing server settings
 
-In this tutorial i assume you use [PaperSpigot](https://papermc.io/downloads), we are discussing the following points and more:
+In this tutorial we assume you use [PaperSpigot](https://papermc.io/downloads), we are discussing the following points and more:
 
 - Changing the server appearance in the serverlist
 

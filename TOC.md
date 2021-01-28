@@ -12,6 +12,6 @@
 - Info
   - Plugins
     - [Useful Plugins](info/en_us/PLUGINS/USEFUL_PLUGINS.md)
-    - [Anticheats](info/en_us/PLUGINS/ANTICHEAT.md)
+    - [Anticheats](info/en_us/PLUGINS/ANTICHEATS.md)
   - [Server JARs](info/en_us/SERVER_JARS.md)
   - [Configuration Options](info/en_us/CONFIGURATION_OPTIONS.md)
