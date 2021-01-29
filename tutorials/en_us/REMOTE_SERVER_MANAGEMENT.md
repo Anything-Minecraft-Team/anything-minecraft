@@ -152,7 +152,7 @@ There are several methods for transferring files using FileZilla:
  
 ### Editing Files
 
-You can edit a file by right-clicking and selecting "View/Edit". To set a default file editor, open the settings ("Edit" --> "Settings" in the top-left) and set it up like I have below:
+You can edit a file by right-clicking and selecting "View/Edit". To set a default file editor, open the settings ("Edit" --> "Settings" in the top-left) and set it up using your favorite text editor like I have below:
 
 ![](https://i.imgur.com/LhlpfRH.png)
 
