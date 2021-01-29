@@ -2,6 +2,26 @@
 
 The goal of this tutorial is to give you everything you need to manage your server when you don't have access to the physical machine. This tutorial is primarily for someone on a Windows system connecting to a Linux	server.
 
+---
+
+### Table of Contents
+
+[Command Line Access (SSH)](#command-line-access-ssh)
+ - [PuTTY](#putty)
+	 - [Shortcut Setup](#shortcut-setup)
+ - [tmux](#tmux)
+	 - [Attaching Sessions](#attaching-sessions)
+	 - [Sending keys](#sending-keys)
+	 - [Shortcuts](#shortcuts)
+ - [File Management (SFTP)](#file-management-sftp)
+	 - [Connecting](#connecting)
+	 - [Navigation](#navigation)
+	 - [Transferring Files](#transferring-files)
+	 - [Editing Files](#editing-files)
+ - [Conclusion](#conclusion)
+
+---
+
 ## Command Line Access (SSH)
 
 Since a lot of interaction with a Minecraft server is through its command line terminal, your primary tool for interacting with your remote server will be SSH.
@@ -96,7 +116,7 @@ Since tmux commands can get sort of long, I like to use Linux aliases to shorten
 
 In the `.bashrc` file, add this line to the end: `alias tmuxx="tmux attach-session -t $1"`. Save it and close it. Now, you can run the command `tmuxx <session name>`, and it will run the longer `tmux attach-session` command under the hood, attaching your session. The `$1` refers to the first argument after the `tmuxx` command.
 
-## Transferring Files (SFTP)
+## File Management (SFTP)
 
 You're going to need to be able to access the files on your Minecraft server's machine. This can be done through [SFTP (Secure File Transfer Protocol)](https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol).
 
@@ -104,7 +124,7 @@ The best way to use SFTP is with an SFTP client such as [FileZilla](https://file
 
 ![](https://i.imgur.com/JWWnShc.png)
 
-### Connection
+### Connecting
 
 After you've opened FileZilla, use the keyboard shortcut <kbd>Ctrl</kbd> + <kbd>S</kbd> to open the "Site Manager" menu, seen below:
 
