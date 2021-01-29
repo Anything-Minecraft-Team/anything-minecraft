@@ -28,6 +28,11 @@ Before you begin:
 - Once you submit your PR, others from the community will review it with you.
 - After that, we may have questions, check back on your PR to keep up with the conversation.
 
+### What goes where
+- The tutorials folder is for anythink showing you how to do, setup or use something.
+- The info folder is for any random information like good anticheat, scoreboard or ChatFilter plugins.
+- The recourses folder is for images for other files, configs etc.
+
 ### Your PR is merged
 
 Congratulations! The whole community thanks you. :sparkles:
