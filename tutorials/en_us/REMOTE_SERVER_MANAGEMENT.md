@@ -1,24 +1,24 @@
 # Remote Server Management
 
-The goal of this tutorial is to give you everything you need to manage your server when you don't have access to the physical machine. This tutorial is primarily for someone on a Windows system connecting to a Linux	server.
+The goal of this tutorial is to give you everything you need to manage your server when you don't have access to the physical machine. This tutorial is primarily for someone on a Windows system connecting to a Linux server.
 
 ---
 
 ### Table of Contents
 
- - [Command Line Access (SSH)](#command-line-access-ssh)
-	 - [PuTTY](#putty)
-		 - [Shortcut Setup](#shortcut-setup)
- - [tmux](#tmux)
-	 - [Attaching Sessions](#attaching-sessions)
-	 - [Sending keys](#sending-keys)
-	 - [Shortcuts](#shortcuts)
- - [File Management (FileZilla)](#file-management-filezilla)
-	 - [Connecting](#connecting)
-	 - [Navigation](#navigation)
-	 - [Transferring Files](#transferring-files)
-	 - [Editing Files](#editing-files)
- - [Conclusion](#conclusion)
+- [Command Line Access (SSH)](#command-line-access-ssh)
+  - [PuTTY](#putty)
+    - [Shortcut Setup](#shortcut-setup)
+- [tmux](#tmux)
+  - [Attaching Sessions](#attaching-sessions)
+  - [Sending keys](#sending-keys)
+  - [Shortcuts](#shortcuts)
+- [File Management (FileZilla)](#file-management-filezilla)
+  - [Connecting](#connecting)
+  - [Navigation](#navigation)
+  - [Transferring Files](#transferring-files)
+  - [Editing Files](#editing-files)
+- [Conclusion](#conclusion)
 
 ---
 
@@ -26,7 +26,7 @@ The goal of this tutorial is to give you everything you need to manage your serv
 
 Since a lot of interaction with a Minecraft server is through its command line terminal, your primary tool for interacting with your remote server will be SSH.
 
-[SSH (Secure Shell)](https://en.wikipedia.org/wiki/SSH_(Secure_Shell)) is a tool that allows you to securely connect to a remote computer. You can use it through any terminal; below is me using SSH in the default Windows CMD to connect to a server on my local network.
+[SSH (Secure Shell)](<https://en.wikipedia.org/wiki/SSH_(Secure_Shell)>) is a tool that allows you to securely connect to a remote computer. You can use it through any terminal; below is me using SSH in the default Windows CMD to connect to a server on my local network.
 
 ![](https://i.imgur.com/xXKWJCK.png)
 
@@ -46,9 +46,9 @@ Don't worry, though—you don't have to learn any of that. One of the best parts
 
 1. Find the default PuTTY shortcuts.
 
-	 - Press the Windows key <kbd>Win</kbd> and search for "putty". Right-click on the app result, and click "Open file location".
-	 
-	 - The default location for this is `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\PuTTY (64-bit)`.
+   - Press the Windows key <kbd>Win</kbd> and search for "putty". Right-click on the app result, and click "Open file location".
+
+   - The default location for this is `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\PuTTY (64-bit)`.
 
 2. Copy the "PuTTY" shortcut, and paste it in the directory `C:\Users\<username>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs`. You can rename it to something recognizable by you, such as "SSH Minecraft Server".
 
@@ -56,17 +56,17 @@ Don't worry, though—you don't have to learn any of that. One of the best parts
 
 4. In "Target", enter this: `"C:\Program Files\PuTTY\putty.exe" -ssh <username>@<IP address> -pw <password>`. Be sure to add your proper credentials. You may need to change your path to `putty.exe` if you have it installed in a different location.
 
-	 - This gives PuTTY arguments to use when you start it. The arguments are the IP address/user you want to connect to, and the password to use for that user.
-	 
-	 - Note that this stores your password in plaintext. If you don't want that, you can remove the `-pw <password>` argument, and it will prompt you to enter your password each time you run the shortcut.
+   - This gives PuTTY arguments to use when you start it. The arguments are the IP address/user you want to connect to, and the password to use for that user.
+
+   - Note that this stores your password in plaintext. If you don't want that, you can remove the `-pw <password>` argument, and it will prompt you to enter your password each time you run the shortcut.
 
 That's it! You now have a shortcut for PuTTY set up. You can open the shortcut by pressing the Windows key <kbd>Win</kbd> and searching for its name—this makes it super easy to open. You can use this SSH connection to do anything on the command-line that you'd be able to do with physical keyboard, mouse, and monitor access.
 
 ### tmux
 
-tmux is an invaluable tool for a Linux server that allows you to have several processes running on different virtual windows, allowing you to switch between them. To explain better:
+tmux is an invaluable tool for a Linux server that allows you to have several processes running on different virtual windows, allowing you to switch between them. tmux lets you run your Minecraft server in the background, letting you use the Linux terminal without stopping the server. To explain better:
 
-1. You SSH into your server. By default, you're now in the Linux terminal. 
+1. You SSH into your server. By default, you're now in the Linux terminal.
 
 2. You can run a tmux command that switches you to your Minecrft server's virtual window. Here, you can interact with your Minecraft server's terminal as normal.
 
@@ -96,12 +96,12 @@ To detach the tmux session, returning to the regular Linux terminal, use the key
 
 To send commands to the session without switching to it, use the command `tmux send-keys -t <session name>.0 "<command>" ENTER`. There's a lot to unpack in that command:
 
- - You're using the tmux command `send-keys` to send, well, key press input to a tmux session.
- 
- - You're using `-t <session name>.0` to specify what tmux session you're referring to. The `-t` argument is used in tmux commands to do this. The `.0` at the end of the session name specifies the window you want to send the keys to. This tutorial doesn't use tmux windows, but they're pretty simple: you can have multiple windows in one tmux session, switching between them.
- 
- - `"<command>" ENTER` has the actual keys you want sent to the tmux session. A single-line command is stored in the quotation marks, and by sending the key `ENTER` at the end you'll cause the session to actually run the command. You should be able to repeat this syntax several times to send multiple commands, or you can run the entire `tmux send-keys` command several times with a different command contained each time.
- 
+- You're using the tmux command `send-keys` to send, well, key press input to a tmux session.
+
+- You're using `-t <session name>.0` to specify what tmux session you're referring to. The `-t` argument is used in tmux commands to do this. The `.0` at the end of the session name specifies the window you want to send the keys to. This tutorial doesn't use tmux windows, but they're pretty simple: you can have multiple windows in one tmux session, switching between them.
+
+- `"<command>" ENTER` has the actual keys you want sent to the tmux session. A single-line command is stored in the quotation marks, and by sending the key `ENTER` at the end you'll cause the session to actually run the command. You should be able to repeat this syntax several times to send multiple commands, or you can run the entire `tmux send-keys` command several times with a different command contained each time.
+
 Here's an example of this:
 
 ```
@@ -136,9 +136,9 @@ Here, you can specify the IP address and your credentials, very similar to SSH. 
 
 Now, you'll be able to view two locations:
 
- - Files in a local directory on your computer
- 
- - Files in a remote directory on the remote server
+- Files in a local directory on your computer
+
+- Files in a remote directory on the remote server
 
 You can navigate through each by entering a direct location in the text boxes above the directory viewers or by double-clicking on a directory (double-click `..` to go up one directory).
 
@@ -146,10 +146,10 @@ You can navigate through each by entering a direct location in the text boxes ab
 
 There are several methods for transferring files using FileZilla:
 
- - Select and drag files from one side to the other to transfer all of the selected files.
- 
- - Double-click a file to transfer that single file. Note this behavior on a double-click; double-clicking doesn't run a file or open it in an editor.
- 
+- Select and drag files from one side to the other to transfer all of the selected files.
+
+- Double-click a file to transfer that single file. Note this behavior on a double-click; double-clicking doesn't run a file or open it in an editor.
+
 ### Editing Files
 
 You can edit a file by right-clicking and selecting "View/Edit". To set a default file editor, open the settings ("Edit" --> "Settings" in the top-left) and set it up using your favorite text editor like I have below:
@@ -170,23 +170,4 @@ If you've finished everything you want to do, you can safely close FileZilla and
 
 ## Conclusion
 
-Hopefully, these three tools (PuTTY, tmux, FileZilla) will give you what you need to remotely manage a Minecraft server. You can use them in lots of different ways. For example, here's one of my bash scripts, `start_hub.sh`, copied directly from my remote host:
-
-```
-#!/bin/sh
-
-read -p 'Start or stop hub: ' Input
-if [ "$Input" = "start" ]; then
-	cd _Versions/hub
-	tmux new-session -d -s hub
-	tmux send-keys -t hub.0 "sh run_server.sh" ENTER
-elif [ "$Input" = "stop" ]; then
-	tmux send-keys -t hub.0 "stop" ENTER
-	sleep 3s
-	tmux kill-session -t hub
-else
-	tmux send-keys -t hub.0 $Input ENTER
-fi 
-```
-
-Going into detail on this is outside the scope of this tutorial; however, hopefully this gives you a glimpse of the powerful abilities of these tools. Start small, and soon you'll have your host machine set up just the way you want. Good luck!
+Hopefully, these three tools (PuTTY, tmux, FileZilla) will give you what you need to remotely manage a Minecraft server. Start small, and soon you'll have your host machine set up just the way you want. Good luck!
