@@ -9,16 +9,19 @@ The goal of this tutorial is to give you everything you need to manage your serv
 [Command Line Access (SSH)](#command-line-access-ssh)
  - [PuTTY](#putty)
 	 - [Shortcut Setup](#shortcut-setup)
- - [tmux](#tmux)
-	 - [Attaching Sessions](#attaching-sessions)
-	 - [Sending keys](#sending-keys)
-	 - [Shortcuts](#shortcuts)
- - [File Management (SFTP)](#file-management-sftp)
-	 - [Connecting](#connecting)
-	 - [Navigation](#navigation)
-	 - [Transferring Files](#transferring-files)
-	 - [Editing Files](#editing-files)
- - [Conclusion](#conclusion)
+
+[tmux](#tmux)
+ - [Attaching Sessions](#attaching-sessions)
+ - [Sending keys](#sending-keys)
+ - [Shortcuts](#shortcuts)
+
+[File Management (FileZilla)](#file-management-filezilla)
+ - [Connecting](#connecting)
+ - [Navigation](#navigation)
+ - [Transferring Files](#transferring-files)
+ - [Editing Files](#editing-files)
+
+[Conclusion](#conclusion)
 
 ---
 
@@ -32,7 +35,7 @@ Since a lot of interaction with a Minecraft server is through its command line t
 
 The basic syntax for this is `ssh <username>@<IP address>`. It'll prompt you for a password, and then you're in.
 
-However, there are better tools for using SSH.
+However, there are better tools for using SSH, like PuTTY.
 
 ### PuTTY
 
@@ -116,7 +119,7 @@ Since tmux commands can get sort of long, I like to use Linux aliases to shorten
 
 In the `.bashrc` file, add this line to the end: `alias tmuxx="tmux attach-session -t $1"`. Save it and close it. Now, you can run the command `tmuxx <session name>`, and it will run the longer `tmux attach-session` command under the hood, attaching your session. The `$1` refers to the first argument after the `tmuxx` command.
 
-## File Management (SFTP)
+## File Management (FileZilla)
 
 You're going to need to be able to access the files on your Minecraft server's machine. This can be done through [SFTP (Secure File Transfer Protocol)](https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol).
 
