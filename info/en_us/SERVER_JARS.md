@@ -58,15 +58,6 @@ Some of the features it adds:
 -	Lots more
 ---->
 
-### [YatopiaMC](https://github.com/YatopiaMC/Yatopia)
-
-A fork of Tuinity, Yatopia combines & borrows code, aiming to allow your server to run faster.
-
-<!----- REMOVED AS NOT BALANCED OPINION
-
-It has had some bugs that break the game, it is not tested in extend and doesn’t have all of Purpur’s features. Only very few servers are using this fork. If you don’t need an feature exclusive for YatopiaMC, it’s better to go with one of the above forks.
----->
-
 ### [Fabric](https://fabricmc.net/)
 
 Fabric is a modloader, similar to Forge but much more lightweight.
