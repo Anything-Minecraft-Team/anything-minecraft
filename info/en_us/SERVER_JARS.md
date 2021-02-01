@@ -8,20 +8,22 @@ Here we will go into as much detail as possible about each server jar you can us
 
 ### What is a fork?
 
-Later, we will use the term "fork" often. A fork is a <><>
+Later, we will use the term "fork" often. A fork is an extension on an original piece of open-source software, allowing for additional functionality and changes. The term "upstream" is used to describe the original software which a fork is based upon.
 
-## Server JAR Options
+Software can also be a fork of multiple forks. For example, Tuinity is a fork of PaperSpigot which is a fork of Spigot which is a fork of CraftBukkit which is a fork of the original Minecraft Vanilla server software.
+
+## Server Jar Options
 
 ### [Vanilla](https://www.minecraft.net/en-us/download/server)
 
 Vanilla is the original server jar that is distributed by Mojang.
 Plugins and mods are not supported on this.
-Vanilla servers behaves like normal Singleplayer Minecraft.
+Vanilla servers behaves like normal singleplayer Minecraft but with additional commands.
 
 ### [CraftBukkit](https://getbukkit.org/download/craftbukkit)
 
 CraftBukkit was the first server jar to support plugins.
-However, now it is the least optimized server JAR with plugin support.
+However, now it is the least optimized server jar with plugin support.
 It is currently being supported by SpigotMC.
 
 ### [SpigotMC](https://getbukkit.org/download/spigot)
@@ -49,7 +51,7 @@ Tuinity is a fork of PaperMC that is "aimed at imporiving server performance at 
 
 ### [Purpur](https://github.com/pl3xgaming/Purpur)
 
-"Purpur is a fork of Paper and Tuinity with the goal of providing new and interesting configuration options.
+"Purpur is a fork of Paper and Tuinity with the goal of providing new and interesting configuration options."
 
 <!----- REMOVED AS NOT BALANCED OPINION
 Some of the features it adds:
@@ -71,6 +73,11 @@ However, it also adds complexity, as setting up and managing multiple servers is
 
 ### [BungeeCord](https://ci.md-5.net/job/BungeeCord/)
 
+BungeeCord is the original Minecraft proxy which "acts as a proxy between the player's client and the connected Minecraft servers". This allows players to seamlessly be transferred between different servers.
+
 ### [Waterfall](https://papermc.io/downloads#Waterfall)
 
-Waterfall is a PaperMC's fork of BungeeCord. It aims to provide stability, scalibility and more features. Similar to PaperMC, it has more frequent updates than BungeeCord.
+Waterfall is PaperMC's fork of BungeeCord. It aims to provide stability, scalibility and more features. Similar to PaperMC, it has more frequent updates than BungeeCord.
+
+### [Velocity](https://velocitypowered.com/)
+"Velocity is a next-generation Minecraft proxy focused on scalability and flexibility. It allows server owners to link together multiple Minecraft servers so they may appear as one." Pretty much a much more optimized alternative to BungeeCord and Waterfall, although lacks out-of-the-box support for most BungeeCord plugins.
