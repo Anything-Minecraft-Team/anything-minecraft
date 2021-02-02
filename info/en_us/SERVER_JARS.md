@@ -8,7 +8,8 @@ Here we will go into as much detail as possible about each server jar you can us
 
 ### What is a fork?
 
-Later, we will use the term "fork" often. A fork is an edited version of what it forked with new features and bug fixes, example, PaperMC is a fork of SpigotMC and SpigotMC is a fork of CraftBukkit.
+Later, we will use the term "fork" often. A fork is an extension on an original piece of open-source software, allowing for additional functionality and changes. The term "upstream" is used to describe the original software which a fork is based upon. 
+Software can also be a fork of multiple forks. For example, Tuinity is a fork of PaperSpigot which is a fork of Spigot which is a fork of CraftBukkit which is a fork of the original Minecraft Vanilla server software.
 
 ## Server JAR Options
 
@@ -16,7 +17,7 @@ Later, we will use the term "fork" often. A fork is an edited version of what it
 
 Vanilla is the original server jar that is distributed by Mojang.
 Plugins and mods are not supported on this.
-Vanilla servers behaves like normal Singleplayer Minecraft.
+Vanilla servers behaves like normal singleplayer Minecraft but with additional commands.
 Minecraft has a simple config called `server.properties` which you can use to change some basic settings.
 Some of the main settings are, `motd=A Minecraft Server`, this changes what is displayed under your server in the server list, `max-players=20`, this changes the max amount of players that can join the server at once, `view-distance=10`, this changes the max render distance you can set, on the client you can set it to a higher value but it wont display that far, and many more! To see the default config go [here](https://github.com/Anything-Minecraft-Team/anything-minecraft/blob/fork-info/resources/DEFAULT/server.properties).
 
@@ -70,7 +71,7 @@ Suggested versions: 1.13.2 - Latest
 
 ### [Purpur](https://github.com/pl3xgaming/Purpur)
 
-"Purpur is a fork of Paper and Tuinity with the goal of providing new and interesting configuration options.
+Purpur is a fork of Paper and Tuinity with the goal of providing new and interesting configuration options.
 
 Suggested versions: 1.13.2 - Latest
 
@@ -107,6 +108,12 @@ However, it also adds complexity, as setting up and managing multiple servers is
 
 ### [BungeeCord](https://ci.md-5.net/job/BungeeCord/)
 
+BungeeCord is the original Minecraft proxy which "acts as a proxy between the player's client and the connected Minecraft servers". This allows players to seamlessly be transferred between different servers.
+
 ### [Waterfall](https://papermc.io/downloads#Waterfall)
 
-Waterfall is a PaperMC's fork of BungeeCord. It aims to provide stability, scalibility and more features. Similar to PaperMC, it has more frequent updates than BungeeCord.
+Waterfall is PaperMC's fork of BungeeCord. It aims to provide stability, scalibility and more features. Similar to PaperMC, it has more frequent updates than BungeeCord.
+
+### [Velocity](https://velocitypowered.com/)
+
+"Velocity is a next-generation Minecraft proxy focused on scalability and flexibility. It allows server owners to link together multiple Minecraft servers so they may appear as one." Pretty much a much more optimized alternative to BungeeCord and Waterfall, although lacks out-of-the-box support for most BungeeCord plugins.
