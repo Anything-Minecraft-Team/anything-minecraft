@@ -14,11 +14,11 @@ Once you've figured through the prerequisites, you need to find the best server 
 
 Now what you want to do after downloading your server jar is to create a new folder, you can name it anything you want. 
 
-![server jar and run file](/IMAGES/BASIC/CreateFolder.png)
+![Create folder](/IMAGES/BASIC/CREATE_FOLDER.png)
 
 Once you've done that, drag the server jar into the folder and rename it `server` so we can access it easily in the next step. Next, we need to create the file to run the server jar, you will need to enable file extensions if you haven't already. 
 
-![server jar and run file](/IMAGES/BASIC/EnableFileExtensions.png)
+![Enable file extensions](/IMAGES/BASIC/ENABLE_FILE_EXTENSIONS.png)
 
 Create a new text document and name it "run", now open it and type
 
@@ -27,24 +27,24 @@ java -Xmx1024M -Xms1024M -jar server.jar nogui
 PAUSE
 ```
 
-![server jar and run file](/IMAGES/BASIC/TextFile.png)
+![Text file](/IMAGES/BASIC/TEXT_FILE.png)
 
-1024M is how many megabytes are allocated to the server, 1024M or 2048M is good for our purpose. Save the file and close your text editor, go to the file in File Explorer and right-click, rename, and highlight the file extension "txt" and type "bat". 
+1024M is how many megabytes of RAM is allocated to the server, 1024M or 2048M is good for our purpose. If you ever need to change the amount just change the values. Save the file and close your text editor, go to the file in File Explorer and right-click, rename, and highlight the file extension "txt" and type "bat". 
 
-![server jar and run file](/IMAGES/BASIC/BatFile.png)
+![Batch file](/IMAGES/BASIC/BAT_FILE.png)
 
 This changes it to a batch file so we can run the server jar. We are ready to run the server now! Double click the run.bat file and it should come up with a new terminal window and after a while say "Agree to the Minecraft EULA". 
 
-![server jar and run file](/IMAGES/BASIC/AgreeToEula.png)
+![AGree to eula](/IMAGES/BASIC/AGREE_TO_EULA.png)
 
-Close out of the terminal window and find a file called "eula.txt" that was generated. Open it and change "eula=false" to "eula=true", save it then double click run.bat again. 
+Close out of the terminal window and find a file called `eula.txt` that was generated. Open it and change `eula=false` to `eula=true`, save it then double click `run.bat` again. 
 
-![server jar and run file](/IMAGES/BASIC/EulaFile.png)
+![Eula file](/IMAGES/BASIC/EULA_FILE.png)
 
 It may take a while for all the files to generate so be patient, once it's done your server should be good to go!
 To join the server open Minecraft, go to multiplayer and add a new server, in the server IP add "localhost", click done and join your very own Minecraft server!
 
-![server jar and run file](/IMAGES/BASIC/AddLocalhost.png)
+![Add Localhost](/IMAGES/BASIC/ADD_LOCALHOST.png)
 
 If you would like to be able to access the server from outside your local network, you're going to have to do what's called Port Forwarding, essentially allowing traffic to flow in and out through your router through a specific port to the computer that you're running the server on. Keep in mind this varies from ISP to ISP and from router to router, so a good guide dependent on your router is [here](https://portforward.com/). By default you're going to want to port forward the port 25565 for both the TCP and UDP protocols. To check whether the port forward fully worked, I recommend heading over to this [website](https://www.yougetsignal.com/tools/open-ports/) while your minecraft server is open (preferably after a restart post port forwarding), plug in the port you'd like to check, and if it says open you're good! If not, there might be something you're going to have to redo along the process.
 
