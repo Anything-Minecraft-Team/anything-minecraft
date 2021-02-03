@@ -44,7 +44,7 @@ Close out of the terminal window and find a file called `eula.txt` that was gene
 It may take a while for all the files to generate so be patient, once it's done your server should be good to go!
 To join the server open Minecraft, go to multiplayer and add a new server, in the server IP add "localhost", click done and join your very own Minecraft server!
 
-![Add Localhost](/IMAGES/BASIC/ADD_LOCALHOST.png)
+![Add localhost](/IMAGES/BASIC/ADD_LOCALHOST.png)
 
 If you would like to be able to access the server from outside your local network, you're going to have to do what's called Port Forwarding, essentially allowing traffic to flow in and out through your router through a specific port to the computer that you're running the server on. Keep in mind this varies from ISP to ISP and from router to router, so a good guide dependent on your router is [here](https://portforward.com/). By default you're going to want to port forward the port 25565 for both the TCP and UDP protocols. To check whether the port forward fully worked, I recommend heading over to this [website](https://www.yougetsignal.com/tools/open-ports/) while your minecraft server is open (preferably after a restart post port forwarding), plug in the port you'd like to check, and if it says open you're good! If not, there might be something you're going to have to redo along the process.
 
