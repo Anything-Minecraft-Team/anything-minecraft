@@ -35,11 +35,11 @@ PAUSE
 
 This changes it to a batch file so we can run the server jar. We are ready to run the server now! Double click the run.bat file and it should come up with a new terminal window and after a while say "Agree to the Minecraft EULA". 
 
-![AGree to eula](/IMAGES/BASIC/AGREE_TO_EULA.png)
+![Agree to eula](/IMAGES/BASIC/AGREE_TO_EULA.png)
 
 Close out of the terminal window and find a file called `eula.txt` that was generated. Open it and change `eula=false` to `eula=true`, save it then double click `run.bat` again. 
 
-![Eula file](/IMAGES/BASIC/EULA_FILE.png)
+![EULA file](/IMAGES/BASIC/EULA_FILE.png)
 
 It may take a while for all the files to generate so be patient, once it's done your server should be good to go!
 To join the server open Minecraft, go to multiplayer and add a new server, in the server IP add "localhost", click done and join your very own Minecraft server!
