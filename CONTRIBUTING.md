@@ -29,9 +29,9 @@ Before you begin:
 - After that, we may have questions, check back on your PR to keep up with the conversation.
 
 ### What goes where
-- The tutorials folder is for anythink showing you how to do, setup or use something.
-- The info folder is for any random information like good anticheat, scoreboard or ChatFilter plugins.
-- The recourses folder is for images for other files, configs etc.
+- The [tutorials folder](tutorials) is for any guides on how to setup/use something.
+- The [info folder](info) is for any information on commands,features etc of plugins, server jars etc.
+- The [resources folder](resources) is for images for other files, configs etc.
 
 ### Your PR is merged
 
