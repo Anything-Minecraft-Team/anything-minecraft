@@ -28,10 +28,10 @@ Before you begin:
 - Once you submit your PR, others from the community will review it with you.
 - After that, we may have questions, check back on your PR to keep up with the conversation.
 
-### What goes where
+### Folder Conventions
 - The [tutorials folder](tutorials) is for any guides on how to setup/use something.
 - The [info folder](info) is for any information on commands, features etc of plugins, server jars etc.
-- The [resources folder](resources) is for images for other files, configs etc.
+- The [resources folder](resources) is for images and other files, configs etc.
 - Make sure you also put the contribution is in the correct language folder.
 
 ### Your PR is merged
