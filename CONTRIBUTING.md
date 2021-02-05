@@ -30,7 +30,7 @@ Before you begin:
 
 ### What goes where
 - The [tutorials folder](tutorials) is for any guides on how to setup/use something.
-- The [info folder](info) is for any information on commands,features etc of plugins, server jars etc.
+- The [info folder](info) is for any information on commands, features etc of plugins, server jars etc.
 - The [resources folder](resources) is for images for other files, configs etc.
 - Make sure you also put the contribution is in the correct language folder.
 
