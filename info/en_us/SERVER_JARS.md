@@ -8,7 +8,8 @@ Here we will go into as much detail as possible about each server jar you can us
 
 ### What is a fork?
 
-Later, we will use the term "fork" often. A fork is an extension on an original piece of open-source software, allowing for additional functionality and changes. The term "upstream" is used to describe the original software which a fork is based upon. 
+Later, we will use the term "fork" often. A fork is an extension on an original piece of open-source software, allowing for additional functionality and changes. The term "upstream" is used to describe the original software which a fork is based upon.
+
 Software can also be a fork of multiple forks. For example, Tuinity is a fork of PaperSpigot which is a fork of Spigot which is a fork of CraftBukkit which is a fork of the original Minecraft Vanilla server software.
 
 ## Server JAR Options
@@ -29,9 +30,12 @@ For detailed information go [here](SERVER_JARS/VANILLA.md).
 
 CraftBukkit was the first server jar to support plugins.
 However, now it is the least optimized server JAR with plugin support.
+
 It is currently being supported by SpigotMC after it shutdown in 2014 due to getting a DMCA takedown.
 CraftBukkit is the closest you can get to vanilla Minecraft while being able to add plugins.
+
 Do NOT use this for a public server if there are other options available.
+
 CraftBukkit adds some more settings in a seperate config `bukkit.yml`. Some examples are the `spawn-limits` section that allows you to change the amount of entities that can spawn per world, `allow-end` which is very simple, is the End enabled?
 
 Suggested versions: 1.0.0 - 1.4.5
