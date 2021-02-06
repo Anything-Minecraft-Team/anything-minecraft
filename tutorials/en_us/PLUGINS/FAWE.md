@@ -1,5 +1,19 @@
 # How to install and use [Fast Async World Edit (FAWE)](https://www.spigotmc.org/resources/fast-async-worldedit.13932/)
 
+## WARNING
+
+FAWE can cause world corruption - Use at your own risk.
+
+### How it happens
+
+FAWE asyncs tasks that shouldn't be async, then it skips other parts of the process to speed it up. FAWE gets it's speed from skipping important tasks needed for a stable experience. Because FAWE skipped important tasks it broke on Starlight (Tuinity's lighting engine). 
+
+Starlight had to remove lots of it's optimizations because people using FAWE were complaining about it not working.
+
+Paper even considered blacklisting the plugin from even loading at one point, since many of the bugs reported to Paper were caused by FAWE corruptions. They decided it was best not to intervene and just let people break their stuff. At least then they couldn't be labelled the bad guys and could finger point at FAWE.
+
+There is a reason WorldEdit hasn't made anything "async". FAWE is known to corrupt worlds. We strongly recommend using the regular WorldEdit and just limiting your tasks to what can be handled which is already quite large because of WorldEdit's recent major optimizations.
+
 ## What is FAWE?
 
 WorldEdit is a plugin for building structures more quickly. For example, building a sphere, pyramid, or filling a cuboid. FAWE is a fork of WorldEdit and which has huge speed and memory improvements and considerably more features
