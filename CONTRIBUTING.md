@@ -29,6 +29,7 @@ Before you begin:
 - After that, we may have questions, check back on your PR to keep up with the conversation.
 
 ### Folder Conventions
+
 - The [tutorials folder](tutorials) is for any guides on how to setup/use something.
 - The [info folder](info) is for any information on commands, features etc of plugins, server jars etc.
 - The [resources folder](resources) is for images and other files, configs etc.
