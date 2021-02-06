@@ -6,7 +6,7 @@ FAWE can cause world corruption - Use at your own risk.
 
 ### How it happens
 
-FAWE asyncs tasks that shouldn't be async, then it skips other parts of the process to speed it up. FAWE gets it's speed from skipping important tasks needed for a stable experience. Because FAWE skipped important tasks it broke on Startlight (Tuinity's lighting engine). 
+FAWE asyncs tasks that shouldn't be async, then it skips other parts of the process to speed it up. FAWE gets it's speed from skipping important tasks needed for a stable experience. Because FAWE skipped important tasks it broke on Starlight (Tuinity's lighting engine). 
 
 Starlight had to remove lots of it's optimizations because people using FAWE were complaining about it not working.
 
