@@ -21,6 +21,6 @@ A good server jar to use is [Purpur](https://github.com/pl3xgaming/Purpur), it o
 
 **JUST PLEASE DO NOT USE THE VANILLA JAR!** 
 
-## Optimization
+## [Optimization](OPTIMIZATION.md)
 
-Follow our guide on how to optimize your server [here](OPTIMIZATION.md)
+Follow our guide on how to optimize your server [here](OPTIMIZATION.md).
