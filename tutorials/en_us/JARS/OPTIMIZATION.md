@@ -16,3 +16,4 @@ Another important thing in survival servers is to pre-generate your world, becau
 4. Wait for it to finish, it may take a long time and the server will lag while it works. This **MUST** be done with the server empty / closed to public.
 
 You should also use correct startup flags, the [Aikars flags](https://aikar.co/2018/07/02/tuning-the-jvm-g1gc-garbage-collector-flags-for-minecraft/)!
+Sadly many server hosts won't allow you to use these. An exeption is [Birdflop Hosting](https://www.birdflop.com/).
