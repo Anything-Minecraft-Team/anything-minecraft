@@ -1,10 +1,21 @@
 # Hosting Providers
 
-Here is a list of as many hosting providers as we can find, good and bad.
+Here are some recommended hosting providers:
+- [AtlasNode](https://atlasnode.net/)
+- [CryHosting](https://cryhosting.net/)
+- [Birdflop](https://www.birdflop.com/)
+- [Bloom.Host](https://bloom.host/)
+- [MixmlHosting](https://mixmlhosting.com/)
+- [Pebblehost](https://pebblehost.com/)
+- [WinterNode](https://winternode.com/)
+
+
+Here is a list of as many hosting providers as we can find, good and bad:
 
 - [AnvilNode](https://www.anvilnode.com/)
 - [Aternos](https://aternos.org/:en/)
 - [AtlasNode](https://atlasnode.net/)
+- [CryHosting](https://cryhosting.net/)
 - [BeastNode](https://www.beastnode.com/)
 - [Birdflop](https://www.birdflop.com/)
 - [BisectHosting](https://www.bisecthosting.com/)
