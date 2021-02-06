@@ -12,7 +12,7 @@ Another essential step in survival servers is to pre-generate your world, becaus
 
 1. Download and install [Fast Chunk Pregenerator](https://www.spigotmc.org/resources/fast-chunk-pregenerator.74429/)
 2. Set your desired world limit.
-3. Use the command: /fcp start (radius) (world) (chunkX) (chunkZ)
+3. Use the command: `/fcp start (radius) (world) (chunkX) (chunkZ)`
 4. Wait for it to finish, it may take a long time and the server will lag while it works. This **MUST** be done with the server empty / closed to public.
 
 ## Aikars Flags / Startup Flags
