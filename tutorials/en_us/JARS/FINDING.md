@@ -19,19 +19,8 @@ A good server jar to use is [Purpur](https://github.com/pl3xgaming/Purpur), it o
 
 [PaperMC](https://papermc.io) is generally the best fork for these versions and not much more is needed.
 
-**JUST PLEASE DONT USE VANILLA JAR!**
+**JUST PLEASE DO NOT USE THE VANILLA JAR!** 
 
-## Optimizing your .jar specific configurations to YOUR NEEDS (may be moved to its own md)
+## [Optimization](OPTIMIZATION.md)
 
-Every .jar comes with its own set of configurations you can tweak to suit your needs, and keep in mind that, YOUR NEEDS. You probably wont find as efective the config of a minigames server in a survival server. You should read every config, understand it, and choose if you need to use it or not. This is extremely important in survival servers as some config values can ruin your mob spawning rates or destroy your players custom redstone circuits.
-
-Heres a [guide](https://www.spigotmc.org/threads/guide-server-optimization⚡.283181/) made by a well-known member of the community that can help you further in this optimization. Or join [this discord](https://discord.gg/yev2rN3eZH), they have an amazing discord bot that tells you how to optimize your server based on your timings report!
-
-Another important thing in survival servers is to pre-generate your world, because chunk generation consumes a lot! This can be done in several ways but heres an example:
-
-1. Download [Fast Chunk Pregenerator](https://www.spigotmc.org/resources/fast-chunk-pregenerator.74429/)
-2. Set your desired world limit.
-3. Use the command: /fcp start (radius) (world) (chunkX) (chunkZ)
-4. Wait for it to finish, it may take a long time and the server will lag while it works. This **MUST** be done with the server empty / closed to public.
-
-You should also use correct startup flags, the [Aikars flags](https://aikar.co/2018/07/02/tuning-the-jvm-g1gc-garbage-collector-flags-for-minecraft/)!
+Follow our guide on how to optimize your server [here](OPTIMIZATION.md).
