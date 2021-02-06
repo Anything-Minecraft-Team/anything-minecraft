@@ -2,15 +2,17 @@
 
 ## WARNING
 
-FAWE can cause world corruption so use at your own risk.
+FAWE can cause world corruption - Use at your own risk.
 
 ### How it happens
 
-FAWE asyncs things that shouldnt be async, and then flat out skips other parts of the process to speed it up. FAWE gets is speed from skipping important tasks needed for a stable experience. thats the entire reason it broke on starlight (The lighting engine tuinity uses); it skips the lighting task, and starlight only runs the lighting task once, not thousands like vanilla's. Starlight had to remove a lot of its own optimizations because people on FAWE were complaining about the plugin not working with starlight.
+FAWE asyncs tasks that shouldn't be async, then it skips other parts of the process to speed it up. FAWE gets it's speed from skipping important tasks needed for a stable experience. Because FAWE skipped important tasks it broke on Startlight (Tuinity's lighting engine). 
 
-Paper even considered blacklisting the plugin from even loading at one point, since many of the bugs reported to Paper were caused by FAWE corruptions. They decided it was best not to intervene and just let people break their stuff. At least then they couldn't be labeled the bad guys and could finger point at FAWE.
+Starlight had to remove lots of it's optimizations because people using FAWE were complaining about it not working.
 
-There is a reason Worldedit hasn't made anything "async". FAWE is known to corrupt worlds. We strongly recommend using the regular World Edit and just limiting your tasks to what can be handled which is already quite large because of Worldedit's recent major optimizations.
+Paper even considered blacklisting the plugin from even loading at one point, since many of the bugs reported to Paper were caused by FAWE corruptions. They decided it was best not to intervene and just let people break their stuff. At least then they couldn't be labelled the bad guys and could finger point at FAWE.
+
+There is a reason WorldEdit hasn't made anything "async". FAWE is known to corrupt worlds. We strongly recommend using the regular WorldEdit and just limiting your tasks to what can be handled which is already quite large because of WorldEdit's recent major optimizations.
 
 ## What is FAWE?
 
