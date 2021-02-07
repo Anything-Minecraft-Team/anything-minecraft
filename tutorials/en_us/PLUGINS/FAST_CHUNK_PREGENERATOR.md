@@ -10,7 +10,7 @@ You need a server running which can handle Spigot plugins (for example Spigot, P
 
 The first thing to do is to download FCP. Go to [the Spigot Page](https://www.spigotmc.org/resources/fast-chunk-pregenerator.74429/) and click on `Download Now`
 
-[![Image of the Spigot Page](../../../resources/PLUGINS/FAWE/FAWE_SPIGOT.png)](https://www.spigotmc.org/resources/fast-async-worldedit.13932/)
+[![Image of the Spigot Page](../../../IMAGES/PLUGINS/FAST_CHUNK_PREGENERATOR/DOWNLOAD_EXAMPLE.PNG)](https://www.spigotmc.org/resources/fast-chunk-pregenerator.74429/)
 
 ## Installation
 
