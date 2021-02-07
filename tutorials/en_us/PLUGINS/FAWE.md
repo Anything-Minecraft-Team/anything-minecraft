@@ -26,11 +26,11 @@ You need a server running which can handle Spigot plugins (for example Spigot, P
 
 The first thing to do is to download FAWE. Go to [the Spigot Page](https://www.spigotmc.org/resources/fast-async-worldedit.13932/) and click on `Download Now`
 
-[![Image of the Spigot Page](../../../resources/PLUGINS/FAWE/FAWE_SPIGOT.png)](https://www.spigotmc.org/resources/fast-async-worldedit.13932/)
+[![Image of the Spigot Page](../../../IMAGES/PLUGINS/FAWE/FAWE_SPIGOT.png)](https://www.spigotmc.org/resources/fast-async-worldedit.13932/)
 
 Now you should be on FAWE's Jenkins site. Click on the JAR under `Last successful artifacts` and it should be downloaded.
 
-[![Image of the Jenkins site](../../../resources/PLUGINS/FAWE/FAWE_JENKINS.png)](https://ci.athion.net/job/FastAsyncWorldEdit-1.16/)
+[![Image of the Jenkins site](../../../IMAGES/PLUGINS/FAWE/FAWE_JENKINS.png)](https://ci.athion.net/job/FastAsyncWorldEdit-1.16/)
 
 Note: There's also a direct link to the [last stable build](https://ci.athion.net/job/FastAsyncWorldEdit-1.16/lastStableBuild/)
 
@@ -57,27 +57,27 @@ You should see something like this in your server logs:
 
 To do stuff with FAWE you need the so-called wand. Normally, that's a wooden axe, so just grab one out of your inventory or do `//wand`. FAWE's commands always start with two slashes and not just one and FAWE often needs two positions for stuff, for example, for filling a cuboid, it needs two of the corners.
 
-![The result of //wand](../../../resources/PLUGINS/FAWE/FAWE_WAND.png)
+![The result of //wand](../../../IMAGES/PLUGINS/FAWE/FAWE_WAND.png)
 
 ### Filling an cuboid
 
 Select the two corners by leftclicking on one corner block and rightclicking on another corner block
 
-![Corner 1](../../../resources/PLUGINS/FAWE/FAWE_CORNER1.png)
+![Corner 1](../../../IMAGES/PLUGINS/FAWE/FAWE_CORNER1.png)
 
-![Corner 2](../../../resources/PLUGINS/FAWE/FAWE_CORNER2.png)
+![Corner 2](../../../IMAGES/PLUGINS/FAWE/FAWE_CORNER2.png)
 
 Note: The `1440` means that 1440 blocks are selected.
 
 Now you fill it, for example, with stone so do `//set stone`
 
 
-![The result of //set stone](../../../resources/PLUGINS/FAWE/FAWE_SET_STONE.png)
+![The result of //set stone](../../../IMAGES/PLUGINS/FAWE/FAWE_SET_STONE.png)
 ### Undoing
 
 If you did something wrong, don't worry, just do `//undo`
 
-![The result of //undo](../../../resources/PLUGINS/FAWE/FAWE_UNDO.png)
+![The result of //undo](../../../IMAGES/PLUGINS/FAWE/FAWE_UNDO.png)
 
 ### Further commands
 For a command list do `//help` or go [here](https://wiki.intellectualsites.com/FastAsyncWorldEdit/Commands)
