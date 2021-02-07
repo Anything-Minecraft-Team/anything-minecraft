@@ -15,6 +15,8 @@ Another essential step in survival servers is to pre-generate your world, becaus
 3. Use the command: `/fcp start <radius> [world] [chunkX] [chunkZ]`
 4. Wait for it to finish, it may take a long time and the server will lag while it works. This **MUST** be done with the server empty / closed to public.
 
+For a guide on Fast Chunk Pregenerator go [here](../../../tutorials/en_us/PLUGINS/FAST_CHUNK_PREGENERATOR.md).
+
 ## Aikars Flags / Startup Flags
 
 You should also use correct startup flags, the [Aikars flags](https://aikar.co/2018/07/02/tuning-the-jvm-g1gc-garbage-collector-flags-for-minecraft/)!
