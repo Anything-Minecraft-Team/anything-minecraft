@@ -14,7 +14,7 @@ Now what you need to do is download FCP. Go to [the Spigot Page](https://www.spi
 
 ## Installation
 
-Move (or copy) the downloaded JAR into the plugins directory in your server directory (where the Server JAR is).
+Move (or copy) the downloaded JAR into the plugins directory `/plugins/` in your server directory (where the Server JAR is).
 
 Now restart your server (do `/restart` or do `/stop` and start it again).
 
@@ -39,17 +39,11 @@ Once you have run the command it will start generating the chunks, all you have 
 
 FCP has some useful commands that allow you to pause, resume and cancel generation tasks. 
 
-#### Pausing Generation
-
-To pause a generation task run the command `/fcp pause`
-
-#### Resuming Generation
-
-To resume a generation task after pausing it, run the command `/fcp resume`
-
-#### Canceling Generation
-
-To cancel a generation task run the command `/fcp cancel`
+| Task                 | Command       | Function|
+|----------------------|---------------|---------|
+| Pausing Generation   | `/fcp pause`  |Pauses the current generation task.|
+| Resuming Generation  | `/fcp resume` |Pauses the current generation task.|
+| Canceling Generation | `/fcp cancel` |Cancels the current generation task.|
 
 ### Pending Generation Tasks
 
