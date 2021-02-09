@@ -27,7 +27,7 @@ Note: Never use this plugin while people are playing on your server, it causes e
 
 To use these commands you either need access to the console, have operator or have the `fcp.commands` permission.
 
-To get started go to the server console and type `/fcp start <radius> [world] [chunkX] [chunkZ]`. 
+To get started, go to the server console and type `/fcp start <radius> [world] [chunkX] [chunkZ]`. 
 - `radius` is how many blocks outwards you want to be generated. 
 - `world` is what world you want to be generated, works with custom worlds with multiverse and similar plugins. 
 - `chunkX` is the X coordinate you want the generation to start on. 
