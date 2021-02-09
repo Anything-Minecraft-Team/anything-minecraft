@@ -18,7 +18,6 @@ Move (or copy) the downloaded JAR into the plugins directory in your server dire
 
 Now restart your server (do `/restart` or do `/stop` and start it again).
 
-Note: You can also do `/reload` but that is not recommended and can cause bugs and memory leaks.
 
 ## Using FCP
 
