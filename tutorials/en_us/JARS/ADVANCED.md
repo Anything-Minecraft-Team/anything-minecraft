@@ -1,7 +1,8 @@
 # Advanced JAR picking
 
 If you want to go a little more in-depth with JAR picking, you've come to the right place.
-Most popular Spigot/Bukkit JARs are :
+
+## Most popular Spigot/Bukkit JARs are :
 
 - [PaperMC](https://papermc.io/) - Most popular JAR for Spigot/Bukkit, quite fast and stable, they roll out small patches at least every 2 days or so, good choice if you're just starting with your MC server and don't have much past experience because it's fast and simple. Most if not all spigot plugins work with this JAR.
   starting with your MC server and don't have much past experience because it's fast and simple.
@@ -15,9 +16,7 @@ Most popular Spigot/Bukkit JARs are :
 - [Tuinity](https://github.com/Spottedleaf/Tuinity) - PaperMC fork aimed at improving stability and performance at high player counts, also never heard of it, by description it seems to be exact same
   performs as PaperSpigot except at the high player counts.
 
----
-
-Most popular network JARs:
+## Most popular network JARs:
 
 - [BungeeCord](https://www.spigotmc.org/wiki/bungeecord/) - Base for the Waterfall fork, these JARs are used for configuring networks of which an example is Hypixel or Mineplex, it is used for distributing
   workload and players to different lobbies (are actually different server instances run with seperate files and data).
@@ -27,25 +26,21 @@ Most popular network JARs:
   travel across these different servers without returning back to the multiplayer menu screen.
   (It can be done with special plugins which utilize BungeeCord API to send you to the chosen server on click, you'll most commonly see it as the
   compass or a portal)
-
 - [Waterfall](https://papermc.io/downloads#Waterfall) - Fork of BungeeCord, faster than BungeeCord and has general improvements and tweaks which make it the more preferred network JAR, works basically the
   same as BungeeCord (talking about the use, it doesn't have a different system).
-  [Velocity](https://velocitypowered.com/) - A next-generation Minecraft proxy focused on scalability and flexibility. It allows server owners to link together multiple Minecraft servers so they may appear as one.
-
+- [Velocity](https://velocitypowered.com/) - A next-generation Minecraft proxy focused on scalability and flexibility. It allows server owners to link together multiple Minecraft servers so they may appear as one.
 - [Travertine](https://github.com/PaperMC/Travertine) - Fork of Waterfall with added 1.7.10 support if you want that old school experience ;)
 
----
-
-Most popular modded server JARs: 1. Forge 2. Fabric (I've never run a modded server, little to no experience with them)
+## Most popular modded server JARs:
 
 - [Forge](http://files.minecraftforge.net/) - Most popular JAR for either client or server-side use, has the widest mod support. Running a forge server will require the same mods to be used by both the client
   and the server and will refuse connection if there are mod incompatibilities. Dedicating more ram is recommended or even having a dedicated machine to running a
   modded server is recommended.
 - [Fabric](https://fabricmc.net/) - Faster than Forge, doesn't run Forge mods and has lesser mod support
 
----
+## Most popular MOD + PLUGINS server JARs:
 
-Extras:
-
-Sponge - Enables use of mods and plugins which are made for Sponge, makes your server extra spicy if you know how to do it right!
+[Sponge](https://www.spongepowered.org) - Enables use of mods and plugins which are made for Sponge, makes your server extra spicy if you know how to do it right!
 ore.spongepowered.org | The place to get the plugins (has LuckPerms :O)
+
+[Magma](https://magmafoundation.org) - Same as sponge but lets you use bukkit plugins and forge mods!
