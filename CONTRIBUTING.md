@@ -4,7 +4,7 @@
 
 Before you begin:
 
-- Check out the [existing issues](https://github.com/Anything-Minecraft-Team/anything-minecraft/issues)
+- Check out the [existing issues](https://github.com/Anything-Minecraft-Team/anything-minecraft/issues) and [pull requests](https://github.com/Anything-Minecraft-Team/anything-minecraft/pulls).
 
 ### Getting changes into the repo
 
