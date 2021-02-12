@@ -68,7 +68,7 @@ Here is a [guide](www.spigotmc.org/threads/guide-server-optimization⚡.283181/p
 You should also use correct startup flags, the [Aikars flags](https://aikar.co/2018/07/02/tuning-the-jvm-g1gc-garbage-collector-flags-for-minecraft/)!
 Sadly many server hosts won't allow you to edit startup flags by yourselft, but they are likely to do it for you if you open a ticket.
 
-## Wolrd Pre-Generation
+## World Pre-Generation
 
 Another essential step in survival servers is to pre-generate your world, because chunk generation consumes a lot of resources. One of several possible ways is shown below
 
