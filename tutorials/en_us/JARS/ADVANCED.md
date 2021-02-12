@@ -2,19 +2,23 @@
 
 If you want to go a little more in-depth with JAR picking, you've come to the right place.
 
-## Most popular Spigot/Bukkit JARs are :
+## Most popular Spigot/Bukkit JARs (PLUGINS):
+
+### Recommended top picks:
 
 - [PaperMC](https://papermc.io/) - Most popular JAR for Spigot/Bukkit, quite fast and stable, they roll out small patches at least every 2 days or so, good choice if you're just starting with your MC server and don't have much past experience because it's fast and simple. Most if not all spigot plugins work with this JAR.
   starting with your MC server and don't have much past experience because it's fast and simple.
-- [Spigot](https://www.spigotmc.org/) - Original fork of Bukkit, improved performance vs CraftBukkit, still widely used, seems to be harder for newbies to download because it links to Jenkins,
-  which may look confusing to them and they don't know where to click, recommended alternative if for some reason you don't want to use PaperSpigot.
-- [CraftBukkit](https://getbukkit.org/download/craftbukkit) - It's the BASE for all forks that are out today and they still are updating it to this day, not newbie friendly
-  at all because it requires manual building and doesn't provide an already built JAR (exception is if you use your host to give you JARs).
 - [Purpur](https://purpur.pl3x.net/) - It's a fork of both PaperSpigot and Tuinity to deliver very fast performance with stability (and good performance)
   for high player counts and it adds a lot of custom features that aren't seen on any other forks.
   (I'll have to try it out one day, seems quite interesting)
 - [Tuinity](https://github.com/Spottedleaf/Tuinity) - PaperMC fork aimed at improving stability and performance at high player counts, also never heard of it, by description it seems to be exact same
   performs as PaperSpigot except at the high player counts.
+
+### You should stay away from:
+
+- Yatopia - "The combined power of Paper forks for maximum instability and unmaintainablity!"
+- Any paid server jar that claims async anything - 99.99% chance of being a scam.
+- Bukkit/Craftbukkit/Spigot - Extremely outdated in terms of performance compared to other server software you have access to.
 
 ## Most popular network JARs:
 
