@@ -13,7 +13,7 @@ A server processes all tasks at a rate of 20 TPS. Tasks like mob movement, crop 
 - 20.0 = Flawless - Well done.
 - 19.95-19.99 = Great - Unnoticeable TPS loss. Most servers live here.
 - 18.5-19.94 = Fair - Maybe some annoyances, but nothing game-ruining.
-- 16.0-18.4 = Poor - You definitely need to fix this if this is your average.
+- 16.0-18.4 = Poor - You definitely need to fix it if this is your average.
 - <16.0 = Unplayable...
 
 
