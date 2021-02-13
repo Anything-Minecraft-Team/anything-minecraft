@@ -12,13 +12,17 @@ If you want to go a little more in-depth with JAR picking, you've come to the ri
   for high player counts and it adds a lot of custom features that aren't seen on any other forks.
   (I'll have to try it out one day, seems quite interesting)
 - [Tuinity](https://github.com/Spottedleaf/Tuinity) - PaperMC fork aimed at improving stability and performance at high player counts, also never heard of it, by description it seems to be exact same
-  performs as PaperSpigot except at the high player counts.
+
+### Other well known jars
+
+- [Spigot](https://www.spigotmc.org/) - Original fork of Bukkit, improved performance vs CraftBukkit, still widely used, recommended alternative if for some reason you don't want to use PaperSpigot.
+- [CraftBukkit](https://getbukkit.org/download/craftbukkit) - It's the BASE for all forks that are out today and they still are updating it to this day, not newbie friendly
+  at all because it requires manual building and doesn't provide an already built JAR (exception is if you use your host to give you JARs).
 
 ### You should stay away from:
 
 - Yatopia - "The combined power of Paper forks for maximum instability and unmaintainablity!"
 - Any paid server jar that claims async anything - 99.99% chance of being a scam.
-- Bukkit/Craftbukkit/Spigot - Extremely outdated in terms of performance compared to other server software you have access to.
 
 ## Most popular network JARs:
 
