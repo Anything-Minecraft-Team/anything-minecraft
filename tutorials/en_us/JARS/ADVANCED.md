@@ -14,8 +14,7 @@ If you want to go a little more in-depth with JAR picking, you've come to the ri
 ### Other well known jars
 
 - [Spigot](https://www.spigotmc.org/) - Original fork of Bukkit, improved performance vs CraftBukkit, still widely used, recommended alternative if for some reason you don't want to use PaperSpigot.
-- [CraftBukkit](https://getbukkit.org/download/craftbukkit) - It's the BASE for all forks that are out today and they still are updating it to this day, not newbie friendly
-  at all because it requires manual building (or you can get it [here](https://getbukkit.org))
+- [CraftBukkit](https://getbukkit.org/download/craftbukkit) - It's the BASE for all forks that are out today and they still are updating it to this day, not newbie friendly at all because it requires manual building (or you can get it [here](https://getbukkit.org))
 
 ### You should stay away from:
 
