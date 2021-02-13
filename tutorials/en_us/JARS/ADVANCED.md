@@ -7,14 +7,13 @@ If you want to go a little more in-depth with JAR picking, you've come to the ri
 ### Recommended top picks:
 
 - [PaperMC](https://papermc.io/) - Most popular JAR for Spigot/Bukkit, quite fast and stable, they roll out small patches at least every 2 days or so, good choice if you're just starting with your MC server and don't have much past experience because it's fast and simple. Most if not all spigot plugins work with this JAR.
-  starting with your MC server and don't have much past experience because it's fast and simple.
 - [Tuinity](https://github.com/Spottedleaf/Tuinity) - PaperMC fork aimed at improving stability and performance at high player counts.
 - [Purpur](https://purpur.pl3x.net/) - It's a fork of both PaperSpigot and Tuinity to deliver very fast performance with stability for high player counts and it adds a lot of custom features that aren't seen on any other forks.
 
 ### Other well known jars
 
 - [Spigot](https://www.spigotmc.org/) - Original fork of Bukkit, improved performance vs CraftBukkit, still widely used, recommended alternative if for some reason you don't want to use PaperSpigot.
-- [CraftBukkit](https://getbukkit.org/download/craftbukkit) - It's the BASE for all forks that are out today and they still are updating it to this day, not newbie friendly at all because it requires manual building (or you can get it [here](https://getbukkit.org))
+- [CraftBukkit](https://getbukkit.org/download/craftbukkit) - It's the BASE for all forks that are out today and they still are updating it to this day, not newbie friendly at all because it requires manual building (or you can get it [here](https://getbukkit.org)). The only real case of use is for minecraft versions from 1.0.0 to 1.4.5 as there is no spigot release for those versions.
 
 ### You should stay away from:
 
