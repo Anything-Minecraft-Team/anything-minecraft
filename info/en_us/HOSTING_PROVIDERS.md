@@ -2,11 +2,12 @@
 
 Here are some recommended hosting providers:
 - [AtlasNode](https://atlasnode.net/)
-- [CryHosting](https://cryhosting.net/)
 - [Birdflop](https://www.birdflop.com/)
-- [Bloom.Host](https://bloom.host/)
+- [Bloom.host](https://bloom.host/)
+- [ByteAnia](https://byteania.com/)
+- [DedicatedMC](https://dedicatedmc.io/) 
 - [MixmlHosting](https://mixmlhosting.com/)
-- [Pebblehost](https://pebblehost.com/)
+- [PebbleHost](https://pebblehost.com/)
 - [WinterNode](https://winternode.com/)
 
 
@@ -21,10 +22,11 @@ Here is a list of as many hosting providers as we can find, good and bad:
 - [BisectHosting](https://www.bisecthosting.com/)
 - [Bloom.Host](https://bloom.host/)
 - [CubedHost](https://cubedhost.com/)
-- [DedicatedMc](https://dedicatedmc.io/) 
+- [DedicatedMC](https://dedicatedmc.io/) 
 - [ElixirNode](https://elixirnode.com/)
-- [EnviroMc](https://enviromc.com/)
-- [ForestRacks](https://my.forestracks.com/aff.php?aff=34)
+- [EnviroMC](https://enviromc.com/)
+- [ForestRacks](https://forestracks.com)
+- [Game Host Network](https://gamehost.network/)
 - [GGServers](https://ggservers.com/)
 - [Heimsnet](https://www.heimsnet.eu/home)
 - [Hostinger](https://www.hostinger.com/minecraft-server-hosting)
