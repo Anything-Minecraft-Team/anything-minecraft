@@ -12,9 +12,7 @@ If you want to go a little more in-depth with JAR picking, you've come to the ri
   at all because it requires manual building and doesn't provide an already built JAR (exception is if you use your host to give you JARs).
 - [Purpur](https://purpur.pl3x.net/) - It's a fork of both PaperSpigot and Tuinity to deliver very fast performance with stability (and good performance)
   for high player counts and it adds a lot of custom features that aren't seen on any other forks.
-  (I'll have to try it out one day, seems quite interesting)
-- [Tuinity](https://github.com/Spottedleaf/Tuinity) - PaperMC fork aimed at improving stability and performance at high player counts, also never heard of it, by description it seems to be exact same
-  performs as PaperSpigot except at the high player counts.
+- [Tuinity](https://github.com/Spottedleaf/Tuinity) - PaperMC fork aimed at improving stability and performance at high player counts.
 
 ## Most popular network JARs:
 
