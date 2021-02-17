@@ -19,5 +19,4 @@ For a guide on Fast Chunk Pregenerator go [here](../../../tutorials/en_us/PLUGIN
 
 ## Aikars Flags / Startup Flags
 
-You should also use correct startup flags, the [Aikars flags](https://aikar.co/2018/07/02/tuning-the-jvm-g1gc-garbage-collector-flags-for-minecraft/)!
-Sadly many server hosts won't allow you to use these. An exeption is [Birdflop Hosting](https://www.birdflop.com/).
+If you host your server yourself or your hosting allows it, you should also use correct startup flags, the [Aikars flags](https://aikar.co/2018/07/02/tuning-the-jvm-g1gc-garbage-collector-flags-for-minecraft/)!
