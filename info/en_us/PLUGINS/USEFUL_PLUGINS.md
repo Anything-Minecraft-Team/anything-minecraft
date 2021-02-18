@@ -82,7 +82,7 @@ Dynmap gives players the ability to move around their world through an internet 
 
 ## Creativity Plugins
 
-The plugins in this category have a focus on additions that allow players to express thier creativity the most.
+The plugins in this category have a focus on additions that allow players to express their creativity the most.
 
 ### [WorldEdit](https://dev.bukkit.org/projects/worldedit)
 
