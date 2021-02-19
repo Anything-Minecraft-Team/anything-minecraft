@@ -63,6 +63,6 @@ No, this can't be used as a normal JAR and requires at least 3 servers/instances
 
 - [Velocity](https://velocitypowered.com/) - A next-generation Minecraft proxy focused on scalability and flexibility. It allows server owners to link together multiple Minecraft servers so they may appear as one.
 
-- [Travertine](https://github.com/PaperMC/Travertine) - Fork of Waterfall with added 1.7.10 support if you want that old school experience ;)
+- [Travertine](https://github.com/PaperMC/Travertine) - Fork of Waterfall with added `1.7.10` support if you want that old school experience.
 
 - [FlameCord](https://github.com/2LStudios-MC/FlameCord) - FlameCord is a patch for Travertine to fix possible exploits and add useful functionalities.
