@@ -12,7 +12,7 @@ Server software is the software that allows multiple players to play on a server
 
 - [Spigot](https://www.spigotmc.org/) - The original fork of Bukkit, improved performance vs CraftBukkit, still widely used, recommended alternative if for some reason you don't want to use PaperSpigot.
 
-- [PaperMC](https://papermc.io/) - Most popular JAR for Spigot/Bukkit, quite fast and stable, they roll out small patches at least every two days or so, a good choice if you're just starting with your MC server and don't have much experience because it's fast and simple.
+- [PaperMC](https://papermc.io/) - Most popular JAR for Spigot/Bukkit, quite fast and stable, they roll out small patches frequently, so it is a good choice if you're just starting with your MC server and don't have much experience.
 
 - [Tuinity](https://github.com/Spottedleaf/Tuinity) - PaperMC fork aimed at improving stability and performance at high player counts.
 
@@ -28,7 +28,7 @@ Server software is the software that allows multiple players to play on a server
 
 - [Yatopia](https://github.com/YatopiaMC/Yatopia) - Aims to combine the code from many Paper forks and optimization mods, as well as many unique optimizations, but it's known to be very unstable and usually, Purpur is a better choice. Only use if you desperately need performance and think it's worth the instability.
 
-- [Cuberite](https://cuberite.org/) - Cuberite is a server software developed in C++ and plugins are written in LUA. Cuberite is very lightweight and they also allow you to run a server on your android device! Cuberite is only 1.8-1.12, 1.13+ compatibility is being worked on.
+- [Cuberite](https://cuberite.org/) - Cuberite is a server software developed in C++ and plugins are written in LUA. Cuberite is very lightweight and they also allow you to run a server on your android device! Cuberite is only 1.8-1.12. 1.13+ compatibility is being worked on.
 
 - [Glowstone](https://github.com/GlowstoneMC/Glowstone) - Glowstone is a lightweight, from scratch, open-source Minecraft server written in Java that supports plugins written for the Bukkit API and its major forks, Spigot and Paper.
 
@@ -40,7 +40,7 @@ Server software is the software that allows multiple players to play on a server
 
 - [Forge](http://files.minecraftforge.net/) - Forge is a server software based on the MCP. Both the server and client need to be running the mods.
 
-- [Fabric](https://fabricmc.net/) - Fabric, unlike Forge, is not based on the MCP. This allows it to be updated for snapshots easier. It is incompatible with Forge.
+- [Fabric](https://fabricmc.net/) - Fabric, unlike Forge, is not based on the MCP. This allows it to be updated for snapshots easier. **It is incompatible with Forge.**
 
 ### Plugins and Mods
 
@@ -48,7 +48,7 @@ Server software is the software that allows multiple players to play on a server
 
 - [Mohist](https://mohistmc.com/) - Minecraft Forge hybrid server implementing the Paper/Spigot/Bukkit API(1.12.2/1.16). Formerly known as Thermos/Kettle/Cauldron/MCPC+.
 
-- [Arclight](https://github.com/IzzelAliz/Arclight) - A Minecraft Bukkit(1.15/1.16) server implementation on Forge using Mixin
+- [Arclight](https://github.com/IzzelAliz/Arclight) - A Minecraft Bukkit(1.15/1.16) server implementation on Forge using Mixin.
 
 - [SpongeForge](https://www.spongepowered.org/downloads/spongeforge) - SpongeForge allows both SpongeVanila plugins as well as Forge mods on one server.
 
