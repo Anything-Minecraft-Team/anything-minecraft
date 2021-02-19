@@ -54,7 +54,7 @@ Server software is the software that allows multiple players to play on a server
 
 - [Cardboard](https://www.curseforge.com/minecraft/mc-mods/cardboard) - Cardboard (formerly Bukkit4Fabric) is a Fabric mod that adds support for the popular Bukkit/Spigot modding API. This mod lets you use plugins that are made for Bukkit and it's derivatives (Spigot and Paper) with Fabric. It's not a server software but allows Fabric servers to run Bukkit plugins.
 
-## Network Software:
+## Network Software
 
 - [BungeeCord](https://www.spigotmc.org/wiki/bungeecord/) - Base for the Waterfall fork, these JARs are used for configuring networks of which an example is Hypixel or Mineplex, it is used for distributing workload and players to different lobbies (Different server instances run with separate files and data).
   No, this can't be used as a normal JAR and requires at least 3 servers/instances, one is BungeeCord (or it's fork) which is called the proxy, players connect to this proxy and are sent to the default server which is set in config. Let's say server "Lobby" is the default, it will send you there, after that you can connect to another server, for example, "Survival" which is running in a separate server/instance and BungeeCord enables the functionality travel across these different servers without returning to the multiplayer menu screen. (It can be done with special plugins which utilize BungeeCord API to send you to the chosen server on click, you'll most commonly see it as thecompass or a portal)
