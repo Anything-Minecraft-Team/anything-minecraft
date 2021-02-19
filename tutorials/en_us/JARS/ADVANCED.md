@@ -42,7 +42,7 @@ Server software is the software that allows multiple players to play on a server
 
 - [Fabric](https://fabricmc.net/) - Fabric, unlike Forge, is not based on the MCP. This allows it to be updated for snapshots easier. It is incompatible with Forge.
 
-### Plugins + Mods:
+### Plugins and Mods
 
 - [Magma](https://magmafoundation.org/) - Minecraft Forge Hybrid server implementing the Spigot/Bukkit API (Cauldron for 1.12)
 
