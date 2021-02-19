@@ -4,9 +4,9 @@
 
 Vanilla is the original server jar that is distributed by Mojang.
 Plugins and mods are not supported on this.
-Vanilla servers behaves like normal Singleplayer Minecraft.
+Vanilla servers behaves like a normal Singleplayer Minecraft.
 Minecraft has a simple config called `server.properties` which you can use to change some basic settings.
-Some of the main settings are, `motd=A Minecraft Server`, this changes what is displayed under your server in the server list, `max-players=20`, this changes the max amount of players that can join the server at once, `view-distance=10`, this changes the max render distance you can set, on the client you can set it to a higher value but it wont display that far, and many more! To see the default config go [here](https://github.com/Anything-Minecraft-Team/anything-minecraft/blob/fork-info/resources/DEFAULT/server.properties).
+Some of the main settings are, `motd=A Minecraft Server`, this changes what is displayed under your server in the server list, `max-players=20`, this changes the max amount of players that can join the server at once, `view-distance=10`, this changes the max render distance you can set, on the client you can set it to a higher value but it won't display that far, and many more! To see the default config go [here](https://github.com/Anything-Minecraft-Team/anything-minecraft/blob/fork-info/resources/DEFAULT/server.properties).
 
 Suggested version: It's suggested you use this for any Minecraft version if you don't mind having any vanilla glitches, bugs or bad performance.
 
@@ -54,7 +54,7 @@ Here you will learn what each config option does. For an example of the `server.
 
 `generator-settings` - Sets the settings for custom world generation.
 
-`hardcore` - Sets if the whole server to hardcore mode, forces the difficulty to hard.
+`hardcore` - Sets the whole server to hardcore mode, forces the difficulty to hard.
 
 
 `level-name` - Sets the name of the worlds, example, `world` or `world_the_end`.
@@ -75,7 +75,7 @@ Here you will learn what each config option does. For an example of the `server.
 
 `network-compression-threshold` -
 
-`online-mode` - Sets if the server checks connecting players against the Minecraft database. Setting this to false lets people with an unlicensed version of Minecraft, This also allows you to connect to the server with no internet connection.
+`online-mode` - Sets whether the server checks connecting players against the Minecraft database. Setting this to false lets people with an unlicensed version of Minecraft to connect to the server. This also allows you to connect to the server with no internet connection.
 
 `op-permission-level` - Sets what permission level players with op have.
 
@@ -97,7 +97,7 @@ Here you will learn what each config option does. For an example of the `server.
 
 `resource-pack` - Sets the resource pack the player downloads to use on the server when joining. Must be a URI.
 
-`server-ip` - Sets if the server is bind to a certain IP.
+`server-ip` - Binds the server to a certain IP.
 
 `server-port` - Sets the port the server runs on.
 
