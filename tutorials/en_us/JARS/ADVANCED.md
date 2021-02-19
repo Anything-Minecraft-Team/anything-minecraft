@@ -30,6 +30,8 @@ Server software is the software that allows multiple players to play on a server
 
 - [Cuberite](https://cuberite.org/) - Cuberite is a server software developed in C++ and plugins are written in LUA. Cuberite is very lightweight and they also allow you to run a server on your adroid device! Cuberite is only 1.8-1.12, 1.13+ compatibility is being worked on.
 
+- [Glowstone](https://github.com/GlowstoneMC/Glowstone) - Glowstone is a lightweight, from scratch, open source Minecraft server written in Java that supports plugins written for the Bukkit API and its major forks, Spigot and Paper.
+
 ### Mods:
 
 - [Forge](http://files.minecraftforge.net/) - Forge is a server software based on the MCP. Both the server and client need to be running the mods.
@@ -45,6 +47,8 @@ Server software is the software that allows multiple players to play on a server
 - [Arclight](https://github.com/IzzelAliz/Arclight) - A Minecraft Bukkit(1.15/1.16) server implementation on Forge using Mixin
 
 - [SpongeForge](https://www.spongepowered.org/downloads/spongeforge) - SpongeForge allows both SpongeVanila plugins as well as Forge mods on one server.
+
+- [Cardboard](https://www.curseforge.com/minecraft/mc-mods/cardboard) - Cardboard (formerly Bukkit4Fabric) is a Fabric mod that adds support for the popular Bukkit/Spigot modding API. This mod lets you use plugins that are made for Bukkit and it's derivatives (Spigot & Paper) with Fabric. It's not a server software but allows fabric servers to run bukkit plugins.
 
 ## Network Software:
 
