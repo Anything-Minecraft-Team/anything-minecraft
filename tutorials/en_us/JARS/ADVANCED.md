@@ -2,7 +2,7 @@
 
 If you want to go a little more in-depth with JAR picking, you've come to the right place.
 
-## Server Software:
+## Server Software
 
 Server software is the software that allows multiple players to play on a server together.
 
