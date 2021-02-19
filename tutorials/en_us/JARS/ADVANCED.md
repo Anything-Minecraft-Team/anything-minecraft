@@ -8,7 +8,7 @@ Server software is the software that allows multiple players to play on a server
 
 ### Plugins:
 
-- [CraftBukkit](https://getbukkit.org/download/craftbukkit) - It's the BASE for all forks that are out today and they still are updating it to this day, not newbie friendly at all because it requires manual building (or you can get it [here](https://getbukkit.org)). The only real case of use is for Minecraft versions from 1.0.0 to 1.4.5 as there is no spigot release for those versions.
+- [CraftBukkit](https://getbukkit.org/download/craftbukkit) - It's the BASE for all forks that are out today and they still are updating it to this day, not newbie friendly at all because it requires manual building (or you can get it [here](https://getbukkit.org)). The only real use is for Minecraft versions from `1.0.0` to `1.4.5` as there are no Spigot release for these versions.
 
 - [Spigot](https://www.spigotmc.org/) - The original fork of Bukkit, improved performance vs CraftBukkit, still widely used, recommended alternative if for some reason you don't want to use PaperSpigot.
 
