@@ -20,7 +20,7 @@ Vanilla is the original server jar that is distributed by Mojang.
 Plugins and mods are not supported on this.
 Vanilla servers behaves like normal singleplayer Minecraft but with additional commands.
 Minecraft has a simple config called `server.properties` which you can use to change some basic settings.
-Some of the main settings are, `motd=A Minecraft Server`, this changes what is displayed under your server in the server list, `max-players=20`, this changes the max amount of players that can join the server at once, `view-distance=10`, this changes the max render distance you can set, on the client you can set it to a higher value but it wont display that far, and many more! To see the default config go [here](https://github.com/Anything-Minecraft-Team/anything-minecraft/blob/fork-info/resources/DEFAULT/server.properties).
+Some of the main settings are, `motd=A Minecraft Server`, this changes what is displayed under your server in the server list, `max-players=20`, this changes the max amount of players that can join the server at once, `view-distance=10`, this changes the max render distance you can set, on the client you can set it to a higher value but it won't display that far, and many more! To see the default config go [here](https://github.com/Anything-Minecraft-Team/anything-minecraft/blob/fork-info/resources/DEFAULT/server.properties).
 
 Suggested versions: Any
 
