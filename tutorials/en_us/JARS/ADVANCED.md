@@ -28,6 +28,8 @@ Server software is the software that allows multiple players to play on a server
 
 - [Yatopia](https://github.com/YatopiaMC/Yatopia) - Aims to combine the code from many Paper forks and optimization mods, as well as many unique optimizations, but its known to be very unestable and usually Purpur is a better choice. Only use if you desperately need performance and think it's worth the instability. Yatopia has been known to corrupt data so keep daily backups.
 
+- [Cuberite](https://cuberite.org/) - Cuberite is a server software developed in C++ and plugins are written in LUA. Cuberite is very lightweight and they also allow you to run a server on your adroid device! Cuberite is only 1.8-1.12, 1.13+ compatibility is being worked on.
+
 ### Mods:
 
 - [Forge](http://files.minecraftforge.net/) - Forge is a server software based on the MCP. Both the server and client need to be running the mods.
