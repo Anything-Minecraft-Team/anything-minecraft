@@ -44,7 +44,7 @@ Server software is the software that allows multiple players to play on a server
 
 ### Plugins and Mods
 
-- [Magma](https://magmafoundation.org/) - Minecraft Forge Hybrid server implementing the Spigot/Bukkit API (Cauldron for 1.12)
+- [Magma](https://magmafoundation.org/) - Minecraft Forge hybrid server implementing the Spigot/Bukkit API (Cauldron for 1.12).
 
 - [Mohist](https://mohistmc.com/) - Minecraft Forge Hybrid server implementing the Paper/Spigot/Bukkit API(1.12.2/1.16), formerly known as Thermos/Kettle/Cauldron/MCPC+
 
