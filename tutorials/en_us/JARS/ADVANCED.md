@@ -32,6 +32,8 @@ Server software is the software that allows multiple players to play on a server
 
 - [Glowstone](https://github.com/GlowstoneMC/Glowstone) - Glowstone is a lightweight, from scratch, open source Minecraft server written in Java that supports plugins written for the Bukkit API and its major forks, Spigot and Paper.
 
+- [TacoSpigot](https://github.com/TacoSpigot/TacoSpigot) - A even-higher higher performance PaperSpigot fork that adds new features.
+
 ### Mods:
 
 - [Forge](http://files.minecraftforge.net/) - Forge is a server software based on the MCP. Both the server and client need to be running the mods.
@@ -50,6 +52,8 @@ Server software is the software that allows multiple players to play on a server
 
 - [Cardboard](https://www.curseforge.com/minecraft/mc-mods/cardboard) - Cardboard (formerly Bukkit4Fabric) is a Fabric mod that adds support for the popular Bukkit/Spigot modding API. This mod lets you use plugins that are made for Bukkit and it's derivatives (Spigot & Paper) with Fabric. It's not a server software but allows fabric servers to run bukkit plugins.
 
+- [Crucible](https://github.com/CrucibleMC/Crucible)
+
 ## Network Software:
 
 - [BungeeCord](https://www.spigotmc.org/wiki/bungeecord/) - Base for the Waterfall fork, these JARs are used for configuring networks of which an example is Hypixel or Mineplex, it is used for distributing
@@ -60,7 +64,12 @@ Server software is the software that allows multiple players to play on a server
   travel across these different servers without returning back to the multiplayer menu screen.
   (It can be done with special plugins which utilize BungeeCord API to send you to the chosen server on click, you'll most commonly see it as the
   compass or a portal)
+
 - [Waterfall](https://papermc.io/downloads#Waterfall) - Fork of BungeeCord, faster than BungeeCord and has general improvements and tweaks which make it the more preferred network JAR, works basically the
   same as BungeeCord (talking about the use, it doesn't have a different system).
+
 - [Velocity](https://velocitypowered.com/) - A next-generation Minecraft proxy focused on scalability and flexibility. It allows server owners to link together multiple Minecraft servers so they may appear as one.
+
 - [Travertine](https://github.com/PaperMC/Travertine) - Fork of Waterfall with added 1.7.10 support if you want that old school experience ;)
+
+- [FlameCord](https://github.com/2LStudios-MC/FlameCord) - FlameCord is a patch for Travertine to fix possible exploits and add useful functionalities.
