@@ -19,7 +19,6 @@ This list of free anti-cheats is sorted alphabetically.
 - [Warden Cheat Detection](https://www.spigotmc.org/resources/warden-guardian-of-your-server-modern-cheat-detection-1-8-1-16.81877/)
 - [Wither Anti Cheat](https://www.spigotmc.org/resources/wither-anti-cheat-1-13-x-1-16-x-paper-tuinity-support-free-accurate-optimized-anti-cheat.68657/)
 - [ThotPatrol](https://www.spigotmc.org/resources/thotpatrol-advanced-cheat-detection-1-7-1-8.79978/)
-- [Matrix Anti Cheat](https://matrix.rip) (free for up to 75 players, premium plan with more checks available)
 
 ## Paid plugins
 
@@ -33,3 +32,4 @@ This list of paid anti-cheats is sorted by rating on Spigot.
 - [AntiAura](https://www.spigotmc.org/resources/1368/) - £7.00
 - [TakaAntiCheat](https://www.spigotmc.org/resources/45167/) - €8.00
 - [Wraith Anticheat](https://www.spigotmc.org/resources/66887/) - €6.99
+- [Matrix Anti Cheat](https://matrix.rip) - $20.00
