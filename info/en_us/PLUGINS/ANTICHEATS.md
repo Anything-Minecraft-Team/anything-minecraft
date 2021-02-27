@@ -1,10 +1,10 @@
-# Anti-cheat pluigns
+# Anti-Cheat Pluigns
 
 Here is a list of some anti-cheats, good or bad. Spigot has an own [wiki page on anti-cheats](https://www.spigotmc.org/wiki/anti-cheat-list-bukkit-and-spigot/). This page is based on that list.
 
 Generally speaking, paid anti-cheat plugins are better than free ones.
 
-## Free plugins
+## Free Plugins
 
 This list of free anti-cheats is sorted alphabetically.
 
@@ -31,7 +31,7 @@ This list of free anti-cheats is sorted alphabetically.
 - [Wither Anti Cheat](https://www.spigotmc.org/resources/wither-anti-cheat-1-13-x-1-16-x-paper-tuinity-support-free-accurate-optimized-anti-cheat.68657/)
 - [zHack](https://songoda.com/marketplace/product/zhack-anticheat-lite-zhack.513)
 
-## Paid plugins
+## Paid Plugins
 
 This list of paid anti-cheats is sorted alphabetically.
 
