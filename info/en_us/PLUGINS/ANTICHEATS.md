@@ -1,6 +1,6 @@
 # Anti-Cheat Pluigns
 
-Here is a list of some anti-cheats, good or bad. Spigot has an own [wiki page on anti-cheats](https://www.spigotmc.org/wiki/anti-cheat-list-bukkit-and-spigot/). This page is based on that list.
+Here is a list of some anti-cheats, good or bad. Spigot has it's own [wiki page on anti-cheats](https://www.spigotmc.org/wiki/anti-cheat-list-bukkit-and-spigot/). This page is based on that list.
 
 Generally speaking, paid anti-cheat plugins are better than free ones.
 
