@@ -4,24 +4,6 @@ The goal of this tutorial is to give you everything you need to manage your serv
 
 ---
 
-### Table of Contents
-
-- [Command Line Access (SSH)](#command-line-access-ssh)
-  - [PuTTY](#putty)
-    - [Shortcut Setup](#shortcut-setup)
-- [tmux](#tmux)
-  - [Attaching Sessions](#attaching-sessions)
-  - [Sending keys](#sending-keys)
-  - [Shortcuts](#shortcuts)
-- [File Management (FileZilla)](#file-management-filezilla)
-  - [Connecting](#connecting)
-  - [Navigation](#navigation)
-  - [Transferring Files](#transferring-files)
-  - [Editing Files](#editing-files)
-- [Conclusion](#conclusion)
-
----
-
 ## Command Line Access (SSH)
 
 Since a lot of interaction with a Minecraft server is through its command line terminal, your primary tool for interacting with your remote server will be SSH.
