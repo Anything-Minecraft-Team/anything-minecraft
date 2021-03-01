@@ -9,7 +9,10 @@ Server software is the software that allows multiple players to play on a server
 ### Plugins:
 
 - [CraftBukkit](https://getbukkit.org/download/craftbukkit) - It's the BASE for all forks that are out today and they still are updating it to this day, not newbie friendly at all because it requires manual building (or you can get it [here](https://getbukkit.org)). The only real use is for Minecraft versions from `1.0.0` to `1.4.5` as there is no Spigot release for these versions.
+<<<<<<< Updated upstream
 Version: 1.0.0 - 1.16.5
+=======
+>>>>>>> Stashed changes
 
 - [Spigot](https://www.spigotmc.org/) - The original fork of Bukkit, improved performance vs CraftBukkit, still widely used, recommended alternative if for some reason you don't want to use PaperSpigot.
 Version: 1.4.6 - 1.16.5
@@ -122,6 +125,60 @@ Version: 1.16.5
 - [RocketMC](https://www.mc-market.org/resources/13898/) - A 1.15.2 Tuinity fork with a built-in monitoring system, plugin manager (enabling, disabling, command info), and general performance optimizations.
 Version: 1.15.2
 
+- [MineStom](https://github.com/Minestom/Minestom) - MineStorm is an entire recode of Minecraft servers from the base up meant to remove all vanilla features. It removes features like the server understanding what a chest is, allows HUGE performance increases for minigame servers as they may not need that feature. Every feature can be added back. Due to this, development would take longer and would not be suitable for survival servers.
+
+- [Akarin](https://github.com/Akarin-project/Akarin/tree/ver/1.16.4) - A Spigot plugin compatible project aiming at becoming fairly multicore compatible. A fork of Tuinity aiming to simplify the logic and implement multi-threaded computing and make servers more safe and stable.
+
+- AtomSpigot - A 1.8.8 TacoSpigot fork with crash fixes, async hit detection, and async knockback built it. Currently not available through legal means due to a false ban off of MCMarket.
+
+- DytanicSpigot - Other than its API it has been lost to time, but it was a Spigot fork said to be capable of stability hitting 40 TPS, although there's not much left of it to show if it was.
+
+- [xSpigot](https://www.mc-market.org/resources/11411/) - A 1.7.10 - 1.8.x TacoSpigot fork with custom knockback editing and stuff like toggleable mob AI meant for HCF servers and practice PvP servers.
+
+- ySpigot - It is xSpigot but 1.7.10 to 1.12.x.
+
+- zSpigot - A 1.7.10 Paper fork with huge optimizations, completely custom knockback editing, built-in server benchmarking, and more PvP based features. Ironically, despite it originally being a premium resource the only way to get it now is through a leaks website due to the creator leaking resources.
+
+- [mSpigot](https://www.mc-market.org/resources/6864/) - Another premium TacoSpigot fork with promises of improved TNT and knockback aimed at PvP and Factions servers.
+
+- [ImanitySpigot](https://www.mc-market.org/resources/10770/) - ImanitySpigot provides you with a better PvP experience with smooth hit detection, customizable knockback and projectile enhancements.
+
+- [EmpireCraft](https://github.com/starlis/empirecraft) - EmpireCraft is a fork of Spigot used by the [Empire Minecraft Server](https://empireminecraft.com/lp/?user=Aikar&utm_campaign=Player%20Referrals&utm_source=github.com&utm_medium=Aikar). It contains many gameplay changes to suit the EmpireCraft server, but more importantly, contains new performance improvements pending testing to be contributed to Spigot / Paper / Sponge.
+
+- [Origami](https://github.com/Minebench/Origami) - Custom paper fork used by [Minebench.de](https://www.minebench.de/). The fork is based on the framework used in [Spottedleaf's Tuinity](https://github.com/Spottedleaf/Tuinity).
+
+- [HOSE](https://github.com/softpak/HOSE) - MInecraft server with multi-thread computing.
+
+- [Cleanstone](https://github.com/CleanstoneMC/Cleanstone) - A multi-core design server jar coded from the ground up.
+
+- [McEx](https://github.com/McEx/McEx) - McEx is a Minecraft server written in Elixir and Rust. All the networking and logic is implemented in Elixir, while the low-level chunk data handling is done in Rust.
+
+- [Lightstone](https://github.com/grahamedgecombe/lightstone) - The official server software has some shortcomings such as the use of threaded, synchronous I/O along with high CPU and RAM usage. Lightstone aims to be a lightweight and high-performance alternative.
+
+- [PerfectSpigot](https://www.mc-market.org/resources/5376/) - A 1.8.8 Paper fork focused on Factions servers with optimized cannoning and built in world generators.
+
+- [BeerSpigot](https://www.mc-market.org/threads/355569/) - A 1.8.8 TacoSpigot fork focused on Factions servers with a built in knockback editing,  with a lot of built in Factions features (Grace Period, Cannoning Optimization, and Setting Global Spawner Values).
+
+- [BreadSpigot](https://www.mc-market.org/threads/475910/) - A 1.8.8 TacoSpigot fork focused on SkyBlock servers with huge entity optimizations, built in mob stacking, and a built in knockback editor.
+
+- [ElapsedSpigot](https://www.mc-market.org/threads/480567/) - A 1.8.8 TacoSpigot fork focused on Factions servers with a built in mob stacker, configurable block durabilities, huge factions based optimizations, and some vanilla feature toggles.
+
+- [StellarSpigot](https://www.mc-market.org/threads/523827/) - A 1.8.8 TacoSpigot fork with a huge assortment of features and optimizations aimed at Factions servers.
+
+- TorchSpigot - The now abandoned predecessor to Akarin based on a goal of getting Paper to run on multiple threads.
+
+- [APOLLO16 ](https://www.mc-market.org/resources/16271/) - A 1.16.5 Purpur fork with a built in system monitor and optimized block and chunk ticking methods.
+
+- [LightSpigot 1.8.8](https://www.mc-market.org/resources/16933/) - A free 1.8.8 Spigot fork focused on adding some optimizations and features for HCF servers, like enderpearls teleporting through slabs.
+
+- [LightSpigot 1.16.5](https://www.mc-market.org/resources/17753/) - A 1.16.5 Spigot fork with some spawner / general performance optimizations and custom knockback editing.
+
+- [VoltaneSpigot](https://www.mc-market.org/threads/571429/) - A 1.8.8 based TacoSpigot fork with built in 1.7 - 1.16 client support with multi thread support, custom knockback editing, discord server integration, and a lot of factions based features.
+
+- [SSSpigot](https://www.mc-market.org/resources/14122/) - A 1.16.5 Paper fork with multi thread support, useless code removal, some general optimizations, and tracking metrics disabled.
+
+- [RocketMC](https://www.mc-market.org/resources/13898/) - A 1.15.2 Tuinity fork with a built in monitoring system, plugin manager (enabling, disabling, command infos), and general performance optimizations.
+
 ### Modded Server JARS
 
 - [Forge](http://files.minecraftforge.net/) - Forge is a server software based on the MCP. Both the server and client need to be running the mods.
@@ -154,6 +211,17 @@ Version: 1.12.2
 
 - KCauldron - A Fork of MCPC+ using Spigot instead of CraftBukkit.
 
+<<<<<<< Updated upstream
+=======
+- [Cardboard](https://www.curseforge.com/minecraft/mc-mods/cardboard) - Cardboard (formerly Bukkit4Fabric) is a Fabric mod that adds support for the popular Bukkit/Spigot modding API. This mod lets you use plugins that are made for Bukkit and it's derivatives (Spigot and Paper) with Fabric. It's not server software but allows Fabric servers to run Bukkit plugins.
+
+- [AtomMC](https://github.com/josephworks/AtomMC) - Atom is a Minecraft Server Software that is based on Minecraft Forge and CraftBukkit for 1.12.2 version of Minecraft.
+
+- MCPC+ - The First Hybrid server for Bukkit and Forge Combination.
+
+- KCauldron - A Fork of MCPC+ using Spigot instead of CraftBukkit.
+
+>>>>>>> Stashed changes
 - Thermos - A Fork of KCauldron with many bug fixes and performance improvements.
 
 - Contigo - A fork of Thermos that was opened after Thermos was discontinued and allowed the community to add patches and bug fixes.
@@ -163,7 +231,10 @@ Version: 1.12.2
 - CatServer - A Server designed for Forge and Paper support not based on any other preexisting software.
 
 - Kettle - A fork of Contigo that was updated to 1.12.2 and later 1.14.4 which adds support Paper and Forge Support.
+<<<<<<< Updated upstream
 Version: 1.12.2 - 1.14.4
+=======
+>>>>>>> Stashed changes
 
 - TableCloth - A Hybrid jar forked from AtomMC combining Forge + Spigot and a couple of Paper Patches.
 
@@ -188,5 +259,9 @@ No, this can't be used as a normal JAR and requires at least 3 servers/instances
 
 - [Gate](https://github.com/minekube/gate) - A Minecraft Proxy that is written in Go suggesting "scalability, flexibility & excellent server version support".
 
+<<<<<<< Updated upstream
 - [XCord](https://www.mc-market.org/resources/16843/) - A 1.7-1.16.x BungeeCord fork with built in anti-bot, anti-exploit, and many performance optimizations.
 Version: 1.7.10 - 1.16.5
+=======
+- [XCord](https://www.mc-market.org/resources/16843/) - A 1.7-1.16.x BungeeCord fork with built in anti-bot, anti-exploit, and many performance optimizations.
+>>>>>>> Stashed changes
