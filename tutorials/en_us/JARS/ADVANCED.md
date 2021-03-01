@@ -9,10 +9,7 @@ Server software is the software that allows multiple players to play on a server
 ### Plugins:
 
 - [CraftBukkit](https://getbukkit.org/download/craftbukkit) - It's the BASE for all forks that are out today and they still are updating it to this day, not newbie friendly at all because it requires manual building (or you can get it [here](https://getbukkit.org)). The only real use is for Minecraft versions from `1.0.0` to `1.4.5` as there is no Spigot release for these versions.
-<<<<<<< Updated upstream
 Version: 1.0.0 - 1.16.5
-=======
->>>>>>> Stashed changes
 
 - [Spigot](https://www.spigotmc.org/) - The original fork of Bukkit, improved performance vs CraftBukkit, still widely used, recommended alternative if for some reason you don't want to use PaperSpigot.
 Version: 1.4.6 - 1.16.5
@@ -211,17 +208,6 @@ Version: 1.12.2
 
 - KCauldron - A Fork of MCPC+ using Spigot instead of CraftBukkit.
 
-<<<<<<< Updated upstream
-=======
-- [Cardboard](https://www.curseforge.com/minecraft/mc-mods/cardboard) - Cardboard (formerly Bukkit4Fabric) is a Fabric mod that adds support for the popular Bukkit/Spigot modding API. This mod lets you use plugins that are made for Bukkit and it's derivatives (Spigot and Paper) with Fabric. It's not server software but allows Fabric servers to run Bukkit plugins.
-
-- [AtomMC](https://github.com/josephworks/AtomMC) - Atom is a Minecraft Server Software that is based on Minecraft Forge and CraftBukkit for 1.12.2 version of Minecraft.
-
-- MCPC+ - The First Hybrid server for Bukkit and Forge Combination.
-
-- KCauldron - A Fork of MCPC+ using Spigot instead of CraftBukkit.
-
->>>>>>> Stashed changes
 - Thermos - A Fork of KCauldron with many bug fixes and performance improvements.
 
 - Contigo - A fork of Thermos that was opened after Thermos was discontinued and allowed the community to add patches and bug fixes.
@@ -231,10 +217,7 @@ Version: 1.12.2
 - CatServer - A Server designed for Forge and Paper support not based on any other preexisting software.
 
 - Kettle - A fork of Contigo that was updated to 1.12.2 and later 1.14.4 which adds support Paper and Forge Support.
-<<<<<<< Updated upstream
 Version: 1.12.2 - 1.14.4
-=======
->>>>>>> Stashed changes
 
 - TableCloth - A Hybrid jar forked from AtomMC combining Forge + Spigot and a couple of Paper Patches.
 
@@ -259,9 +242,5 @@ No, this can't be used as a normal JAR and requires at least 3 servers/instances
 
 - [Gate](https://github.com/minekube/gate) - A Minecraft Proxy that is written in Go suggesting "scalability, flexibility & excellent server version support".
 
-<<<<<<< Updated upstream
 - [XCord](https://www.mc-market.org/resources/16843/) - A 1.7-1.16.x BungeeCord fork with built in anti-bot, anti-exploit, and many performance optimizations.
 Version: 1.7.10 - 1.16.5
-=======
-- [XCord](https://www.mc-market.org/resources/16843/) - A 1.7-1.16.x BungeeCord fork with built in anti-bot, anti-exploit, and many performance optimizations.
->>>>>>> Stashed changes
