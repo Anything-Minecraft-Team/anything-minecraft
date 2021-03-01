@@ -56,6 +56,5 @@ This list of paid anti-cheats is sorted alphabetically.
 - [Sparky Anti-Cheat](https://www.mc-market.org/threads/603663/) - $60
 - [Spartan Anti Cheat](https://www.spigotmc.org/resources/25638/) - €22.50+
 - [Taka AntiCheat](https://www.spigotmc.org/resources/taka-anticheat-takaac-cheap-and-reliable-solution.45167/) - €8.00
-- [TakaAntiCheat](https://www.spigotmc.org/resources/45167/) - €8.00
 - [Vulcan](https://www.spigotmc.org/resources/83626/) - $20.00
 - [Wraith Anticheat](https://www.spigotmc.org/resources/66887/) - €5.99
