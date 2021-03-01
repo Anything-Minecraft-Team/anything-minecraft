@@ -51,7 +51,6 @@ This list of paid anti-cheats is sorted alphabetically.
 - [Matrix Anti Cheat](https://matrix.rip) - $20.00
 - [OpenEye AntiCheat](https://www.mc-market.org/resources/12699/#:~:text=OpenEye%20is%20a%20complete%20anti,identifying%20and%20dismissing%20false%20positives.) - $9.99
 - [OverFlow AntiCheat](https://www.mc-market.org/threads/486363/) - ???
-- [Reflex AntiCheat](https://www.spigotmc.org/resources/21122/) - €10.00
 - [Reflex Machine Learning Cheat Detection](https://www.spigotmc.org/resources/%E3%80%8Creflex%E3%80%8Dmachine-learning-cheat-detection-%C2%BB-1-8-1-16.21122/) - €10.00
 - [Sparky Anti-Cheat](https://www.mc-market.org/threads/603663/) - $60
 - [Spartan Anti Cheat](https://www.spigotmc.org/resources/25638/) - €22.50+
