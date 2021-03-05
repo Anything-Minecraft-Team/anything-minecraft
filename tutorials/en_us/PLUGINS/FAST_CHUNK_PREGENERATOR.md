@@ -50,3 +50,69 @@ FCP has some useful commands that allow you to pause, resume and cancel generati
 You can have a queue of generation tasks by running the command in [Getting Started](FAST_CHUNK_PREGENERATOR.md#getting_started) multiple times. 
 
 To view the pending generation task run the command `/fcp pending`
+
+## Config
+
+
+```
+# Max millis the generation thread should take per tick.
+# Increase for more chunks per tick and less TPS
+# Should be below 35 if async.
+MaxMillisPerTick: 28.5
+
+# Amount of ticks to wait between generations.
+WaitTicksBetween: 0
+ 
+# Only enable on Paper.
+AsyncChunkLoadingEnabled: false
+
+# Increases chunk priority.
+# This could prevent loading of chunks that
+# players may need but could also increase generation speed.
+# Disable if you want steady generations.
+HighAsyncPriority: true
+
+# Experimental. Diable for now.
+UnsafeAsyncCalls: false
+
+# Only usefull when using AsyncChunkLoading
+# A good value is 4 * CPU core count for exampe.
+MaxParallelAsyncCalls: 8
+ 
+# How many seconds to wait between each notification.
+SecondsPerNotification: 5
+ 
+# The progess output. Can be one of:
+# NONE, CONSOLE, BROADCAST, OP, OP_AND_CONSOLE
+NotificationType: CONSOLE
+
+# Pauses generation if a player logs in
+# and resumes when the last one logs out
+OnlyGenerateWithNoPlayersOnline: false
+```
+
+- MaxMillisPerTick - This is the max millis the generation thread should take per tick. Increase the number for more chunks generated per tick and less TPS. Should be below 35 if async.  
+Default: 28.5
+
+- WaitTicksBetween - Amount of ticks to wait between generations.  
+Default: 0
+
+- AsyncChunkLoadingEnabled: Whether async chunk loading is enabled, only use if your using paper or a paper fork.  
+Default: false
+
+- HighAsyncPriority - Increases chunk priority. Could prevent loading of chunks that players need but also could increase generation speed. Disable for steady generations.  
+Default: true
+
+- UnsafeAsyncCalls - Experiemental setting, disable.  
+Default: false
+
+- MaxParallelAsyncCalls - Only usefull when using AsyncChunkLoading. A good value is 4 * CPU core count.  
+Default: 8
+
+- SecondsPerNotification - Seconds between generation notifications.  
+Default: 5
+
+- NotificationType - Notification type, NONE (No notifications), CONSOLE (Notify console), BROADCAST (Notify everyone on the server), OP (Notify players with OP) or OP_AND_CONSOLE (Notify both the console and players with OP).  
+Default: CONSOLE
+
+- OnlyGenerateWithNoPlayersOnline - Generates chunks only when no players are online, if someone joins it will pause the generation and when they leave it will resume.
