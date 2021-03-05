@@ -91,7 +91,7 @@ NotificationType: CONSOLE
 OnlyGenerateWithNoPlayersOnline: false
 ```
 
-- MaxMillisPerTick - This is the max millis the generation thread should take per tick. Increase the number for more chunks generated per tick and less TPS. Should be below 35 if async.  
+- MaxMillisPerTick - This is the max milliseconds the generation thread should take per tick. Increase the number for more chunks generated per tick and less TPS. Should be below 35 if async.  
 Default: 28.5
 
 - WaitTicksBetween - Amount of ticks to wait between generations.  
@@ -100,13 +100,13 @@ Default: 0
 - AsyncChunkLoadingEnabled: Whether async chunk loading is enabled, only use if your using paper or a paper fork.  
 Default: false
 
-- HighAsyncPriority - Increases chunk priority. Could prevent loading of chunks that players need but also could increase generation speed. Disable for steady generations.  
+- HighAsyncPriority - Increases chunk priority. Could prevent the loading of chunks that players need but also could increase generation speed. Disable for steady generations.  
 Default: true
 
-- UnsafeAsyncCalls - Experiemental setting, disable.  
+- UnsafeAsyncCalls - Experimental setting, disable.  
 Default: false
 
-- MaxParallelAsyncCalls - Only usefull when using AsyncChunkLoading. A good value is 4 * CPU core count.  
+- MaxParallelAsyncCalls - Only useful when using AsyncChunkLoading. A good value is 4 * CPU core count.  
 Default: 8
 
 - SecondsPerNotification - Seconds between generation notifications.  
