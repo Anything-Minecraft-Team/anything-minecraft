@@ -72,7 +72,7 @@ AsyncChunkLoadingEnabled: false
 # Disable if you want steady generations.
 HighAsyncPriority: true
 
-# Experimental. Diable for now.
+# Experimental. Disable for now.
 UnsafeAsyncCalls: false
 
 # Only usefull when using AsyncChunkLoading
