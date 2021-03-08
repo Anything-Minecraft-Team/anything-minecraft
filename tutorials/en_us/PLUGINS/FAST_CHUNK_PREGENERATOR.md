@@ -55,7 +55,7 @@ To view the pending generation task run the command `/fcp pending`
 
 
 ```
-# Max millis the generation thread should take per tick.
+# Max milliseconds the generation thread should take per tick.
 # Increase for more chunks per tick and less TPS
 # Should be below 35 if async.
 MaxMillisPerTick: 28.5
