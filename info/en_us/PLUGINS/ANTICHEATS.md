@@ -23,6 +23,7 @@ This list of free anti-cheats is sorted alphabetically.
 - [NoCheatPlus](https://github.com/Updated-NoCheatPlus/NoCheatPlus)
 - [Pandora Anticheat](https://github.com/GoDead/Pandora)
 - [Phoenix Anti-Cheat](https://www.spigotmc.org/resources/phoenix-anti-cheat.6207/)
+- [Snow AntiCheat](https://www.spigotmc.org/resources/snow-anticheat-99-99-velocity-3-2-reach.89748/)
 - [SoaromaSAC](https://www.spigotmc.org/resources/soaromasac-simpleanticheat-basic-detection-system.87702/)
 - [Storm Anticheat](https://www.mc-market.org/resources/14983/)
 - [ThotPatrol](https://www.spigotmc.org/resources/thotpatrol-advanced-cheat-detection-1-7-1-8.79978/)
