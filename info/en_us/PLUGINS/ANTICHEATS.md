@@ -30,7 +30,7 @@ This list of free anti-cheats is sorted alphabetically.
 - [Visage Anticheat](https://www.spigotmc.org/resources/visage-anticheat.86757/)
 - [Warden Cheat Detection](https://www.spigotmc.org/resources/warden-guardian-of-your-server-modern-cheat-detection-1-8-1-16.81877/)
 - [Wither Anti Cheat](https://www.spigotmc.org/resources/wither-anti-cheat-1-13-x-1-16-x-paper-tuinity-support-free-accurate-optimized-anti-cheat.68657/)
-- [zHack](https://songoda.com/marketplace/product/zhack-anticheat-lite-zhack.513)
+- [zHack Lite](https://polymart.org/resource/zhack-anticheat-lite.460)
 
 ## Paid Plugins
 
