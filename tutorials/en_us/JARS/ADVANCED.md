@@ -24,7 +24,7 @@ Currently Active
 Version: 1.13.2 - 1.16.5
 Currently Active
 
-- [Purpur](https://purpur.pl3x.net/) - It's a fork of both PaperSpigot and Tuinity to deliver very fast performance with stability for high player counts and it adds a lot of custom features that aren't seen on any other forks.
+- [Purpur](https://purpur.pl3x.net/) - It's a fork of PaperMC with Tuinity and Airplane patches to deliver very fast performance with stability for high player counts and it adds a lot of custom features that aren't seen on any other forks.
 Version: 1.14.4 - 1.16.5
 Currently Active
 
@@ -32,9 +32,9 @@ Currently Active
 Version: ??? - 1.16.5
 Currently Active
 
-- [Purplane](https://github.com/notOM3GA/Purplane) - A fork of purpur that adds features from [Airplane](https://github.com/TECHNOVE/Airplane).
+- [Purplane](https://github.com/notOM3GA/Purplane) - A fork of purpur that adds features from [Airplane](https://github.com/TECHNOVE/Airplane). Purpur added Airplane patches and is now discontinued.
 Version: 1.16.5
-Currently Active
+DISCONTINUED
 
 - [SpongeVanilla](https://www.spongepowered.org/downloads/spongevanilla) - A server implementing the Sponge API, a different plugin API separate from the Bukkit API. This implementation also includes some general improvements regarding performance and server settings.
 Version: 1.8 - 1.12.2
