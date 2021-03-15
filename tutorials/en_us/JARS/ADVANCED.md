@@ -60,6 +60,10 @@ Currently Active
 Version: 1.8 - 1.10, 1.12  
 Currently Active
 
+- [SharpMC](https://github.com/SharpMC/SharpMC) - A 1.8 server made from scratch in C#.  
+Version: 1.8.x  
+DISCONTINUED
+
 - [SharperMC](https://github.com/SharperMC/SharperMC) - SharperMC is a C# 1.8.x Minecraft server running on the .NET Framework. SharperMC is a fork of [SharpMC](https://github.com/SharpMC/SharpMC) which was last updated in 2015.  
 Version: 1.8.x  
 Currently Active
@@ -86,6 +90,7 @@ DISCONTINUED
 
 - ySpigot - ySpigot is a remake of xSpigot for later versions of Minecraft.  
 Version: 1.7.10 - 1.12.x
+DISCONTINUED
 
 - zSpigot - A 1.7.10 Paper fork with huge optimizations, completely custom knockback editing, built-in server benchmarking, and more PvP based features. Ironically, despite it originally being a premium resource the only way to get it now is through a leaks website due to the creator leaking resources.  
 Version: 1.7.10  
@@ -161,6 +166,7 @@ Currently Active
 
 - [VoltaneSpigot](https://www.mc-market.org/threads/571429/) - A 1.8.8 based TacoSpigot fork with built-in 1.7 - 1.16 client support with multi-thread support, custom knockback editing, discord server integration, and a lot of factions based features.  
 Version: 1.8.8  
+DISCONTINUED
 
 - [SSSpigot](https://www.mc-market.org/resources/14122/) - A 1.16.5 Paper fork with multi-thread support, useless code removal, some general optimizations, and tracking metrics disabled.  
 Version: 1.16.5  
@@ -170,29 +176,53 @@ Currently Active
 Version: 1.15.2  
 DISCONTINUED
 
-- [aSpigot]() - aSpigot is a premium 1.7.10 Paper fork with custom knockback editing, togglable things like mob AI, and various features pointed at HCF servers.
+- [aSpigot](https://www.mc-market.org/resources/6101/) - aSpigot is a premium 1.7.10 Paper fork with custom knockback editing, togglable features like mob AI, and various features pointed at HCF servers.  
+Version: 1.7.10  
+Currently Active
 
-- [BeeSpigot]() - BeeSpigot is a premium 1.15.2 Paper fork with custom knockback editing, togglable things like mob AI, and some general optimizations.
+- [BeeSpigot](https://www.mc-market.org/resources/14263/) - BeeSpigot is a premium 1.15.2 Paper fork with custom knockback editing, togglable features like mob AI, and some general optimizations.  
+Version: 1.15.2  
+Currently Active
 
-- [CoronaSpigot]() - CoronaSpigot is a premium 1.8.8 Paper fork with custom knockback editing and some general optimizations.
+- [CoronaSpigot](https://www.mc-market.org/resources/14170/) - CoronaSpigot is a premium 1.8.8 Paper fork with custom knockback editing and some general optimizations.  
+Version: 1.8.8  
+Currently Active
 
-- [ender]() - encer is a 1.16.5 PurPur/Airplane fork hoping for top performance. Currently there are no releases.
+- [Fish](https://github.com/CraftLight-Network/Fish) - Fish is a 1.16.5 Purpur/Airplane fork hoping for top performance.  
+Version: ???
+Currently Active
 
-- [GuardSpigot]() - GuardSpigot is a 1.8.8 $99 premium TacoSpigot fork with features like custom knockback editing, lag machine detection, and a bunch of things you can toggle like mob AI for performance gain / gameplay change.
+- [GuardSpigot](https://www.mc-market.org/resources/14497/) - GuardSpigot is a 1.8.8 $99 premium TacoSpigot fork with features like custom knockback editing, lag machine detection, and a bunch of features you can toggle like mob AI for performance gain/gameplay change.  
+Version: 1.8.8  
+Currently Active
 
-- [Hotpur]() - HotPur is a 1.16.5 (?) fork of PurPur attempting to add Fabric mod support.
+- [Hotpur](https://github.com/ishlandbukkit/Hotpur) - HotPur is a 1.16.5 fork of Purpur attempting to add Fabric mod support.  
+Version: 1.16.4  
+Currently Active
 
-- [NachoSpigot]() - NachoSpigot is a 1.8.8 TacoSpigot fork aimed at bringing modern patches and optimizations to 1.8. It seems abandoned though as there have been no edits in months. The support discord is also dead, so do not expect any support.
+- [NachoSpigot](https://github.com/CobbleSword/NachoSpigot) - NachoSpigot is a 1.8.8 TacoSpigot fork aimed at bringing modern patches and optimizations to 1.8.  
+Version: 1.8.8  
+DISCONTINUED
 
-- [Rainforest]() - RainForest is a 1.16.1 - 1.16.5 Paper fork with optimizations that they're testing out/optimizations that they plan to keep to themselves.
+- [Rainforest](https://github.com/Proximyst/Rainforest) - RainForest is a 1.16.1 - 1.16.5 Paper fork with optimizations that they're testing out/optimizations that they plan to keep to themselves.  
+Version: 1.16.1 - 1.16.5  
+Currently Active
 
-- [SportBukkit]() - SportBukkit is a 1.12.2 (I think) fork of CraftBukkit improving stability and adding some new features. It was developed for and by the StratusNetwork server.
+- [SportBukkit](https://github.com/StratusNetwork/SportBukkit) - SportBukkit is a fork of CraftBukkit improving stability and adding some new features. It was developed for and by the StratusNetwork server.  
+Version: 1.8 - 1.12.2  
+DISCONTINUED
 
-- [SportPaper]() - SportPaper is a 1.8.8 fork of Paper improving performance even more. It is developed for and by the StratusNetwork server.
+- [SportPaper](https://github.com/StratusNetwork/SportPaper) - SportPaper is a 1.8.8 fork of Paper improving performance even more. It is developed for and by the StratusNetwork server.  
+Version: 1.8  
+DISCONTINUED
 
-- [SternalSpigot]() - SternalSpigot is a premium 1.8.8 TacoSpigot fork that tries to move a lot of processes to an async system, has some general optimizations, and has some knockback profiles to switch between for different results.
+- [SternalSpigot](https://www.mc-market.org/resources/18663/) - SternalSpigot is a premium 1.8.8 TacoSpigot fork that tries to move a lot of processes to an async system, has some general optimizations, and has some knockback profiles to switch between for different results.  
+Version: 1.8.8  
+Currently Active
 
-- [wSpigot]() - wSpigot is a 1.7.10 Paper fork with custom knockback profiles, built in 1.8 client support, and a lot of HCF based features/optimizations.
+- [wSpigot](https://www.mc-market.org/resources/6874/) - wSpigot is a 1.7.10 Paper fork with custom knockback profiles, built-in 1.8 client support, and a lot of HCF based features/optimizations.  
+Version: 1.7.10  
+Currently Active
 
 ### Modded Server JARS
 
