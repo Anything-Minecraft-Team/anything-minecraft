@@ -76,7 +76,7 @@ Currently Active
 Version: 1.8.8  
 DISCONTINUED
 
-- DytanicSpigot - Other than its API it has been lost to time, but it was a Spigot fork said to be capable of stability hitting 40 TPS, although there's not much left of it to show if it was.  
+- [DytanicSpigot](https://cloudnetservice.eu/repositories/de/dytanic/dytanicspigot-api/) - Other than its API it has been lost to time, but it was a Spigot fork said to be capable of stability hitting 40 TPS, although there's not much left of it to show if it was.  
 Version: ???  
 DISCONTINUED
 
@@ -143,7 +143,7 @@ Currently Active
 Version: 1.8.8  
 Currently Active
 
-- TorchSpigot - The now abandoned predecessor to Akarin based on a goal of getting Paper to run on multiple threads.  
+- [TorchSpigot](https://github.com/TorchSpigot/Torch) - The now abandoned predecessor to Akarin based on a goal of getting Paper to run on multiple threads.  
 Version: ???  
 DISCONTINUED
 
@@ -153,46 +153,82 @@ Currently Active
 
 - [LightSpigot 1.8.8](https://www.mc-market.org/resources/16933/) - A free 1.8.8 Spigot fork focused on adding some optimizations and features for HCF servers, like enderpearls teleporting through slabs.  
 Version: 1.8.8  
+Currently Active
 
 - [LightSpigot 1.16.5](https://www.mc-market.org/resources/17753/) - A 1.16.5 Spigot fork with some spawner / general performance optimizations and custom knockback editing.  
 Version: 1.16.5  
+Currently Active
 
 - [VoltaneSpigot](https://www.mc-market.org/threads/571429/) - A 1.8.8 based TacoSpigot fork with built-in 1.7 - 1.16 client support with multi-thread support, custom knockback editing, discord server integration, and a lot of factions based features.  
 Version: 1.8.8  
 
 - [SSSpigot](https://www.mc-market.org/resources/14122/) - A 1.16.5 Paper fork with multi-thread support, useless code removal, some general optimizations, and tracking metrics disabled.  
 Version: 1.16.5  
+Currently Active
 
 - [RocketMC](https://www.mc-market.org/resources/13898/) - A 1.15.2 Tuinity fork with a built-in monitoring system, plugin manager (enabling, disabling, command info), and general performance optimizations.  
 Version: 1.15.2  
+DISCONTINUED
+
+- [aSpigot]() - aSpigot is a premium 1.7.10 Paper fork with custom knockback editing, togglable things like mob AI, and various features pointed at HCF servers.
+
+- [BeeSpigot]() - BeeSpigot is a premium 1.15.2 Paper fork with custom knockback editing, togglable things like mob AI, and some general optimizations.
+
+- [CoronaSpigot]() - CoronaSpigot is a premium 1.8.8 Paper fork with custom knockback editing and some general optimizations.
+
+- [ender]() - encer is a 1.16.5 PurPur/Airplane fork hoping for top performance. Currently there are no releases.
+
+- [GuardSpigot]() - GuardSpigot is a 1.8.8 $99 premium TacoSpigot fork with features like custom knockback editing, lag machine detection, and a bunch of things you can toggle like mob AI for performance gain / gameplay change.
+
+- [Hotpur]() - HotPur is a 1.16.5 (?) fork of PurPur attempting to add Fabric mod support.
+
+- [NachoSpigot]() - NachoSpigot is a 1.8.8 TacoSpigot fork aimed at bringing modern patches and optimizations to 1.8. It seems abandoned though as there have been no edits in months. The support discord is also dead, so do not expect any support.
+
+- [Rainforest]() - RainForest is a 1.16.1 - 1.16.5 Paper fork with optimizations that they're testing out/optimizations that they plan to keep to themselves.
+
+- [SportBukkit]() - SportBukkit is a 1.12.2 (I think) fork of CraftBukkit improving stability and adding some new features. It was developed for and by the StratusNetwork server.
+
+- [SportPaper]() - SportPaper is a 1.8.8 fork of Paper improving performance even more. It is developed for and by the StratusNetwork server.
+
+- [SternalSpigot]() - SternalSpigot is a premium 1.8.8 TacoSpigot fork that tries to move a lot of processes to an async system, has some general optimizations, and has some knockback profiles to switch between for different results.
+
+- [wSpigot]() - wSpigot is a 1.7.10 Paper fork with custom knockback profiles, built in 1.8 client support, and a lot of HCF based features/optimizations.
 
 ### Modded Server JARS
 
 - [Forge](http://files.minecraftforge.net/) - Forge is a server software based on the MCP. Both the server and client need to be running the mods.  
 Version: 1.1 - 1.16.5  
+Currently Active
 
 - [Fabric](https://fabricmc.net/) - Fabric, unlike Forge, is not based on the MCP. This allows it to be updated for snapshots easier. **It is incompatible with Forge.**  
 Version: 1.14 - 21w06a (1.17 Snapshot)  
+Currently Active
 
 ### Plugins and Mods
 
 - [Magma](https://magmafoundation.org/) - Minecraft Forge hybrid server implementing the Spigot/Bukkit API (Cauldron for 1.12).  
 Version: 1.12.2  
+Currently Active
 
 - [Mohist](https://mohistmc.com/) - Minecraft Forge hybrid server implementing the Paper/Spigot/Bukkit API(1.12.2/1.16). Formerly known as Thermos/Kettle/Cauldron/MCPC+.  
 Version: 1.7.10, 1.12.2, 1.16.5  
+Currently Active
 
 - [Arclight](https://github.com/IzzelAliz/Arclight) - A Minecraft Bukkit(1.15/1.16) server implementation on Forge using Mixin.  
 Version: 1.14 - 1.16  
+Currently Active
 
 - [SpongeForge](https://www.spongepowered.org/downloads/spongeforge) - SpongeForge allows both SpongeVanila plugins as well as Forge mods on one server.  
 Version: 1.10.2 - 1.12.2  
+Currently Active
 
 - [Cardboard](https://www.curseforge.com/minecraft/mc-mods/cardboard) - Cardboard (formerly Bukkit4Fabric) is a Fabric mod that adds support for the popular Bukkit/Spigot modding API. This mod lets you use plugins that are made for Bukkit and it's derivatives (Spigot and Paper) with Fabric. It's not server software but allows Fabric servers to run Bukkit plugins.  
 Version: 1.16.4 - 1.16.5  
+Currently Active
 
 - [AtomMC](https://github.com/josephworks/AtomMC) - Atom is a Minecraft Server Software that is based on Minecraft Forge and CraftBukkit for 1.12.2 version of Minecraft.  
 Version: 1.12.2  
+Currently Active
 
 - MCPC+ - The First Hybrid server for Bukkit and Forge Combination.  
 
@@ -215,22 +251,38 @@ Version: 1.12.2 - 1.14.4
 
 - [BungeeCord](https://www.spigotmc.org/wiki/bungeecord/) - Base for the Waterfall fork, these JARs are used for configuring networks of which an example is Hypixel or Mineplex, it is used for distributing workload and players to different lobbies (Different server instances run with separate files and data).
 No, this can't be used as a normal JAR and requires at least 3 servers/instances, one is BungeeCord (or it's fork) which is called the proxy, players connect to this proxy and are sent to the default server which is set in config. Let's say server "Lobby" is the default, it will send you there, then you can connect to another server, for example, "Survival" which is running in a separate server/instance and BungeeCord enables the functionality travel across these different servers without returning to the multiplayer menu screen. (It can be done with special plugins which utilize BungeeCord API to send you to the chosen server on click, you'll most commonly see it as a compass or portal).  
+Version: 1.8 - 1.16.5  
+Currently Active
 
 - [Waterfall](https://papermc.io/downloads#Waterfall) - Fork of BungeeCord, faster than BungeeCord and has general improvements and tweaks which make it the more preferred network JAR, works the same as BungeeCord (talking about the use, it doesn't have a different system).  
+Version: 1.8 - 1.16.5  
+Currently Active
 
 - [Velocity](https://velocitypowered.com/) - A next-generation Minecraft proxy focused on scalability and flexibility. It allows server owners to link together multiple Minecraft servers so they may appear as one.  
+Version: ???  
+Currently Active
 
 - [Travertine](https://github.com/PaperMC/Travertine) - Fork of Waterfall with added `1.7.10` support if you want that old school experience.  
+Version: 1.7 - 1.16.5  
+Currently Active
 
 - [FlameCord](https://github.com/2LStudios-MC/FlameCord) - FlameCord is a patch for Travertine to fix possible exploits and add useful functionalities.  
+Version: ???  
+Currently Active
 
 - [HexaCord](https://github.com/CronixMC/HexaCord) - A fork of BungeeCord that added forge support before Waterfall did.  
+Version: 1.7 - 1.11  
 
 - [LilyPad](http://www.lilypadmc.org/) - A separate Proxy with its API and Plugins that has been suggestively discontinued.  
+Version: ???  
+Currently Active
 
 - Aegis - A fork of BungeeCord that adds many security features and authentication features.  
 
 - [Gate](https://github.com/minekube/gate) - A Minecraft Proxy that is written in Go suggesting "scalability, flexibility & excellent server version support".  
+Version: ???  
+Currently Active
 
 - [XCord](https://www.mc-market.org/resources/16843/) - A 1.7-1.16.x BungeeCord fork with built in anti-bot, anti-exploit, and many performance optimizations.  
 Version: 1.7.10 - 1.16.5  
+Currently Active
