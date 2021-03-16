@@ -40,7 +40,7 @@ DISCONTINUED
 Version: 1.8 - 1.12.2  
 Currently Active
 
-- [FoxSpigot](https://www.mc-market.org/resources/8592/) - FoxSpigot is a fork of Spigot aiming to make PvP server perform better.  
+- [FoxSpigot](https://www.mc-market.org/resources/8592/) - FoxSpigot is a fork of Spigot aiming to make PvP servers perform better.  
 Version: 1.8.8  
 Currently Active
 
@@ -196,10 +196,6 @@ Currently Active
 Version: 1.8.8  
 Currently Active
 
-- [Hotpur](https://github.com/ishlandbukkit/Hotpur) - HotPur is a 1.16.5 fork of Purpur attempting to add Fabric mod support.  
-Version: 1.16.4  
-Currently Active
-
 - [NachoSpigot](https://github.com/CobbleSword/NachoSpigot) - NachoSpigot is a 1.8.8 TacoSpigot fork aimed at bringing modern patches and optimizations to 1.8.  
 Version: 1.8.8  
 DISCONTINUED
@@ -224,6 +220,30 @@ Currently Active
 Version: 1.7.10  
 Currently Active
 
+- [CanaryMod](https://github.com/CanaryModTeam/CanaryMod) - A fork of hMod for implementing some of Bukkit's patches. Used on the MinecraftOnline server.  
+Version: ???  
+DISCONTINUED
+
+- [Cauldron-js](https://github.com/vantezzen/cauldron-js) - Cauldron-js is just a proof of concept idea of running a 1.13.2 server entirely inside your web browser. Doesn't run great, but still an achievement.  
+Version: 1.13.2  
+DISCONTINUED
+
+- [Feather](https://github.com/feather-rs/feather) - Feather is a recode of Minecraft servers entirely in the Rust programming language, aimed at making the server run multicore - this would significantly increase performance. It currently only supports 1.16.5. Worth noting, their plugin API is not finished yet either.  
+Version: 1.16.5  
+Currently Active
+
+- [hMod](https://github.com/traitor/Minecraft-Server-Mod/) - The first server type with server-side mods (plugins) supported. It supported early Alpha versions.  
+Version: ???  
+DISCONTINUED
+
+- [NeptuneVanilla](https://github.com/NeptunePowered/NeptuneMod) - A continuation of CanaryMod under a new repository and name.  
+Version: 1.8.9 - 1.9  
+DISCONTINUED
+
+- [Project-Rainbow](https://ci.codecrafter47.de/job/Rainbow/) - Project-Rainbow was an attempt at overthrowing Bukkit with a new platform, but as we can tell that didn't work.  
+Version: 1.13.2  
+DISCONTINUED
+
 ### Modded Server JARS
 
 - [Forge](http://files.minecraftforge.net/) - Forge is a server software based on the MCP. Both the server and client need to be running the mods.  
@@ -233,6 +253,9 @@ Currently Active
 - [Fabric](https://fabricmc.net/) - Fabric, unlike Forge, is not based on the MCP. This allows it to be updated for snapshots easier. **It is incompatible with Forge.**  
 Version: 1.14 - 21w06a (1.17 Snapshot)  
 Currently Active
+
+- [ModLoaderMP](https://mcarchive.net/mods/modloadermp) - ModLoaderMP was the first multiplayer mod loader, supporting from Beta 1.4 to release 1.5.2.  
+Version: Beta 1.4 - 1.5.2
 
 ### Plugins and Mods
 
@@ -260,26 +283,55 @@ Currently Active
 Version: 1.12.2  
 Currently Active
 
-- MCPC+ - The First Hybrid server for Bukkit and Forge Combination.  
+- [Hotpur](https://github.com/ishlandbukkit/Hotpur) - HotPur is a 1.16.5 fork of Purpur attempting to add Fabric mod support.  
+Version: 1.16.4  
+Currently Active
 
-- KCauldron - A Fork of MCPC+ using Spigot instead of CraftBukkit.  
+- [MCPC+](https://ci.md-5.net/job/Cauldron/) - MCPC+ was a 1.2.5 to 1.7.10 Bukkit/Forge hybrid, the first of its kind. It was also known as Cauldron. 
 
-- Thermos - A Fork of KCauldron with many bug fixes and performance improvements.  
+- [KCauldron](https://github.com/djoveryde/KCauldron) - KCauldron is a fork of MCPC+ using Spigot instead of CraftBukkit.  
+Version: 1.7.10  
+DISCONTINUED
 
-- Contigo - A fork of Thermos that was opened after Thermos was discontinued and allowed the community to add patches and bug fixes.  
+- [Thermos](https://github.com/CyberdyneCC/Thermos) - A Fork of KCauldron with many bug fixes and performance improvements.  
+Version: 1.7.10  
+DISCONTINUED
 
-- Uranium - A fork of KCauldron that added new features and bug fixes and is a very popular server choice in China.  
+- [Contigo](https://github.com/djoveryde/Contigo) - A fork of Thermos that was opened after Thermos was discontinued and allowed the community to add patches and bug fixes.  
+Version: ???  
+DISCONTINUED
 
-- CatServer - A Server designed for Forge and Paper support not based on any other preexisting software.  
+- [Uranium](https://github.com/UraniumMC/Uranium) - A fork of KCauldron that added new features and bug fixes and is a very popular server choice in China.  
+Version: ???  
+DISCONTINUED
 
-- Kettle - A fork of Contigo that was updated to 1.12.2 and later 1.14.4 which adds support Paper and Forge Support.  
+- [CatServer](https://github.com/Luohuayu/CatServer) - A Server designed for Forge and Paper support not based on any other preexisting software.  
+Version: 1.12.2  
+Currently Active
+
+- [Kettle](https://github.com/KettleFoundation/Kettle) - A fork of Contigo that was updated to 1.12.2 and later 1.14.4 which adds support Paper and Forge Support.  
 Version: 1.12.2 - 1.14.4  
+Currently Active
 
 - TableCloth - A Hybrid jar forked from AtomMC combining Forge + Spigot and a couple of Paper Patches.  
+Version: ???  
+DISCONTINUED
+
+- [Lava](https://github.com/Timardo/Lava) - Lava is a 1.12.2 Forge/Spigot hybrid server not forked from any other hybrid servers.  
+Version: 1.12.2  
+DISCONTINUED
+
+- [NeptuneForge](https://github.com/NeptunePowered/NeptuneForge) - A hybrid of Forge/NeptureVanilla. NeptuneVanilla being the fork of CanaryMod.  
+Version: ???  
+DISCONTINUED
+
+- [PFServer](https://github.com/l89669/PFServer) - PFServer is a 1.12.2 fork of AtomMC and CatServer to create a better Forge/Bukkit hybrid.  
+Version: ???  
+DISCONTINUED
 
 ## Network Software
 
-- [BungeeCord](https://www.spigotmc.org/wiki/bungeecord/) - Base for the Waterfall fork, these JARs are used for configuring networks of which an example is Hypixel or Mineplex, it is used for distributing workload and players to different lobbies (Different server instances run with separate files and data).
+- [BungeeCord](https://www.spigotmc.org/wiki/bungeecord/) - Base for the Waterfall fork, these JARs are used for configuring networks of which an example is Hypixel or Mineplex, it is used for distributing workload and players to different lobbies (Different server instances run with separate files and data).  
 No, this can't be used as a normal JAR and requires at least 3 servers/instances, one is BungeeCord (or it's fork) which is called the proxy, players connect to this proxy and are sent to the default server which is set in config. Let's say server "Lobby" is the default, it will send you there, then you can connect to another server, for example, "Survival" which is running in a separate server/instance and BungeeCord enables the functionality travel across these different servers without returning to the multiplayer menu screen. (It can be done with special plugins which utilize BungeeCord API to send you to the chosen server on click, you'll most commonly see it as a compass or portal).  
 Version: 1.8 - 1.16.5  
 Currently Active
@@ -289,7 +341,7 @@ Version: 1.8 - 1.16.5
 Currently Active
 
 - [Velocity](https://velocitypowered.com/) - A next-generation Minecraft proxy focused on scalability and flexibility. It allows server owners to link together multiple Minecraft servers so they may appear as one.  
-Version: ???  
+Version: 1.7.2 - 1.16.5  
 Currently Active
 
 - [Travertine](https://github.com/PaperMC/Travertine) - Fork of Waterfall with added `1.7.10` support if you want that old school experience.  
@@ -297,17 +349,20 @@ Version: 1.7 - 1.16.5
 Currently Active
 
 - [FlameCord](https://github.com/2LStudios-MC/FlameCord) - FlameCord is a patch for Travertine to fix possible exploits and add useful functionalities.  
-Version: ???  
+Version: 1.7 - 1.16.5
 Currently Active
 
 - [HexaCord](https://github.com/CronixMC/HexaCord) - A fork of BungeeCord that added forge support before Waterfall did.  
 Version: 1.7 - 1.11  
+DISCONTINUED
 
 - [LilyPad](http://www.lilypadmc.org/) - A separate Proxy with its API and Plugins that has been suggestively discontinued.  
 Version: ???  
 Currently Active
 
-- Aegis - A fork of BungeeCord that adds many security features and authentication features.  
+- [Aegis](https://polymart.org/resource/31) - A fork of BungeeCord adding many security measures and with built-in anti-bot and anti-VPN. It supports 1.7.x to 1.16.3. The developer is currently falsely banned from MC-Market.  
+Version: 1.7 - 1.16.4  
+DISCONTINUED
 
 - [Gate](https://github.com/minekube/gate) - A Minecraft Proxy that is written in Go suggesting "scalability, flexibility & excellent server version support".  
 Version: ???  
@@ -316,3 +371,75 @@ Currently Active
 - [XCord](https://www.mc-market.org/resources/16843/) - A 1.7-1.16.x BungeeCord fork with built in anti-bot, anti-exploit, and many performance optimizations.  
 Version: 1.7.10 - 1.16.5  
 Currently Active
+
+- [BarelyAuthenticated](https://github.com/Mindgamesnl/BarelyAuthenticated) - A fork of BungeeCord which caches players IPs and usernames to verify them while Mojang services are unstable. It is created and maintained for the server BlockParty.  
+Version: 1.8 - 1.16  
+Currently Active
+
+- [DarkCord](https://github.com/Oculate/DarkCord) - A fork of HexaCord/BungeeCord used and made by the Oculate Network.  
+Version: 1.7.x - 1.11.x  
+DISCONTINUED
+
+- [DasBungee](https://www.mc-market.org/resources/17481/) - DasBungee is a premium BungeeCord fork that adds an IP blacklist system and patches "all known exploits".  
+Version: 1.8 - 1.16.5  
+Currently Active
+
+- [Flexagon](https://github.com/SeaEclipse/Flexagon) - Flexagon is a fork of Hexacord and Travertine meant just for testing purposes.  
+Version: 1.7 - 1.15.2  
+DISCONTINUED
+
+- [Glymur](https://github.com/StratusNetwork/Glymur) - Glymur is a fork of Travertine adding in some bug fixes and Stratus APIs. It is developed by the StratusNetwork server.  
+Version: 1.7 - 1.14  
+DISCONTINUED
+
+- [GoLilyPad](https://github.com/LilyPad/GoLilyPad) - A rewrite of Lilypad in the programming language Go.  
+Version: ???  
+Currently Active
+
+- [Gravity](https://www.mc-market.org/resources/17731/) - Gravity is a premium BungeeCord fork adding features like antibot, global messaging, and patches for almost all of the issues.  
+Version: ???  
+Currently Active
+
+- [GuardHexa](https://www.mc-market.org/resources/16180/) - GuardHexa is a premium fork of HexaCord that patches a lot of bugs/exploits and has a bit of optimization.  
+Version: 1.7 - 1.16.4  
+Currently Active
+
+- [HQBungeeCord](https://github.com/moyugame/HQBungeeCord) - HQBungeeCord is a Waterfall fork aimed at improving stability and performance.  
+Version: ???  
+DISCONTINUED
+
+- [InsaneProxy](https://www.mc-market.org/resources/16588/) - InsaneProxy is a premium fork of Travertine and Velocity, resulting in lower CPU usage and more exploits patched.  
+Version: 1.7 - 1.16.5  
+Currently Active
+
+- [Miners-League-BungeeCord](https://github.com/root1599/Miners-League-BungeeCord) - MLBC is a fork of BungeeCord created by and used by the Miners League Minigames Network for any custom patches/features they may need.  
+Version: ??? - 1.13  
+DISCONTINUED
+
+- [NachoBungee](https://github.com/CobbleSword/NachoBungee) - NachoBungee is by the guys from NachoSpigot, which is a bad sign. On the GitHub page, they list off features of what they forked, nothing new.  
+Version: 1.7 - 1.16  
+Currently Active
+
+- [SecureCord](https://www.mc-market.org/resources/15002/) - SecureCord is a free BungeeCord fork which patches from harmful exploits.  
+Version: ???  
+DISCONTINUED
+
+- [SSCord](https://www.mc-market.org/resources/14562/) - SSCord is a premium fork of Waterfall adding some optimizations, anti-bot features like captcha, and patches some waterfall exploits.  
+Version: 1.7.2 - 1.16.5  
+Currently Active
+
+- [VanillaCord](https://github.com/ME1312/VanillaCord/tree/1.12) - VanillaCord is a BungeeCord fork allowing Vanilla servers to connect through BungeeCord.  
+Version: 1.12 - 1.16.5  
+Currently Active
+
+- [WaterCrash](https://www.mc-market.org/resources/13579/) - WaterCrash is a premium WaterFall fork adding 1.7.x support, adds real-time IP blacklisting, and a crash/exploit preventer. Currently, the resource purchase page is deleted for unknown reasons.  
+Version: 1.7 - 1.15  
+DISCONTINUED
+
+- [wCord](https://github.com/wtfaremyinitials/wCord) - A fork of BungeeCord with animated MOTDs.  
+Version: 1.4.7 - 1.6.4  
+DISCONTINUED
+
+- [zBungeeCord](https://www.mc-market.org/resources/10187/) - zBungeeCord is a premium BungeeCord fork optimizing BungeeCord quite a bit and cleaning up the commands.  
+Version: 1.7 - 1.8  
+DISCONTINUED
