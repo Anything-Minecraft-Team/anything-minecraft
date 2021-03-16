@@ -6,6 +6,10 @@ If you want to go a little more in-depth with JAR picking, you've come to the ri
 
 Server software is the software that allows multiple players to play on a server together.
 
+### Note
+
+A * means that the developer of that project mass produces them. This leads to a lack of support, lack of updates, and quick abandonement.
+
 ### Plugins:
 
 - [CraftBukkit](https://getbukkit.org/download/craftbukkit) - It's the BASE for all forks that are out today and they still are updating it to this day, not newbie friendly at all because it requires manual building (or you can get it [here](https://getbukkit.org)). The only real use is for Minecraft versions from `1.0.0` to `1.4.5` as there is no Spigot release for these versions.  
@@ -40,7 +44,7 @@ DISCONTINUED
 Version: 1.8 - 1.12.2  
 Currently Active
 
-- [FoxSpigot](https://www.mc-market.org/resources/8592/) - FoxSpigot is a fork of Spigot aiming to make PvP servers perform better.  
+- [FoxSpigot](https://www.mc-market.org/resources/8592/)* - FoxSpigot is a fork of Spigot aiming to make PvP servers perform better.  
 Version: 1.8.8  
 Currently Active
 
@@ -88,7 +92,7 @@ DISCONTINUED
 Version: 1.7.10 - 1.8.x  
 DISCONTINUED
 
-- ySpigot - ySpigot is a remake of xSpigot for later versions of Minecraft.  
+- [ySpigot](https://www.mc-market.org/resources/7198/) - ySpigot is a remake of xSpigot for later versions of Minecraft.  
 Version: 1.7.10 - 1.12.x
 DISCONTINUED
 
@@ -96,7 +100,7 @@ DISCONTINUED
 Version: 1.7.10  
 DISCONTINUED
 
-- [mSpigot](https://www.mc-market.org/resources/6864/) - Another premium TacoSpigot fork with promises of improved TNT and knockback aimed at PvP and Factions servers.  
+- [mSpigot](https://www.mc-market.org/resources/6864/)* - Another premium TacoSpigot fork with promises of improved TNT and knockback aimed at PvP and Factions servers.  
 Version: 1.8.8  
 Currently Active
 
@@ -176,15 +180,15 @@ Currently Active
 Version: 1.15.2  
 DISCONTINUED
 
-- [aSpigot](https://www.mc-market.org/resources/6101/) - aSpigot is a premium 1.7.10 Paper fork with custom knockback editing, togglable features like mob AI, and various features pointed at HCF servers.  
+- [aSpigot](https://www.mc-market.org/resources/6101/)* - aSpigot is a premium 1.7.10 Paper fork with custom knockback editing, togglable features like mob AI, and various features pointed at HCF servers.  
 Version: 1.7.10  
 Currently Active
 
-- [BeeSpigot](https://www.mc-market.org/resources/14263/) - BeeSpigot is a premium 1.15.2 Paper fork with custom knockback editing, togglable features like mob AI, and some general optimizations.  
+- [BeeSpigot](https://www.mc-market.org/resources/14263/)* - BeeSpigot is a premium 1.15.2 Paper fork with custom knockback editing, togglable features like mob AI, and some general optimizations.  
 Version: 1.15.2  
 Currently Active
 
-- [CoronaSpigot](https://www.mc-market.org/resources/14170/) - CoronaSpigot is a premium 1.8.8 Paper fork with custom knockback editing and some general optimizations.  
+- [CoronaSpigot](https://www.mc-market.org/resources/14170/)* - CoronaSpigot is a premium 1.8.8 Paper fork with custom knockback editing and some general optimizations.  
 Version: 1.8.8  
 Currently Active
 
@@ -212,11 +216,11 @@ DISCONTINUED
 Version: 1.8  
 DISCONTINUED
 
-- [SternalSpigot](https://www.mc-market.org/resources/18663/) - SternalSpigot is a premium 1.8.8 TacoSpigot fork that tries to move a lot of processes to an async system, has some general optimizations, and has some knockback profiles to switch between for different results.  
+- [SternalSpigot](https://www.mc-market.org/resources/18663/)* - SternalSpigot is a premium 1.8.8 TacoSpigot fork that tries to move a lot of processes to an async system, has some general optimizations, and has some knockback profiles to switch between for different results.  
 Version: 1.8.8  
 Currently Active
 
-- [wSpigot](https://www.mc-market.org/resources/6874/) - wSpigot is a 1.7.10 Paper fork with custom knockback profiles, built-in 1.8 client support, and a lot of HCF based features/optimizations.  
+- [wSpigot](https://www.mc-market.org/resources/6874/)* - wSpigot is a 1.7.10 Paper fork with custom knockback profiles, built-in 1.8 client support, and a lot of HCF based features/optimizations.  
 Version: 1.7.10  
 Currently Active
 
