@@ -12,7 +12,7 @@ Server software is the software that allows multiple players to play on a server
 Version: 1.0.0 - 1.16.5  
 Currently Active
 
-- [Spigot](https://www.spigotmc.org/) - The original fork of Bukkit, improved performance vs CraftBukkit, still widely used, recommended alternative if for some reason you don't want to use PaperMC.  
+- [SpigotMC](https://www.spigotmc.org/) - The original fork of Bukkit. Spigot has improved performance vs CraftBukkit, still widely used. It's a recommended alternative if for some reason you don't want to use PaperMC.  
 Version: 1.4.6 - 1.16.5  
 Currently Active
 
@@ -246,7 +246,7 @@ DISCONTINUED
 
 ### Modded Server JARS
 
-- [Forge](http://files.minecraftforge.net/) - Forge is a server software based on the MCP. Both the server and client need to be running the mods.  
+- [Forge](http://files.minecraftforge.net/) - Forge is server software based on the MCP. Both the server and client need to be running the same mods.  
 Version: 1.1 - 1.16.5  
 Currently Active
 
