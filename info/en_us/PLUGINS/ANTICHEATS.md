@@ -36,7 +36,7 @@ This list of free anti-cheats is sorted alphabetically.
 
 This list of paid anti-cheats is sorted alphabetically.
 
-- [AAC (Advanced Anti Cheat)](https://www.spigotmc.org/resources/6442/) (best used with [AACAdditionPro](https://www.spigotmc.org/resources/33590/)) - £20.00
+- [AAC (Advanced Anti Cheat)](https://www.spigotmc.org/resources/6442/) (Best used with [AACAdditionPro](https://www.spigotmc.org/resources/33590/)) - £20.00
 - [Alice](https://www.mc-market.org/resources/18830/) - €???
 - [AngelX AntiCheat](https://www.mc-market.org/resources/10396/) - €30.00
 - [AntiAura](https://www.spigotmc.org/resources/1368/) - £7.00
