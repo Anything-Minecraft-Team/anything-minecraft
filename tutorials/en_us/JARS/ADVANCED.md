@@ -248,6 +248,10 @@ DISCONTINUED
 Version: 1.13.2  
 DISCONTINUED
 
+- [PaperBin](https://github.com/x4e/PaperBin) - PaperBin is a fork of paper, it patches dupes, bugs and more. It aims to continue 1.12.2 paper and provide support. You can even use it on top of custom paper forks because it uses JVMTI to modify Minecraft classes at runtime.  
+Version: 1.12.2  
+Currently Active
+
 ### Modded Server JARS
 
 - [Forge](http://files.minecraftforge.net/) - Forge is server software based on the MCP. Both the server and client need to be running the same mods.  
