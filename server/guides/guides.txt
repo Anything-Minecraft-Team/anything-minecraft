@@ -1,0 +1,1 @@
+guides is for any *guide* on how to do anything, start a community, setup a server jar or using certain functions of a plugin

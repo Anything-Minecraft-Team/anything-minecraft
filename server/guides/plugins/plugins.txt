@@ -1,0 +1,2 @@
+guides on how to use certain features of plugins like replacing only air with worldedit. put into folders with the name of the plugin. folder WorldEdit would contain files for guides. see example folder
+this is not for plugin development or listing possible commands

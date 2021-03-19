@@ -1,0 +1,1 @@
+used for listing all commands, permissions, config options of plugins etc and explaining what they do. not for example of how to use them
