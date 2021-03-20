@@ -9,6 +9,8 @@ Here are some recommended hosting providers:
 - [MixmlHosting](https://mixmlhosting.com/)
 - [PebbleHost](https://pebblehost.com/)
 - [WinterNode](https://winternode.com/)
+- [Server.pro](https://server.pro/)
+- [Apex Hosting](https://apexminecrafthosting.com/)
 
 
 Here is a list of as many hosting providers as we can find, good and bad:
