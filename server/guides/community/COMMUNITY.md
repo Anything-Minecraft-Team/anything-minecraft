@@ -22,11 +22,11 @@ A community must remain &quot;alive&quot;. That means there is activity, members
 
 One of the best ways to keep members engaged is events. This can be incredibly lengthy and doesn&#39;t even have to be related to Minecraft. As long as members interact with each other
 
-To keep a community a fun place, there should be as few &quot;bad apples&quot; in your community as possible. These are members who don&#39;t want the best for the community. Think of toxic members, trolls, bullies, and so on. This is best done by showing individual members that they themselves are responsible for their community, but at the same time it is very difficult. And on top of that, the more members a community has, the less likely the individual will feel responsible.
+To keep a community a fun place, there should be as few &quot;bad apples&quot; in your community as possible. These are members who don&#39;t want the best for the community. Think of toxic members, trolls, bullies, and so on. This is best done by showing individual members that they are responsible for their community, but at the same time, it is very difficult. And on top of that, the more members a community has, the less likely the individual will feel responsible.
 
 ## General tips
 
-Always stay nice. If you react unkindly or bluntly yourself, this is a sign to players that this is the way to communicate within your community. At the same time, it is also clear that a toxic community can never survive. At the same time, the advice is to be clear. What are the rules and where are the boundaries. Be consistent and stay above your community.
+Always stay nice. If you react unkindly or bluntly yourself, this is a sign to players that this is the way to communicate within your community. At the same time, it is also clear that a toxic community can never survive. At the same time, the advice is to be clear. What are the rules and where are the boundaries? Be consistent and stay above your community.
 
 A community makes your server stronger. Use your community for feedback, because you can learn from a community what your strengths are and where you can improve. Do not use your community to only send announcements.
 
