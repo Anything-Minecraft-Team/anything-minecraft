@@ -192,8 +192,8 @@ Currently Active
 Version: 1.8.8  
 Currently Active
 
-- [Fish](https://github.com/CraftLight-Network/Fish) - Fish is a 1.16.5 Purpur/Airplane fork hoping for top performance.  
-Version: ???
+- [Fish](https://github.com/CraftLight-Network/Fish) - Fish is a 1.16.5 Purpur fork with features that are too niche to be added to Purpur and changes that may eventually be upstreamed to Purpur or its subsequent upstreams.  
+Version: 1.16.5  
 Currently Active
 
 - [GuardSpigot](https://www.mc-market.org/resources/14497/) - GuardSpigot is a 1.8.8 $99 premium TacoSpigot fork with features like custom knockback editing, lag machine detection, and a bunch of features you can toggle like mob AI for performance gain/gameplay change.  
