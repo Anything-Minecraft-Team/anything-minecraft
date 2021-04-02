@@ -192,7 +192,7 @@ Currently Active
 Version: 1.8.8  
 Currently Active
 
-- [Fish](https://github.com/CraftLight-Network/Fish) - Fish is a 1.16.5 Purpur fork with features that are too niche to be added to Purpur.  
+- [Fish](https://github.com/CraftLight-Network/Fish) - Fish is a 1.16.5 Purpur fork with features that are too niche to be added to Purpur and changes that may eventually be upstreamed to Purpur or its subsequent upstreams.  
 Version: 1.16.5  
 Currently Active
 
