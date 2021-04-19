@@ -21,6 +21,7 @@ This list of free anti-cheats is sorted alphabetically.
 - [NESS Anti-Cheat Reloaded](https://www.spigotmc.org/resources/75887/)
 - [Negativity](https://www.spigotmc.org/resources/48399/)
 - [NoCheatPlus](https://github.com/Updated-NoCheatPlus/NoCheatPlus)
+- [Optimus](https://github.com/notOM3GA/Optimus)
 - [Pandora Anticheat](https://github.com/GoDead/Pandora)
 - [Phoenix Anti-Cheat](https://www.spigotmc.org/resources/6207/)
 - [Snow AntiCheat](https://www.spigotmc.org/resources/89748/)
