@@ -21,6 +21,7 @@ This list of free anti-cheats is sorted alphabetically.
 - [NESS Anti-Cheat Reloaded](https://www.spigotmc.org/resources/75887/)
 - [Negativity](https://www.spigotmc.org/resources/48399/)
 - [NoCheatPlus](https://github.com/Updated-NoCheatPlus/NoCheatPlus)
+- [Optimus](https://github.com/notOM3GA/Optimus)
 - [Pandora Anticheat](https://github.com/GoDead/Pandora)
 - [Phoenix Anti-Cheat](https://www.spigotmc.org/resources/6207/)
 - [Snow AntiCheat](https://www.spigotmc.org/resources/89748/)
@@ -37,7 +38,7 @@ This list of free anti-cheats is sorted alphabetically.
 This list of paid anti-cheats is sorted alphabetically.
 
 - [AAC (Advanced Anti Cheat)](https://www.spigotmc.org/resources/6442/) (Best used with [AACAdditionPro](https://www.spigotmc.org/resources/33590/)) - £20.00
-- [Alice](https://www.mc-market.org/resources/18830/) - €???
+- [Alice](https://www.mc-market.org/resources/18830/) - €14.99
 - [AngelX AntiCheat](https://www.mc-market.org/resources/10396/) - €30.00
 - [AntiAura](https://www.spigotmc.org/resources/1368/) - £7.00
 - [Artemis](https://artemis.ac/) - $100/$200
