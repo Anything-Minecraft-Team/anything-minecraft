@@ -144,6 +144,9 @@ The plugins in this category have a focus on giving staff the tools to moderate 
 
 ClearLagg gives staff useful tools for clearing and preventing lag on a Minecraft server.
 
+**NOTE**: In most cases this will actually increase lag due to the plugin's slow, heavy tasks on main thread. 
+
+
 ### [Tebex](https://www.tebex.io/minecraft)(Previously BuyCraft)
 
 > Featuring full UUID support and Mojang username verification as well as supporting offline mode servers, Tebex has the ability and the feature set to power even the largest of server communities.
