@@ -42,9 +42,10 @@ This list of paid anti-cheats is sorted alphabetically.
 - [AngelX AntiCheat](https://www.mc-market.org/resources/10396/) - €30.00
 - [AntiAura](https://www.spigotmc.org/resources/1368/) - £7.00
 - [Artemis](https://artemis.ac/) - $100/$200
+- [Buzz](https://www.mc-market.org/threads/657361/) - $30/month, $250/year (Unreleased) 
 - [DakataAntiCheat](https://www.spigotmc.org/resources/26911/) - €5.99
 - [Fully Automatic Anti-Cheat](https://www.mc-market.org/resources/17153/) - $5.00
-- [Fume Anti-Cheat](https://www.mc-market.org/threads/636370/) - $???
+- [Fume Anti-Cheat](https://www.mc-market.org/threads/636370/) - $??? (Unreleased) 
 - [GodsEye AntiCheat](https://www.spigotmc.org/resources/69595/) - £15.50
 - [Intave AntiCheat](https://intave.de/) - ???
 - [JI Anticheat](https://www.mc-market.org/resources/2442/) - $20.00
