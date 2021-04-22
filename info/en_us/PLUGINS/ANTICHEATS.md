@@ -45,7 +45,7 @@ This list of paid anti-cheats is sorted alphabetically.
 - [Buzz](https://www.mc-market.org/threads/657361/) - $30/month, $250/year (Unreleased) 
 - [DakataAntiCheat](https://www.spigotmc.org/resources/26911/) - €5.99
 - [Fully Automatic Anti-Cheat](https://www.mc-market.org/resources/17153/) - $5.00
-- [Fume Anti-Cheat](https://www.mc-market.org/threads/636370/) - $??? (Unreleased) 
+- [Fume Anti-Cheat](https://www.mc-market.org/threads/636370/) - $8/mo (Unreleased) 
 - [GodsEye AntiCheat](https://www.spigotmc.org/resources/69595/) - £15.50
 - [Intave AntiCheat](https://intave.de/) - ???
 - [JI Anticheat](https://www.mc-market.org/resources/2442/) - $20.00
