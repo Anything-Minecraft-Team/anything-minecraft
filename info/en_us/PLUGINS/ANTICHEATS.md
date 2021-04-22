@@ -19,7 +19,7 @@ This list of free anti-cheats is sorted alphabetically.
 - [Hawk Anticheat](https://www.spigotmc.org/resources/40343/)
 - [Horizon](https://www.spigotmc.org/resources/65830/)
 - [Kauri Anticheat](https://www.spigotmc.org/resources/83910)
-- [KizukiAC](https://www.spigotmc.org/resources/kizuki-anticheat-1-8-8-1-12-2.90468/)
+- [KizukiAC](https://www.spigotmc.org/resources/90468/)
 - [Medusa AntiCheat](https://www.spigotmc.org/resources/83345/)
 - [Meme AntiCheat](https://www.mc-market.org/resources/12279/)
 - [NESS Anti-Cheat Reloaded](https://www.spigotmc.org/resources/75887/)
