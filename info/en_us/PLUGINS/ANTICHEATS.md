@@ -16,6 +16,7 @@ This list of free anti-cheats is sorted alphabetically.
 - [Hawk Anticheat](https://www.spigotmc.org/resources/40343/)
 - [Horizon](https://www.spigotmc.org/resources/65830/)
 - [Kauri Anticheat](https://www.spigotmc.org/resources/83910)
+- [KizukiAC](https://www.spigotmc.org/resources/kizuki-anticheat-1-8-8-1-12-2.90468/)
 - [Medusa AntiCheat](https://www.spigotmc.org/resources/83345/)
 - [Meme AntiCheat](https://www.mc-market.org/resources/12279/)
 - [NESS Anti-Cheat Reloaded](https://www.spigotmc.org/resources/75887/)
@@ -53,7 +54,7 @@ This list of paid anti-cheats is sorted alphabetically.
 - [Karma Anticheat](https://www.mc-market.org/resources/15282/) - $17.50
 - [Matrix Anti Cheat](https://matrix.rip) - $20.00
 - [OpenEye AntiCheat](https://www.mc-market.org/resources/12699/) - $9.99
-- [OverFlow AntiCheat](https://www.mc-market.org/threads/486363/) - ???
+- [OverFlow AntiCheat](https://www.mc-market.org/threads/486363/) - ??? (No longer for sale) 
 - [Reflex Machine Learning Cheat Detection](https://www.spigotmc.org/resources/21122/) - €10.00
 - [Sparky Anti-Cheat](https://www.mc-market.org/threads/603663/) - $60
 - [Spartan Anti Cheat](https://www.spigotmc.org/resources/25638/) - €22.50+
