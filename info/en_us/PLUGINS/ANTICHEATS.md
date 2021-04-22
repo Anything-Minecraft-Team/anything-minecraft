@@ -20,6 +20,7 @@ This list of free anti-cheats is sorted alphabetically.
 - [Meme AntiCheat](https://www.mc-market.org/resources/12279/)
 - [NESS Anti-Cheat Reloaded](https://www.spigotmc.org/resources/75887/)
 - [Negativity](https://www.spigotmc.org/resources/48399/)
+- [NoCheat](https://dev.bukkit.org/projects/nocheat)
 - [NoCheatPlus](https://github.com/Updated-NoCheatPlus/NoCheatPlus)
 - [Optimus](https://github.com/notOM3GA/Optimus)
 - [Pandora Anticheat](https://github.com/GoDead/Pandora)
@@ -58,5 +59,6 @@ This list of paid anti-cheats is sorted alphabetically.
 - [Sparky Anti-Cheat](https://www.mc-market.org/threads/603663/) - $60
 - [Spartan Anti Cheat](https://www.spigotmc.org/resources/25638/) - €22.50+
 - [Taka AntiCheat](https://www.spigotmc.org/resources/45167/) - €8.00
+- [Verus](https://www.mc-market.org/threads/335067/) - $60/$125/$200
 - [Vulcan](https://www.spigotmc.org/resources/83626/) - $20.00
 - [Wraith Anticheat](https://www.spigotmc.org/resources/66887/) - €5.99
