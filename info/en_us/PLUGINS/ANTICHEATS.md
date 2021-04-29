@@ -18,6 +18,10 @@ Currently Active
 Version: 1.7.2  
 Rating: ???  
 Discontinued
+- [AntiCheat](https://www.spigotmc.org/resources/57925/)  
+Version: 1.7 - 1.12  
+Rating: 3  
+Discontinued
 - [AntiCheatReloaded](https://www.spigotmc.org/resources/23799/)  
 Version: 1.8, 1.12 - 1.16  
 Rating: 3.656  
@@ -25,6 +29,10 @@ Currently Active
 - [AntiCheatPlus](https://www.spigotmc.org/resources/2714/)  
 Version: 1.7.9  
 Rating: 3  
+Discontinued
+- [Anti**** (censored due to profanity)](https://github.com/BigFatAlt/AntiCunt)  
+Version: ???  
+Rating: ???  
 Discontinued
 - [AntiHaxerman](https://www.spigotmc.org/resources/83198/)  
 Version: 1.7 - 1.8  
@@ -46,6 +54,10 @@ Discontinued
 Version: 1.12 - 1.16  
 Rating: 3.667  
 Currently Active
+- [Biden](https://github.com/BigFatAlt/Biden)  
+Version: ???  
+Rating: ???  
+Currently Active
 - [Cardinal Anticheat](https://github.com/Clientastisch/Cardinal-Anticheat)  
 Version: 1.8 - 1.12  
 Rating: ???  
@@ -53,6 +65,10 @@ Currently Active
 - [Daedalus](https://www.spigotmc.org/resources/49215/)  
 Version: 1.7 - 1.13  
 Rating: 3.489  
+Discontinued
+- [Dreya Anticheat](https://github.com/funkemunky/Dreya)  
+Version: ???  
+Rating: ???  
 Discontinued
 - [Fiona Anticheat](https://github.com/funkemunky/Fiona-Anticheat)  
 Version: ???  
@@ -70,6 +86,10 @@ Discontinued
 Version: 1.8 - 1.16  
 Rating: 4  
 Discontinued
+- [Grim](https://github.com/MWHunter/Grim)  
+Version: 1.7 - 1.16
+Rating: ???  
+Currently Active
 - [Guardian Anti Cheat](https://www.spigotmc.org/resources/29264/) - Skript  
 Version: 1.8 - 1.10  
 Rating: 3.717  
@@ -98,9 +118,17 @@ Discontinued
 Version: 1.8, 1.12  
 Rating: 3.897  
 Currently Active
+- [LambdaAntiCheat](https://github.com/LambdaTheDev/LambdaAntiCheat)  
+Version: 1.16.4  
+Rating: ???  
+Discontinued
 - [LionGuard AntiCheat](https://www.spigotmc.org/resources/67207/)  
 Version: 1.7 - 1.8  
 Rating: 3.2  
+Discontinued
+- [Luna Anticheat](https://github.com/GladUrBad/Luna-Anticheat) - Later recoded as [Medusa Anticheat](https://www.spigotmc.org/resources/83345)  
+Version: ???  
+Rating: ???  
 Discontinued
 - [Medusa AntiCheat Lite](https://www.spigotmc.org/resources/83345/)  
 Version: 1.7 - 1.12  
@@ -109,6 +137,10 @@ Discontinued
 - [Meme AntiCheat](https://www.mc-market.org/resources/12279/)  
 Version: 1.8+  
 Rating: 2.833  
+Discontinued
+- [NebulaAC](https://github.com/GladUrBad/NebulaAC)  
+Version: ???  
+Rating: ???  
 Discontinued
 - [NESS Anti-Cheat](https://www.spigotmc.org/resources/53281/)  
 Version: 1.8 - 1.12  
@@ -186,6 +218,10 @@ Discontinued
 Version:  
 Rating:  
 Discontinued
+- [WatchTurtle](https://github.com/SalersFR/WatchTurtle)  
+Version: ???  
+Rating: ???  
+Currently Active
 - [Wither Anti Cheat](https://www.spigotmc.org/resources/68657/)  
 Version: 1.8 - 1.16  
 Rating: 3.528  
@@ -223,6 +259,10 @@ Version: 1.7 - 1.16
 Rating: 4.088  
 Price: £7.00  
 Currently Active
+-[Anti-KillAura Anticheat](https://www.mc-market.org/resources/4163/)  
+Version: 1.8  
+Rating: 0  
+Discontinued
 - [Artemis](https://artemis.ac/)  
 Version: ???  
 Rating: ???  
