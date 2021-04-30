@@ -22,6 +22,14 @@ Discontinued
 Version: 1.7 - 1.12  
 Rating: 3  
 Discontinued
+- [AntiCheat](https://github.com/ridalarry/AntiCheat)  
+Version: ???  
+Rating: ???  
+Discontinued
+- [Anti Cheat](https://github.com/Paroxial/Anti-Cheat)  
+Version: 1.8  
+Rating: ???  
+Discontinued
 - [AntiCheatReloaded](https://www.spigotmc.org/resources/23799/)  
 Version: 1.8, 1.12 - 1.16  
 Rating: 3.656  
@@ -54,6 +62,10 @@ Discontinued
 Version: 1.7 - 1.12  
 Rating: 4.315  
 Discontinued
+- [Azure Anticheat](https://github.com/AimbotPvP/azure-anticheat)  
+Version: 1.8  
+Rating: ???  
+Discontinued
 - [BadPacket](https://www.mc-market.org/resources/14236/)  
 Version: 1.7.10 - 1.9  
 Rating: 3.182  
@@ -75,7 +87,7 @@ Version: 1.12 - 1.16
 Rating: 3.667  
 Currently Active
 - [Biden](https://github.com/BigFatAlt/Biden)  
-Version: ???  
+Version: 1.8  
 Rating: ???  
 Currently Active
 - [Blitz AntiCheat](https://dev.bukkit.org/projects/blitz-anticheat)  
@@ -98,6 +110,10 @@ Discontinued
 Version: 1.8  
 Rating: ???  
 Currently Active
+- [Cuck Catcher](https://github.com/AimbotPvP/Cuck-Catcher)  
+Version: 1.8  
+Rating: ???  
+Discontinued
 - [Daedalus](https://www.spigotmc.org/resources/49215/)  
 Version: 1.7 - 1.13  
 Rating: 3.489  
@@ -117,10 +133,6 @@ Currently Active
 - [GAC](https://www.spigotmc.org/resources/18982/)  
 Version: 1.9  
 Rating: 3.27  
-Discontinued
-- [GK AntiCheat](https://www.spigotmc.org/resources/75691/)  
-Version: 1.8 - 1.16  
-Rating: 4  
 Discontinued
 - [Grim](https://github.com/MWHunter/Grim)  
 Version: 1.7 - 1.16
@@ -150,6 +162,10 @@ Discontinued
 Version: 1.7 - 1.8  
 Rating: ???  
 Discontinued
+- [Juaga](https://github.com/SalersFR/Juaga)  
+Version: 1.8  
+Rating: ???  
+Currently Active
 - [Kauri Anticheat](https://www.spigotmc.org/resources/83910)  
 Version: 1.7 - 1.16   
 Rating: 3.594  
@@ -326,6 +342,10 @@ Discontinued
 Version: 1.8.8  
 Rating: ???  
 Currently Active
+- [ZK Anticheat](https://github.com/Valou447/ZK-ANTICHEAT)  
+Version: ???  
+Rating: ???  
+Discontinued
 
 ## Paid Plugins
 
@@ -435,6 +455,11 @@ Version: ???
 Rating: ???  
 Price: $17.50  
 Currently Active
+- [KokuminAntiCheat](https://www.mc-market.org/resources/7564/)  
+Version: ???  
+Rating: 0  
+Price: $4.99  
+Discontinued
 - [Matrix Anti Cheat](https://matrix.rip)  
 Version: ???  
 Rating: ???  
@@ -475,6 +500,11 @@ Version: 1.8 - 1.12
 Rating: 3.559  
 Price: $3.50  
 Discontinued
+- [UltraAC](https://www.mc-market.org/resources/13413/)  
+Version: 1.7 - 1.16  
+Rating: 3.286  
+Price: $10.00  
+Currently Active
 - [Verus](https://www.mc-market.org/threads/335067/)  
 Version: 1.7 - 1.16.5  
 Rating: ???  
@@ -485,8 +515,18 @@ Version: 1.7 - 1.16
 Rating: 4.782  
 Price: $20.00   
 Currently Active
+- [WatchDog](https://www.mc-market.org/resources/10694/)  
+Version: 1.8  
+Rating: 3.421  
+Price: $7.50  
+Discontinued
 - [Wraith Anticheat](https://www.spigotmc.org/resources/66887/)  
 Version: 1.8 - 1.16  
 Rating: 3.594  
 Price: €5.99  
 Currently Active
+- [XAntiCheat](https://www.mc-market.org/resources/2802/)  
+Version: 1.8+  
+Rating: 3.167  
+Price: £5.00  
+Discontinued
