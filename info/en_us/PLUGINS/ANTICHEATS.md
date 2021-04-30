@@ -153,7 +153,7 @@ Discontinued
 - [Hawk Anticheat](https://www.spigotmc.org/resources/40343/)  
 Version: 1.7 - 1.8  
 Rating: 4.329  
-Discontinued
+Currently Inactive
 - [Horizon](https://www.spigotmc.org/resources/65830/)  
 Version: 1.8, 1.12 - 1.14  
 Rating: 4.135  
@@ -230,7 +230,7 @@ Discontinued
 Version: 1.8 - 1.16  
 Rating: 3.455  
 Currently Active
-- [NeviveAntiCheat]  
+- [NeviveAntiCheat](https://www.spigotmc.org/resources/neviveanticheat.88785)  
 Version: 1.8  
 Rating: 2.917  
 Currently Active
@@ -319,9 +319,9 @@ Version: ???
 Rating: ???  
 Discontinued
 - [Warden Cheat Detection](https://www.spigotmc.org/resources/81877/)  
-Version:  
-Rating:  
-Discontinued
+Version: 1.8 - 1.16  
+Rating: 3.528  
+Currently Inactive
 - [WatchTurtle](https://github.com/SalersFR/WatchTurtle)  
 Version: ???  
 Rating: ???  
@@ -376,9 +376,10 @@ Version: 1.7 - 1.16
 Rating: 4.088  
 Price: £7.00  
 Currently Active
--[Anti-KillAura Anticheat](https://www.mc-market.org/resources/4163/)  
+- [Anti-KillAura Anticheat](https://www.mc-market.org/resources/4163/)  
 Version: 1.8  
 Rating: 0  
+Price: $5.00  
 Discontinued
 - [Artemis](https://artemis.ac/)  
 Version: ???  
