@@ -14,6 +14,10 @@ This list of free anti-cheats is sorted alphabetically.
 Version: 1.7 - 1.16  
 Rating: 4  
 Currently Active
+- [Alex AntiCheat](https://www.spigotmc.org/resources/74611)  
+Version: 1.7 - 1.8  
+Rating: 2.769  
+Discontinued
 - [ANC](https://www.spigotmc.org/resources/39221/)  
 Version: 1.8  
 Rating: 3  
@@ -58,6 +62,10 @@ Discontinued
 Version: ???  
 Rating: 3.143  
 Discontinued
+- [AntiCheatDSP](https://www.spigotmc.org/resources/60592)  
+Version: 1.8 - 1.9, 1.12 - 1.13  
+Rating: 3  
+Discontinued
 - [AntiCheatPlus](https://www.spigotmc.org/resources/2714/)  
 Version: 1.7.9  
 Rating: 3  
@@ -97,6 +105,10 @@ Discontinued
 - [AntiReach](https://www.spigotmc.org/resources/58495)  
 Version: 1.8  
 Rating: 3.889  
+Discontinued
+- [AntiSpeed](https://www.spigotmc.org/resources/47701)  
+Version: 1.12  
+Rating: 2.667  
 Discontinued
 - [Arc AntiCheat](https://www.spigotmc.org/resources/50805/)  
 Version: 1.7 - 1.8  
@@ -210,6 +222,10 @@ Discontinued
 Version: ???  
 Rating: ???  
 Discontinued
+- [FrameAntiCheat](https://www.spigotmc.org/resources/34273) - Skript  
+Version: 1.7 - 1.9  
+Rating: 2.818  
+Discontinued
 - [Frequency](https://github.com/ElevatedDev/Frequency)  
 Version: ???  
 Rating: ???  
@@ -274,6 +290,10 @@ Discontinued
 Version: 1.7 - 1.8  
 Rating: ???  
 Discontinued
+- [Impulse AntiCheat](https://www.spigotmc.org/resources/89023)  
+Version: 1.7 - 1.12  
+Rating: 3.182  
+Currently Active
 - [Juaga](https://github.com/SalersFR/Juaga)  
 Version: 1.8  
 Rating: ???  
@@ -430,6 +450,10 @@ Discontinued
 Version: 1.7 - 1.14  
 Rating: 3.182  
 Discontinued
+- [PvPAntiCheat](https://www.spigotmc.org/resources/52135/)  
+Version: 1.8 - 1.9  
+Rating: 3  
+Discontinued
 - [PyenAntiCheat](https://www.spigotmc.org/resources/33036) -Skript  
 Version: 1.8  
 Rating: 2.25  
@@ -486,6 +510,10 @@ Discontinued
 Version: 1.16  
 Rating: 3.792  
 Currently Active
+- [Spid3yCheat](https://www.spigotmc.org/resources/54741) - Skript  
+Version: 1.7 - 1.12  
+Rating: 2.667  
+Discontinued
 - [Squid Anticheat](https://www.spigotmc.org/resources/65120)  
 Version: 1.8 - 1.9, 1.12  
 Rating: 3.467  
@@ -558,6 +586,10 @@ Currently Inactive
 Version: 1.7  
 Rating: 2.692  
 Discontinued
+- [WASP AntiCheat](https://www.spigotmc.org/resources/81328)  
+Version: 1.12, 1.15  
+Rating: 0  
+Discontinued
 - [WatchTurtle](https://github.com/SalersFR/WatchTurtle)  
 Version: ???  
 Rating: ???  
@@ -578,6 +610,10 @@ Discontinued
 Version: 1.9 - 1.12  
 Rating: 3.231  
 Discontinued
+- [XMAN Anticheat](https://www.spigotmc.org/resources/90332/)  
+Version: 1.8 - 1.16  
+Rating: 3.333  
+Currently Active
 - [XorAntiCheat](https://www.spigotmc.org/resources/60955/)  
 Version: 1.8  
 Rating: 3.188  
@@ -680,6 +716,14 @@ Discontinued
 Version: 1.8 - 1.12  
 Rating: 4.128  
 Price: €5.99  
+Discontinued
+- [DAntiCheaters](https://www.spigotmc.org/resources/36597) - Skript  
+Version: 1.7 - 1.9  
+Rating: 2.429  
+Discontinued
+- [DeathAntiCheat](https://www.spigotmc.org/resources/75856)  
+Version: 1.8  
+Rating: 0  
 Discontinued
 - [Deus](https://www.mc-market.org/threads/613168/)  
 Version: 1.7 - 1.16  
