@@ -26,9 +26,21 @@ Discontinued
 Version: ???  
 Rating: ???  
 Discontinued
+- [AntiCheat](https://www.spigotmc.org/resources/64138/)  
+Version: 1.8 - 1.13  
+Rating: 2.5  
+Discontinued
+- [AntiCheat](https://www.spigotmc.org/resources/51765/)  
+Version: 1.8  
+Rating: 3  
+Discontinued
 - [Anti Cheat](https://github.com/Paroxial/Anti-Cheat)  
 Version: 1.8  
 Rating: ???  
+Discontinued
+- [Anti-Cheat](https://www.spigotmc.org/resources/51639) - Skript  
+Version: 1.8  
+Rating: 2.667  
 Discontinued
 - [AntiCheatReloaded](https://www.spigotmc.org/resources/23799/)  
 Version: 1.8, 1.12 - 1.16  
@@ -50,9 +62,17 @@ Currently Active
 Version: 1.8, 1.11  
 Rating: 3  
 Discontinued
+- [AntiReach](https://www.spigotmc.org/resources/58495)  
+Version: 1.8  
+Rating: 3.889  
+Discontinued
 - [Arc AntiCheat](https://www.spigotmc.org/resources/50805/)  
 Version: 1.7 - 1.8  
 Rating: 3.421  
+Discontinued
+- [ASAC](https://www.spigotmc.org/resources/38426)  
+Version: 1.8  
+Rating: 3.176  
 Discontinued
 - [AutoArmor Detector](https://www.spigotmc.org/resources/19200/)  
 Version: 1.8  
@@ -90,6 +110,10 @@ Currently Active
 Version: 1.8  
 Rating: ???  
 Currently Active
+- [BigAntiCheat](https://www.spigotmc.org/resources/33618)  
+Version: 1.8  
+Rating: 2.6  
+Discontinued
 - [Blitz AntiCheat](https://dev.bukkit.org/projects/blitz-anticheat)  
 Version: 1.8 - 1.9  
 Rating: ???  
@@ -102,6 +126,14 @@ Discontineud
 Version: 1.8 - 1.12  
 Rating: ???  
 Currently Active
+- [CheatGuard AntiCheat](https://www.spigotmc.org/resources/75147)  
+Version: 1.8, 1.12  
+Rating: 3.529  
+Discontinued
+- [CPS Manager/Counter](https://www.spigotmc.org/resources/36735)  
+Version: 1.7 - 1.8, 1.11  
+Rating: 3  
+Discontinued
 - [Cryantic Anticheat](https://forums.skunity.com/resources/876/) - Skript  
 Version: 1.8  
 Rating: ???  
@@ -122,6 +154,10 @@ Discontinued
 Version: ???  
 Rating: ???  
 Discontinued
+- [FairFight Anticheat](https://www.spigotmc.org/resources/57765)  
+Version: 1.8  
+Rating: 3.5  
+Discontinued
 - [Fiona Anticheat](https://github.com/funkemunky/Fiona-Anticheat)  
 Version: ???  
 Rating: ???  
@@ -130,9 +166,17 @@ Discontinued
 Version: ???  
 Rating: ???  
 Currently Active
+- [FunkePhase](https://www.spigotmc.org/resources/57393/)  
+Version: 1.7 - 1.12  
+Rating: 3.529  
+Discontinued
 - [GAC](https://www.spigotmc.org/resources/18982/)  
 Version: 1.9  
 Rating: 3.27  
+Discontinued
+- [GoldenEyes](https://www.spigotmc.org/resources/54638/) - Skript  
+Version: 1.8, 1.12  
+Rating: 3.278  
 Discontinued
 - [Grim](https://github.com/MWHunter/Grim)  
 Version: 1.7 - 1.16
@@ -146,6 +190,10 @@ Discontinued
 Version: ???  
 Rating: 4.083  
 Discontinued
+- [HackWarner [Lite]](https://www.spigotmc.org/resources/37826)  
+Version: 1.7 - 1.11  
+Rating: 3.357  
+Discontinued
 - [Hades](https://www.spigotmc.org/resources/hades-community-anticheat.65622/)  
 Version: 1.7 - 1.8  
 Rating: 3.968  
@@ -154,9 +202,17 @@ Discontinued
 Version: 1.7 - 1.8  
 Rating: 4.329  
 Currently Inactive
+- [Knockback++](https://www.spigotmc.org/resources/36140/)  
+Version: 1.8  
+Rating: 3.44  
+Discontinued
 - [Horizon](https://www.spigotmc.org/resources/65830/)  
 Version: 1.8, 1.12 - 1.14  
 Rating: 4.135  
+Discontinued
+- [HyperAC](https://www.spigotmc.org/resources/41821)  
+Version: 1.7 - 1.8  
+Rating: 3.385  
 Discontinued
 - [iAnticheat](https://www.curseforge.com/minecraft/bukkit-plugins/ianticheat)  
 Version: 1.7 - 1.8  
@@ -202,6 +258,10 @@ Discontinued
 Version: 1.8+  
 Rating: 2.833  
 Discontinued
+- [MenaceAC](https://www.spigotmc.org/resources/63444/)  
+Version: 1.8 - 1.12  
+Rating: 3.556  
+Discontinued
 - [MineSecure Lite](https://www.spigotmc.org/resources/11996/)  
 Version: 1.8 - 1.11  
 Rating: 3.423  
@@ -234,6 +294,10 @@ Currently Active
 Version: 1.8  
 Rating: 2.917  
 Currently Active
+- [NiroNoCheat](https://www.spigotmc.org/resources/49431/)  
+Version: 1.8 - 1.12  
+Rating: 3.797  
+Discontinued
 - [NoCheat](https://dev.bukkit.org/projects/nocheat)  
 Version: ???  
 Rating: ???  
@@ -274,6 +338,26 @@ Currently Active
 Version: 1.7 - 1.13  
 Rating: 3.498  
 Discontinued
+- [PyenAntiCheat](https://www.spigotmc.org/resources/33036) -Skript  
+Version: 1.8  
+Rating: 2.25  
+Discontinued
+- [Razor AntiCheat](https://www.spigotmc.org/resources/33013) - Skript  
+Version: 1.9 - 1.11  
+Rating: 3.133  
+Discontinued
+- [SafeNoCheat](https://www.spigotmc.org/resources/35614)  
+Version: 1.8  
+Rating: 3.633  
+Discontinued
+- [SEARCH Anticheat](https://www.spigotmc.org/resources/41295)  
+Version: 1.8 - 1.13  
+Rating: 4.077  
+Discontinued
+- [SkyProtect](https://www.spigotmc.org/resources/62838/)  
+Version: 1.7 - 1.12  
+Rating: 3.684  
+Discontinued
 - [SmexAntiCheat](https://www.spigotmc.org/resources/37293/)  
 Version: 1.8  
 Rating: 2.5  
@@ -290,21 +374,37 @@ Discontinued
 Version: 1.16  
 Rating: 3.792  
 Currently Active
+- [Squid Anticheat](https://www.spigotmc.org/resources/65120)  
+Version: 1.8 - 1.9, 1.12  
+Rating: 3.467  
+Discontinued
 - [Storm Anticheat](https://www.mc-market.org/resources/14983/)  
 Version: 1.8.8  
 Rating: 2.846  
+Discontinued
+- [The Banner Eye AC](https://www.spigotmc.org/resources/84602)  
+Version: 1.16  
+Rating: 2.533  
+Discontinued
+- [The Overseer](https://www.spigotmc.org/resources/47437) - Skript  
+Version: 1.8 - 1.12  
+Rating: 3.294  
 Discontinued
 - [Themis Anti Cheat](https://www.spigotmc.org/resources/90766/)  
 Version: 1.16  
 Rating: 4.185  
 Currently Active
-- [ThotPatrol](https://www.spigotmc.org/resources/79978/)  
+- [ThotPatrol](https://www.spigotmc.org/resources/79978/) - Will be renamed VulcanLite in the future  
 Version: 1.7 - 1.8  
 Rating: 4.462  
-Discontinued
+Currently Inactive
 - [UCheat Anticheat](https://www.spigotmc.org/resources/ucheat-anticheat.51396)  
 Version: 1.8  
 Rating: 3.471  
+Discontinued
+- [Vagmemes](https://www.spigotmc.org/resources/57080)  
+Version: 1.8  
+Rating: 3.267  
 Discontinued
 - [VulcanLite](https://github.com/freppp/VulcanLite)  
 Version: ???  
@@ -330,9 +430,21 @@ Currently Active
 Version: 1.8 - 1.16  
 Rating: 3.528  
 Discontinued
-- [Wolf Anticheat](https://www.spigotmc.org/resources/18614/)  
+- [Wolf Anticheat](https://www.spigotmc.org/resources/18614)  
 Version: 1.7 - 1.8  
 Rating: 3.702  
+Discontinued
+- [XorAntiCheat](https://www.spigotmc.org/resources/60955/)  
+Version: 1.8  
+Rating: 3.188  
+Discontinued
+- [Yeet AntiCheat](https://www.spigotmc.org/resources/68606) - Skript  
+Version: 1.14  
+Rating: 3.6  
+Discontinued
+- [ZAC](https://www.spigotmc.org/resources/38371/) - Skript  
+Version: 1.8  
+Rating: 3.333  
 Discontinued
 - [zCheat Anticheat](https://dev.bukkit.org/projects/zcheat-anticheat)  
 Version: 1.10 - 1.11  
