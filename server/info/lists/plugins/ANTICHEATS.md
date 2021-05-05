@@ -295,7 +295,7 @@ Version: 1.8, 1.12
 Rating: 3.278  
 Discontinued
 - [Grim](https://github.com/MWHunter/Grim)  
-Version: 1.7 - 1.16
+Version: 1.7 - 1.16  
 Rating: ???  
 Currently Active
 - [Guardian Anti Cheat](https://www.spigotmc.org/resources/29264/) - Skript  
