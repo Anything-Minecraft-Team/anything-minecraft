@@ -760,9 +760,9 @@ Rating: 3.563
 Discontinued
 - [zHack Lite](https://polymart.org/resource/460)  
 Version: 1.8.8  
-Rating: ???  
+Rating: 5
 Currently Active
-- [ZK Anticheat](https://github.com/Valou447/ZK-ANTICHEAT)  
+- [ZK Anticheat](https://github.comlou447/ZK-ANTICHEAT)  
 Version: ???  
 Rating: ???  
 Discontinued
@@ -978,6 +978,11 @@ Version: 1.8 - 1.12
 Rating: 3.559  
 Price: $3.50  
 Discontinued
+- [Theia](https://discord.io/zeap)  
+Version: 1.8 - 1.16  
+Rating: ??? 
+Price: ???
+Currently Active
 - [UltraAC](https://www.mc-market.org/resources/13413/)  
 Version: 1.7 - 1.16  
 Rating: 3.286  
