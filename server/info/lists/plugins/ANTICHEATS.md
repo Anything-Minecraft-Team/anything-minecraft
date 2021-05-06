@@ -762,7 +762,7 @@ Discontinued
 Version: 1.8.8  
 Rating: 5
 Currently Active
-- [ZK Anticheat](https://github.comlou447/ZK-ANTICHEAT)  
+- [ZK Anticheat](https://github.com/Valou447/ZK-ANTICHEAT)  
 Version: ???  
 Rating: ???  
 Discontinued
