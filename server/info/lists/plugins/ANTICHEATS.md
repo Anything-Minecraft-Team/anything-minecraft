@@ -266,6 +266,10 @@ Discontinued
 Version: ???  
 Rating: ???  
 Discontinued
+- [Flappy Anticheat](https://github.com/JustDoom/FlappyAC)  
+Version: 1.16  
+Rating: ???  
+Currently Active
 - [FrameAntiCheat](https://www.spigotmc.org/resources/34273) - Skript  
 Version: 1.7 - 1.9  
 Rating: 2.818  
