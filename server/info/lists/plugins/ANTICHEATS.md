@@ -10,10 +10,10 @@ The ratings are from the [spiget api](https://spiget.org/).
 
 This list of free anti-cheats is sorted alphabetically.
 
-- [ABC Advanced Anticheat](https://www.spigotmc.org/resources/91606/)  
+- [ABC Advanced Anticheat](https://www.spigotmc.org/resources/91606/) - Removed due to private reasons  
 Version: 1.7 - 1.16  
 Rating: 4  
-Currently Active
+Discontinued
 - [AbdeslamNeverCheat](https://www.spigotmc.org/resources/61280)  
 Version: 1.8  
 Rating: 1  
