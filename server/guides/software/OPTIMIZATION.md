@@ -1,4 +1,4 @@
-# Introduction
+# OPtimization
 
 Here you will learn how to optimize you Minecraft server to get better performance.
 
