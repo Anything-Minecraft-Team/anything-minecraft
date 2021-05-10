@@ -266,9 +266,9 @@ Discontinued
 Version: ???  
 Rating: ???  
 Discontinued
-- [Flappy Anticheat](https://github.com/JustDoom/FlappyAC)  
+- [Flappy Anticheat](https://www.spigotmc.org/resources/92180/)  
 Version: 1.16  
-Rating: ???  
+Rating: 3  
 Currently Active
 - [FrameAntiCheat](https://www.spigotmc.org/resources/34273) - Skript  
 Version: 1.7 - 1.9  
@@ -595,6 +595,10 @@ Version: ???
 Rating: ???  
 Discontinued
 - [Snow AntiCheat](https://www.spigotmc.org/resources/89748/) - Unavailable  
+Version: ???  
+Rating: ???  
+Discontinued
+- [SnowLeopard](https://github.com/Nova41/SnowLeopard)  
 Version: ???  
 Rating: ???  
 Discontinued
