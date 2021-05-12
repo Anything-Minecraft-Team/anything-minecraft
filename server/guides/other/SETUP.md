@@ -28,7 +28,7 @@ Once you've done that, drag the server jar into the folder and rename it `server
 
 Create a new text document and name it "run", now open it and type
 
-```bat
+```sh
 java -Xmx1024M -Xms1024M -jar server.jar nogui
 PAUSE
 ```
@@ -64,7 +64,7 @@ This process is slightly different for a modded server so we will go over it her
 
 > Warning: You should prefer using your package manager (for example `apt` on Ubuntu and Debian) to install java because it's more organized with the package manager
 
-You can do this using the following command (Not every distro uses apt)
+You can do this using the following command
 
 --> `sudo apt install openjdk-xx-jre`
 
@@ -103,8 +103,8 @@ You have your server running. To join, launch Minecraft and join the server at `
 
 If you want to start the server and want to be able to exit out of the terminal without the server closing, there are two ways with which you can do this
 
-- You can use a utility called [tmux](https://github.com/tmux/tmux/wiki). Use this if the server is intended to be temporarily up.
-- You can register minecraft as a **system unit**. Use this if the server is intended to be up 24/7 and requires automatic restarting in case of host shutdowns/failures.
+- You can use an in-built linux utility called [tmux](https://github.com/tmux/tmux/wiki). Use this if the server is intended to be temporarily up.
+- You can register minecraft as a **system service**. Use this if the server is intended to be up 24/7 and requires automatic restarting in case of host shutdowns/failures.
 
 #### Setup With Tmux
 
@@ -116,7 +116,7 @@ Start a tmux window
 
 This will automatically take you inside the tmux session. Start the server using
 
-`java -Xmx1024M -Xms1024M -jar server.jar nogui`
+`java -Xmx1024M -Xms1024M -jar server-jar nogui`
 
 Exit out of the tmux session using `Ctrl+B` **then** `D`
 
@@ -193,9 +193,9 @@ services:
       ./data:/data
 ```
 
-#### Build it Yourself
+#### You Build Docker
 
-You can use an already built docker image or just create a Dockerfile, in your server folder, with following content:
+You can use an already built docker image or just create a Dockerfile with following content:
 
 ```dockerfile
 FROM openjdk
