@@ -30,11 +30,10 @@ Before you begin:
 
 ### Folder Conventions
 
-- The [tutorials folder](tutorials) is for any guides on how to setup/use something.
-- The [info folder](info) is for any information on commands, features etc of plugins or server jars.
+- The [guides folder](server/guides) is for any *guide* on how to do anything, such as, start a community, setup a server jar or using certain functions of a plugin.
+- The [info folder](server/info) is used for listing all commands, permissions, config options of plugins etc and explaining what they do. Not for examples of how to use them.
 - The [resources folder](resources) is for any configs or files to be used as examples.
-- The [images folder](IMAGES) is for images in guides and other files.
-- Make sure you also put the contribution in the correct language folder.
+- The [images folder](images) is for images in guides and other files.
 
 ### Your PR is merged
 
