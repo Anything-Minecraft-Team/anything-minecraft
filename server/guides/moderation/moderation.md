@@ -4,11 +4,11 @@ Just as server settings are subject to debate, so is moderating a server. Everyo
 
 ## Rules and sanctions
 
-Before you can decide what rules to implement, it&#39;s important to determine what kind of server you want to run. After all, a family-friendly server for children has very different rules than an anarchy server. Often you will be looking for a balance between player freedom and player safety. For most servers, a good basis to adhere to is: a player&#39;s freedom stops when other players are bothered by actions.
+Before you can decide what rules to implement, it's important to determine what kind of server you want to run. After all, a family-friendly server for children has very different rules than an anarchy server. Often you will be looking for a balance between player freedom and player safety. For most servers, a good basis to adhere to is: a player's freedom stops when other players are bothered by actions.
 
 ### Before the server opens
 
-Before your server opens, set the rules. In a small server with friends, you agree among yourselves that you will not cheat, use X-ray or other tools. In a server for larger audiences, this is often not enough. What do you do when someone deliberately tries to cause lag and where do you draw the line in the chat? One tip is to bring out the bad in yourself and think about what you don&#39;t want to have.
+Before your server opens, set the rules. In a small server with friends, you agree among yourselves that you will not cheat, use X-ray or other tools. In a server for larger audiences, this is often not enough. What do you do when someone deliberately tries to cause lag and where do you draw the line in the chat? One tip is to bring out the bad in yourself and think about what you don't want to have.
 
 Below is a list of actions that are prohibited on many servers:
 
@@ -32,7 +32,7 @@ Below is a list of actions that are prohibited on many servers:
   - Corrupt making inventories
   - Crashing server
 
-With a server for larger audiences, you should also share the rules. Publish them on your website, put them in the spawn or give players in the lobby a book. This way the players know what is and what is not allowed on your server. This also stops the excuse: &quot;I didn&#39;t know this was forbidden&quot;.
+With a server for larger audiences, you should also share the rules. Publish them on your website, put them in the spawn or give players in the lobby a book. This way the players know what is and what is not allowed on your server. This also stops the excuse: "I didn't know this was forbidden".
 
 ### Enforce and discuss
 
