@@ -46,7 +46,7 @@ Currently Active
 
 - [Yatopia](https://github.com/YatopiaMC/Yatopia) - Aims to combine the code from many Paper forks and optimization mods, as well as many unique optimizations, but it's known to be very unstable and usually, Purpur is a better choice. Only use if you desperately need performance and think it's worth the instability.  
 Version: 1.15.2 - 1.16.5  
-Currently Active
+DISCONTINUED
 
 - [Cuberite](https://cuberite.org/) - Cuberite is a server software developed in C++ and plugins are written in LUA. Cuberite is very lightweight and they also allow you to run a server on your android device! Cuberite is only 1.8-1.12, 1.13+ compatibility is being worked on.  
 Version: 1.8 - 1.12.2  
