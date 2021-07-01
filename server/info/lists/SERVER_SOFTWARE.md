@@ -9,27 +9,27 @@ A * means that the developer of that project mass produces them. This leads to a
 ### Plugins:
 
 - [CraftBukkit](https://getbukkit.org/download/craftbukkit) - It's the BASE for all forks that are out today and they still are updating it to this day, not newbie friendly at all because it requires manual building (or you can get it [here](https://getbukkit.org)). The only real use is for Minecraft versions from `1.0.0` to `1.4.5` as there is no Spigot release for these versions.  
-Version: 1.0.0 - 1.16.5  
+Version: 1.0.0 - 1.17  
 Currently Active
 
 - [SpigotMC](https://www.spigotmc.org/) - The original fork of Bukkit. Spigot has improved performance vs CraftBukkit, still widely used. It's a recommended alternative if for some reason you don't want to use PaperMC.  
-Version: 1.4.6 - 1.16.5  
+Version: 1.4.6 - 1.17  
 Currently Active
 
 - [PaperMC](https://papermc.io/) - Most popular JAR for Spigot/Bukkit, quite fast and stable, they roll out small patches frequently, so it is a good choice if you're just starting with your MC server and don't have much experience.  
-Version: 1.7.10 - 1.16.5  
+Version: 1.7.10 - 1.17  
 Currently Active
 
 - [Tuinity](https://github.com/Spottedleaf/Tuinity) - PaperMC fork aimed at improving stability and performance at high player counts.  
-Version: 1.13.2 - 1.16.5  
+Version: 1.13.2 - 1.17  
 Currently Active
 
 - [Purpur](https://purpur.pl3x.net/) - It's a fork of PaperMC with Tuinity and Airplane patches to deliver very fast performance with stability for high player counts and it adds a lot of custom features that aren't seen on any other forks.  
-Version: 1.14.4 - 1.16.5  
+Version: 1.14.4 - 1.17  
 Currently Active
 
 - [Airplane](https://github.com/TECHNOVE/Airplane) - This fork includes optimizations oriented towards large servers.  
-Version: ??? - 1.16.5  
+Version: ??? - 1.17  
 Currently Active
 
 - [Purplane](https://github.com/notOM3GA/Purplane) - A fork of purpur that adds features from [Airplane](https://github.com/TECHNOVE/Airplane). Purpur added Airplane patches and is now discontinued.  
