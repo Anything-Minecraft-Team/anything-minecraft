@@ -24,7 +24,7 @@ Currently Active
 Version: 1.13.2 - 1.17  
 Currently Active
 
-- [Purpur](https://purpur.pl3x.net/) - It's a fork of PaperMC with Tuinity and Airplane patches to deliver very fast performance with stability for high player counts and it adds a lot of custom features that aren't seen on any other forks.  
+- [Purpur](https://purpur.pl3x.net/) - It's a fork of PaperMC with Tuinity patches to deliver very fast performance with stability for high player counts and it adds a lot of custom features that aren't seen on any other forks. Used to add the patches of Airplane but has removed them after it didn't increase performance as much as they thought it would.  
 Version: 1.14.4 - 1.17  
 Currently Active
 
@@ -32,9 +32,9 @@ Currently Active
 Version: ??? - 1.17  
 Currently Active
 
-- [Purplane](https://github.com/notOM3GA/Purplane) - A fork of purpur that adds features from [Airplane](https://github.com/TECHNOVE/Airplane). Purpur added Airplane patches and is now discontinued.  
-Version: 1.16.5  
-DISCONTINUED
+- [Purplane](https://github.com/TECHNOVE/Airplane/tree/purpur/1.17) - A fork of purpur that adds features from [Airplane](https://github.com/TECHNOVE/Airplane). Originally created by [notOM3GA](https://github.com/notOM3GA) ([Archived repository](https://github.com/notOM3GA/Purplane)) then discontinued as purpur added Airplanes patches but has since been removed from Purpur so now the Airplane team maintains it separately from Airplane.  
+Version: 1.16.5 - 1.17  
+Currently Active
 
 - [SpongeVanilla](https://www.spongepowered.org/downloads/spongevanilla) - A server implementing the Sponge API, a different plugin API separate from the Bukkit API. This implementation also includes some general improvements regarding performance and server settings.  
 Version: 1.8 - 1.12.2  
@@ -44,7 +44,7 @@ Currently Active
 Version: 1.8.8  
 Currently Active
 
-- [Yatopia](https://github.com/YatopiaMC/Yatopia) - Aims to combine the code from many Paper forks and optimization mods, as well as many unique optimizations, but it's known to be very unstable and usually, Purpur is a better choice. Only use if you desperately need performance and think it's worth the instability.  
+- [Yatopia](https://github.com/YatopiaMC/Yatopia) - Aims to combine the code from many Paper forks and optimization mods, as well as many unique optimizations, but it's known to be very unstable and usually, Purpur is a better choice. Only use if you desperately need performance and think it's worth the instability. Yatopia has been discontinued by the current project leader [Simon Gardling](https://github.com/Titaniumtown) because the reputation was just too bad for him to handle.  
 Version: 1.15.2 - 1.16.5  
 DISCONTINUED
 
@@ -66,10 +66,10 @@ DISCONTINUED
 
 - [SharperMC](https://github.com/SharperMC/SharperMC) - SharperMC is a C# 1.8.x Minecraft server running on the .NET Framework. SharperMC is a fork of [SharpMC](https://github.com/SharpMC/SharpMC) which was last updated in 2015.  
 Version: 1.8.x  
-Currently Active
+Currently Inactive
 
-- [MineStom](https://github.com/Minestom/Minestom) - MineStorm is an entire recode of Minecraft servers from the base up meant to remove all vanilla features. It removes features like the server understanding what a chest is, which allows HUGE performance increases for minigame servers as they may not need that feature. Every feature can be added back. Due to this, development would take longer and would not be suitable for survival servers.  
-Version: ???  
+- [MineStom](https://github.com/Minestom/Minestom) - MineStorm is a server building library allowing servers to be built from the group up easily. It removes features like the server understanding what a chest is, which allows HUGE performance increases for minigame servers as they may not need that feature. Every feature can be added back. Due to this, development would take longer and would not be suitable for survival servers.  
+Version: 1.16 - 1.17  
 Currently Active
 
 - [Akarin](https://github.com/Akarin-project/Akarin/tree/ver/1.16.4) - A Spigot plugin compatible project aiming at becoming fairly multicore compatible. This is a fork of Tuinity aiming to simplify the logic and implement multi-threaded computing and make servers more safe and stable.  
@@ -102,7 +102,7 @@ Currently Active
 
 - [ImanitySpigot](https://www.mc-market.org/resources/10770/) - ImanitySpigot provides you with a better PvP experience with smooth hit detection, customizable knockback and projectile enhancements.  
 Version: 1.8.8  
-Currently Active
+Currently Inactive
 
 - [EmpireCraft](https://github.com/starlis/empirecraft) - EmpireCraft is a fork of Spigot used by the [Empire Minecraft Server](https://empireminecraft.com/lp/?user=Aikar&utm_campaign=Player%20Referrals&utm_source=github.com&utm_medium=Aikar). It contains many gameplay changes to suit the EmpireCraft server, but more importantly, contains new performance improvements pending testing to be contributed to Spigot / Paper / Sponge.  
 Version: 1.9 - 1.13.2, 1.15.2 - 1.16.2  
@@ -130,7 +130,7 @@ DISCONTINUED
 
 - [PerfectSpigot](https://www.mc-market.org/resources/5376/) - A 1.8.8 Paper fork focused on Factions servers with optimized cannoning and built-in world generators.  
 Version: 1.8.8  
-Currently Active
+Currently Inactive
 
 - [BeerSpigot](https://www.mc-market.org/threads/355569/) - A 1.8.8 TacoSpigot fork focused on Factions servers with a built-in knockback editing,  with a lot of built-in Factions features (Grace Period, Cannoning Optimization, and Setting Global Spawner Values).  
 Version: 1.8.8  
@@ -188,9 +188,9 @@ Currently Active
 Version: 1.8.8  
 Currently Active
 
-- [Fish](https://github.com/CraftLight-Network/Fish) - Fish is a 1.16.5 Purpur fork with features that are too niche to be added to Purpur and changes that may eventually be upstreamed to Purpur or its subsequent upstreams.  
-Version: 1.16.5  
-Currently Active
+- [Fish](https://github.com/CraftLight-Network/Fish) - Fish is a 1.16.5 Purpur fork with features that are too niche to be added to Purpur and changes that may eventually be upstreamed to Purpur or its subsequent upstreams. Fish was made private by [Encode42](https://github.com/Encode42)  
+Version: 1.16.5 - ???  
+Private
 
 - [GuardSpigot](https://www.mc-market.org/resources/14497/) - GuardSpigot is a 1.8.8 $99 premium TacoSpigot fork with features like custom knockback editing, lag machine detection, and a bunch of features you can toggle like mob AI for performance gain/gameplay change.  
 Version: 1.8.8  
@@ -202,7 +202,7 @@ DISCONTINUED
 
 - [Rainforest](https://github.com/Proximyst/Rainforest) - RainForest is a 1.16.1 - 1.16.5 Paper fork with optimizations that they're testing out/optimizations that they plan to keep to themselves.  
 Version: 1.16.1 - 1.16.5  
-Currently Active
+Currently Inactive
 
 - [SportBukkit](https://github.com/StratusNetwork/SportBukkit) - SportBukkit is a fork of CraftBukkit improving stability and adding some new features. It was developed for and by the StratusNetwork server.  
 Version: 1.8 - 1.12.2  
@@ -250,12 +250,12 @@ Currently Active
 
 ### Modded Server JARS
 
-- [Forge](http://files.minecraftforge.net/) - Forge is server software based on the MCP. Both the server and client need to be running the same mods.  
-Version: 1.1 - 1.16.5  
+- [Forge](http://files.minecraftforge.net/) - Forge is server software based on the MCP. Both the server and client need to be running the same mods. b1.7.3 - 1.0 versions can be found [here](https://mcarchive.net/mods/minecraftforge?gvsn=).  
+Version: b1.7.3 - 1.16.5  
 Currently Active
 
 - [Fabric](https://fabricmc.net/) - Fabric, unlike Forge, is not based on the MCP. This allows it to be updated for snapshots easier. **It is incompatible with Forge.**  
-Version: 1.14 - 21w06a (1.17 Snapshot)  
+Version: 1.14 - 1.17.1 
 Currently Active
 
 - [ModLoaderMP](https://mcarchive.net/mods/modloadermp) - ModLoaderMP was the first multiplayer mod loader, supporting from Beta 1.4 to release 1.5.2.  
@@ -289,9 +289,10 @@ Currently Active
 
 - [Hotpur](https://github.com/ishlandbukkit/Hotpur) - HotPur is a 1.16.5 fork of Purpur attempting to add Fabric mod support.  
 Version: 1.16.4  
-Currently Active
+DISCONTINUED
 
-- [MCPC+](https://ci.md-5.net/job/Cauldron/) - MCPC+ was a 1.2.5 to 1.7.10 Bukkit/Forge hybrid, the first of its kind. It was also known as Cauldron. 
+- [MCPC+](https://ci.md-5.net/job/Cauldron/) - MCPC+ was a 1.2.5 to 1.7.10 Bukkit/Forge hybrid, the first of its kind. It was also known as Cauldron.  
+DISCONTINUED
 
 - [KCauldron](https://github.com/djoveryde/KCauldron) - KCauldron is a fork of MCPC+ using Spigot instead of CraftBukkit.  
 Version: 1.7.10  
@@ -337,23 +338,23 @@ DISCONTINUED
 
 - [BungeeCord](https://www.spigotmc.org/wiki/bungeecord/) - Base for the Waterfall fork, these JARs are used for configuring networks of which an example is Hypixel or Mineplex, it is used for distributing workload and players to different lobbies (Different server instances run with separate files and data).  
 No, this can't be used as a normal JAR and requires at least 3 servers/instances, one is BungeeCord (or it's fork) which is called the proxy, players connect to this proxy and are sent to the default server which is set in config. Let's say server "Lobby" is the default, it will send you there, then you can connect to another server, for example, "Survival" which is running in a separate server/instance and BungeeCord enables the functionality travel across these different servers without returning to the multiplayer menu screen. (It can be done with special plugins which utilize BungeeCord API to send you to the chosen server on click, you'll most commonly see it as a compass or portal).  
-Version: 1.8 - 1.16.5  
+Version: 1.8 - 1.17  
 Currently Active
 
 - [Waterfall](https://papermc.io/downloads#Waterfall) - Fork of BungeeCord, faster than BungeeCord and has general improvements and tweaks which make it the more preferred network JAR, works the same as BungeeCord (talking about the use, it doesn't have a different system).  
-Version: 1.8 - 1.16.5  
+Version: 1.8 - 1.17  
 Currently Active
 
 - [Velocity](https://velocitypowered.com/) - A next-generation Minecraft proxy focused on scalability and flexibility. It allows server owners to link together multiple Minecraft servers so they may appear as one.  
-Version: 1.7.2 - 1.16.5  
+Version: 1.7.2 - 1.17  
 Currently Active
 
 - [Travertine](https://github.com/PaperMC/Travertine) - Fork of Waterfall with added `1.7.10` support if you want that old school experience.  
 Version: 1.7 - 1.16.5  
-Currently Active
+DISCONTINUED
 
 - [FlameCord](https://github.com/2LStudios-MC/FlameCord) - FlameCord is a patch for Travertine to fix possible exploits and add useful functionalities.  
-Version: 1.7 - 1.16.5
+Version: 1.7 - 1.16.5  
 Currently Active
 
 - [HexaCord](https://github.com/CronixMC/HexaCord) - A fork of BungeeCord that added forge support before Waterfall did.  
@@ -369,7 +370,7 @@ Version: 1.7 - 1.16.4
 DISCONTINUED
 
 - [Gate](https://github.com/minekube/gate) - A Minecraft Proxy that is written in Go suggesting "scalability, flexibility & excellent server version support".  
-Version: ???  
+Version: 1.8 - 1.17  
 Currently Active
 
 - [XCord](https://www.mc-market.org/resources/16843/) - A 1.7-1.16.x BungeeCord fork with built in anti-bot, anti-exploit, and many performance optimizations.  
@@ -378,7 +379,7 @@ Currently Active
 
 - [BarelyAuthenticated](https://github.com/Mindgamesnl/BarelyAuthenticated) - A fork of BungeeCord which caches players IPs and usernames to verify them while Mojang services are unstable. It is created and maintained for the server BlockParty.  
 Version: 1.8 - 1.16  
-Currently Active
+Currently Inactive
 
 - [DarkCord](https://github.com/Oculate/DarkCord) - A fork of HexaCord/BungeeCord used and made by the Oculate Network.  
 Version: 1.7.x - 1.11.x  
@@ -402,7 +403,7 @@ Currently Active
 
 - [Gravity](https://www.mc-market.org/resources/17731/) - Gravity is a premium BungeeCord fork adding features like antibot, global messaging, and patches for almost all of the issues.  
 Version: ???  
-Currently Active
+Currently Inactive
 
 - [GuardHexa](https://www.mc-market.org/resources/16180/) - GuardHexa is a premium fork of HexaCord that patches a lot of bugs/exploits and has a bit of optimization.  
 Version: 1.7 - 1.16.4  
@@ -429,11 +430,11 @@ Version: ???
 DISCONTINUED
 
 - [SSCord](https://www.mc-market.org/resources/14562/) - SSCord is a premium fork of Waterfall adding some optimizations, anti-bot features like captcha, and patches some waterfall exploits.  
-Version: 1.7.2 - 1.16.5  
+Version: 1.7.2 - 1.17  
 Currently Active
 
-- [VanillaCord](https://github.com/ME1312/VanillaCord/tree/1.12) - VanillaCord is a BungeeCord fork allowing Vanilla servers to connect through BungeeCord.  
-Version: 1.12 - 1.16.5  
+- [VanillaCord](https://github.com/ME1312/VanillaCord) - VanillaCord is a BungeeCord fork allowing Vanilla servers to connect through BungeeCord.  
+Version: 1.12 - 1.17  
 Currently Active
 
 - [WaterCrash](https://www.mc-market.org/resources/13579/) - WaterCrash is a premium WaterFall fork adding 1.7.x support, adds real-time IP blacklisting, and a crash/exploit preventer. Currently, the resource purchase page is deleted for unknown reasons.  
