@@ -121,7 +121,7 @@ Version: 1.12.2 - 1.14
 Currently Active
 
 - [McEx](https://github.com/McEx/McEx) - McEx is a Minecraft server written in Elixir and Rust. All the networking and logic is implemented in Elixir, while the low-level chunk data handling is done in Rust.  
-Version: ???  
+Version: 1.9.2  
 DISCONTINUED
 
 - [Lightstone](https://github.com/grahamedgecombe/lightstone) - The official server software has some shortcomings such as the use of threaded, synchronous I/O along with high CPU and RAM usage. Lightstone aims to be a lightweight and high-performance alternative.  
@@ -228,6 +228,10 @@ DISCONTINUED
 Version: 1.13.2  
 DISCONTINUED
 
+- [flying squid](https://github.com/PrismarineJS/flying-squid) - flying squid is a server built in JavaScript. It supports digging/placing blocks, World Generation and more.  
+Version: 1.8 - 1.16  
+Currently Active
+
 - [Feather](https://github.com/feather-rs/feather) - Feather is a recode of Minecraft servers entirely in the Rust programming language, aimed at making the server run multicore - this would significantly increase performance. It currently only supports 1.16.5. Worth noting, their plugin API is not finished yet either.  
 Version: 1.16.5  
 Currently Active
@@ -248,6 +252,70 @@ DISCONTINUED
 Version: 1.12.2  
 Currently Active
 
+- [Krypton](https://github.com/KryptonMC/Krypton) - Krypton is a server completely built in kotlin from scratch. It's currently W.I.P.  
+Version: 1.16 - 1.17  
+Currently Active
+
+- [Lantern](https://github.com/LanternPowered/Lantern) - Lantern is a server that implements the SpongeAPI.  
+Version: 1.12 - 1.14, 1.16  
+Currently Inactive
+
+- [MCHPRS](https://github.com/MCHPR/MCHPRS) - Minecraft High-Performance Redstone Server (MCHPRS) is a server built from the ground up in rust designed to provide a high performance creative plot server for redstone.  
+Version: 1.16.5  
+Currently Active
+
+- [Obsidian](https://github.com/ObsidianMC/Obsidian) - Obsidian is a C# .NET 5 implementation of the Minecraft server protocol. It also has its own plugin api with plans to eventually support the spigot api.  
+Version: 1.16.5  
+Currently Active
+
+- [PyMine](https://github.com/py-mine/PyMine) - PyMine is a server built in Python. It has support for plugins. World Generation and game login is in progress.  
+Version: 1.16.5  
+Currently Inactive
+
+- [Composition](https://github.com/garentyler/composition) - Composition is a server created in rust thats aiming to get a working server then optimize speed.  
+Version: 1.8.9  
+Currently Inactive
+
+- [Sugarcane](https://gitlab.com/macmv/sugarcane) - Sugarcane is a server built in Go for minigame servers. It uses a system of a server and a proxy, so that clients can
+easily be switched between servers.  
+Version: 1.8, 1.12 - 1.13  
+Currently Inactive
+
+- [AVRCraft](https://github.com/cnlohr/avrcraft) - AVRCraft is a server that is optimized for 8-bit devices made in C.  
+Version: 1.11, 1.15.2 - 1.16.5  
+Currently Inactive
+
+- [GoLangMc](https://github.com/GoLangMc/minecraft-server) - GoLangMc is a server built in Go.  
+Version: 1.15.2  
+DISCONTINUED
+
+- [MineCase](https://github.com/dotnetGame/MineCase) - MineCase is made in C# and designed to create a high-performance server. Different chunks are managed on different servers so that more players can join in and play in the same world.  
+Version: 1.15.2  
+DISCONTINUED
+
+- [Nostalgia](https://github.com/BizarreCake/Nostalgia) - Nostalgia is a server built in C++. The purpose of this was to serve as a playground for testing AI so in the end minecraft would play itself.  
+Version: 1.14.4  
+DISCONTINUED
+
+- [Basin](https://github.com/basinserver/Basin) - Basin is a server implementaion in C. Its aim is to have amazing performance and be a drop in replacement.  
+Version: 1.10 - 1.11
+DISCONTINUED
+
+- [Diorite](https://github.com/Diorite/Diorite) - Diorite was a server software which aimed at performance and security. It was planned to use special tick regions to take advantage of all cores one a server. It also checked if packets were valid and skipped ones that might crash the server or allow players to cheat.  
+Version: 1.11.2  
+DISCONTINUED
+
+- [Hematite](https://github.com/PistonDevelopers/hematite_server) - Hematite is a server written in Rust and aims to have good performance and support server mods written in Rust. It was aiming to become a drop in replacement for the vanilla server.  
+Version: 1.8.3  
+DISCONTINUED
+
+
+
+https://wiki.vg/Server_List
+
+https://wiki.vg/Classic_Server_List
+https://wiki.vg/ZH:Server_List
+
 ### Modded Server JARS
 
 - [Forge](http://files.minecraftforge.net/) - Forge is server software based on the MCP. Both the server and client need to be running the same mods. b1.7.3 - 1.0 versions can be found [here](https://mcarchive.net/mods/minecraftforge?gvsn=).  
@@ -261,7 +329,7 @@ Currently Active
 - [ModLoaderMP](https://mcarchive.net/mods/modloadermp) - ModLoaderMP was the first multiplayer mod loader, supporting from Beta 1.4 to release 1.5.2.  
 Version: Beta 1.4 - 1.5.2
 
-### Plugins and Mods
+### Plugins and Mods (Hybrids)
 
 - [Magma](https://magmafoundation.org/) - Minecraft Forge hybrid server implementing the Spigot/Bukkit API (Cauldron for 1.12).  
 Version: 1.12.2  
@@ -310,8 +378,12 @@ DISCONTINUED
 Version: ???  
 DISCONTINUED
 
-- [CatServer](https://github.com/Luohuayu/CatServer) - A Server designed for Forge and Paper support not based on any other preexisting software.  
+- [CatServer](https://github.com/Luohuayu/CatServer) - A Server designed for Forge and Paper support not based on any other preexisting software. 1.16.5 is now known as [LoliServer](https://github.com/Loli-Server/LoliServer1.16)  
 Version: 1.12.2  
+Currently Active
+
+- [LoliServer](https://github.com/Loli-Server/LoliServer1.16) - LoliServer is a 1.16.5 version of CatServer with more developers  
+Version: 1.16.5  
 Currently Active
 
 - [Kettle](https://github.com/KettleFoundation/Kettle) - A fork of Contigo that was updated to 1.12.2 and later 1.14.4 which adds support Paper and Forge Support.  
