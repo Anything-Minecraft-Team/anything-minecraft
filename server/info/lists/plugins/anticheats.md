@@ -30,10 +30,6 @@ Discontinued
 Version: 1.8 - 1.16  
 Rating: 1  
 Discontinued
-- [AntiAttack](https://www.spigotmc.org/resources/8358)  
-Version: 1.8  
-Rating: 4.312  
-Discontinued
 - [AntiCheat](https://dev.bukkit.org/projects/anticheat)  
 Version: 1.7.2  
 Rating: ???  
@@ -102,10 +98,6 @@ Discontinued
 Version: ???  
 Rating: 2.818  
 Discontinued
-- [AntiFly](https://www.spigotmc.org/resources/88781)  
-Version: 1.8  
-Rating: 1  
-Currently Active
 - [AntiHaxerman](https://www.spigotmc.org/resources/83198/)  
 Version: 1.7 - 1.8  
 Rating: 4.094  
@@ -118,41 +110,17 @@ Discontinued
 Version: 1.8  
 Rating: 2.833  
 Discontinued
-- [AntiMasterCheat](https://www.spigotmc.org/resources/43657)  
-Version: 1.8  
-Rating: 1  
-Discontinued
 - [Anti-Mojang Cheats (AC)](https://www.spigotmc.org/resources/87004)  
 Version: 1.8 - 1.10  
 Rating: 5  
-Currently Active
-- [AntiNerd](https://github.com/TrueReassembly/AntiNerd/tree/master)  
-Version: 1.16.5  
-Rating: ???  
 Currently Active
 - [AntiReach](https://www.spigotmc.org/resources/58495)  
 Version: 1.8  
 Rating: 3.889  
 Discontinued
-- [AntiScaffold](https://www.spigotmc.org/resources/66085) - Skript  
-Version: 1.8  
-Rating: 3.154  
-Dsicontinued
 - [AntiSpeed](https://www.spigotmc.org/resources/47701)  
 Version: 1.12  
 Rating: 2.667  
-Discontinued
-- [Anti Vanilla Fly](https://www.spigotmc.org/resources/90523)  
-Version: 1.8 - 1.16  
-Rating: 0  
-Currently Active
-- [AntiWallhack](https://www.spigotmc.org/resources/67340)  
-Version: 1.14  
-Rating: 4  
-Discontinued
-- [ApplyGuardian](https://www.spigotmc.org/resources/64937/)  
-Version: 1.8  
-Rating: 2.733  
 Discontinued
 - [Arc AntiCheat](https://www.spigotmc.org/resources/50805/)  
 Version: 1.7 - 1.8  
@@ -265,18 +233,6 @@ Discontinued
 - [Daedalus](https://www.spigotmc.org/resources/49215/)  
 Version: 1.7 - 1.13  
 Rating: 3.489  
-Discontinued
-- [DAntiCheaters](https://www.spigotmc.org/resources/36597) - Skript  
-Version: 1.7 - 1.9  
-Rating: 2.429  
-Discontinued
-- [DartsAntiCheat](https://www.spigotmc.org/resources/72553)  
-Version: 1.14  
-Rating: 3.5  
-Discontinued
-- [DeathAntiCheat](https://www.spigotmc.org/resources/75856)  
-Version: 1.8  
-Rating: 0  
 Discontinued
 - [Dreya Anticheat](https://github.com/funkemunky/Dreya)  
 Version: ???  
@@ -394,10 +350,6 @@ Discontinued
 Version: 1.7 - 1.12  
 Rating: 3.182  
 Currently Active
-- [Intect](https://github.com/SquareCodeFX/Intect)  
-Version: 1.8 - 1.16  
-Rating: ???  
-Currently Active
 - [JightAntiC](https://www.spigotmc.org/resources/88154)  
 Version: 1.16  
 Rating: 0  
@@ -406,10 +358,6 @@ Currently Active
 Version: 1.8  
 Rating: ???  
 Currently Active
-- [KasAntiCheat](https://www.spigotmc.org/resources/55889)  
-Version: 1.10 - 1.12  
-Rating: 3  
-Discontinued
 - [Kauri Anticheat](https://www.spigotmc.org/resources/83910)  
 Version: 1.7 - 1.16   
 Rating: 3.594  
@@ -710,10 +658,6 @@ Discontinued
 Version: 1.8 - 1.9  
 Rating: 2.714  
 Discontinued
-- [ToppeCheat](https://github.com/toppev/ToppeCheat)  
-Version: 1.8.8  
-Rating: ???  
-Discontinued
 - [TrueBan](https://www.spigotmc.org/resources/61760)  
 Version: 1.12  
 Rating: 0  
@@ -722,14 +666,6 @@ Discontinued
 Version: 1.8  
 Rating: 3.471  
 Discontinued
-- [Ultra Anti Cheat](https://www.spigotmc.org/resources/77855/) - Skript  
-Version: 1.15  
-Rating: 3.333  
-Discontinued
-- [Unexpected](https://github.com/LatamCraft/Unexpected)  
-Version: 1.8.8  
-Rating: ???  
-Currently Active
 - [Vagmemes](https://www.spigotmc.org/resources/57080)  
 Version: 1.8  
 Rating: 3.267  
@@ -832,7 +768,7 @@ Rating: 3.563
 Discontinued
 - [zHack Lite](https://polymart.org/resource/460)  
 Version: 1.8.8  
-Rating: 5  
+Rating: 5
 Currently Active
 - [ZK Anticheat](https://github.com/Valou447/ZK-ANTICHEAT)  
 Version: ???  
@@ -876,10 +812,38 @@ Version: 1.7 - 1.16
 Rating: 4.088  
 Price: £7.00  
 Currently Active
+- [AntiFly](https://www.spigotmc.org/resources/88781)  
+Version: 1.8  
+Rating: 1  
+Currently Active
+- [AntiAttack](https://www.spigotmc.org/resources/8358)  
+Version: 1.8  
+Rating: 4.312  
+Discontinued
 - [Anti-KillAura Anticheat](https://www.mc-market.org/resources/4163/)  
 Version: 1.8  
 Rating: 0  
 Price: $5.00  
+Discontinued
+- [AntiMasterCheat](https://www.spigotmc.org/resources/43657)  
+Version: 1.8  
+Rating: 1  
+Discontinued
+- [AntiScaffold](https://www.spigotmc.org/resources/66085) - Skript  
+Version: 1.8  
+Rating: 3.154  
+Dsicontinued
+- [Anti Vanilla Fly](https://www.spigotmc.org/resources/90523)  
+Version: 1.8 - 1.16  
+Rating: 0  
+Currently Active
+- [AntiWallhack](https://www.spigotmc.org/resources/67340)  
+Version: 1.14  
+Rating: 4  
+Discontinued
+- [ApplyGuardian](https://www.spigotmc.org/resources/64937/)  
+Version: 1.8  
+Rating: 2.733  
 Discontinued
 - [Artemis](https://artemis.ac/)  
 Version: ???  
@@ -900,6 +864,18 @@ Discontinued
 Version: 1.8 - 1.12  
 Rating: 4.128  
 Price: €5.99  
+Discontinued
+- [DAntiCheaters](https://www.spigotmc.org/resources/36597) - Skript  
+Version: 1.7 - 1.9  
+Rating: 2.429  
+Discontinued
+- [DartsAntiCheat](https://www.spigotmc.org/resources/72553)  
+Version: 1.14  
+Rating: 3.5  
+Discontinued
+- [DeathAntiCheat](https://www.spigotmc.org/resources/75856)  
+Version: 1.8  
+Rating: 0  
 Discontinued
 - [Deus](https://www.mc-market.org/threads/613168/)  
 Version: 1.7 - 1.16  
@@ -956,16 +932,15 @@ Version: ???
 Rating: ???  
 Price: $17.50  
 Currently Active
+- [KasAntiCheat](https://www.spigotmc.org/resources/55889)  
+Version: 1.10 - 1.12  
+Rating: 3  
+Discontinued
 - [KokuminAntiCheat](https://www.mc-market.org/resources/7564/)  
 Version: ???  
 Rating: 0  
 Price: $4.99  
 Discontinued
-- [Kraken Anticheat](https://minehut.com/market/product/kraken-anticheat) - Skript  
-Version: ???  
-Rating: ???  
-Price: 695 Credits (Minehut currency)  
-Currently Active
 - [Matrix Anti Cheat](https://matrix.rip)  
 Version: ???  
 Rating: ???  
@@ -976,7 +951,7 @@ Version: 1.13 - 1.14
 Rating: 3.182  
 Price: $9.99  
 Currently Active
-- [OverFlow AntiCheat](https://www.mc-market.org/threads/486363/) - [No longer for sale](https://github.com/ImDora/OverFlow-3.0)  
+- [OverFlow AntiCheat](https://www.mc-market.org/threads/486363/) - [No longer for sale](https://github.com/ImDora/OverFlow-3.0) 
 Version: ???  
 Rating: ???  
 Price: ???  
@@ -1021,6 +996,10 @@ Version: 1.7 - 1.16
 Rating: 3.286  
 Price: $10.00  
 Currently Active
+- [Ultra Anti Cheat](https://www.spigotmc.org/resources/77855/) - Skript  
+Version: 1.15  
+Rating: 3.333  
+Discontinued
 - [Verus](https://www.mc-market.org/threads/335067/)  
 Version: 1.7 - 1.16.5  
 Rating: ???  
