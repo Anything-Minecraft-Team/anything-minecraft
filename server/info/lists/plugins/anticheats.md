@@ -20,7 +20,7 @@ Rating: 1
 Discontinued
 - [Alex AntiCheat](https://www.spigotmc.org/resources/74611)  
 Version: 1.7 - 1.8  
-Rating: 2.769  
+Rating: 2  
 Discontinued
 - [ANC](https://www.spigotmc.org/resources/39221/)  
 Version: 1.8  
@@ -48,15 +48,15 @@ Rating: ???
 Discontinued
 - [AntiCheat](https://www.spigotmc.org/resources/64138/)  
 Version: 1.8 - 1.13  
-Rating: 2.5  
+Rating: 1.25  
 Discontinued
 - [AntiCheat](https://www.spigotmc.org/resources/51765/)  
 Version: 1.8  
-Rating: 2.88  
+Rating: 2.71  
 Discontinued
 - [AntiCheat](https://www.spigotmc.org/resources/70953) - Skript  
 Version: 1.8  
-Rating: 2.75  
+Rating: 1.5  
 Discontinued
 - [Anti Cheat](https://github.com/Paroxial/Anti-Cheat)  
 Version: 1.8  
@@ -64,15 +64,15 @@ Rating: ???
 Discontinued
 - [Anti-Cheat](https://www.spigotmc.org/resources/51639) - Skript  
 Version: 1.8  
-Rating: 2.667  
+Rating: 1  
 Discontinued
 - [AntiCheat Base](https://www.spigotmc.org/resources/69032/)  
 Version: 1.8  
-Rating: 3.07  
+Rating: 3.33  
 Discontinued
 - [AntiCheatbyBarpec](https://www.spigotmc.org/resources/12347/)  
 Version: 1.8  
-Rating: 3.143  
+Rating: 3.5  
 Discontinued
 - [AntiCheatDSP](https://www.spigotmc.org/resources/60592)  
 Version: 1.8 - 1.9, 1.12 - 1.13  
@@ -84,11 +84,11 @@ Rating: 3
 Discontinued
 - [AntiCheatReloaded](https://www.spigotmc.org/resources/23799/)  
 Version: 1.8, 1.12 - 1.16  
-Rating: 3.68  
+Rating: 3.76  
 Currently Active
 - [AntiCheatSK](https://www.spigotmc.org/resources/16457/) - Skript  
 Version: ???  
-Rating: 2.81  
+Rating: 1  
 Discontinued
 - [Anti**** (censored due to profanity)](https://github.com/BigFatAlt/AntiCunt)  
 Version: 1.8.8  
@@ -96,11 +96,11 @@ Rating: ???
 Discontinued
 - [AntiFastclick](https://www.spigotmc.org/resources/23736/) - Skript  
 Version: 1.7 - 1.11  
-Rating: 2.92  
+Rating: 2.66  
 Discontinued
 - [AntiFastbow](https://www.spigotmc.org/resources/3155/)  
 Version: 1.7 - 1.8  
-Rating: 2.81  
+Rating: 1  
 Discontinued
 - [AntiFly](https://www.spigotmc.org/resources/88781)  
 Version: 1.8  
@@ -108,7 +108,7 @@ Rating: 2.83
 Discontinued
 - [AntiHaxerman](https://www.spigotmc.org/resources/83198/)  
 Version: 1.7 - 1.8  
-Rating: 4.27  
+Rating: 4.69  
 Currently Active
 - [AntiHighJump](https://www.spigotmc.org/resources/23099/) - Skript  
 Version: 1.8, 1.11  
@@ -116,7 +116,7 @@ Rating: 3
 Discontinued
 - [AntiKillAura](https://www.spigotmc.org/resources/48385/)  
 Version: 1.8  
-Rating: 2.83  
+Rating: 2  
 Discontinued
 - [AntiMasterCheat](https://www.spigotmc.org/resources/43657)  
 Version: 1.8  
@@ -132,7 +132,7 @@ Rating: ???
 Currently Active
 - [AntiReach](https://www.spigotmc.org/resources/58495)  
 Version: 1.8  
-Rating: 3.88  
+Rating: 4.14  
 Discontinued
 - [AntiScaffold](https://www.spigotmc.org/resources/66085) - Skript  
 Version: 1.8  
@@ -140,7 +140,7 @@ Rating: 3.15
 Dsicontinued
 - [AntiSpeed](https://www.spigotmc.org/resources/47701)  
 Version: 1.12  
-Rating: 2.66  
+Rating: 1  
 Discontinued
 - [Anti Vanilla Fly](https://www.spigotmc.org/resources/90523)  
 Version: 1.8 - 1.16  
@@ -156,19 +156,19 @@ Rating: 2.73
 Discontinued
 - [Arc AntiCheat](https://www.spigotmc.org/resources/50805/)  
 Version: 1.7 - 1.8  
-Rating: 3.42  
+Rating: 3.88  
 Discontinued
 - [ASAC](https://www.spigotmc.org/resources/38426)  
 Version: 1.8  
-Rating: 3.17  
+Rating: 3.42  
 Discontinued
 - [AutoArmor Detector](https://www.spigotmc.org/resources/19200/)  
 Version: 1.8 - 1.11  
-Rating: 3.33  
+Rating: 4  
 Discontinued
 - [AutoEye Anticheat](https://www.spigotmc.org/resources/54046/)  
 Version: 1.7 - 1.12  
-Rating: 4.32  
+Rating: 4.52  
 Discontinued
 - [AZ - AC](https://www.spigotmc.org/resources/78727)  
 Version: 1.8 - 1.15  
@@ -188,15 +188,15 @@ Rating: ???
 Discontinued
 - [Bangs AntiCheat](https://www.spigotmc.org/resources/25953/)  
 Version: 1.10  
-Rating: 2.81  
+Rating: 1  
 Discontinued
 - [Basic Anti-Cheat](https://www.spigotmc.org/resources/70455/)  
 Version: 1.8, 1.12, 1.14  
-Rating: 3.32  
+Rating: 3.44  
 Discontinued
 - [BetterBubble](https://www.spigotmc.org/resources/81404/) - Skript  
 Version: 1.12 - 1.16  
-Rating: 3.9  
+Rating: 4.67  
 Currently Active
 - [Biden](https://github.com/BigFatAlt/Biden)  
 Version: 1.8  
@@ -204,7 +204,7 @@ Rating: ???
 Discontinued
 - [BigAntiCheat](https://www.spigotmc.org/resources/33618)  
 Version: 1.8  
-Rating: 2.6  
+Rating: 1.79  
 Discontinued
 - [Blade Anti Cheat](https://www.spigotmc.org/resources/53776) - Skript  
 Version: 1.8 - 1.12  
@@ -216,7 +216,7 @@ Rating: ???
 Discontinued
 - [Bubble AntiCheat](https://www.spigotmc.org/resources/78468/) - Skript  
 Version: 1.8 - 1.14  
-Rating: 3.33  
+Rating: 3.5  
 Discontinued
 - [CacaoAntiCheat](https://www.spigotmc.org/resources/86331)  
 Version: 1.12  
@@ -232,7 +232,7 @@ Rating: 3
 Discontinued
 - [CheatGuard AntiCheat](https://www.spigotmc.org/resources/75147)  
 Version: 1.8, 1.12  
-Rating: 3.52  
+Rating: 4.28  
 Discontinued
 - [Client Integrity](https://www.spigotmc.org/resources/81926) - Skript  
 Version: 1.8, 1.12  
@@ -240,7 +240,7 @@ Rating: 0
 Discontinued
 - [ControlAnticheat](https://www.spigotmc.org/resources/77621)  
 Version: 1.8, 1.12  
-Rating: 2.92  
+Rating: 2.66  
 Discontinued
 - [coolkidnils's Anticheat (Beta)](https://www.spigotmc.org/resources/84542) - Has since been removed, if you have the file please join our discord [here](https://discord.gg/QRjusA2uAZ).  
 Version: 1.7 - 1.16  
@@ -264,7 +264,7 @@ Rating: ???
 Discontinued
 - [Daedalus](https://www.spigotmc.org/resources/49215/)  
 Version: 1.7 - 1.13  
-Rating: 3.52  
+Rating: 3.65  
 Discontinued
 - [DAntiCheaters](https://www.spigotmc.org/resources/36597) - Skript  
 Version: 1.7 - 1.9  
@@ -284,27 +284,27 @@ Rating: ???
 Discontinued
 - [Easy AntiCheat Skript](https://www.spigotmc.org/resources/84863) - Skript  
 Version: 1.7 - 1.16  
-Rating: 2.84  
+Rating: 2.33  
 Discontinued
 - [Egg Protection](https://www.spigotmc.org/resources/63672/)  
 Version: 1.8  
-Rating: 3.35  
+Rating: 4.25  
 Discontinued
 - [Ela Anti Cheat](https://www.spigotmc.org/resources/61458) - Renamed to "Old anticheat don’t download new one coming soon." but you can download the old files from the version history tab  
 Version: ???  
-Rating: 2.82  
+Rating: 2.57  
 Discontinued
 - [Elytra+ Anticheat](https://www.spigotmc.org/resources/79627)  
 Version: 1.14  
-Rating: 2.91  
+Rating: 2.5  
 Discontinued
 - [Exist](https://www.spigotmc.org/resources/43113/)  
 Version: 1.11  
-Rating: 2.91  
+Rating: 2.5  
 Discontinued
 - [FairFight Anticheat](https://www.spigotmc.org/resources/57765) - Skript  
 Version: 1.8  
-Rating: 3.33  
+Rating: 4  
 Discontinued
 - [Fiona Anticheat](https://github.com/funkemunky/Fiona-Anticheat)  
 Version: 1.7 - 1.13  
@@ -312,11 +312,11 @@ Rating: ???
 Discontinued
 - [Flappy Anticheat](https://www.spigotmc.org/resources/92180/)  
 Version: 1.16 - 1.17  
-Rating: 3.72  
+Rating: 4.33  
 Currently Active
 - [FrameAntiCheat](https://www.spigotmc.org/resources/34273) - Skript  
 Version: 1.7 - 1.9  
-Rating: 2.81  
+Rating: 1  
 Discontinued
 - [Frequency](https://github.com/ElevatedDev/Frequency)  
 Version: 1.8.8  
@@ -324,11 +324,11 @@ Rating: ???
 Currently Inactive
 - [FunkePhase](https://www.spigotmc.org/resources/57393/)  
 Version: 1.7 - 1.12  
-Rating: 3.52  
+Rating: 4.28  
 Discontinued
 - [GAC](https://www.spigotmc.org/resources/18982/)  
 Version: 1.9  
-Rating: 3.27  
+Rating: 3.37  
 Discontinued
 - [Gamer Anti Cheat](https://www.spigotmc.org/resources/89386)  
 Version: 1.8  
@@ -336,11 +336,11 @@ Rating: 3.08
 Currently Inactive
 - [GodAntiCheat](https://www.spigotmc.org/resources/49506/)  
 Version: 1.8 - 1.12  
-Rating: 3.05  
+Rating: 3.14  
 Discontinued
 - [GoldenEyes](https://www.spigotmc.org/resources/54638/) - Skript  
 Version: 1.8, 1.12  
-Rating: 3.27  
+Rating: 3.62  
 Discontinued
 - [Grim](https://github.com/MWHunter/Grim)  
 Version: 1.7 - 1.17  
@@ -348,11 +348,11 @@ Rating: ???
 Currently Active
 - [Guardian Anti Cheat](https://www.spigotmc.org/resources/29264/) - Skript  
 Version: 1.8 - 1.10  
-Rating: 3.71  
+Rating: 3.91  
 Discontinued
 - [HackDetective](https://www.spigotmc.org/resources/8702/)  
 Version: ???  
-Rating: 4.08  
+Rating: 4.36  
 Discontinued
 - [HackWarner [Lite]](https://www.spigotmc.org/resources/37826)  
 Version: 1.7 - 1.11  
@@ -364,7 +364,7 @@ Rating: 3.968
 Discontinued
 - [Hawk Anticheat](https://www.spigotmc.org/resources/40343/)  
 Version: 1.7 - 1.8  
-Rating: 4.33  
+Rating: 4.51  
 Currently Inactive
 - [HoneyBadger AntiCheat](https://github.com/SalersFR/Juaga) - Previously knows as Juaga  
 Version: 1.8  
@@ -372,15 +372,15 @@ Rating: 3.2
 Discontinued
 - [Horizon](https://www.spigotmc.org/resources/65830/)  
 Version: 1.8, 1.12 - 1.14  
-Rating: 4.1  
+Rating: 4.22  
 Discontinued
 - [Hydra AntiCheat](https://www.spigotmc.org/resources/82413) - Skript  
 Version: 1.8, 1.12, 1.15 - 1.16  
-Rating: 2.84  
+Rating: 2.66  
 Discontinued
 - [HyperAC](https://www.spigotmc.org/resources/41821)  
 Version: 1.7 - 1.8  
-Rating: 3.38  
+Rating: 4.66  
 Discontinued
 - [iAnticheat](https://www.curseforge.com/minecraft/bukkit-plugins/ianticheat)  
 Version: 1.7 - 1.8  
@@ -388,7 +388,7 @@ Rating: ???
 Discontinued
 - [Impulse AntiCheat](https://www.spigotmc.org/resources/89023)  
 Version: 1.7 - 1.12  
-Rating: 3.18  
+Rating: 5  
 Currently Active
 - [Intect](https://github.com/SquareCodeFX/Intect) - Original was made private, [here](https://github.com/steviebeenz/Intect) is a fork  
 Version: 1.8 - 1.16  
@@ -412,11 +412,11 @@ Rating: 3.59
 Discontinued
 - [KizukiAC](https://www.spigotmc.org/resources/90468/)  
 Version: 1.8, 1.12  
-Rating: 4  
+Rating: 4.28  
 Currently Active
 - [Knockback++](https://www.spigotmc.org/resources/36140/)  
 Version: 1.8  
-Rating: 3.44  
+Rating: 3.73  
 Discontinued
 - [Krypton Anticheat](https://www.spigotmc.org/resources/64663/)  
 Version: 1.8  
@@ -428,7 +428,7 @@ Rating: ???
 Discontinued
 - [LCC AntiCheat](https://www.spigotmc.org/resources/33591) - Skript  
 Version: 1.7 - 1.11  
-Rating: 2.93  
+Rating: 2.83  
 Discontinued
 - [Link Anti Cheat](https://dev.bukkit.org/projects/link-anti-cheat-0-8)  
 Version: 1.8 - 1.11  
@@ -436,11 +436,11 @@ Rating: ???
 Discontinued
 - [LionGuard AntiCheat](https://www.spigotmc.org/resources/67207/)  
 Version: 1.7 - 1.8  
-Rating: 3.2  
+Rating: 3.59  
 Discontinued
 - [LittleNoCheat](https://www.spigotmc.org/resources/56405)  
 Version: 1.8  
-Rating: 3.33  
+Rating: 3.75  
 Discontinued
 - [Luna Anticheat](https://github.com/GladUrBad/Luna-Anticheat) - Later recoded as [Medusa Anticheat](https://www.spigotmc.org/resources/83345)  
 Version: 1.8.8  
@@ -448,11 +448,11 @@ Rating: ???
 Discontinued
 - [MAC](https://www.spigotmc.org/resources/47435/) - Skript  
 Version: 1.7 - 1.12  
-Rating: 2.83  
+Rating: 2  
 Discontinued
 - [Medusa AntiCheat Lite](https://www.spigotmc.org/resources/83345/)  
 Version: 1.7 - 1.12  
-Rating: 4.18  
+Rating: 4.62  
 Currently Inactive
 - [Meme AntiCheat](https://www.mc-market.org/resources/12279/)  
 Version: 1.8  
@@ -460,15 +460,15 @@ Rating: 2.83
 Discontinued
 - [MenaceAC](https://www.spigotmc.org/resources/63444/)  
 Version: 1.8 - 1.12  
-Rating: 3.55  
+Rating: 4.25  
 Discontinued
 - [Mine AntiCheat](https://www.spigotmc.org/resources/54378)  
 Version: 1.8  
-Rating: 2.84  
+Rating: 2.33  
 Discontinued
 - [MineCheat Detection](https://www.spigotmc.org/resources/61119/) - Skript  
 Version: 1.8 - 1.13  
-Rating: 2.64  
+Rating: 1.75  
 Discontinued
 - [Minecraft Voll Funktionsfähiges AntiCheat](https://www.spigotmc.org/resources/85680) - Skript  
 Version: 1.8  
@@ -476,11 +476,11 @@ Rating: 0
 Discontinued
 - [MineGuard](https://www.spigotmc.org/resources/63700/)  
 Version: 1.8  
-Rating: 3.29  
+Rating: 3.71  
 Discontinued
 - [MineSecure Lite](https://www.spigotmc.org/resources/11996/)  
 Version: 1.8 - 1.11  
-Rating: 3.42  
+Rating: 3.46  
 Discontinued
 - [MIU Anticheat](https://github.com/securitygab/MIU-AntiCheat-Minecraft)  
 Version: 1.8  
@@ -488,7 +488,7 @@ Rating: ???
 Discontinued
 - [MultiAntiCheat](https://www.spigotmc.org/resources/68249) - Skript  
 Version: 1.8  
-Rating: 3.16  
+Rating: 4  
 Discontinued
 - [NebulaAC](https://github.com/GladUrBad/NebulaAC)  
 Version: 1.8.8  
@@ -496,7 +496,7 @@ Rating: ???
 Discontinued
 - [Negativity](https://www.spigotmc.org/resources/48399/)  
 Version: 1.7 - 1.17  
-Rating: 4  
+Rating: 4.08  
 Currently Active
 - [Nemesis](https://github.com/sim0n/Nemesis)  
 Version: 1.8.8  
@@ -504,11 +504,11 @@ Rating: ???
 Currently Inactive
 - [NESS Anti-Cheat](https://www.spigotmc.org/resources/53281/)  
 Version: 1.8 - 1.12  
-Rating: 3.46  
+Rating: 3.59  
 Discontinued
 - [NESS Anti-Cheat Reloaded](https://www.spigotmc.org/resources/75887/)  
 Version: 1.8 - 1.16  
-Rating: 3.65  
+Rating: 3.89  
 Currently Active
 - [NeviveAntiCheat](https://www.spigotmc.org/resources/88785)  
 Version: 1.8  
@@ -516,7 +516,7 @@ Rating: 2.84
 Currently Inactive
 - [NiroNoCheat](https://www.spigotmc.org/resources/49431/)  
 Version: 1.8 - 1.12  
-Rating: 3.79  
+Rating: 3.95  
 Discontinued
 - [NoCheat](https://dev.bukkit.org/projects/nocheat)  
 Version: ??? - 1.1, 1.2.4  
@@ -548,7 +548,7 @@ Rating: ???
 Discontinued
 - [NoFreeNukes](https://www.spigotmc.org/resources/50936/)  
 Version: 1.7 - 1.12  
-Rating: 3.38  
+Rating: 4.66  
 Discontinued
 - [NoHacks](https://www.spigotmc.org/resources/52998)  
 Version: 1.7 - 1.8  
