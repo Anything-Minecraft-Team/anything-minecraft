@@ -332,7 +332,7 @@ Rating: 3.37
 Discontinued
 - [Gamer Anti Cheat](https://www.spigotmc.org/resources/89386)  
 Version: 1.8  
-Rating: 3.08  
+Rating: 3.5  
 Currently Inactive
 - [GodAntiCheat](https://www.spigotmc.org/resources/49506/)  
 Version: 1.8 - 1.12  
@@ -360,7 +360,7 @@ Rating: 3.35
 Discontinued
 - [Hades](https://www.spigotmc.org/resources/65622/)  
 Version: 1.7 - 1.8  
-Rating: 3.968  
+Rating: 4.42  
 Discontinued
 - [Hawk Anticheat](https://www.spigotmc.org/resources/40343/)  
 Version: 1.7 - 1.8  
@@ -512,7 +512,7 @@ Rating: 3.89
 Currently Active
 - [NeviveAntiCheat](https://www.spigotmc.org/resources/88785)  
 Version: 1.8  
-Rating: 2.84  
+Rating: 2.33  
 Currently Inactive
 - [NiroNoCheat](https://www.spigotmc.org/resources/49431/)  
 Version: 1.8 - 1.12  
@@ -552,15 +552,15 @@ Rating: 4.66
 Discontinued
 - [NoHacks](https://www.spigotmc.org/resources/52998)  
 Version: 1.7 - 1.8  
-Rating: 2.71  
+Rating: 2  
 Discontinued
 - [NoHax Anticheat](https://www.spigotmc.org/resources/88414)  
 Version: 1.8  
-Rating: 2  
+Rating: 1  
 Discontinued
 - [NOMERCY - Anticheat](https://www.spigotmc.org/resources/84783)  
 Version: 1.8  
-Rating: 2.66  
+Rating: 1  
 Discontinued
 - [OceanAntiCheat](https://www.spigotmc.org/resources/58907/)  
 Version: 1.13  
@@ -644,7 +644,7 @@ Rating: ???
 Discontinued/Private
 - [SkNoCheat](https://www.spigotmc.org/resources/43928)  
 Version: 1.8  
-Rating: 2.81  
+Rating: 1  
 Discontinued
 - [SkyProtect](https://www.spigotmc.org/resources/62838/)  
 Version: 1.7 - 1.12  
@@ -664,7 +664,7 @@ Rating: ???
 Discontinued
 - [SnowLeopard](https://www.spigotmc.org/resources/55185/)  
 Version: 1.8 - 1.12  
-Rating: 3.18  
+Rating: 5  
 Discontinued
 - [SoaromaSAC](https://www.spigotmc.org/resources/87702/)  
 Version: 1.16 - 1.17  
@@ -688,11 +688,11 @@ Rating: 2.84
 Discontinued
 - [TestHack (Catch those hackers)](https://www.spigotmc.org/resources/11997) - Skript  
 Version: 1.6 - 1.8  
-Rating: 3.5  
+Rating: 4.75  
 Discontinued
 - [TGAntiCheat51](https://www.spigotmc.org/resources/28167)  
 Version: 1.7 - 1.8  
-Rating: 2.81  
+Rating: 1  
 Discontinued
 - [The Banner Eye AC](https://www.spigotmc.org/resources/84602) - Skript  
 Version: 1.16  
@@ -712,7 +712,7 @@ Rating: 4.72
 Currently Inactive
 - [Thysol Anticheat](https://www.spigotmc.org/resources/61022)  
 Version: 1.7 - 1.8  
-Rating: 2.66  
+Rating: 1  
 Discontinued
 - [Tiger AntiCheat](https://www.spigotmc.org/resources/80848)  
 Version: 1.12  
@@ -736,7 +736,7 @@ Rating: 3.47
 Discontinued
 - [Ultra Anti Cheat](https://www.spigotmc.org/resources/77855/) - Skript  
 Version: 1.15  
-Rating: 3.33  
+Rating: 5  
 Discontinued
 - [Unexpected](https://github.com/LatamCraft/Unexpected)  
 Version: 1.8  
@@ -865,7 +865,7 @@ This list of paid anti-cheats is sorted alphabetically.
 
 - [AAC (Advanced Anti Cheat)](https://www.spigotmc.org/resources/6442/) (Best used with [AACAdditionPro](https://www.spigotmc.org/resources/33590/))  
 Version: 1.8 - 1.16  
-Rating: 4.14  
+Rating: 4.13  
 Price: £20.00  
 Currently Active
 - [Africa Anticheat](https://mctrades.org/resources/264/)  
@@ -965,7 +965,7 @@ Price: $17.50
 Currently Active
 - [Kauri Anticheat](https://www.spigotmc.org/resources/53721/)  
 Version: 1.7 - 1.13  
-Rating: 3.983  
+Rating: 4.08  
 Price: $15  
 Discontinued
 - [KokuminAntiCheat](https://www.mc-market.org/resources/7564/)  
