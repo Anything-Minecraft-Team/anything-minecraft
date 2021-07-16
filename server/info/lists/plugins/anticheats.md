@@ -32,7 +32,7 @@ Rating: 1
 Discontinued
 - [AntiAttack](https://www.spigotmc.org/resources/8358)  
 Version: 1.8  
-Rating: 3.8  
+Rating: 4.31  
 Discontinued
 - [AntiCheat](https://dev.bukkit.org/projects/anticheat)  
 Version: 1.2.5 - 1.7.2  
@@ -104,7 +104,7 @@ Rating: 1
 Discontinued
 - [AntiFly](https://www.spigotmc.org/resources/88781)  
 Version: 1.8  
-Rating: 2.83  
+Rating: 2  
 Discontinued
 - [AntiHaxerman](https://www.spigotmc.org/resources/83198/)  
 Version: 1.7 - 1.8  
@@ -120,11 +120,11 @@ Rating: 2
 Discontinued
 - [AntiMasterCheat](https://www.spigotmc.org/resources/43657)  
 Version: 1.8  
-Rating: 2.81  
+Rating: 1  
 Discontinued
 - [Anti-Mojang Cheats (AC)](https://www.spigotmc.org/resources/87004)  
 Version: 1.8 - 1.10  
-Rating: 3.18  
+Rating: 5  
 Discontinued
 - [AntiNerd](https://github.com/TrueReassembly/AntiNerd/tree/master)  
 Version: 1.16.5  
@@ -136,7 +136,7 @@ Rating: 4.14
 Discontinued
 - [AntiScaffold](https://www.spigotmc.org/resources/66085) - Skript  
 Version: 1.8  
-Rating: 3.15  
+Rating: 3.66  
 Dsicontinued
 - [AntiSpeed](https://www.spigotmc.org/resources/47701)  
 Version: 1.12  
@@ -148,7 +148,7 @@ Rating: 0
 Currently Active
 - [AntiWallhack](https://www.spigotmc.org/resources/67340)  
 Version: 1.14  
-Rating: 3.33  
+Rating: 4  
 Discontinued
 - [ApplyGuardian](https://www.spigotmc.org/resources/64937/)  
 Version: 1.8  
@@ -163,7 +163,7 @@ Version: 1.8
 Rating: 3.42  
 Discontinued
 - [AutoArmor Detector](https://www.spigotmc.org/resources/19200/)  
-Version: 1.8 - 1.11  
+Version: 1.8  
 Rating: 4  
 Discontinued
 - [AutoEye Anticheat](https://www.spigotmc.org/resources/54046/)  
@@ -638,6 +638,10 @@ Discontinued
 Version: 1.8  
 Rating: 3  
 Discontinued
+- Skidusa - Never released to the public  
+Version: 1.8  
+Rating: ???  
+Discontinued/Private
 - [SkNoCheat](https://www.spigotmc.org/resources/43928)  
 Version: 1.8  
 Rating: 2.81  
@@ -861,7 +865,7 @@ This list of paid anti-cheats is sorted alphabetically.
 
 - [AAC (Advanced Anti Cheat)](https://www.spigotmc.org/resources/6442/) (Best used with [AACAdditionPro](https://www.spigotmc.org/resources/33590/))  
 Version: 1.8 - 1.16  
-Rating: 4.131  
+Rating: 4.14  
 Price: £20.00  
 Currently Active
 - [Africa Anticheat](https://mctrades.org/resources/264/)  
@@ -881,7 +885,7 @@ Price: €30.00
 Currently Active
 - [AntiAura](https://www.spigotmc.org/resources/1368/)  
 Version: 1.7 - 1.17  
-Rating: 4.088  
+Rating: 4.12  
 Price: £7.00  
 Currently Active
 - [Anti-KillAura Anticheat](https://www.mc-market.org/resources/4163/)  
@@ -906,7 +910,7 @@ Price: $39.99
 Discontinued
 - [DakataAntiCheat](https://www.spigotmc.org/resources/26911/)  
 Version: 1.8 - 1.12  
-Rating: 4.128  
+Rating: 4.27  
 Price: €5.99  
 Discontinued
 - [Deus](https://www.mc-market.org/threads/613168/)  
@@ -916,7 +920,7 @@ Price: $99.90
 Currently Active
 - [eFlame](https://www.spigotmc.org/resources/17071) - Used to be known as FairPlayMinecraft  
 Version: 1.7 - 1.14  
-Rating: 3.779  
+Rating: 3.85  
 Price: $15.00  
 Discontinued
 - [Firefly AntiCheat](https://www.mc-market.org/threads/222485/) - This never released  
@@ -936,7 +940,7 @@ Price: $8/mo
 Unreleased 
 - [GodsEye AntiCheat](https://www.spigotmc.org/resources/69595/)  
 Version: 1.8 - 1.16  
-Rating: 4.569  
+Rating: 4.82  
 Price: £15.50  
 Currently Active
 - [Intave AntiCheat](https://intave.de/)  
@@ -944,11 +948,6 @@ Version: ???
 Rating: ???  
 Price: ???  
 Currently Active
-- [Iris Anticheat](https://www.spigotmc.org/resources/53721/)  
-Version: 1.7 - 1.13  
-Rating: 3.983  
-Price: $15  
-Discontinued
 - [JI Anticheat](https://www.mc-market.org/resources/2442/)  
 Version: 1.7 - 1.13  
 Rating: 4.333  
@@ -964,6 +963,11 @@ Version: ???
 Rating: ???  
 Price: $17.50  
 Currently Active
+- [Kauri Anticheat](https://www.spigotmc.org/resources/53721/)  
+Version: 1.7 - 1.13  
+Rating: 3.983  
+Price: $15  
+Discontinued
 - [KokuminAntiCheat](https://www.mc-market.org/resources/7564/)  
 Version: ???  
 Rating: 0  
@@ -995,8 +999,8 @@ Rating: 0
 Price: £10.99  
 Discontinued
 - [Reflex Machine Learning Cheat Detection](https://www.spigotmc.org/resources/21122/)  
-Version: 1.8 - 1.16  
-Rating: 4.245  
+Version: 1.8 - 1.17  
+Rating: 4.34  
 Price: €10.00  
 Currently Active
 - [Sparky Anti-Cheat](https://www.mc-market.org/threads/603663/)  
@@ -1005,18 +1009,18 @@ Rating: ???
 Price: $15/mo - $60 Lifetime/$160 Lifetime  
 Currently Active
 - [Spartan Anti Cheat](https://www.spigotmc.org/resources/25638/)  
-Version: 1.7 - 1.16  
-Rating: 4.826  
+Version: 1.7 - 1.17  
+Rating: 4.87  
 Price: €22.50  
 Currently Active
 - [Taka AntiCheat](https://www.spigotmc.org/resources/45167/)  
 Version: 1.8 - 1.16  
-Rating: 3.643  
+Rating: 3.82  
 Price: €8.00  
 Currently Active
 - [Tesla Anti Cheat](https://www.spigotmc.org/resources/32239/) - Skript  
 Version: 1.8 - 1.12  
-Rating: 3.559  
+Rating: 3.79  
 Price: $3.50  
 Discontinued
 - [Theia](https://discord.io/zeap)  
@@ -1035,8 +1039,8 @@ Rating: ???
 Price: $60/$125/$200  
 Currently Active
 - [Vulcan](https://www.spigotmc.org/resources/83626/)  
-Version: 1.7 - 1.16  
-Rating: 4.782  
+Version: 1.7 - 1.17  
+Rating: 4.96  
 Price: $20.00   
 Currently Active
 - [WatchDog](https://www.mc-market.org/resources/10694/)  
@@ -1046,7 +1050,7 @@ Price: $7.50
 Discontinued
 - [Wraith Anticheat](https://www.spigotmc.org/resources/66887/)  
 Version: 1.8 - 1.16  
-Rating: 3.594  
+Rating: 3.73  
 Price: €5.99  
 Currently Active
 - [XAntiCheat](https://www.mc-market.org/resources/2802/)  
