@@ -6,251 +6,151 @@ Server software is the software that allows multiple players to play on a server
 
 A * means that the developer of that project mass produces them. This leads to a lack of support, lack of updates, and quick abandonement.
 
-### Plugins:
-
-- [CraftBukkit](https://getbukkit.org/download/craftbukkit) - It's the BASE for all forks that are out today and they still are updating it to this day, not newbie friendly at all because it requires manual building (or you can get it [here](https://getbukkit.org)). The only real use is for Minecraft versions from `1.0.0` to `1.4.5` as there is no Spigot release for these versions.  
-Version: 1.0.0 - 1.17  
-Currently Active
-
-- [SpigotMC](https://www.spigotmc.org/) - The original fork of Bukkit. Spigot has improved performance vs CraftBukkit, still widely used. It's a recommended alternative if for some reason you don't want to use PaperMC.  
-Version: 1.4.6 - 1.17  
-Currently Active
-
-- [PaperMC](https://papermc.io/) - Most popular JAR for Spigot/Bukkit, quite fast and stable, they roll out small patches frequently, so it is a good choice if you're just starting with your MC server and don't have much experience.  
-Version: 1.7.10 - 1.17  
-Currently Active
-
-- [Tuinity](https://github.com/Spottedleaf/Tuinity) - PaperMC fork aimed at improving stability and performance at high player counts.  
-Version: 1.13.2 - 1.17  
-Currently Active
-
-- [Purpur](https://purpur.pl3x.net/) - It's a fork of PaperMC with Tuinity patches to deliver very fast performance with stability for high player counts and it adds a lot of custom features that aren't seen on any other forks. Used to add the patches of Airplane but has removed them after it didn't increase performance as much as they thought it would.  
-Version: 1.14.4 - 1.17  
-Currently Active
+### General:
 
 - [Airplane](https://github.com/TECHNOVE/Airplane) - This fork includes optimizations oriented towards large servers.  
 Version: ??? - 1.17  
-Currently Active
-
-- [Purplane](https://github.com/TECHNOVE/Airplane/tree/purpur/1.17) - A fork of purpur that adds features from [Airplane](https://github.com/TECHNOVE/Airplane). Originally created by [notOM3GA](https://github.com/notOM3GA) ([Archived repository](https://github.com/notOM3GA/Purplane)) then discontinued as purpur added Airplanes patches but has since been removed from Purpur so now the Airplane team maintains it separately from Airplane.  
-Version: 1.16.5 - 1.17  
-Currently Active
-
-- [SpongeVanilla](https://www.spongepowered.org/downloads/spongevanilla) - A server implementing the Sponge API, a different plugin API separate from the Bukkit API. This implementation also includes some general improvements regarding performance and server settings.  
-Version: 1.8 - 1.12.2  
-Currently Active
-
-- [FoxSpigot](https://www.mc-market.org/resources/8592/)* - FoxSpigot is a fork of Spigot aiming to make PvP servers perform better.  
-Version: 1.8.8  
-Currently Active
-
-- [Yatopia](https://github.com/YatopiaMC/Yatopia) - Aims to combine the code from many Paper forks and optimization mods, as well as many unique optimizations, but it's known to be very unstable and usually, Purpur is a better choice. Only use if you desperately need performance and think it's worth the instability. Yatopia has been discontinued by the current project leader [Simon Gardling](https://github.com/Titaniumtown) because the reputation was just too bad for him to handle.  
-Version: 1.15.2 - 1.16.5  
-DISCONTINUED
-
-- [Cuberite](https://cuberite.org/) - Cuberite is a server software developed in C++ and plugins are written in LUA. Cuberite is very lightweight and they also allow you to run a server on your android device! Cuberite is only 1.8-1.12, 1.13+ compatibility is being worked on.  
-Version: 1.8 - 1.12.2  
-Currently Active
-
-- [Glowstone](https://github.com/GlowstoneMC/Glowstone) - Glowstone is a lightweight, from scratch, open-source Minecraft server written in Java that supports plugins written for the Bukkit API and its major forks, Spigot and Paper.  
-Version: ???  
-Currently Active
-
-- [TacoSpigot](https://github.com/TacoSpigot/TacoSpigot) - A even-higher higher performance PaperSpigot fork that adds new features.  
-Version: 1.8 - 1.10, 1.12  
-Currently Active
-
-- [SharpMC](https://github.com/SharpMC/SharpMC) - A 1.8 server made from scratch in C#.  
-Version: 1.8.x  
-DISCONTINUED
-
-- [SharperMC](https://github.com/SharperMC/SharperMC) - SharperMC is a C# 1.8.x Minecraft server running on the .NET Framework. SharperMC is a fork of [SharpMC](https://github.com/SharpMC/SharpMC) which was last updated in 2015.  
-Version: 1.8.x  
-Currently Inactive
-
-- [MineStom](https://github.com/Minestom/Minestom) - MineStorm is a server building library allowing servers to be built from the group up easily. It removes features like the server understanding what a chest is, which allows HUGE performance increases for minigame servers as they may not need that feature. Every feature can be added back. Due to this, development would take longer and would not be suitable for survival servers.  
-Version: 1.16 - 1.17  
 Currently Active
 
 - [Akarin](https://github.com/Akarin-project/Akarin/tree/ver/1.16.4) - A Spigot plugin compatible project aiming at becoming fairly multicore compatible. This is a fork of Tuinity aiming to simplify the logic and implement multi-threaded computing and make servers more safe and stable.  
 Version: 1.13.2 - 1.16.5  
 Currently Active
 
-- AtomSpigot - A 1.8.8 TacoSpigot fork with crash fixes, async hit detection, and async knockback built it. Currently not available through legal means due to a false ban off of MCMarket.  
-Version: 1.8.8  
-DISCONTINUED
-
-- [DytanicSpigot](https://cloudnetservice.eu/repositories/de/dytanic/dytanicspigot-api/) - Other than its API it has been lost to time, but it was a Spigot fork said to be capable of stability hitting 40 TPS, although there's not much left of it to show if it was.  
-Version: ???  
-DISCONTINUED
-
-- [xSpigot](https://www.mc-market.org/resources/11411/) - A 1.7.10 - 1.8.x TacoSpigot fork with custom knockback editing and options such as toggleable mob AI. This is meant for HCF servers and practice PvP servers.  
-Version: 1.7.10 - 1.8.x  
-DISCONTINUED
-
-- [ySpigot](https://www.mc-market.org/resources/7198/) - ySpigot is a remake of xSpigot for later versions of Minecraft.  
-Version: 1.7.10 - 1.12.x
-DISCONTINUED
-
-- zSpigot - A 1.7.10 Paper fork with huge optimizations, completely custom knockback editing, built-in server benchmarking, and more PvP based features. Ironically, despite it originally being a premium resource the only way to get it now is through a leaks website due to the creator leaking resources.  
-Version: 1.7.10  
-DISCONTINUED
-
-- [mSpigot](https://www.mc-market.org/resources/6864/)* - Another premium TacoSpigot fork with promises of improved TNT and knockback aimed at PvP and Factions servers.  
-Version: 1.8.8  
-Currently Active
-
-- [ImanitySpigot](https://www.mc-market.org/resources/10770/) - ImanitySpigot provides you with a better PvP experience with smooth hit detection, customizable knockback and projectile enhancements.  
-Version: 1.8.8  
-Currently Inactive
-
-- [EmpireCraft](https://github.com/starlis/empirecraft) - EmpireCraft is a fork of Spigot used by the [Empire Minecraft Server](https://empireminecraft.com/lp/?user=Aikar&utm_campaign=Player%20Referrals&utm_source=github.com&utm_medium=Aikar). It contains many gameplay changes to suit the EmpireCraft server, but more importantly, contains new performance improvements pending testing to be contributed to Spigot / Paper / Sponge.  
-Version: 1.9 - 1.13.2, 1.15.2 - 1.16.2  
-Currently Active
-
-- [Origami](https://github.com/Minebench/Origami) - Custom paper fork used by [Minebench.de](https://www.minebench.de/). The fork is based on the framework used in [Spottedleaf's Tuinity](https://github.com/Spottedleaf/Tuinity).  
-Version: 1.14.4 - 1.16.5  
-Currently Active
-
-- [HOSE](https://github.com/softpak/HOSE) - MInecraft server with multi-thread computing.  
-Version: 1.11.2  
-DISCONTINUED
-
-- [Cleanstone](https://github.com/CleanstoneMC/Cleanstone) - A multi-core design server jar coded from the ground up.  
-Version: 1.12.2 - 1.14  
-Currently Active
-
-- [McEx](https://github.com/McEx/McEx) - McEx is a Minecraft server written in Elixir and Rust. All the networking and logic is implemented in Elixir, while the low-level chunk data handling is done in Rust.  
-Version: 1.9.2  
-DISCONTINUED
-
-- [Lightstone](https://github.com/grahamedgecombe/lightstone) - The official server software has some shortcomings such as the use of threaded, synchronous I/O along with high CPU and RAM usage. Lightstone aims to be a lightweight and high-performance alternative.  
-Version: ???  
-DISCONTINUED
-
-- [PerfectSpigot](https://www.mc-market.org/resources/5376/) - A 1.8.8 Paper fork focused on Factions servers with optimized cannoning and built-in world generators.  
-Version: 1.8.8  
-Currently Inactive
-
-- [BeerSpigot](https://www.mc-market.org/threads/355569/) - A 1.8.8 TacoSpigot fork focused on Factions servers with a built-in knockback editing,  with a lot of built-in Factions features (Grace Period, Cannoning Optimization, and Setting Global Spawner Values).  
-Version: 1.8.8  
-Currently Active
-
-- [BreadSpigot](https://www.mc-market.org/threads/475910/) - A 1.8.8 TacoSpigot fork focused on SkyBlock servers with huge entity optimizations, built-in mob stacking, and a built-in knockback editor.  
-Version: 1.8.8  
-Currently Active
-
-- [ElapsedSpigot](https://www.mc-market.org/threads/480567/) - A 1.8.8 TacoSpigot fork focused on Factions servers with a built-in mob stacker, configurable block durabilities, huge factions based optimizations, and some vanilla feature toggles.  
-Version: 1.8.8  
-Currently Active
-
-- [StellarSpigot](https://www.mc-market.org/threads/523827/) - A 1.8.8 TacoSpigot fork with a huge assortment of features and optimizations aimed at Factions servers.  
-Version: 1.8.8  
-Currently Active
-
-- [TorchSpigot](https://github.com/TorchSpigot/Torch) - The now abandoned predecessor to Akarin based on a goal of getting Paper to run on multiple threads.  
-Version: ???  
-DISCONTINUED
-
 - [APOLLO16 ](https://www.mc-market.org/resources/16271/) - A 1.16.5 Purpur fork with a built-in system monitor and optimized block and chunk ticking methods.  
 Version: 1.16.5  
 Currently Active
 
-- [LightSpigot 1.8.8](https://www.mc-market.org/resources/16933/) - A free 1.8.8 Spigot fork focused on adding some optimizations and features for HCF servers, like enderpearls teleporting through slabs.  
-Version: 1.8.8  
-Currently Active
-
-- [LightSpigot 1.16.5](https://www.mc-market.org/resources/17753/) - A 1.16.5 Spigot fork with some spawner / general performance optimizations and custom knockback editing.  
-Version: 1.16.5  
-Currently Active
-
-- [VoltaneSpigot](https://www.mc-market.org/threads/571429/) - A 1.8.8 based TacoSpigot fork with built-in 1.7 - 1.16 client support with multi-thread support, custom knockback editing, discord server integration, and a lot of factions based features.  
-Version: 1.8.8  
-DISCONTINUED
-
-- [SSSpigot](https://www.mc-market.org/resources/14122/) - A 1.16.5 Paper fork with multi-thread support, useless code removal, some general optimizations, and tracking metrics disabled.  
-Version: 1.16.5  
-Currently Active
-
-- [RocketMC](https://www.mc-market.org/resources/13898/) - A 1.15.2 Tuinity fork with a built-in monitoring system, plugin manager (enabling, disabling, command info), and general performance optimizations.  
-Version: 1.15.2  
-DISCONTINUED
-
 - [aSpigot](https://www.mc-market.org/resources/6101/)* - aSpigot is a premium 1.7.10 Paper fork with custom knockback editing, togglable features like mob AI, and various features pointed at HCF servers.  
 Version: 1.7.10  
+Currently Active
+
+- AtomSpigot - A 1.8.8 TacoSpigot fork with crash fixes, async hit detection, and async knockback built it. Currently not available through legal means due to a false ban off of MCMarket.  
+Version: 1.8.8  
+DISCONTINUED
+
+- [AVRCraft](https://github.com/cnlohr/avrcraft) - AVRCraft is a server that is optimized for 8-bit devices made in C.  
+Version: 1.11, 1.15.2 - 1.16.5  
+Currently Inactive
+
+- [Basalt](https://github.com/MyCraftServerMC/BasaltMC) - Basalt is a high performance Paper fork aiming to add more gameplay and mechanics.
+Version: 1.15.2
+DISCONTINUED
+
+- [Basin](https://github.com/basinserver/Basin) - Basin is a server implementaion in C. Its aim is to have amazing performance and be a drop in replacement.  
+Version: 1.10 - 1.11
+DISCONTINUED
+
+- [BeerSpigot](https://www.mc-market.org/threads/355569/) - A 1.8.8 TacoSpigot fork focused on Factions servers with a built-in knockback editing,  with a lot of built-in Factions features (Grace Period, Cannoning Optimization, and Setting Global Spawner Values).  
+Version: 1.8.8  
 Currently Active
 
 - [BeeSpigot](https://www.mc-market.org/resources/14263/)* - BeeSpigot is a premium 1.15.2 Paper fork with custom knockback editing, togglable features like mob AI, and some general optimizations.  
 Version: 1.15.2  
 Currently Active
 
-- [CoronaSpigot](https://www.mc-market.org/resources/14170/)* - CoronaSpigot is a premium 1.8.8 Paper fork with custom knockback editing and some general optimizations.  
+- [BreadSpigot](https://www.mc-market.org/threads/475910/) - A 1.8.8 TacoSpigot fork focused on SkyBlock servers with huge entity optimizations, built-in mob stacking, and a built-in knockback editor.  
 Version: 1.8.8  
-Currently Active
-
-- [Fish](https://github.com/CraftLight-Network/Fish) - Fish is a 1.16.5 Purpur fork with features that are too niche to be added to Purpur and changes that may eventually be upstreamed to Purpur or its subsequent upstreams. Fish was made private by [Encode42](https://github.com/Encode42)  
-Version: 1.16.5 - ???  
-Private
-
-- [GuardSpigot](https://www.mc-market.org/resources/14497/) - GuardSpigot is a 1.8.8 $99 premium TacoSpigot fork with features like custom knockback editing, lag machine detection, and a bunch of features you can toggle like mob AI for performance gain/gameplay change.  
-Version: 1.8.8  
-Currently Active
-
-- [NachoSpigot](https://github.com/CobbleSword/NachoSpigot) - NachoSpigot is a 1.8.8 TacoSpigot fork aimed at bringing modern patches and optimizations to 1.8.  
-Version: 1.8.8  
-DISCONTINUED
-
-- [Rainforest](https://github.com/Proximyst/Rainforest) - RainForest is a 1.16.1 - 1.16.5 Paper fork with optimizations that they're testing out/optimizations that they plan to keep to themselves.  
-Version: 1.16.1 - 1.16.5  
-Currently Inactive
-
-- [SportBukkit](https://github.com/StratusNetwork/SportBukkit) - SportBukkit is a fork of CraftBukkit improving stability and adding some new features. It was developed for and by the StratusNetwork server.  
-Version: 1.8 - 1.12.2  
-DISCONTINUED
-
-- [SportPaper](https://github.com/StratusNetwork/SportPaper) - SportPaper is a 1.8.8 fork of Paper improving performance even more. It is developed for and by the StratusNetwork server.  
-Version: 1.8  
-DISCONTINUED
-
-- [SternalSpigot](https://www.mc-market.org/resources/18663/)* - SternalSpigot is a premium 1.8.8 TacoSpigot fork that tries to move a lot of processes to an async system, has some general optimizations, and has some knockback profiles to switch between for different results.  
-Version: 1.8.8  
-Currently Active
-
-- [wSpigot](https://www.mc-market.org/resources/6874/)* - wSpigot is a 1.7.10 Paper fork with custom knockback profiles, built-in 1.8 client support, and a lot of HCF based features/optimizations.  
-Version: 1.7.10  
 Currently Active
 
 - [CanaryMod](https://github.com/CanaryModTeam/CanaryMod) - A fork of hMod for implementing some of Bukkit's patches. Used on the MinecraftOnline server.  
 Version: ???  
 DISCONTINUED
 
+- [Canyon](https://github.com/canyonmodded/canyon) - A Beta 1.7.3 CraftBukkit fork meant to bring modern patches to the old verison.
+Version: Beta 1.7.3
+Currently Active
+
 - [Cauldron-js](https://github.com/vantezzen/cauldron-js) - Cauldron-js is just a proof of concept idea of running a 1.13.2 server entirely inside your web browser. Doesn't run great, but still an achievement.  
 Version: 1.13.2  
 DISCONTINUED
 
-- [flying squid](https://github.com/PrismarineJS/flying-squid) - flying squid is a server built in JavaScript. It supports digging/placing blocks, World Generation and more.  
-Version: 1.8 - 1.16  
+- [Cleanstone](https://github.com/CleanstoneMC/Cleanstone) - A multi-core design server jar coded from the ground up.  
+Version: 1.12.2 - 1.14  
+Currently Active
+
+- [Composition](https://github.com/garentyler/composition) - Composition is a server created in rust thats aiming to get a working server then optimize speed.  
+Version: 1.8.9  
+Currently Inactive
+
+- [CoronaSpigot](https://www.mc-market.org/resources/14170/)* - CoronaSpigot is a premium 1.8.8 Paper fork with custom knockback editing and some general optimizations.  
+Version: 1.8.8  
+Currently Active
+
+- [CraftBukkit](https://getbukkit.org/download/craftbukkit) - It's the BASE for all forks that are out today and they still are updating it to this day, not newbie friendly at all because it requires manual building (or you can get it [here](https://getbukkit.org)). The only real use is for Minecraft versions from `1.0.0` to `1.4.5` as there is no Spigot release for these versions.  
+Version: 1.0.0 - 1.17  
+Currently Active
+
+- [Crocus](https://github.com/ComunidadAylas/Crocus) - Crocus is a fork of Paper which adds some patches for the Khron Minecraft server. (Notice: This may be innaccurate due to Google Translate).
+Version: ???
+DISCONTINUED
+
+- [Cuberite](https://cuberite.org/) - Cuberite is a server software developed in C++ and plugins are written in LUA. Cuberite is very lightweight and they also allow you to run a server on your android device! Cuberite is only 1.8-1.12, 1.13+ compatibility is being worked on.  
+Version: 1.8 - 1.12.2  
+Currently Active
+
+- [Diorite](https://github.com/Diorite/Diorite) - Diorite was a server software which aimed at performance and security. It was planned to use special tick regions to take advantage of all cores one a server. It also checked if packets were valid and skipped ones that might crash the server or allow players to cheat.  
+Version: 1.11.2  
+DISCONTINUED
+
+- [DytanicSpigot](https://cloudnetservice.eu/repositories/de/dytanic/dytanicspigot-api/) - Other than its API it has been lost to time, but it was a Spigot fork said to be capable of stability hitting 40 TPS, although there's not much left of it to show if it was.  
+Version: ???  
+DISCONTINUED
+
+- [ElapsedSpigot](https://www.mc-market.org/threads/480567/) - A 1.8.8 TacoSpigot fork focused on Factions servers with a built-in mob stacker, configurable block durabilities, huge factions based optimizations, and some vanilla feature toggles.  
+Version: 1.8.8  
+Currently Active
+
+- [EmpireCraft](https://github.com/starlis/empirecraft) - EmpireCraft is a fork of Spigot used by the [Empire Minecraft Server](https://empireminecraft.com/lp/?user=Aikar&utm_campaign=Player%20Referrals&utm_source=github.com&utm_medium=Aikar). It contains many gameplay changes to suit the EmpireCraft server, but more importantly, contains new performance improvements pending testing to be contributed to Spigot / Paper / Sponge.  
+Version: 1.9 - 1.13.2, 1.15.2 - 1.16.2  
 Currently Active
 
 - [Feather](https://github.com/feather-rs/feather) - Feather is a recode of Minecraft servers entirely in the Rust programming language, aimed at making the server run multicore - this would significantly increase performance. It currently only supports 1.16.5. Worth noting, their plugin API is not finished yet either.  
 Version: 1.16.5  
 Currently Active
 
+- [FeatherSpigot](https://github.com/galacticwarrior9/FeatherSpigot) - FeatherSpigot is a fork of Paper meant to bring newer patches back to 1.13.2.
+Version: 1.13.2
+DISCONTINUED
+
+- [Fish](https://github.com/CraftLight-Network/Fish) - Fish is a 1.16.5 Purpur fork with features that are too niche to be added to Purpur and changes that may eventually be upstreamed to Purpur or its subsequent upstreams. Fish was made private by [Encode42](https://github.com/Encode42)  
+Version: 1.16.5 - ???  
+Private
+
+- [flying squid](https://github.com/PrismarineJS/flying-squid) - flying squid is a server built in JavaScript. It supports digging/placing blocks, World Generation and more.  
+Version: 1.8 - 1.16  
+Currently Active
+
+- [FoxSpigot](https://www.mc-market.org/resources/8592/)* - FoxSpigot is a fork of Spigot aiming to make PvP servers perform better.  
+Version: 1.8.8  
+Currently Active
+
+- [Glowstone](https://github.com/GlowstoneMC/Glowstone) - Glowstone is a lightweight, from scratch, open-source Minecraft server written in Java that supports plugins written for the Bukkit API and its major forks, Spigot and Paper.  
+Version: ???  
+Currently Active
+
+- [GoLangMc](https://github.com/GoLangMc/minecraft-server) - GoLangMc is a server built in Go.  
+Version: 1.15.2  
+DISCONTINUED
+
+- [GuardSpigot](https://www.mc-market.org/resources/14497/) - GuardSpigot is a 1.8.8 $99 premium TacoSpigot fork with features like custom knockback editing, lag machine detection, and a bunch of features you can toggle like mob AI for performance gain/gameplay change.  
+Version: 1.8.8  
+Currently Active
+
+- [Hematite](https://github.com/PistonDevelopers/hematite_server) - Hematite is a server written in Rust and aims to have good performance and support server mods written in Rust. It was aiming to become a drop in replacement for the vanilla server.  
+Version: 1.8.3  
+DISCONTINUED
+
 - [hMod](https://github.com/traitor/Minecraft-Server-Mod/) - The first server type with server-side mods (plugins) supported. It supported early Alpha versions.  
 Version: ???  
 DISCONTINUED
 
-- [NeptuneVanilla](https://github.com/NeptunePowered/NeptuneMod) - A continuation of CanaryMod under a new repository and name.  
-Version: 1.8.9 - 1.9  
+- [HOSE](https://github.com/softpak/HOSE) - MInecraft server with multi-thread computing.  
+Version: 1.11.2  
 DISCONTINUED
 
-- [Project-Rainbow](https://ci.codecrafter47.de/job/Rainbow/) - Project-Rainbow was an attempt at overthrowing Bukkit with a new platform, but as we can tell that didn't work.  
-Version: 1.13.2  
-DISCONTINUED
-
-- [PaperBin](https://github.com/x4e/PaperBin) - PaperBin is a fork of paper, it patches dupes, bugs and more. It aims to continue 1.12.2 paper and provide support. You can even use it on top of custom paper forks because it uses JVMTI to modify Minecraft classes at runtime.  
-Version: 1.12.2  
-Currently Active
+- [ImanitySpigot](https://www.mc-market.org/resources/10770/) - ImanitySpigot provides you with a better PvP experience with smooth hit detection, customizable knockback and projectile enhancements.  
+Version: 1.8.8  
+Currently Inactive
 
 - [Krypton](https://github.com/KryptonMC/Krypton) - Krypton is a server completely built in kotlin from scratch. It's currently W.I.P.  
 Version: 1.16 - 1.17  
@@ -260,53 +160,198 @@ Currently Active
 Version: 1.12 - 1.14, 1.16  
 Currently Inactive
 
+- [LightSpigot 1.8.8](https://www.mc-market.org/resources/16933/) - A free 1.8.8 Spigot fork focused on adding some optimizations and features for HCF servers, like enderpearls teleporting through slabs.  
+Version: 1.8.8  
+Currently Active
+
+- [LightSpigot 1.16.5](https://www.mc-market.org/resources/17753/) - A 1.16.5 Spigot fork with some spawner / general performance optimizations and custom knockback editing.  
+Version: 1.16.5  
+Currently Active
+
+- [Lightstone](https://github.com/grahamedgecombe/lightstone) - The official server software has some shortcomings such as the use of threaded, synchronous I/O along with high CPU and RAM usage. Lightstone aims to be a lightweight and high-performance alternative.  
+Version: ???  
+DISCONTINUED
+
+- [McEx](https://github.com/McEx/McEx) - McEx is a Minecraft server written in Elixir and Rust. All the networking and logic is implemented in Elixir, while the low-level chunk data handling is done in Rust.  
+Version: 1.9.2  
+DISCONTINUED
+
 - [MCHPRS](https://github.com/MCHPR/MCHPRS) - Minecraft High-Performance Redstone Server (MCHPRS) is a server built from the ground up in rust designed to provide a high performance creative plot server for redstone.  
 Version: 1.16.5  
 Currently Active
 
-- [Obsidian](https://github.com/ObsidianMC/Obsidian) - Obsidian is a C# .NET 5 implementation of the Minecraft server protocol. It also has its own plugin api with plans to eventually support the spigot api.  
-Version: 1.16.5  
-Currently Active
-
-- [PyMine](https://github.com/py-mine/PyMine) - PyMine is a server built in Python. It has support for plugins. World Generation and game login is in progress.  
-Version: 1.16.5  
-Currently Inactive
-
-- [Composition](https://github.com/garentyler/composition) - Composition is a server created in rust thats aiming to get a working server then optimize speed.  
-Version: 1.8.9  
-Currently Inactive
-
-- [Sugarcane](https://gitlab.com/macmv/sugarcane) - Sugarcane is a server built in Go for minigame servers. It uses a system of a server and a proxy, so that clients can
-easily be switched between servers.  
-Version: 1.8, 1.12 - 1.13  
-Currently Inactive
-
-- [AVRCraft](https://github.com/cnlohr/avrcraft) - AVRCraft is a server that is optimized for 8-bit devices made in C.  
-Version: 1.11, 1.15.2 - 1.16.5  
-Currently Inactive
-
-- [GoLangMc](https://github.com/GoLangMc/minecraft-server) - GoLangMc is a server built in Go.  
+- [MineCase](https://github.com/dotnetGame/MineCase) - MineCase is made in C# and designed to create a high-performance server. Different chunks are managed on different servers so that more players can join in and play in the same world.  
 Version: 1.15.2  
 DISCONTINUED
 
-- [MineCase](https://github.com/dotnetGame/MineCase) - MineCase is made in C# and designed to create a high-performance server. Different chunks are managed on different servers so that more players can join in and play in the same world.  
-Version: 1.15.2  
+- [Minecraft-Alpha-Server](https://github.com/stonar96/Minecraft-Alpha-Server) - Minecraft-Alpha-Server is a Alpha 1.2.6 server that aims to fix bugs, make the server more usable, and more secure for the public.
+Version: Alpha 1.2.6
+DISCONTINUED
+
+- [MineStom](https://github.com/Minestom/Minestom) - MineStorm is a server building library allowing servers to be built from the group up easily. It removes features like the server understanding what a chest is, which allows HUGE performance increases for minigame servers as they may not need that feature. Every feature can be added back. Due to this, development would take longer and would not be suitable for survival servers.  
+Version: 1.16 - 1.17  
+Currently Active
+
+- [mSpigot](https://www.mc-market.org/resources/6864/)* - Another premium TacoSpigot fork with promises of improved TNT and knockback aimed at PvP and Factions servers.  
+Version: 1.8.8  
+Currently Active
+
+- [MultiPaper](https://github.com/PureGero/MultiPaper-Old) - MultiPaper is a Paper fork which aimed to sync the same files across multiple servers to seem as if they're all the same server.
+Version: ???
+Currently Inactive
+
+- [NachoSpigot](https://github.com/CobbleSword/NachoSpigot) - NachoSpigot is a 1.8.8 TacoSpigot fork aimed at bringing modern patches and optimizations to 1.8.  
+Version: 1.8.8  
+DISCONTINUED
+
+- [NeptuneVanilla](https://github.com/NeptunePowered/NeptuneMod) - A continuation of CanaryMod under a new repository and name.  
+Version: 1.8.9 - 1.9  
 DISCONTINUED
 
 - [Nostalgia](https://github.com/BizarreCake/Nostalgia) - Nostalgia is a server built in C++. The purpose of this was to serve as a playground for testing AI so in the end minecraft would play itself.  
 Version: 1.14.4  
 DISCONTINUED
 
-- [Basin](https://github.com/basinserver/Basin) - Basin is a server implementaion in C. Its aim is to have amazing performance and be a drop in replacement.  
-Version: 1.10 - 1.11
+- [nylium](https://github.com/dskprt/nylium) - nylium is a server written in C#. It has a priority on performance.
+Version: 1.16.4 - 1.16.5
+Currently Active
+
+- [Obsidian](https://github.com/ObsidianMC/Obsidian) - Obsidian is a C# .NET 5 implementation of the Minecraft server protocol. It also has its own plugin api with plans to eventually support the spigot api.  
+Version: 1.16.5  
+Currently Active
+
+- [Origami](https://github.com/Minebench/Origami) - Custom paper fork used by [Minebench.de](https://www.minebench.de/). The fork is based on the framework used in [Spottedleaf's Tuinity](https://github.com/Spottedleaf/Tuinity).  
+Version: 1.14.4 - 1.16.5  
+Currently Active
+
+- [PaperBin](https://github.com/x4e/PaperBin) - PaperBin is a fork of paper, it patches dupes, bugs and more. It aims to continue 1.12.2 paper and provide support. You can even use it on top of custom paper forks because it uses JVMTI to modify Minecraft classes at runtime.  
+Version: 1.12.2  
+Currently Active
+
+- [PaperMC](https://papermc.io/) - Most popular JAR for Spigot/Bukkit, quite fast and stable, they roll out small patches frequently, so it is a good choice if you're just starting with your MC server and don't have much experience.  
+Version: 1.7.10 - 1.17  
+Currently Active
+
+- [PaperMC-unpatch](https://github.com/YaCodesDevelopment/PaperMC-unpatch) - PaperMC-unpatch is a fork of Paper which removes a patch for sand duping.
+Version: ???
+Currently Active
+
+- [PerfectSpigot](https://www.mc-market.org/resources/5376/) - A 1.8.8 Paper fork focused on Factions servers with optimized cannoning and built-in world generators.  
+Version: 1.8.8  
+Currently Inactive
+
+- [Project-Rainbow](https://ci.codecrafter47.de/job/Rainbow/) - Project-Rainbow was an attempt at overthrowing Bukkit with a new platform, but as we can tell that didn't work.  
+Version: 1.13.2  
 DISCONTINUED
 
-- [Diorite](https://github.com/Diorite/Diorite) - Diorite was a server software which aimed at performance and security. It was planned to use special tick regions to take advantage of all cores one a server. It also checked if packets were valid and skipped ones that might crash the server or allow players to cheat.  
-Version: 1.11.2  
+- [Project-Poseidon](https://github.com/RhysB/Project-Poseidon) - A fork of CraftBukkit meant to fix bugs and add some features in a Beta version. It's also notable that there is a guide for adding ModLoaderMP support into the jar.
+Version: Beta 1.7.3
+Currently Active
+
+- [Pukkit](https://github.com/PigeonMC/Pukkit) - A fork of the Bukkit API built for Beta 1.7.3.
+Version: Beta 1.7.3
 DISCONTINUED
 
-- [Hematite](https://github.com/PistonDevelopers/hematite_server) - Hematite is a server written in Rust and aims to have good performance and support server mods written in Rust. It was aiming to become a drop in replacement for the vanilla server.  
-Version: 1.8.3  
+- [Purplane](https://github.com/TECHNOVE/Airplane/tree/purpur/1.17) - A fork of purpur that adds features from [Airplane](https://github.com/TECHNOVE/Airplane). Originally created by [notOM3GA](https://github.com/notOM3GA) ([Archived repository](https://github.com/notOM3GA/Purplane)) then discontinued as purpur added Airplanes patches but has since been removed from Purpur so now the Airplane team maintains it separately from Airplane.  
+Version: 1.16.5 - 1.17  
+Currently Active
+
+- [Purpur](https://purpur.pl3x.net/) - It's a fork of PaperMC with Tuinity patches to deliver very fast performance with stability for high player counts and it adds a lot of custom features that aren't seen on any other forks. Used to add the patches of Airplane but has removed them after it didn't increase performance as much as they thought it would.  
+Version: 1.14.4 - 1.17  
+Currently Active
+
+- [PyMine](https://github.com/py-mine/PyMine) - PyMine is a server built in Python. It has support for plugins. World Generation and game login is in progress.  
+Version: 1.16.5  
+Currently Inactive
+
+- [Rainforest](https://github.com/Proximyst/Rainforest) - RainForest is a 1.16.1 - 1.16.5 Paper fork with optimizations that they're testing out/optimizations that they plan to keep to themselves.  
+Version: 1.16.1 - 1.16.5  
+Currently Inactive
+
+- [RocketMC](https://www.mc-market.org/resources/13898/) - A 1.15.2 Tuinity fork with a built-in monitoring system, plugin manager (enabling, disabling, command info), and general performance optimizations.  
+Version: 1.15.2  
+DISCONTINUED
+
+- [SharpMC](https://github.com/SharpMC/SharpMC) - A 1.8 server made from scratch in C#.  
+Version: 1.8.x  
+DISCONTINUED
+
+- [SharperMC](https://github.com/SharperMC/SharperMC) - SharperMC is a C# 1.8.x Minecraft server running on the .NET Framework. SharperMC is a fork of [SharpMC](https://github.com/SharpMC/SharpMC) which was last updated in 2015.  
+Version: 1.8.x  
+Currently Inactive
+
+- [SMP Server Wrapper](https://www.minecraftforum.net/forums/support/server-support-and/1891854-smp-server-wrapper-compatable-with-new-version-of#c1) - SMP Server Wrapper was a
+modification for the Minecraft server jar created only 2 days after the first version with multiplayer released. It contained features focused for SMP servers.
+Version: Alpha 1.0.15
+DISCONTINUED 
+
+- [SpigotMC](https://www.spigotmc.org/) - The original fork of Bukkit. Spigot has improved performance vs CraftBukkit, still widely used. It's a recommended alternative if for some reason you don't want to use PaperMC.  
+Version: 1.4.6 - 1.17  
+Currently Active
+
+- [SpongeVanilla](https://www.spongepowered.org/downloads/spongevanilla) - A server implementing the Sponge API, a different plugin API separate from the Bukkit API. This implementation also includes some general improvements regarding performance and server settings.  
+Version: 1.8 - 1.12.2  
+Currently Active
+
+- [SportBukkit](https://github.com/StratusNetwork/SportBukkit) - SportBukkit is a fork of CraftBukkit improving stability and adding some new features. It was developed for and by the StratusNetwork server.  
+Version: 1.8 - 1.12.2  
+DISCONTINUED
+
+- [SportPaper](https://github.com/StratusNetwork/SportPaper) - SportPaper is a 1.8.8 fork of Paper improving performance even more. It is developed for and by the StratusNetwork server.  
+Version: 1.8  
+DISCONTINUED
+
+- [SSSpigot](https://www.mc-market.org/resources/14122/) - A 1.16.5 Paper fork with multi-thread support, useless code removal, some general optimizations, and tracking metrics disabled.  
+Version: 1.16.5  
+Currently Active
+
+- [StellarSpigot](https://www.mc-market.org/threads/523827/) - A 1.8.8 TacoSpigot fork with a huge assortment of features and optimizations aimed at Factions servers.  
+Version: 1.8.8  
+Currently Active
+
+- [SternalSpigot](https://www.mc-market.org/resources/18663/)* - SternalSpigot is a premium 1.8.8 TacoSpigot fork that tries to move a lot of processes to an async system, has some general optimizations, and has some knockback profiles to switch between for different results.  
+Version: 1.8.8  
+Currently Active
+
+- [Sugarcane](https://gitlab.com/macmv/sugarcane) - Sugarcane is a server built in Go for minigame servers. It uses a system of a server and a proxy, so that clients can
+easily be switched between servers.  
+Version: 1.8, 1.12 - 1.13  
+Currently Inactive
+
+- [TacoSpigot](https://github.com/TacoSpigot/TacoSpigot) - A even-higher higher performance PaperSpigot fork that adds new features.  
+Version: 1.8 - 1.10, 1.12  
+Currently Active
+
+- [TorchSpigot](https://github.com/TorchSpigot/Torch) - The now abandoned predecessor to Akarin based on a goal of getting Paper to run on multiple threads.  
+Version: ???  
+DISCONTINUED
+
+- [Tuinity](https://github.com/Spottedleaf/Tuinity) - PaperMC fork aimed at improving stability and performance at high player counts.  
+Version: 1.13.2 - 1.17  
+Currently Active
+
+- [VoltaneSpigot](https://www.mc-market.org/threads/571429/) - A 1.8.8 based TacoSpigot fork with built-in 1.7 - 1.16 client support with multi-thread support, custom knockback editing, discord server integration, and a lot of factions based features.  
+Version: 1.8.8  
+DISCONTINUED
+
+- [wSpigot](https://www.mc-market.org/resources/6874/)* - wSpigot is a 1.7.10 Paper fork with custom knockback profiles, built-in 1.8 client support, and a lot of HCF based features/optimizations.  
+Version: 1.7.10  
+Currently Active
+
+- [xSpigot](https://www.mc-market.org/resources/11411/) - A 1.7.10 - 1.8.x TacoSpigot fork with custom knockback editing and options such as toggleable mob AI. This is meant for HCF servers and practice PvP servers.  
+Version: 1.7.10 - 1.8.x  
+DISCONTINUED
+
+- [Yatopia](https://github.com/YatopiaMC/Yatopia) - Aims to combine the code from many Paper forks and optimization mods, as well as many unique optimizations, but it's known to be very unstable and usually, Purpur is a better choice. Only use if you desperately need performance and think it's worth the instability. Yatopia has been discontinued by the current project leader [Simon Gardling](https://github.com/Titaniumtown) because the reputation was just too bad for him to handle.  
+Version: 1.15.2 - 1.16.5  
+DISCONTINUED
+
+- [ySpigot](https://www.mc-market.org/resources/7198/) - ySpigot is a remake of xSpigot for later versions of Minecraft.  
+Version: 1.7.10 - 1.12.x
+DISCONTINUED
+
+- zSpigot - A 1.7.10 Paper fork with huge optimizations, completely custom knockback editing, built-in server benchmarking, and more PvP based features. Ironically, despite it originally being a premium resource the only way to get it now is through a leaks website due to the creator leaking resources.  
+Version: 1.7.10  
 DISCONTINUED
 
 
@@ -318,12 +363,12 @@ https://wiki.vg/ZH:Server_List
 
 ### Modded Server JARS
 
-- [Forge](http://files.minecraftforge.net/) - Forge is server software based on the MCP. Both the server and client need to be running the same mods. b1.7.3 - 1.0 versions can be found [here](https://mcarchive.net/mods/minecraftforge?gvsn=).  
-Version: b1.7.3 - 1.16.5  
-Currently Active
-
 - [Fabric](https://fabricmc.net/) - Fabric, unlike Forge, is not based on the MCP. This allows it to be updated for snapshots easier. **It is incompatible with Forge.**  
 Version: 1.14 - 1.17.1 
+Currently Active
+
+- [Forge](http://files.minecraftforge.net/) - Forge is server software based on the MCP. Both the server and client need to be running the same mods. b1.7.3 - 1.0 versions can be found [here](https://mcarchive.net/mods/minecraftforge?gvsn=).  
+Version: b1.7.3 - 1.16.5  
 Currently Active
 
 - [ModLoaderMP](https://mcarchive.net/mods/modloadermp) - ModLoaderMP was the first multiplayer mod loader, supporting from Beta 1.4 to release 1.5.2.  
