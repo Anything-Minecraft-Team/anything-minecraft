@@ -4,7 +4,7 @@ Server software is the software that allows multiple players to play on a server
 
 ### Note
 
-A * means that the developer of that project mass produces them. This leads to a lack of support, lack of updates, and quick abandonement.
+A * means that the developer of that project mass produces them. This leads to a lack of support, lack of updates, and quick abandonment.
 
 Currently Active - Has been updated in the last 6 months.  
 Currently Inactive - Last update was less than a year ago but more than 6 months.  
@@ -38,11 +38,11 @@ Discontinued
 Version: 1.11, 1.15.2 - 1.16.5  
 Currently Inactive
 
-- [Basalt](https://github.com/MyCraftServerMC/BasaltMC) - Basalt is a high performance Paper fork aiming to add more gameplay and mechanics.
+- [Basalt](https://github.com/MyCraftServerMC/BasaltMC) - Basalt is a high-performance Paper fork aiming to add more gameplay and mechanics.
 Version: 1.15.2
 Discontinued
 
-- [Basin](https://github.com/basinserver/Basin) - Basin is a server implementaion in C. Its aim is to have amazing performance and be a drop in replacement.  
+- [Basin](https://github.com/basinserver/Basin) - Basin is a server implementation in C. Its aim is to have amazing performance and be a drop-in replacement.  
 Version: 1.10 - 1.11
 Discontinued
 
@@ -74,7 +74,7 @@ Discontinued
 Version: Unknown  
 Discontinued
 
-- [Canyon](https://github.com/canyonmodded/canyon) - A Beta 1.7.3 CraftBukkit fork meant to bring modern patches to the old verison.
+- [Canyon](https://github.com/canyonmodded/canyon) - A Beta 1.7.3 CraftBukkit fork meant to bring modern patches to the old version.
 Version: b1.7.3
 Currently Active
 
@@ -86,7 +86,7 @@ Discontinued
 Version: 1.12.2 - 1.14  
 Currently Active
 
-- [Composition](https://github.com/garentyler/composition) - Composition is a server created in rust thats aiming to get a working server then optimize speed.  
+- [Composition](https://github.com/garentyler/composition) - Composition is a server created in rust that's aiming to get a working server then optimize speed.  
 Version: 1.8.9  
 Currently Inactive
 
@@ -102,7 +102,7 @@ Currently Active
 Version: Unknown  
 Lost
 
-- [Crocus](https://github.com/ComunidadAylas/Crocus) - Crocus is a fork of Paper which adds some patches for the Khron Minecraft server. (Notice: This may be innaccurate due to Google Translate).
+- [Crocus](https://github.com/ComunidadAylas/Crocus) - Crocus is a fork of Paper that adds some patches for the Khron Minecraft server. (Notice: This may be inaccurate due to Google Translate).
 Version: Unknown
 Discontinued
 
@@ -110,7 +110,7 @@ Discontinued
 Version: 1.8 - 1.12.2  
 Currently Active
 
-- [Diorite](https://github.com/Diorite/Diorite) - Diorite was a server software which aimed at performance and security. It was planned to use special tick regions to take advantage of all cores one a server. It also checked if packets were valid and skipped ones that might crash the server or allow players to cheat.  
+- [Diorite](https://github.com/Diorite/Diorite) - Diorite was a server software that aimed at performance and security. It was planned to use special tick regions to take advantage of all cores on a server. It also checked if packets were valid and skipped ones that might crash the server or allow players to cheat.  
 Version: 1.11.2  
 Discontinued
 
@@ -146,7 +146,7 @@ Discontinued
 Version: 1.16.5 - Unknown  
 Private
 
-- [flying squid](https://github.com/PrismarineJS/flying-squid) - flying squid is a server built in JavaScript. It supports digging/placing blocks, World Generation and more.  
+- [flying squid](https://github.com/PrismarineJS/flying-squid) - flying squid is a server built-in JavaScript. It supports digging/placing blocks, World Generation and more.  
 Version: 1.8 - 1.16  
 Currently Active
 
@@ -174,7 +174,7 @@ Discontinued
 Version: 1.8  
 Lost
 
-- [Hematite](https://github.com/PistonDevelopers/hematite_server) - Hematite is a server written in Rust and aims to have good performance and support server mods written in Rust. It was aiming to become a drop in replacement for the vanilla server.  
+- [Hematite](https://github.com/PistonDevelopers/hematite_server) - Hematite is a server written in Rust and aims to have good performance and support server mods written in Rust. It was aiming to become a drop-in replacement for the vanilla server.  
 Version: 1.8.3  
 Discontinued
 
@@ -190,7 +190,7 @@ Discontinued
 Version: 1.8.8  
 Currently Inactive
 
-- [Krypton](https://github.com/KryptonMC/Krypton) - Krypton is a server completely built in kotlin from scratch. It's currently W.I.P.  
+- [Krypton](https://github.com/KryptonMC/Krypton) - Krypton is a server completely built-in kotlin from scratch. It's currently W.I.P.  
 Version: 1.16 - 1.17  
 Currently Active
 
@@ -218,7 +218,7 @@ Discontinued
 Version: 1.9.2  
 Discontinued
 
-- [MCHPRS](https://github.com/MCHPR/MCHPRS) - Minecraft High-Performance Redstone Server (MCHPRS) is a server built from the ground up in rust designed to provide a high performance creative plot server for redstone.  
+- [MCHPRS](https://github.com/MCHPR/MCHPRS) - Minecraft High-Performance Redstone Server (MCHPRS) is a server built from the ground up in rust designed to provide a high-performance creative plot server for redstone.  
 Version: 1.16.5  
 Currently Active
 
@@ -226,7 +226,7 @@ Currently Active
 Version: 1.15.2  
 Discontinued
 
-- [Minecraft-Alpha-Server](https://github.com/stonar96/Minecraft-Alpha-Server) - Minecraft-Alpha-Server is a Alpha 1.2.6 server that aims to fix bugs, make the server more usable, and more secure for the public.  
+- [Minecraft-Alpha-Server](https://github.com/stonar96/Minecraft-Alpha-Server) - Minecraft-Alpha-Server is an Alpha 1.2.6 server that aims to fix bugs, make the server more usable, and more secure for the public.  
 Version: Alpha 1.2.6  
 Discontinued
 
@@ -238,7 +238,7 @@ Discontinued
 Version: Unknown  
 Discontinued
 
-- [MineStom](https://github.com/Minestom/Minestom) - MineStorm is a server building library allowing servers to be built from the group up easily. It removes features like the server understanding what a chest is, which allows HUGE performance increases for minigame servers as they may not need that feature. Every feature can be added back. Due to this, development would take longer and would not be suitable for survival servers.  
+- [MineStom](https://github.com/Minestom/Minestom) - MineStorm is a server building library allowing servers to be built from the group up easily. It removes features like the server understanding what a chest is, which allows HUGE performance increases for minigame servers as they may not need that feature. Every feature can be added back. Due to this, the development would take longer and would not be suitable for survival servers.  
 Version: 1.16 - 1.17  
 Currently Active
 
@@ -250,7 +250,7 @@ Currently Active
 Version: Unknown  
 Discontinued
 
-- [MultiPaper](https://github.com/PureGero/MultiPaper-Old) - MultiPaper is a Paper fork which aimed to sync the same files across multiple servers to seem as if they're all the same server.
+- [MultiPaper](https://github.com/PureGero/MultiPaper-Old) - MultiPaper is a Paper fork that aimed to sync the same files across multiple servers to seem as if they're all the same server.
 Version: Unknown
 Currently Inactive
 
@@ -274,7 +274,7 @@ Discontinued
 Version: 1.8  
 Discontinued
 
-- [Nostalgia](https://github.com/BizarreCake/Nostalgia) - Nostalgia is a server built in C++. The purpose of this was to serve as a playground for testing AI so in the end minecraft would play itself.  
+- [Nostalgia](https://github.com/BizarreCake/Nostalgia) - Nostalgia is a server built in C++. The purpose of this was to serve as a playground for testing AI so in the end, Minecraft would play itself.  
 Version: 1.14.4  
 Discontinued
 
@@ -286,7 +286,7 @@ Currently Active
 Version: 1.16.5  
 Currently Active
 
-- [OpenSandbox](https://github.com/MarkMcCaskey/opensandbox) - OpenSandbox is a Minecraft server implementation in Haskell. Its aim was to improve on the original gamethrough server-side features.  
+- [OpenSandbox](https://github.com/MarkMcCaskey/opensandbox) - OpenSandbox is a Minecraft server implementation in Haskell. It aimed to improve on the original game through server-side features.  
 Version: 1.10  
 Discontinued
 
@@ -358,7 +358,7 @@ Discontinued
 Version: 1.15.2  
 Discontinued
 
-- [Rush](https://github.com/kangarko/Rush) - Rush is a leightweight server written from scratch.  
+- [Rush](https://github.com/kangarko/Rush) - Rush is a lightweight server written from scratch.  
 Version: 1.8  
 Discontinued
 
@@ -371,11 +371,11 @@ Version: 1.8.x
 Currently Inactive
 
 - [SMP Server Wrapper](https://www.minecraftforum.net/forums/support/server-support-and/1891854-smp-server-wrapper-compatable-with-new-version-of#c1) - SMP Server Wrapper was a
-modification for the Minecraft server jar created only 2 days after the first version with multiplayer released. It contained features focused for SMP servers.
+modification for the Minecraft server jar created only 2 days after the first version with multiplayer was released. It contained features focused on SMP servers.
 Version: Alpha 1.0.15
 Discontinued
 
-- [Spacecraft GT](https://github.com/SpaceManiac/Spacecraft-GT) - Spacecraft is a survival multiplayer rendition of Spacecraft, the SpaceManiac Minecraft Server.  It was writtn in C#.  
+- [Spacecraft GT](https://github.com/SpaceManiac/Spacecraft-GT) - Spacecraft is a survival multiplayer rendition of Spacecraft, the SpaceManiac Minecraft Server.  It was written in C#.  
 Version: Unknown  
 Discontinued
 
@@ -407,11 +407,11 @@ Currently Active
 Version: 1.8.8  
 Currently Active
 
-- [SternalSpigot](https://www.mc-market.org/resources/18663/)* - SternalSpigot is a premium 1.8.8 TacoSpigot fork that tries to move a lot of processes to an async system, has some general optimizations, and has some knockback profiles to switch between for different results.  
+- [SternalSpigot](https://www.mc-market.org/resources/18663/)* - SternalSpigot is a premium 1.8.8 TacoSpigot fork that tries to move a lot of processes to an async system, has some general optimizations and has some knockback profiles to switch between for different results.  
 Version: 1.8.8  
 Currently Active
 
-- [Sugarcane](https://gitlab.com/macmv/sugarcane) - Sugarcane is a server built in Go for minigame servers. It uses a system of a server and a proxy, so that clients can
+- [Sugarcane](https://gitlab.com/macmv/sugarcane) - Sugarcane is a server built in Go for minigame servers. It uses a system of a server and a proxy so that clients can
 easily be switched between servers.  
 Version: 1.8, 1.12 - 1.13  
 Currently Inactive
@@ -428,7 +428,7 @@ Discontinued
 Version: 1.8  
 Discontinued
 
-- [TrueCraft](https://github.com/ddevault/TrueCraft) - TrueCraft was a b1.7.3 server that aimed to get back to the original spirit of minecraft.  
+- [TrueCraft](https://github.com/ddevault/TrueCraft) - TrueCraft was a b1.7.3 server that aimed to get back to the original spirit of Minecraft.  
 Version: b1.7.3  
 Discontinued
 
@@ -502,7 +502,7 @@ Currently Active
 Version: 1.10.2 - 1.12.2  
 Currently Active
 
-- [Cardboard](https://www.curseforge.com/minecraft/mc-mods/cardboard) - Cardboard (formerly Bukkit4Fabric) is a Fabric mod that adds support for the popular Bukkit/Spigot modding API. This mod lets you use plugins that are made for Bukkit and it's derivatives (Spigot and Paper) with Fabric. It's not server software but allows Fabric servers to run Bukkit plugins.  
+- [Cardboard](https://www.curseforge.com/minecraft/mc-mods/cardboard) - Cardboard (formerly Bukkit4Fabric) is a Fabric mod that adds support for the popular Bukkit/Spigot modding API. This mod lets you use plugins that are made for Bukkit and its derivatives (Spigot and Paper) with Fabric. It's not server software but allows Fabric servers to run Bukkit plugins.  
 Version: 1.16.4 - 1.16.5  
 Currently Active
 
@@ -564,7 +564,7 @@ Discontinued
 ## Network Software
 
 - [BungeeCord](https://www.spigotmc.org/wiki/bungeecord/) - Base for the Waterfall fork, these JARs are used for configuring networks of which an example is Hypixel or Mineplex, it is used for distributing workload and players to different lobbies (Different server instances run with separate files and data).  
-No, this can't be used as a normal JAR and requires at least 3 servers/instances, one is BungeeCord (or it's fork) which is called the proxy, players connect to this proxy and are sent to the default server which is set in config. Let's say server "Lobby" is the default, it will send you there, then you can connect to another server, for example, "Survival" which is running in a separate server/instance and BungeeCord enables the functionality travel across these different servers without returning to the multiplayer menu screen. (It can be done with special plugins which utilize BungeeCord API to send you to the chosen server on click, you'll most commonly see it as a compass or portal).  
+No, this can't be used as a normal JAR and requires at least 3 servers/instances, one is BungeeCord (or its fork) which is called the proxy, players connect to this proxy and are sent to the default server which is set in config. Let's say server "Lobby" is the default, it will send you there, then you can connect to another server, for example, "Survival" which is running in a separate server/instance and BungeeCord enables the functionality travel across these different servers without returning to the multiplayer menu screen. (It can be done with special plugins which utilize BungeeCord API to send you to the chosen server on click, you'll most commonly see it as a compass or portal).  
 Version: 1.8 - 1.17.1  
 Currently Active
 
