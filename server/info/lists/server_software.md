@@ -346,6 +346,10 @@ Lost
 Version: 1.8  
 Discontinued
 
+- [RageSpigot](https://www.mc-market.org/threads/340271/) - RageSpigot is a 1.8.8 paperSPigot fork designed for PvP server.  
+Version: 1.8.8  
+Discontinued
+
 - [Rainforest](https://github.com/Proximyst/Rainforest) - RainForest is a 1.16.1 - 1.16.5 Paper fork with optimizations that they're testing out/optimizations that they plan to keep to themselves.  
 Version: 1.16.1 - 1.16.5  
 Currently Inactive
