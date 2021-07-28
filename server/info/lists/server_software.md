@@ -116,7 +116,7 @@ Discontinued
 
 - [DytanicSpigot](https://cloudnetservice.eu/repositories/de/dytanic/dytanicspigot-api/) - Other than its API it has been lost to time, but it was a Spigot fork said to be capable of stability hitting 40 TPS, although there's not much left of it to show if it was.  
 Version: 1.8.8  
-Discontinued
+Lost
 
 - [ElapsedSpigot](https://www.mc-market.org/threads/480567/) - A 1.8.8 TacoSpigot fork focused on Factions servers with a built-in mob stacker, configurable block durabilities, huge factions based optimizations, and some vanilla feature toggles.  
 Version: 1.8.8  
@@ -172,7 +172,7 @@ Discontinued
 
 - [hCraft 2](https://web.archive.org/web/20180611031746/https://github.com/BizarreCake/hCraft-2) - hCraft 2 was a recode of hCraft in C++. The original page was removed and the code has been lost.  
 Version: 1.8  
-Discontinued
+Lost
 
 - [Hematite](https://github.com/PistonDevelopers/hematite_server) - Hematite is a server written in Rust and aims to have good performance and support server mods written in Rust. It was aiming to become a drop in replacement for the vanilla server.  
 Version: 1.8.3  
@@ -444,9 +444,9 @@ Discontinued
 Version: 1.7.10  
 Currently Active
 
-- [XMC](https://web.archive.org/web/20151023030440/https://github.com/Xinnx/XMC) - XMC was a server written in C# aiming to provide a survival experience.  
+- [XMC](https://github.com/Xanamor/XMC) - XMC was a server written in C# aiming to provide a survival experience.  
 Version: Unknown  
-Lost
+Discontinued
 
 - [xSpigot](https://www.mc-market.org/resources/11411/) - A 1.7.10 - 1.8.x TacoSpigot fork with custom knockback editing and options such as toggleable mob AI. This is meant for HCF servers and practice PvP servers.  
 Version: 1.7.10 - 1.8.x  
