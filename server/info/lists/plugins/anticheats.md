@@ -1,6 +1,6 @@
 # Anti-Cheat Plugins
 
-Here is a list of some anti-cheats, good or bad. Spigot has it's own [wiki page on anti-cheats](https://www.spigotmc.org/wiki/anti-cheat-list-bukkit-and-spigot/). This page is based on that list.
+Here is a list of some anti-cheats, good or bad. Spigot has its own [wiki page on anti-cheats](https://www.spigotmc.org/wiki/anti-cheat-list-bukkit-and-spigot/). This page is based on that list.
 
 Generally speaking, paid anti-cheat plugins are better than free ones.
 
@@ -10,7 +10,7 @@ The ratings are from the [spiget api](https://spiget.org) average rating.
 Currently Active - Has been updated in the last 6 months.  
 Currently Inactive - Last update was less than a year ago but more than 6 months.  
 Discontinued - No longer maintained  
-Lost - The files to run the server have been lost, if you have the file please join our discord [here](https://discord.gg/QRjusA2uAZ)  
+Lost - The files to run the server has been lost, if you have the file please join our discord [here](https://discord.gg/QRjusA2uAZ)  
 Found - Previously lost but has been found  
 Unreleased - Currently unreleased or was never released  
 Private - Made private after being added to this list
@@ -45,6 +45,11 @@ Version: 1.8 - 1.16
 Rating: 1  
 Lost
 
+- [Anti ScaffoldWalk & Tower](https://www.spigotmc.org/resources/35796/) - Skript  
+Version: 1.8 - 1.11  
+Rating: 3.15  
+Discontinued
+
 - [AntiAttack](https://www.spigotmc.org/resources/8358)  
 Version: 1.8  
 Rating: 4.31  
@@ -54,6 +59,11 @@ Discontinued
 Version: 1.2.5 - 1.7.2  
 Rating: ???  
 Discontinued
+
+- [AntiCheat](https://www.spigotmc.org/resources/anticheat-1-12.93845/)  
+Version: 1.12  
+Rating: 2.83  
+Currently Active
 
 - [AntiCheat](https://www.spigotmc.org/resources/57925/)  
 Version: 1.7 - 1.12  
@@ -69,6 +79,11 @@ Discontinued
 Version: 1.8 - 1.13  
 Rating: 1.25  
 Discontinued
+
+- [Anticheat](https://www.spigotmc.org/resources/93504)  
+Version: 1.7 - 1.8  
+Rating: 3.52  
+Currently Active
 
 - [AntiCheat](https://www.spigotmc.org/resources/51765/)  
 Version: 1.8  
@@ -220,6 +235,11 @@ Version: 1.7 - 1.12
 Rating: 4.52  
 Discontinued
 
+- [AxolotlCheatDetector](https://github.com/OMGPandaYT/AxolotlCheatDetector) - Removed from spigot due to made ratings  
+Version: 1.17  
+Rating: ???  
+Currently Active
+
 - [AZ - AC](https://www.spigotmc.org/resources/78727)  
 Version: 1.8 - 1.15  
 Rating: 2  
@@ -238,6 +258,11 @@ Discontinued
 - [Baldr](https://github.com/sim0n/Baldr)  
 Version: 1.8.8  
 Rating: ???  
+Discontinued
+
+- [BaldrX](https://www.spigotmc.org/resources/baldrx-good-option-for-small-servers.82605/)  
+Version: 1.8  
+Rating: 3.18  
 Discontinued
 
 - [Bangs AntiCheat](https://www.spigotmc.org/resources/25953/)  
@@ -320,6 +345,11 @@ Version: 1.7 - 1.8, 1.11
 Rating: 3  
 Discontinued
 
+- [Crescent](https://github.com/thomasb454/Crescent)  
+Version: ???  
+Rating: ???  
+Discontinued
+
 - [Cryantic Anticheat](https://forums.skunity.com/resources/876/) - Skript  
 Version: 1.8  
 Rating: ???  
@@ -385,6 +415,10 @@ Version: 1.11
 Rating: 2.5  
 Discontinued
 
+- [ExoSec](https://forums.skunity.com/resources/%E2%96%BA-exosec-%E2%97%84%E2%96%BA-premium-anticheat-%E2%97%84.190/) - Skript  
+Version: 1.8 - 1.11  
+Discontinued
+
 - Fable Anticheat - Removed from spigot due to being a force op but did have some anticheat code.  
 Version: ???  
 Rating: ???  
@@ -395,8 +429,23 @@ Version: 1.8
 Rating: 4  
 Discontinued
 
+- [FairFight](https://github.com/disclearing/FairFight)  
+Version: 1.8  
+Rating: ???  
+Discontinued
+
+- [FedeAC](https://forum.cuberite.org/thread-3352.html) - A Cuberite anticheat  
+Version: 1.8 - 1.12  
+Rating: ???  
+Currently Active
+
 - [Fiona Anticheat](https://github.com/funkemunky/Fiona-Anticheat)  
 Version: 1.7 - 1.13  
+Rating: ???  
+Discontinued
+
+- [FireflyX](https://github.com/Z01wvay/fireflyx)  
+Version: ???  
 Rating: ???  
 Discontinued
 
@@ -465,14 +514,24 @@ Version: 1.7 - 1.8
 Rating: 4.42  
 Discontinued
 
+- [HAL Prediction](https://github.com/FrozenOrb/HAL_Prediction) - A python anticheat :o  
+Version: ???  
+Rating: ???  
+Discontinued
+
 - [Hawk Anticheat](https://www.spigotmc.org/resources/40343/)  
 Version: 1.7 - 1.8  
 Rating: 4.51  
 Currently Inactive
 
-- [HoneyBadger AntiCheat](https://github.com/SalersFR/Juaga) - Previously knows as Juaga  
+- [HoneyBadger AntiCheat](https://github.com/SalersFR/Juaga) - Previously knows as Juaga. The spigot page was taken down by the creator.  
 Version: 1.8  
 Rating: 3.2  
+Discontinued
+
+- [Herex Cheat](https://www.spigotmc.org/resources/37781)  
+Version: 1.8 - 1.9  
+Rating: 3.59  
 Discontinued
 
 - [Horizon](https://www.spigotmc.org/resources/65830/)  
@@ -540,6 +599,11 @@ Version: 1.8
 Rating: 3  
 Discontinued
 
+- [laggyfly](https://github.com/steviebeenz/laggyfly)  
+Version: 1.8.8  
+Rating: ???  
+Discontinued
+
 - [LambdaAntiCheat](https://github.com/LambdaTheDev/LambdaAntiCheat)  
 Version: 1.16.4  
 Rating: ???  
@@ -549,6 +613,11 @@ Discontinued
 Version: 1.7 - 1.11  
 Rating: 2.83  
 Discontinued
+
+- [LighterAC](https://web.archive.org/web/20200614171941/https://lighterdev.xyz/)  
+Version: ???  
+Rating: ???  
+Lost
 
 - [Link Anti Cheat](https://dev.bukkit.org/projects/link-anti-cheat-0-8)  
 Version: 1.8 - 1.11  
@@ -570,6 +639,11 @@ Version: 1.8.8
 Rating: ???  
 Discontinued
 
+- [Lurking Anticheat](https://forums.minehut.com/topic/38052-lurking-anticheat-skript-free/) - Skript  
+Version: ???  
+Rating: ???  
+Currently Active
+
 - [MAC](https://www.spigotmc.org/resources/47435/) - Skript  
 Version: 1.7 - 1.12  
 Rating: 2  
@@ -583,6 +657,11 @@ Currently Inactive
 - [Meme AntiCheat](https://www.mc-market.org/resources/12279/)  
 Version: 1.8  
 Rating: 2.83  
+Discontinued
+
+- [MemeCheat](https://github.com/NuclearOfficial/MemeCheat)  
+Version: 1.7 - 1.8  
+Rating: ???  
 Discontinued
 
 - [MenaceAC](https://www.spigotmc.org/resources/63444/)  
@@ -616,6 +695,11 @@ Version: 1.8 - 1.11
 Rating: 3.46  
 Discontinued
 
+- [MinestomAirConditioner](https://github.com/SLLCoding/MinestomAirConditioner) - First Minestom anticheat  
+Version: 1.16  
+Rating: ???  
+Discontinued
+
 - [MIU Anticheat](https://github.com/securitygab/MIU-AntiCheat-Minecraft)  
 Version: 1.8  
 Rating: ???  
@@ -641,6 +725,11 @@ Version: 1.8.8
 Rating: ???  
 Currently Inactive
 
+- [Neon Anticheat](https://forums.skunity.com/resources/neon-anticheat-packet-detections.907/) - Skript  
+Version: 1.8  
+Rating: ???  
+Discontinued
+
 - [NESS Anti-Cheat](https://www.spigotmc.org/resources/53281/)  
 Version: 1.8 - 1.12  
 Rating: 3.59  
@@ -663,6 +752,16 @@ Discontinued
 
 - [NoCheat](https://dev.bukkit.org/projects/nocheat)  
 Version: ??? - 1.1, 1.2.4  
+Rating: ???  
+Discontinued
+
+- [NoCheat](https://github.com/md-5/NoCheat)  
+Version: 1.5  
+Rating: ???  
+Discontinued
+
+- [NoCheatClassic](https://dev.bukkit.org/projects/nocheat-classic)  
+Version: 1.3 - 1.6  
 Rating: ???  
 Discontinued
 
@@ -716,13 +815,28 @@ Version: 1.8
 Rating: 1  
 Discontinued
 
+- [NOPE](https://github.com/MSWS/NOPE) - Spigot page was removed  
+Version: 1.16  
+Rating: ???  
+Discontinued
+
 - [OceanAntiCheat](https://www.spigotmc.org/resources/58907/)  
 Version: 1.13  
 Rating: 2.5  
 Discontinued
 
+- [Oneesan](https://github.com/FurYzen/Oneesan/)  
+Version: 1.8  
+Rating: ???  
+Currently Inactive
+
 - [Optimus](https://github.com/notOM3GA/Optimus)  
 Version: 1.16.5  
+Rating: ???  
+Discontinued
+
+- [Overwatch](https://github.com/cumpe/Overwatch)  
+Version: ???  
 Rating: ???  
 Discontinued
 
@@ -796,6 +910,21 @@ Version: 1.8 - 1.13
 Rating: 4.46  
 Discontinued
 
+- Sequence - Was a premium ac in development but was stopped after being called out for skidding  
+Version: ???  
+Rating: ???  
+Discontinued
+
+- [ServerGuard](https://github.com/Chanakan55991/ServerGuard)  
+Version: 1.16  
+Rating: ???  
+Discontinued
+
+- [ServerGuard Recoded](https://github.com/Chanakan55991/ServerGuard-Recoded)  
+Version: 1.17  
+Rating: ???  
+Currently Active
+
 - [Silent AntiCheat](https://www.spigotmc.org/resources/74709/) - Skript  
 Version: 1.7 - 1.8  
 Rating: 4  
@@ -809,6 +938,11 @@ Discontinued
 - [SKAntiCheat](https://www.spigotmc.org/resources/49412) - Skript  
 Version: 1.8  
 Rating: 3  
+Discontinued
+
+- [Skincheat.rip](https://github.com/Erouax/SkidCheat.Rip) - Previously premium but abandoned. All that's left.  
+Version: Unknown  
+Rating: ???  
 Discontinued
 
 - [Skidusa](https://github.com/SpiritenHasArrived/skidusa-v1)  
@@ -866,9 +1000,19 @@ Version: 1.8
 Rating: 1.33  
 Discontinued
 
+- [Static Anticheat](https://forums.skunity.com/resources/static-anticheat-tons-of-detections-new.762/) - Skript  
+Version: 1.8 - 1.12  
+Rating: ???  
+Discontinued
+
 - [Storm Anticheat](https://www.mc-market.org/resources/14983/)  
 Version: 1.8  
 Rating: 2.84  
+Discontinued
+
+- [Sully Anticheat](https://skript-mc.fr/forum/files/file/122-sully-anticheat/) - Skript  
+Version: 1.8  
+Rating: ???  
 Discontinued
 
 - [TestHack (Catch those hackers)](https://www.spigotmc.org/resources/11997) - Skript  
@@ -946,6 +1090,16 @@ Version: 1.8
 Rating: 3.4  
 Discontinued
 
+- [Vandal](https://forums.skunity.com/resources/vandal.168/) - Skript  
+Version: 1.10 - 1.11  
+Rating: ???  
+Discontinued
+
+- [VanillaAntiCheat](https://github.com/Seferan/VanillaAntiCheat)  
+Version: 1.7.2  
+Rating: ???  
+Discontinued
+
 - [Vernus AntiCheat](https://www.spigotmc.org/resources/80566/)  
 Version: 1.8  
 Rating: 2.53  
@@ -989,6 +1143,11 @@ Currently Inactive
 - [WARN anti cheat](https://www.spigotmc.org/resources/23726)  
 Version: 1.7  
 Rating: 1.66  
+Discontinued
+
+- [WAROUSP](https://forums.skunity.com/resources/%CE%9E-%D0%A8%CE%BB%D0%B3%D1%BB%D1%86%D0%85%CF%81-anti-cheat-%CE%9E.212/) - Skript  
+Version: 1.8  
+Rating: ???  
 Discontinued
 
 - [WASP AntiCheat](https://www.spigotmc.org/resources/81328) - Skript  
@@ -1076,6 +1235,11 @@ Version: ???
 Rating: ???  
 Discontinued
 
+- [zues](https://github.com/RealDeving/zues) - Previously premium but was leaked so owner open-sourced it  
+Version: ???  
+Rating: ???  
+Discontinued
+
 - [3d Angle Attack](https://www.spigotmc.org/resources/85021)  
 Version: 1.7 - 1.16  
 Rating: 3  
@@ -1090,10 +1254,15 @@ Discontinued
 
 This list of paid anti-cheats is sorted alphabetically.
 
-- [AAC (Advanced Anti Cheat)](https://www.spigotmc.org/resources/6442/) (Best used with [AACAdditionPro](https://www.spigotmc.org/resources/33590/))  
+- [AAC (Advanced Anti Cheat)](https://www.spigotmc.org/resources/6442/) (Best used with [AACAdditionPro](https://www.spigotmc.org/resources/33590))  
 Version: 1.8 - 1.16  
 Rating: 4.13  
 Price: £20.00  
+Currently Active
+
+- [AACAdditionPro](https://www.spigotmc.org/resources/33590) - An addon for AAC but can be used on its own  
+Version: 1.8, 1.12 - 1.17  
+Rating: 4.49  
 Currently Active
 
 - [Africa Anticheat](https://mctrades.org/resources/264/)  
