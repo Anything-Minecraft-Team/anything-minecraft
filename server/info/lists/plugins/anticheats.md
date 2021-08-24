@@ -925,6 +925,11 @@ Version: 1.17
 Rating: ???  
 Currently Active
 
+- [ShitAC](https://github.com/aamber2231/ShitAC) - Made to be bad  
+Version: 1.7 - 1.9, 1.12 - 1.13, 1.16
+Rating: ???  
+Discontinued
+
 - [Silent AntiCheat](https://www.spigotmc.org/resources/74709/) - Skript  
 Version: 1.7 - 1.8  
 Rating: 4  
