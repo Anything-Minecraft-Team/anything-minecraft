@@ -745,3 +745,7 @@ Discontinued
 - [zBungeeCord](https://www.mc-market.org/resources/10187/) - zBungeeCord is a premium BungeeCord fork optimizing BungeeCord quite a bit and cleaning up the commands.  
 Version: 1.7 - 1.8  
 Discontinued
+
+- [ElytraProxy](https://github.com/Elytrium/ElytraProxy) - ElytraProxy is a really customizable Minecraft proxy server with Auth, AntiBot (aka BotFilter) and some another helpful stuff, based on Velocity.  
+Version: 1.7 - 1.17.1  
+Discontinued
