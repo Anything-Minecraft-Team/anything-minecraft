@@ -708,6 +708,10 @@ Discontinued
 Version: 1.7 - 1.16.5  
 Currently Active
 
+- [JettPack](https://gitlab.com/Titaniumtown/JettPack) - JettPack is an experimental airplane fork with optimizations. This includes but is not limited to multithreaded entities and memory optimizations.  
+Version: 1.17.1  
+Currently Active
+
 - [jsmc](https://github.com/deoxxa/jsmc) - jsmc is a server for 1.4.2 written in javascript.  
 Version: 1.4.2  
 Discontinued
