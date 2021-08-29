@@ -47,7 +47,7 @@ Lost
 
 - [Anti ScaffoldWalk & Tower](https://www.spigotmc.org/resources/35796/) - Skript  
 Version: 1.8 - 1.11  
-Rating: 3.15  
+Rating: 3.66  
 Discontinued
 
 - [AntiAttack](https://www.spigotmc.org/resources/8358)  
@@ -82,7 +82,7 @@ Discontinued
 
 - [Anticheat](https://www.spigotmc.org/resources/93504)  
 Version: 1.7 - 1.8  
-Rating: 3.52  
+Rating: 4.37  
 Currently Active
 
 - [AntiCheat](https://www.spigotmc.org/resources/51765/)  
@@ -127,7 +127,7 @@ Discontinued
 
 - [AntiCheatReloaded](https://www.spigotmc.org/resources/23799/)  
 Version: 1.8, 1.12 - 1.16  
-Rating: 3.76  
+Rating: 3.75  
 Currently Active
 
 - [AntiCheatSK](https://www.spigotmc.org/resources/16457/) - Skript  
@@ -157,7 +157,7 @@ Discontinued
 
 - [AntiHaxerman](https://www.spigotmc.org/resources/83198/)  
 Version: 1.7 - 1.8  
-Rating: 4.7  
+Rating: 4.74  
 Currently Active
 
 - [AntiHighJump](https://www.spigotmc.org/resources/23099/) - Skript  
@@ -302,7 +302,7 @@ Discontinued
 
 - [Bubble AntiCheat](https://www.spigotmc.org/resources/78468/) - Skript  
 Version: 1.8 - 1.14  
-Rating: 3.5  
+Rating: 3.42  
 Discontinued
 
 - [CacaoAntiCheat](https://www.spigotmc.org/resources/86331)  
@@ -451,7 +451,7 @@ Discontinued
 
 - [Flappy Anticheat](https://www.spigotmc.org/resources/92180/)  
 Version: 1.16 - 1.17  
-Rating: 4.33  
+Rating: 4.38  
 Currently Active
 
 - [FrameAntiCheat](https://www.spigotmc.org/resources/34273) - Skript  
@@ -521,7 +521,7 @@ Discontinued
 
 - [Hawk Anticheat](https://www.spigotmc.org/resources/40343/)  
 Version: 1.7 - 1.8  
-Rating: 4.51  
+Rating: 4.52  
 Currently Inactive
 
 - [HoneyBadger AntiCheat](https://github.com/SalersFR/Juaga) - Previously knows as Juaga. The spigot page was taken down by the creator.  
@@ -531,7 +531,7 @@ Discontinued
 
 - [Herex Cheat](https://www.spigotmc.org/resources/37781)  
 Version: 1.8 - 1.9  
-Rating: 3.59  
+Rating: 4.08  
 Discontinued
 
 - [Horizon](https://www.spigotmc.org/resources/65830/)  
@@ -586,7 +586,7 @@ Lost
 
 - [KizukiAC](https://www.spigotmc.org/resources/90468/)  
 Version: 1.8, 1.12  
-Rating: 4.28  
+Rating: 4.26  
 Currently Active
 
 - [Knockback++](https://www.spigotmc.org/resources/36140/)  
@@ -716,7 +716,7 @@ Discontinued
 
 - [Negativity](https://www.spigotmc.org/resources/48399/)  
 Version: 1.7 - 1.17  
-Rating: 4.08  
+Rating: 4.06  
 Currently Active
 
 - [Nemesis](https://github.com/sim0n/Nemesis)  
@@ -731,7 +731,7 @@ Discontinued
 
 - [NESS Anti-Cheat](https://www.spigotmc.org/resources/53281/)  
 Version: 1.8 - 1.12  
-Rating: 3.59  
+Rating: 3.9  
 Discontinued
 
 - [NESS Anti-Cheat Reloaded](https://www.spigotmc.org/resources/75887/)  
@@ -741,7 +741,7 @@ Currently Active
 
 - [NeviveAntiCheat](https://www.spigotmc.org/resources/88785)  
 Version: 1.8  
-Rating: 2.33  
+Rating: 2  
 Currently Inactive
 
 - [NiroNoCheat](https://www.spigotmc.org/resources/49431/)  
@@ -856,7 +856,7 @@ Discontinued
 
 - [Police](https://www.spigotmc.org/resources/89317) - Skript  
 Version: 1.8  
-Rating: 1.25  
+Rating: 1.55  
 Currently Inactive
 
 - [PvPAntiCheat](https://www.spigotmc.org/resources/52135/)  
@@ -912,7 +912,7 @@ Discontinued
 - Sequence - Was a premium ac in development but was stopped after being called out for skidding  
 Version: Unknown  
 Rating: Unknown  
-Discontinued
+Unreleased
 
 - [ServerGuard](https://github.com/Chanakan55991/ServerGuard)  
 Version: 1.16  
@@ -925,7 +925,7 @@ Rating: Unknown
 Currently Active
 
 - [ShitAC](https://github.com/aamber2231/ShitAC) - Made to be bad  
-Version: 1.7 - 1.9, 1.12 - 1.13, 1.16
+Version: 1.7 - 1.9, 1.12 - 1.13, 1.16  
 Rating: Unknown  
 Discontinued
 
@@ -986,7 +986,7 @@ Discontinued
 
 - [SoaromaSAC](https://www.spigotmc.org/resources/87702/)  
 Version: 1.16 - 1.17  
-Rating: 4.42  
+Rating: 4.41  
 Currently Active
 
 - [Spid3yCheat](https://www.spigotmc.org/resources/54741) - Skript  
@@ -1041,12 +1041,12 @@ Discontinued
 
 - [Themis Anti Cheat](https://www.spigotmc.org/resources/90766/)  
 Version: 1.16 - 1.17  
-Rating: 4.66  
+Rating: 4.7  
 Currently Active
 
 - [ThotPatrol](https://www.spigotmc.org/resources/79978/) - Will be renamed VulcanLite in the future  
 Version: 1.7 - 1.8  
-Rating: 4.72  
+Rating: 4.73  
 Currently Inactive
 
 - [Thysol Anticheat](https://www.spigotmc.org/resources/61022)  
@@ -1091,7 +1091,7 @@ Currently Active
 
 - [Vagmemes](https://www.spigotmc.org/resources/57080)  
 Version: 1.8  
-Rating: 3.4  
+Rating: 3.36  
 Discontinued
 
 - [Vandal](https://forums.skunity.com/resources/vandal.168/) - Skript  
@@ -1137,8 +1137,8 @@ Discontinued
 - [Walter](https://github.com/EthoIRL/Walter) - Skript  
 Version: Unknown  
 Rating: Unknown  
-
 Discontinued
+
 - [Warden Cheat Detection](https://www.spigotmc.org/resources/81877/)  
 Version: 1.8 - 1.16  
 Rating: 3.73  
@@ -1211,7 +1211,7 @@ Discontinued
 
 - [Yeet AntiCheat](https://www.spigotmc.org/resources/68606) - Skript  
 Version: 1.14  
-Rating: 4.8  
+Rating: 3.71  
 Discontinued
 
 - [ZAC](https://www.spigotmc.org/resources/38371/) - Skript  
@@ -1260,13 +1260,13 @@ This list of paid anti-cheats is sorted alphabetically.
 
 - [AAC (Advanced Anti Cheat)](https://www.spigotmc.org/resources/6442/) (Best used with [AACAdditionPro](https://www.spigotmc.org/resources/33590))  
 Version: 1.8 - 1.16  
-Rating: 4.13  
+Rating: 4.09  
 Price: £20.00  
 Currently Active
 
 - [AACAdditionPro](https://www.spigotmc.org/resources/33590) - An addon for AAC but can be used on its own  
 Version: 1.8, 1.12 - 1.17  
-Rating: 4.49  
+Rating: 4.82  
 Currently Active
 
 - [Africa Anticheat](https://mctrades.org/resources/264/)  
@@ -1385,7 +1385,7 @@ Currently Active
 
 - [Kauri Anticheat](https://www.spigotmc.org/resources/53721/)  
 Version: 1.7 - 1.13  
-Rating: 4.08  
+Rating: 4.07  
 Price: $15  
 Discontinued
 
@@ -1439,7 +1439,7 @@ Currently Active
 
 - [Spartan Anti Cheat](https://www.spigotmc.org/resources/25638/)  
 Version: 1.7 - 1.17  
-Rating: 4.87  
+Rating: 4.88  
 Price: €22.50  
 Currently Active
 
@@ -1468,7 +1468,7 @@ Price: $10.00
 Currently Active
 
 - [Verus](https://www.mc-market.org/threads/335067/)  
-Version: 1.7 - 1.16.5  
+Version: 1.7 - 1.17.1  
 Rating: Unknown  
 Price: $60/$125/$200  
 Currently Active
@@ -1487,7 +1487,7 @@ Discontinued
 
 - [Wraith Anticheat](https://www.spigotmc.org/resources/66887/)  
 Version: 1.8 - 1.16  
-Rating: 3.73  
+Rating: 3.82  
 Price: €5.99  
 Currently Active
 
