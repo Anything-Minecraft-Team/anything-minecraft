@@ -38,8 +38,8 @@ Discontinued
 Version: 1.11, 1.15.2 - 1.16.5  
 Currently Inactive
 
-- [Basalt](https://github.com/MyCraftServerMC/BasaltMC) - Basalt is a high-performance Paper fork aiming to add more gameplay and mechanics.
-Version: 1.15.2
+- [Basalt](https://github.com/MyCraftServerMC/BasaltMC) - Basalt is a high-performance Paper fork aiming to add more gameplay and mechanics.  
+Version: 1.15.2  
 Discontinued
 
 - [Basin](https://github.com/basinserver/Basin) - Basin is a server implementation in C. It aims to have amazing performance and be a drop-in replacement.  
