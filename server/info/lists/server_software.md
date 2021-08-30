@@ -30,9 +30,9 @@ Currently Active
 Version: 1.7.10  
 Currently Active
 
-- AtomSpigot - A 1.8.8 TacoSpigot fork with crash fixes, async hit detection, and async knockback built it. Currently not available through legal means due to a false ban off of MCMarket.  
+- [AtomSpigot](https://mc-protection.eu/products) - A 1.8.8 TacoSpigot fork with crash fixes, async hit detection, and async knockback built it.  
 Version: 1.8.8  
-Discontinued
+Currently Active
 
 - [AVRCraft](https://github.com/cnlohr/avrcraft) - AVRCraft is a server that is optimized for 8-bit devices made in C.  
 Version: 1.11, 1.15.2 - 1.16.5  
@@ -654,9 +654,9 @@ Discontinued
 Version: Unknown  
 Currently Active
 
-- [Aegis](https://polymart.org/resource/31) - A fork of BungeeCord adding many security measures and with built-in anti-bot and anti-VPN. It supports 1.7.x to 1.16.3. The developer is currently falsely banned from MC-Market.  
-Version: 1.7 - 1.16.4  
-Discontinued
+- [Aegis](https://mc-protection.eu/products) - A fork of BungeeCord adding many security measures and with built-in anti-bot and anti-VPN. It supports 1.7.x to 1.17.x. The developer is currently falsely banned from MC-Market.  
+Version: 1.7 - 1.17.1  
+Currently Active
 
 - [Gate](https://github.com/minekube/gate) - A Minecraft Proxy that is written in Go suggesting "scalability, flexibility & excellent server version support".  
 Version: 1.8 - 1.17  

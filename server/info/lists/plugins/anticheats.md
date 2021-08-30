@@ -1311,11 +1311,11 @@ Rating: Unknown
 Price: $30/mo - $80/3mo - $150/6mo - $300/12mo - $500 Lifetime  
 Currently Active
 
-- [Cerberus Anticheat](https://polymart.org/resource/211)  
+- [Cerberus Anticheat](https://mc-protection.eu/products)  
 Version: 1.8 - 1.12  
 Rating: 0  
-Price: $39.99  
-Discontinued
+Price: $14.99  
+Currently Active
 
 - [DakataAntiCheat](https://www.spigotmc.org/resources/26911/)  
 Version: 1.8 - 1.12  
