@@ -10,7 +10,7 @@ The ratings are from the [spiget api](https://spiget.org) average rating.
 Currently Active - Has been updated in the last 6 months.  
 Currently Inactive - Last update was less than a year ago but more than 6 months.  
 Discontinued - No longer maintained  
-Lost - The files to run the server has been lost, if you have the file please join our discord [here](https://discord.gg/QRjusA2uAZ)  
+Lost - The files to run the server have been lost, if you have the file please join our discord [here](https://discord.gg/QRjusA2uAZ)  
 Found - Previously lost but has been found  
 Unreleased - Currently unreleased or was never released  
 Private - Made private after being added to this list

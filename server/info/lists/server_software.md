@@ -9,8 +9,10 @@ A * means that the developer of that project mass produces them. This leads to a
 Currently Active - Has been updated in the last 6 months.  
 Currently Inactive - Last update was less than a year ago but more than 6 months.  
 Discontinued - No longer maintained  
-Lost - The files to run the server have been lost  
-Found - Previously lost but has been found
+Lost - The files to run the server have been lost, if you have the file please join our discord [here](https://discord.gg/QRjusA2uAZ)  
+Found - Previously lost but has been found  
+Unreleased - Currently unreleased or was never released  
+Private - Made private after being added to this list
 
 ### General:
 
