@@ -218,8 +218,6 @@ Currently Active
 
 - [Lantern](https://github.com/LanternPowered/Lantern) - Lantern is a server that implements the SpongeAPI.  
 Version: 1.12 - 1.14, 1.16  
-Currently Inactive
-Version: ???  
 Discontinued
 
 - [ReliableSpigot](https://www.mc-market.org/resources/15892/) - ReliableSpigot is a factions cannoning server jar with a heavily customizable faction related config.  
