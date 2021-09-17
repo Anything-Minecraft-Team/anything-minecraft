@@ -699,11 +699,13 @@ Technically Open Source?
 
 - [Magma](https://magmafoundation.org/) - Minecraft Forge hybrid server implementing the Spigot/Bukkit API (Cauldron for 1.12).  
 Version: 1.12.2  
-Currently Active
+Currently Active  
+Open Source
 
 - [Mohist](https://mohistmc.com/) - Minecraft Forge hybrid server implementing the Paper/Spigot/Bukkit API(1.12.2/1.16). Formerly known as Thermos/Kettle/Cauldron/MCPC+.  
 Version: 1.7.10, 1.12.2, 1.16.5  
-Currently Active
+Currently Active  
+Open Source
 
 - [Arclight](https://github.com/IzzelAliz/Arclight) - A Minecraft Bukkit(1.15/1.16) server implementation on Forge using Mixin.  
 Version: 1.14 - 1.16  
@@ -717,7 +719,8 @@ Open Source
 
 - [Cardboard](https://www.curseforge.com/minecraft/mc-mods/cardboard) - Cardboard (formerly Bukkit4Fabric) is a Fabric mod that adds support for the popular Bukkit/Spigot modding API. This mod lets you use plugins that are made for Bukkit and its derivatives (Spigot and Paper) with Fabric. It's not server software but allows Fabric servers to run Bukkit plugins.  
 Version: 1.16.4 - 1.16.5  
-Currently Active
+Currently Active   
+Closed Source
 
 - [AtomMC](https://github.com/josephworks/AtomMC) - Atom is a Minecraft Server Software that is based on Minecraft Forge and CraftBukkit for 1.12.2 version of Minecraft.  
 Version: 1.12.2  
@@ -732,6 +735,7 @@ Open Source
 - [MCPC+](https://ci.md-5.net/job/Cauldron/) - MCPC+ was a 1.2.5 to 1.7.10 Bukkit/Forge hybrid, the first of its kind. It was also known as Cauldron.  
 Version: Unknown
 Discontinued
+Link Broken?
 
 - [KCauldron](https://github.com/djoveryde/KCauldron) - KCauldron is a fork of MCPC+ using Spigot instead of CraftBukkit.  
 Version: 1.7.10  
@@ -771,6 +775,7 @@ Open Source
 - TableCloth - A Hybrid jar forked from AtomMC combining Forge + Spigot and a couple of Paper Patches.  
 Version: Unknown  
 Discontinued
+Unknown
 
 - [Lava](https://github.com/Timardo/Lava) - Lava is a 1.12.2 Forge/Spigot hybrid server not forked from any other hybrid servers.  
 Version: 1.12.2  
@@ -792,15 +797,18 @@ Open Source
 - [BungeeCord](https://www.spigotmc.org/wiki/bungeecord/) - Base for the Waterfall fork, these JARs are used for configuring networks of which an example is Hypixel or Mineplex, it is used for distributing workload and players to different lobbies (Different server instances run with separate files and data).  
 No, this can't be used as a normal JAR and requires at least 3 servers/instances, one is BungeeCord (or its fork) which is called the proxy, players connect to this proxy and are sent to the default server which is set in config. Let's say server "Lobby" is the default, it will send you there, then you can connect to another server, for example, "Survival" which is running in a separate server/instance and BungeeCord enables the functionality travel across these different servers without returning to the multiplayer menu screen. (It can be done with special plugins which utilize BungeeCord API to send you to the chosen server on click, you'll most commonly see it as a compass or portal).  
 Version: 1.8 - 1.17.1  
-Currently Active
+Currently Active  
+Open Source
 
 - [Waterfall](https://papermc.io/downloads#Waterfall) - Fork of BungeeCord, faster than BungeeCord and has general improvements and tweaks which make it the more preferred network JAR, works the same as BungeeCord (talking about the use, it doesn't have a different system).  
 Version: 1.8 - 1.17.1  
-Currently Active
+Currently Active  
+Open Source
 
 - [Velocity](https://velocitypowered.com/) - A next-generation Minecraft proxy focused on scalability and flexibility. It allows server owners to link together multiple Minecraft servers so they may appear as one.  
 Version: 1.7.2 - 1.17.1  
-Currently Active
+Currently Active  
+Open Source
 
 - [Travertine](https://github.com/PaperMC/Travertine) - Fork of Waterfall with added `1.7.10` support if you want that old school experience.  
 Version: 1.7 - 1.16.5  
@@ -819,11 +827,13 @@ Open Source
 
 - [LilyPad](http://www.lilypadmc.org/) - A separate Proxy with its API and Plugins that has been suggestively discontinued.  
 Version: Unknown  
-Currently Active
+Currently Active  
+Open Source
 
 - [Aegis](https://mc-protection.eu/products) - A fork of BungeeCord adding many security measures and with built-in anti-bot and anti-VPN. It supports 1.7.x to 1.17.x. The developer is currently falsely banned from MC-Market.  
 Version: 1.7 - 1.17.1  
-Currently Active
+Currently Active  
+Open Source
 
 - [Gate](https://github.com/minekube/gate) - A Minecraft Proxy that is written in Go suggesting "scalability, flexibility & excellent server version support".  
 Version: 1.8 - 1.17  
@@ -846,7 +856,8 @@ Open Source
 
 - [DasBungee](https://www.mc-market.org/resources/17481/) - DasBungee is a premium BungeeCord fork that adds an IP blacklist system and patches "all known exploits".  
 Version: 1.8 - 1.16.5  
-Currently Active
+Currently Active  
+Closed Source
 
 - [Flexagon](https://github.com/SeaEclipse/Flexagon) - Flexagon is a fork of Hexacord and Travertine meant just for testing purposes.  
 Version: 1.7 - 1.15.2  
@@ -865,11 +876,13 @@ Open Source
 
 - [Gravity](https://www.mc-market.org/resources/17731/) - Gravity is a premium BungeeCord fork adding features like antibot, global messaging, and patches for almost all of the issues.  
 Version: Unknown  
-Currently Inactive
+Currently Inactive  
+Closed Source
 
 - [GuardHexa](https://www.mc-market.org/resources/16180/) - GuardHexa is a premium fork of HexaCord that patches a lot of bugs/exploits and has a bit of optimization.  
 Version: 1.7 - 1.16.4  
-Currently Active
+Currently Active  
+Closed Source
 
 - [HQBungeeCord](https://github.com/moyugame/HQBungeeCord) - HQBungeeCord is a Waterfall fork aimed at improving stability and performance.  
 Version: Unknown  
@@ -878,7 +891,8 @@ Open Source
 
 - [InsaneProxy](https://www.mc-market.org/resources/16588/) - InsaneProxy is a premium fork of Travertine and Velocity, resulting in lower CPU usage and more exploits patched.  
 Version: 1.7 - 1.16.5  
-Currently Active
+Currently Active  
+Closed Source
 
 - [JettPack](https://gitlab.com/Titaniumtown/JettPack) - JettPack is an experimental airplane fork with optimizations. This includes but is not limited to multithreaded entities and memory optimizations.  
 Version: 1.17.1  
@@ -902,11 +916,13 @@ Open Source
 
 - [SecureCord](https://www.mc-market.org/resources/15002/) - SecureCord is a free BungeeCord fork which patches from harmful exploits.  
 Version: Unknown  
-Discontinued
+Discontinued    
+Closed Source 
 
 - [SSCord](https://www.mc-market.org/resources/14562/) - SSCord is a premium fork of Waterfall adding some optimizations, anti-bot features like captcha, and patches some waterfall exploits.  
 Version: 1.7.2 - 1.17  
-Currently Active
+Currently Active    
+Closed Source
 
 - [VanillaCord](https://github.com/ME1312/VanillaCord) - VanillaCord is a BungeeCord fork allowing Vanilla servers to connect through BungeeCord.  
 Version: 1.12 - 1.17  
@@ -915,7 +931,8 @@ Open Source
 
 - [WaterCrash](https://www.mc-market.org/resources/13579/) - WaterCrash is a premium WaterFall fork adding 1.7.x support, adds real-time IP blacklisting, and a crash/exploit preventer. Currently, the resource purchase page is deleted for unknown reasons.  
 Version: 1.7 - 1.15  
-Discontinued
+Discontinued    
+Closed Source
 
 - [wCord](https://github.com/wtfaremyinitials/wCord) - A fork of BungeeCord with animated MOTDs.  
 Version: 1.4.7 - 1.6.4  
@@ -924,7 +941,8 @@ Open Source
 
 - [zBungeeCord](https://www.mc-market.org/resources/10187/) - zBungeeCord is a premium BungeeCord fork optimizing BungeeCord quite a bit and cleaning up the commands.  
 Version: 1.7 - 1.8  
-Discontinued
+Discontinued    
+Closed Source
 
 - [ElytraProxy](https://github.com/Elytrium/ElytraProxy) - ElytraProxy is a really customizable Minecraft proxy server with Auth, AntiBot (aka BotFilter) and some another helpful stuff, based on Velocity.  
 Version: 1.7 - 1.17.1  
