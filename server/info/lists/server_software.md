@@ -22,8 +22,8 @@ https://pastebin.com/txMwgK3p
 
 - [Airplane](https://github.com/TECHNOVE/Airplane) - This fork includes optimizations oriented towards large servers.  
 Version: Unknown - 1.17.1  
-Currently Active
-Open Source
+Currently Active   
+Open Source  
 
 - [Akarin](https://github.com/Akarin-project/Akarin) - A Spigot plugin compatible project aiming at becoming fairly multicore compatible. This is a fork of Tuinity aiming to simplify the logic and implement multi-threaded computing and make servers more safe and stable.  
 Version: 1.13.2 - 1.17.1  
@@ -32,7 +32,7 @@ Open Source
 
 - [APOLLO16 ](https://www.mc-market.org/resources/16271/) - A 1.16.5 Purpur fork with a built-in system monitor and optimized block and chunk ticking methods.  
 Version: 1.16.5  
-Currently Active
+Currently Active   
 Closed Source
 
 - [aSpigot](https://www.mc-market.org/resources/6101/)* - aSpigot is a premium 1.7.10 Paper fork with custom knockback editing, togglable features like mob AI, and various features pointed at HCF servers.  
