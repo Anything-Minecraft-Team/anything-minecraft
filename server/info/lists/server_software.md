@@ -27,58 +27,58 @@ Open Source
 
 - [Akarin](https://github.com/Akarin-project/Akarin) - A Spigot plugin compatible project aiming at becoming fairly multicore compatible. This is a fork of Tuinity aiming to simplify the logic and implement multi-threaded computing and make servers more safe and stable.  
 Version: 1.13.2 - 1.17.1  
-Currently Active
+Currently Active   
 Open Source
 
 - [APOLLO16 ](https://www.mc-market.org/resources/16271/) - A 1.16.5 Purpur fork with a built-in system monitor and optimized block and chunk ticking methods.  
 Version: 1.16.5  
-Currently Active   
+Currently Active    
 Closed Source
 
 - [aSpigot](https://www.mc-market.org/resources/6101/)* - aSpigot is a premium 1.7.10 Paper fork with custom knockback editing, togglable features like mob AI, and various features pointed at HCF servers.  
 Version: 1.7.10  
-Currently Active
+Currently Active  
 Closed Source
 
 - [AtomSpigot](https://mc-protection.eu/products) - A 1.8.8 TacoSpigot fork with crash fixes, async hit detection, and async knockback built it.  
 Version: 1.8.8  
-Currently Active
+Currently Active   
 Closed Source
 
 - [AVRCraft](https://github.com/cnlohr/avrcraft) - AVRCraft is a server that is optimized for 8-bit devices made in C.  
 Version: 1.11, 1.15.2 - 1.16.5  
-Currently Inactive
+Currently Inactive   
 Open Source
 
 - [Basalt](https://github.com/MyCraftServerMC/BasaltMC) - Basalt is a high-performance Paper fork aiming to add more gameplay and mechanics.  
 Version: 1.15.2  
-Discontinued
+Discontinued   
 Open Source
 
 - [Basin](https://github.com/basinserver/Basin) - Basin is a server implementation in C. It aims to have amazing performance and be a drop-in replacement.  
 Version: 1.10 - 1.11  
-Discontinued
+Discontinued   
 Open Source
 
 - [Bedrock](https://github.com/Adam-/bedrock) - A server software written in C with the goal to fully emulate vanilla Minecraft.  
 Version: 1.7.10  
-Discontinued
+Discontinued   
 Open Source
 
 - [BeerSpigot](https://www.mc-market.org/threads/355569/) - A 1.8.8 TacoSpigot fork focused on Factions servers with a built-in knockback editing,  with a lot of built-in Factions features (Grace Period, Cannoning Optimization, and Setting Global Spawner Values).  
 Version: 1.8.8  
-Currently Active
+Currently Active   
 Closed Source
 
 - [BeeSpigot](https://www.mc-market.org/resources/14263/)* - BeeSpigot is a premium 1.15.2 Paper fork with custom knockback editing, togglable features like mob AI, and some general optimizations.  
 Version: 1.15.2  
-Currently Active
-Closed Source
+Currently Active   
+Closed Source   
 
 - [Bravo](https://web.archive.org/web/20130606153236/http://bravoserver.org/) - Bravo is a 1.5 server made in python. Previously known as beta.  
 Version: 1.5  
-Discontinued
-Open Source
+Discontinued   
+Open Source   
 
 - [BreadSpigot](https://www.mc-market.org/threads/475910/) - A 1.8.8 TacoSpigot fork focused on SkyBlock servers with huge entity optimizations, built-in mob stacking, and a built-in knockback editor.  
 Version: 1.8.8  
