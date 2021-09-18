@@ -16,7 +16,10 @@ Private - Made private after being added to this list
 
 ### For Contributors:
 Please add software with the syntax
-https://pastebin.com/txMwgK3p
+```- [Software Name](Link) - Description
+Version: 
+Currently Active/Discontinued/Lost/Currently Inactive
+Open Source/Closed Source```
 
 ### General:
 
