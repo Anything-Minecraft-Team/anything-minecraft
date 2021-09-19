@@ -2,6 +2,8 @@
 
 Here you will learn how to optimize you Minecraft server to get better performance.
 
+Huge credit to [this guide](https://github.com/YouHaveTrouble/minecraft-optimization) by YouHaveTrouble for parts of this guide. 
+
 ## Different kinds of Lag
 
 TPS - Server Lag
