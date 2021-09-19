@@ -28,6 +28,7 @@ Here is a list of as many hosting providers as we can find, good and bad:
 - [MixmlHosting](https://mixmlhosting.com/)
 - [Nitrado](https://server.nitrado.net/eng/rent-gameserver)
 - [Pebblehost](https://pebblehost.com/)
+- [PlanetNode](https://planetnode.net/)
 - [MajestyNodes](https://majestynodes.com/)
 - [RamShard](https://ramshard.com/hosting/minecraft)
 - [RetroNode](https://retronode.net/)
