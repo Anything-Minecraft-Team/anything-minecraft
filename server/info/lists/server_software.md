@@ -19,7 +19,8 @@ Please add software with the syntax
 ```- [Software Name](Link) - Description
 Version: 
 Currently Active/Discontinued/Lost/Currently Inactive
-Open Source/Closed Source```
+Open Source/Closed Source  
+```
 
 ### General:
 
