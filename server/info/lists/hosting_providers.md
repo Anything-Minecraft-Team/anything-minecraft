@@ -1,17 +1,19 @@
 # Hosting Providers
 
-The price per gigabyte is listed beside the provider.
-The price per gigabyte does not include the start fee.
-This is listing the cheapest plan and ? means the price varies.
-Here is a list of as many hosting providers as we can find, good and bad:
+The cost per gigabyte of RAM of the cheapest plan is listed beside the provider.  
+? means the price varies based on your custom plan.  
+The plans' cost is per month.  
+Many people personally recommend a VPS (Virtual Private Server), but most are Minecraft plans here.  
+This will go off of available plans, <BirdFlop has EU and US locations, but only US is available>.  
+Here is a list of as many hosting providers as we can find, good and bad:  
 
-- [AnvilNode](https://www.anvilnode.com/) $/GB
-- [Aternos](https://aternos.org/:en/) $/GB
-- [AtlasNode](https://atlasnode.net/) $/GB
-- [CryHosting](https://cryhosting.net/) $/GB
-- [BeastNode](https://www.beastnode.com/) $/GB
-- [Birdflop](https://www.birdflop.com/) $/GB
-- [BisectHosting](https://www.bisecthosting.com/) $/GB
+- [AnvilNode](https://www.anvilnode.com/) $4/GB
+- [Aternos](https://aternos.org/:en/) $0/GB
+- [AtlasNode](https://atlasnode.net/) Down?
+- [CryHosting](https://cryhosting.net/) $2/GB
+- [BeastNode](https://www.beastnode.com/) $3/GB
+- [Birdflop](https://www.birdflop.com/) $3/GB
+- [BisectHosting](https://www.bisecthosting.com/) $?/GB
 - [Bloom.Host](https://bloom.host/) $/GB
 - [CentroNodes](https://centronodes.com/) $/GB
 - [CubedHost](https://cubedhost.com/) $/GB
