@@ -4,13 +4,13 @@ This article aims to give you directions on how you can run and join your Minecr
 
 ## Setting up
 
-The very first thing required in setting up a Minecraft server is to verify if you have all the prerequisites, be they software or hardware requirements. As for the software, an updated version of Java is highly recommended, and in some instances, required. These can be installed from oracle's website, and try to keep up on updating these as previously mentioned, it is sometimes required to have the latest version of Java (at the time of writing, the version is 16.0.2. You can download it from [Oracle's site](https://www.oracle.com/java/technologies/downloads/#java16).
+The very first thing required in setting up a Minecraft server is to verify if you have all the prerequisites, be they software or hardware requirements. As for the software, an updated version of Java is highly recommended, and in some instances, required. These can be installed from oracle's website, and try to keep up on updating these as previously mentioned, it is sometimes required to have the latest version of Java (at the time of writing, the version is 17. You can download it from [Oracle's site](https://www.oracle.com/java/technologies/downloads/#java17).
 
 As for the hardware requirements, they are not too strict, but they restrict what type of server you'll be running. If you don't particularly care for the performance of the server with a couple of players on a vanilla server, you should be fine to skip over this section, but if you're a hardware nerd or would like to learn more on the subject, this will attempt to enlighten you. When choosing parts for a Minecraft server, one should stray away from the higher-core-count CPUs and choose something with better single-threaded performance, as that is nearly all that Minecraft will use. Memory is often one of the most popularly sought after specs in a Server box, however a good computer alone it does not make. When choosing the parts for the computer, put more effort into finding a better CPU with the amount of RAM not as an afterthought, but a second priority. Typically speaking, more memory allows for more players and more mods, but always make sure that your CPU is keeping up with the server itself before trying to throw more memory at the server, as sometimes with more memory comes worse performance due to how java is written.
 
 Once you've figured through the prerequisites, you need to find the best server jar for your requirements; along with this thread there is a [part for choosing a server jar](../software/picking.md), but if you'd rather go the easy route and stick with vanilla, a popular and quite useful to get the server jars from is [mcversions.net](https://mcversions.net/), as that contains legacy files along with newly released versions.
 
-# Setup For Windows
+## Setup For Windows
 
 After downloading your server jar create a new folder. You can name it anything you want.
 
@@ -50,15 +50,22 @@ If you would like to be able to access the server from outside your local networ
 
 Another reason a port forward might have failed is the windows firewall. To configure this, navigate to the windows defender control panel screen, and head over into advanced settings (you will need admin to do this). Go into inbound rules and outbound rules, and create a new rule for each, name it whatever you like, and make sure that it is allowing the port 25565 on BOTH TCP and UDP (you might need to set up 2 rules for each side). Once that is done, windows should no longer block a server running on that port on your machine.
 
-Note: some ISPs have built in security funcitons in the router itself (looking at you xFinity), and as such they may block people from connecting to the server. While we do not recommend turning off a security function for the everyday user, in some instances it is required.
+Note: some ISPs have built in security functions in the router itself (looking at you xFinity), and as such they may block people from connecting to the server. While we do not recommend turning off a security function for the everyday user, in some instances it is required.
 
 This process is slightly different for a modded server so we will go over it here!
 
-# Setup For Linux
+## Setup For Linux
 
-> Warning: You should prefer using your package manager (for example `apt` on Ubuntu and Debian) to install java because it's more organized with the package manager
+> Warning: You should prefer using your package manager (for example `apt` on Ubuntu and Debian) to install Java because it's more organized and easier to keep up-to-date
 
-You can do this using the following command (Not every distro uses apt)
+Depending on the Minecraft version you want to install, you'll need a specific Java version.
+
+- Java 8 - 14 for versions 1.8 - 1.16
+- At least Java 16 for versions 1.17 or later
+
+It is recommended to use an LTS version of Java. This would be Java 11 below 1.16 and Java 17 for 1.17 or later
+
+You can do this using the following command (If your distro does not use apt, consult the wiki of your distro, for example: [Fedora](https://docs.fedoraproject.org/en-US/quick-docs/installing-java/), [Arch (and Arch-based)](https://wiki.archlinux.org/title/Java))
 
 --> `sudo apt install openjdk-xx-jre`
 
@@ -74,6 +81,8 @@ Copy your server jar to this folder and rename it to "server.jar"
 
 Create a text document named `start.sh` and write into it:
 `java -Xmx1024M -jar server-jar nogui` (the `nogui` might not be required)
+
+`-Xmx1024M` being the parameter for the Java heap size in megabytes (1024 MB = 1 GB). As your server grows in amount of plugins and concurrent players, you may want to increase this.
 
 --> `echo "java -Xmx1024M -jar server.jar nogui" > start.sh`
 
@@ -100,7 +109,7 @@ If you want to start the server and want to be able to exit out of the terminal 
 - You can use a utility called [tmux](https://github.com/tmux/tmux/wiki). Use this if the server is intended to be temporarily up.
 - You can register minecraft as a **system unit**. Use this if the server is intended to be up 24/7 and requires automatic restarting in case of host shutdowns/failures.
 
-#### Setup With Tmux
+### Setup With Tmux
 
 Start a tmux window
 
@@ -124,10 +133,10 @@ To reattach to the session,
 
 To destroy the session completely, you can attach to the session and then `Ctrl+D` out of it. It detaches from session and destroys it too.
 
-#### Setup As A System Service
+### Setup As A System Service
 
 You need to set up a service if it should, for example automatically launch at boot or restart when it terminates
-So, create a file named `minecraft.service` in `/etc/systemd/system` (May require root permissions)
+So, create a file named `minecraft.service` in `/etc/systemd/system` (requires root permissions)
 
 --> `sudo touch /etc/systemd/system/minecraft.service` (actually optional)
 
@@ -157,20 +166,20 @@ It will restart automatically 1 second after it shut down. To make it start at b
 
 --> `systemctl enable minecraft`
 
-# Setup For Docker
+## Setup For Docker
 
-#### Prebuilt Docker
+### Prebuilt Docker
 
 > Based on the docker image with the most pulls
 > See [itzg/docker-minecraft-server for more details](https://github.com/itzg/docker-minecraft-server)
 
-##### Simple Launch
+#### Simple Launch
 
 ```sh
 docker run -d -p 25565:25565 --name mc -e EULA=TRUE itzg/minecraft-server
 ```
 
-##### Docker Compose
+### Docker Compose
 
 ```yml
 version: "3"
@@ -187,7 +196,7 @@ services:
       ./data:/data
 ```
 
-#### Build it Yourself
+### Build it Yourself
 
 You can use an already built docker image or just create a Dockerfile, in your server folder, with following content:
 
