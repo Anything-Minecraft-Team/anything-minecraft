@@ -1,0 +1,21 @@
+# Anti X-Ray
+
+In this article, you will learn how to set up anti x-ray for your Minecraft server.
+
+## Setting Up
+
+There are two ways to set up an anti x-ray, the first one is to use Paper and enable the built-in anti x-ray option. In older versions of Minecraft, the anti x-ray config options were in the spigot config file instead of the paper config. The second option is to install [Orebfuscator](https://www.spigotmc.org/resources/orebfuscator-anti-x-ray.82710). It is recommended to use Paper's built-in anti x-ray over the plugin, but if that's not possible Orebfuscator is a decent alternative, it supports versions 1.9 - 1.17. If you need it for an older version you can use this [Orebfuscator](https://dev.bukkit.org/projects/orebfuscator) that supports Beta 1.7.3 - 1.13.2. If you need a fabric anti x-ray you can check one out [here](https://modrinth.com/mod/anti-xray/versions), it supports 1.16.5 - 1.17.1. The config is similar to Papers but in the form of a toml file type.
+
+### Setting up Paper anti x-ray
+
+First what you want to do is download [Paper](https://papermc.io/downloads) on your server or any of its forks. Now run the server so it can generate its configs, open up `paper.yml` and find the option `anti-xray`. Now to enable it, change `false` to `true`. The next option we want to look at is `engine-mode`, this option controls how the anti x-ray works. Engine mode 1 replaces ore with stone and engine mode 2 replaces all blocks with random block data. Engine mode 2 can give players with a bad connection high ping when teleporting. For a private server engine mode 2 is recommended, and for a public survival server where anyone can join engine mode 1 is recommended. Engine mode 2 can render the game unplayable for some players depending on the servers/players location. 
+
+If you want to add more blocks to be hidden with engine mode 1 you can do so by adding it to the `hidden-blocks` list. If you want to have more blocks hidden by random block data with engine mode 2 you can add the blocks to the `replacement-blocks` list. 
+
+Next are a bunch of small settings you can change. If you want to change the height that anti x-ray works on, you can change the value of `max-block-height`, it must be a multiple of 16 to work. There is also `update-radius` which controls the distance in blocks from air or water that `hidden-blocks` are hidden by the anti x-ray, max value is 2. `lava-obscures` just decides if you want to obfuscate blocks next to lava. If you want to allow certain people to bypass the anti x-ray you can enable `use-permission` and give the player the permission `paper.antixray.bypass`.
+
+Now you may have noticed that the anti x-ray does not work in other worlds. That is because the anti x-ray settings are per world. To enable it in other worlds copy the `anti-xray` section in the config and go to the `world-settings` section, now type `<world-name>:` and paste the anti x-ray config section inside that, repeat for all worlds you want this on. You will have to change the hidden blocks list to fit the world, for example, if it's the nether you will want to add `quartz_ore` and `nether_gold_ore` to the hidden blocks list.
+
+### Setting up Orebfuscator anti x-ray
+
+First, to set up anti x-ray with Orebfuscator you will need to download it [here](https://www.spigotmc.org/resources/orebfuscator-anti-x-ray.82710) along with [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/). For versions previous to 1.9 use the original [Orebfuscator](https://dev.bukkit.org/projects/orebfuscator), config options may be different to the updated version. Open the Orebfuscator config.yml found in `plugins/Orebfuscator`. Find the section `world` and make sure `enabled` is set to `true`. Now to edit the worlds that anti x-ray is enabled in with the settings we will go through soon, find `worlds` and to add a world to the anti x-ray add the worlds name to the list. To add new hidden blocks you can add blocks via `hiddenBlocks`. To randomise all blocks that shouldn't be seen by the player add blocks to the `randomBlocks` section, the value you set for each block is the weight the block gets which is how common it appears when a play x-rays. You can now copy, paste and edit this section for different worlds.
