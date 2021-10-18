@@ -10,7 +10,7 @@ As for the hardware requirements, they are not too strict, but they restrict wha
 
 Once you've figured through the prerequisites, you need to find the best server jar for your requirements; along with this thread there is a [part for choosing a server jar](../software/picking.md), but if you'd rather go the easy route and stick with vanilla, a popular and quite useful to get the server jars from is [mcversions.net](https://mcversions.net/), as that contains legacy files along with newly released versions.
 
-## Setup For Windows
+### Setup For Windows
 
 After downloading your server jar create a new folder. You can name it anything you want.
 
@@ -54,7 +54,7 @@ Note: some ISPs have built in security functions in the router itself (looking a
 
 This process is slightly different for a modded server so we will go over it here!
 
-## Setup For Linux
+### Setup For Linux
 
 > Warning: You should prefer using your package manager (for example `apt` on Ubuntu and Debian) to install Java because it's more organized and easier to keep up-to-date
 
@@ -82,7 +82,7 @@ Copy your server jar to this folder and rename it to "server.jar"
 Create a text document named `start.sh` and write into it:
 `java -Xmx1024M -jar server-jar nogui` (the `nogui` might not be required)
 
-`-Xmx1024M` being the parameter for the Java heap size in megabytes (1024 MB = 1 GB). As your server grows in amount of plugins and concurrent players, you may want to increase this.
+`-Xmx1024M` being the parameter for the Java heap size in megabytes (1024 MB = 1 GiB). As your server grows in amount of plugins and concurrent players, you may want to increase this.
 
 --> `echo "java -Xmx1024M -jar server.jar nogui" > start.sh`
 
@@ -109,7 +109,7 @@ If you want to start the server and want to be able to exit out of the terminal 
 - You can use a utility called [tmux](https://github.com/tmux/tmux/wiki). Use this if the server is intended to be temporarily up.
 - You can register minecraft as a **system unit**. Use this if the server is intended to be up 24/7 and requires automatic restarting in case of host shutdowns/failures.
 
-### Setup With Tmux
+#### Setup With Tmux
 
 Start a tmux window
 
@@ -133,7 +133,7 @@ To reattach to the session,
 
 To destroy the session completely, you can attach to the session and then `Ctrl+D` out of it. It detaches from session and destroys it too.
 
-### Setup As A System Service
+#### Setup As A System Service
 
 You need to set up a service if it should, for example automatically launch at boot or restart when it terminates
 So, create a file named `minecraft.service` in `/etc/systemd/system` (requires root permissions)
@@ -166,20 +166,20 @@ It will restart automatically 1 second after it shut down. To make it start at b
 
 --> `systemctl enable minecraft`
 
-## Setup For Docker
+### Setup For Docker
 
-### Prebuilt Docker
+#### Prebuilt Docker
 
 > Based on the docker image with the most pulls
 > See [itzg/docker-minecraft-server for more details](https://github.com/itzg/docker-minecraft-server)
 
-#### Simple Launch
+##### Simple Launch
 
 ```sh
 docker run -d -p 25565:25565 --name mc -e EULA=TRUE itzg/minecraft-server
 ```
 
-### Docker Compose
+#### Docker Compose
 
 ```yml
 version: "3"
@@ -196,7 +196,7 @@ services:
       ./data:/data
 ```
 
-### Build it Yourself
+#### Build it Yourself
 
 You can use an already built docker image or just create a Dockerfile, in your server folder, with following content:
 
