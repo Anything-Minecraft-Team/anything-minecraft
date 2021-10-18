@@ -2,7 +2,7 @@
 
 This article aims to give you directions on how you can run and join your Minecraft server. This will all be done locally on your computer.
 
-## Seting up
+## Setting up
 
 The very first thing required in setting up a Minecraft server is to verify if you have all the prerequisites, be they software or hardware requirements. As for the software, an updated version of Java is highly recommended, and in some instances, required. These can be installed from oracle's website, and try to keep up on updating these as previously mentioned, it is sometimes required to have the latest version of Java (at the time of writing, the version is 16.0.2. You can download it from [Oracle's site](https://www.oracle.com/java/technologies/downloads/#java16).
 
