@@ -6,7 +6,7 @@ Before you begin:
 
 - Check out the [existing issues](https://github.com/Anything-Minecraft-Team/anything-minecraft/issues) and [pull requests](https://github.com/Anything-Minecraft-Team/anything-minecraft/pulls).
 
-### Getting changes into the repo
+### Getting changes into the repository
 
 #### If you don't have write access
 
@@ -32,7 +32,6 @@ Before you begin:
 
 - The [guides folder](server/guides) is for any *guide* on how to do anything, such as, start a community, setup a server jar or using certain functions of a plugin.
 - The [info folder](server/info) is used for listing all commands, permissions, config options of plugins etc and explaining what they do. Not for examples of how to use them.
-- The [resources folder](resources) is for any configs or files to be used as examples.
 - The [images folder](images) is for images in guides and other files.
 
 ### Your PR is merged
