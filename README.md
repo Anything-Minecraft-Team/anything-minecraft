@@ -9,7 +9,7 @@ We will go through the steps in as much detail as possible and who knows? You mi
 
 ## Contributing
 
-If you would like to Contribute just make a pull request with the changes and we will review it. More info [here](CONTRIBUTING.md).
+If you would like to Contribute just make a pull request with the changes and we will review it. More info [here](contributing.md).
 
 **Translation Assistance is much appreciated.**
 
