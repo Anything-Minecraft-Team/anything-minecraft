@@ -4,7 +4,7 @@ The goal of this tutorial is to give you everything you need to manage your serv
 
 ---
 
-### Table of Contents
+## Table of Contents
 
 - [Command Line Access (SSH)](#command-line-access-ssh)
   - [PuTTY](#putty)
@@ -28,7 +28,7 @@ Since a lot of interaction with a Minecraft server is through its command line t
 
 [SSH (Secure Shell)](<https://en.wikipedia.org/wiki/SSH_(Secure_Shell)>) is a tool that allows you to securely connect to a remote computer. You can use it through any terminal; below is me using SSH in the default Windows CMD to connect to a server on my local network.
 
-![](https://i.imgur.com/xXKWJCK.png)
+![Screenshot of Windows SSH connected to an Ubuntu Server](https://i.imgur.com/xXKWJCK.png)
 
 The basic syntax for this is `ssh <username>@<IP address>`. It'll prompt you for a password, and then you're in.
 
@@ -38,7 +38,7 @@ However, there are better tools for using SSH, like PuTTY.
 
 [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) is a very well-regarded free SSH program. Here's a view of the main menu below:
 
-![](https://i.imgur.com/wxQE3ec.png)
+![PuTTY Main Menu](https://i.imgur.com/wxQE3ec.png)
 
 Don't worry, though—you don't have to learn any of that. One of the best parts of PuTTY is that you can bypass having to enter your credentials, letting PuTTY take care of that for you. This is done through a shortcut with arguments.
 
@@ -46,7 +46,7 @@ Don't worry, though—you don't have to learn any of that. One of the best parts
 
 1. Find the default PuTTY shortcuts.
 
-   - Press the Windows key <kbd>Win</kbd> and search for "putty". Right-click on the app result, and click "Open file location".
+   - Press the Windows key `Win` and search for "putty". Right-click on the app result, and click "Open file location".
 
    - The default location for this is `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\PuTTY (64-bit)`.
 
@@ -60,7 +60,7 @@ Don't worry, though—you don't have to learn any of that. One of the best parts
 
    - Note that this stores your password in plaintext. If you don't want that, you can remove the `-pw <password>` argument, and it will prompt you to enter your password each time you run the shortcut.
 
-That's it! You now have a shortcut for PuTTY set up. You can open the shortcut by pressing the Windows key <kbd>Win</kbd> and searching for its name—this makes it super easy to open. You can use this SSH connection to do anything on the command-line that you'd be able to do with physical keyboard, mouse, and monitor access.
+That's it! You now have a shortcut for PuTTY set up. You can open the shortcut by pressing the Windows key `Win` and searching for its name—this makes it super easy to open. You can use this SSH connection to do anything on the command-line that you'd be able to do with physical keyboard, mouse, and monitor access.
 
 ### tmux
 
@@ -90,7 +90,7 @@ For example, if you attach the session `tmux attach-session -t minecraft-server`
 
 ##### Detaching
 
-To detach the tmux session, returning to the regular Linux terminal, use the keyboard shortcut <kbd>Ctrl</kbd> + <kbd>B</kbd>, then press <kbd>D</kbd>.
+To detach the tmux session, returning to the regular Linux terminal, use the keyboard shortcut `Ctrl+B`, then press `D`.
 
 #### Sending keys
 
@@ -104,7 +104,7 @@ To send commands to the session without switching to it, use the command `tmux s
 
 Here's an example of this:
 
-```
+```sh
 tmux send-keys -t minecraft-server.0 "sh run_server.sh" ENTER
 ```
 
@@ -122,15 +122,15 @@ You're going to need to be able to access the files on your Minecraft server's m
 
 The best way to use SFTP is with an SFTP client such as [FileZilla](https://filezilla-project.org/). You can see a picture of the FileZilla UI below:
 
-![](https://i.imgur.com/JWWnShc.png)
+![FileZilla Screenshot](https://i.imgur.com/JWWnShc.png)
 
 ### Connecting
 
-After you've opened FileZilla, use the keyboard shortcut <kbd>Ctrl</kbd> + <kbd>S</kbd> to open the "Site Manager" menu, seen below:
+After you've opened FileZilla, use the keyboard shortcut `Ctrl+S` to open the "Site Manager" menu, seen below:
 
-![](https://i.imgur.com/CMhVtU0.png)
+![FileZilla Site Manager](https://i.imgur.com/CMhVtU0.png)
 
-Here, you can specify the IP address and your credentials, very similar to SSH. After you've set it all up, click "Connect" to connect to the server using SFTP. You'll use <kbd>Ctrl</kbd> + <kbd>S</kbd> and "Connect" to connect to the server using SFTP from now on.
+Here, you can specify the IP address and your credentials, very similar to SSH. After you've set it all up, click "Connect" to connect to the server using SFTP. You'll use `Ctrl+S` and "Connect" to connect to the server using SFTP from now on.
 
 ### Navigation
 
@@ -154,17 +154,17 @@ There are several methods for transferring files using FileZilla:
 
 You can edit a file by right-clicking and selecting "View/Edit". To set a default file editor, open the settings ("Edit" --> "Settings" in the top-left) and set it up using your favorite text editor like I have below:
 
-![](https://i.imgur.com/LhlpfRH.png)
+![PuTTY File Editing Settings](https://i.imgur.com/LhlpfRH.png)
 
 Once you've finished editing the file, save it in your editor, and go back to FileZilla. You should be greeted with this prompt:
 
-![](https://i.imgur.com/CA6U84E.png)
+![FileZilla File Change Notification](https://i.imgur.com/CA6U84E.png)
 
 By selecting "Yes", the edited file will be transferred to the remote server, overwriting the existing file with your changes.
 
 If "Finished editing and delete local file" isn't checked, you can continute to edit/save/revert changes on the local file in your editor. If you never check that box, when you close FileZilla it'll warn you that you still have a file locally:
 
-![](https://i.imgur.com/bqw2uCb.png)
+![File opened notification](https://i.imgur.com/bqw2uCb.png)
 
 If you've finished everything you want to do, you can safely close FileZilla and the SFTP connection will be closed.
 

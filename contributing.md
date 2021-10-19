@@ -30,7 +30,7 @@ Before you begin:
 
 ### Folder Conventions
 
-- The [guides folder](server/guides) is for any *guide* on how to do anything, such as, start a community, setup a server jar or using certain functions of a plugin.
+- The [guides folder](server/guides) is for any _guide_ on how to do anything, such as, start a community, setup a server jar or using certain functions of a plugin.
 - The [info folder](server/info) is used for listing all commands, permissions, config options of plugins etc and explaining what they do. Not for examples of how to use them.
 - The [images folder](images) is for images in guides and other files.
 
