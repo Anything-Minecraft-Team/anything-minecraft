@@ -19,7 +19,7 @@ A good server jar to use is [Purpur](https://github.com/pl3xgaming/Purpur), it o
 
 [PaperMC](https://papermc.io) is generally the best fork for these versions and not much more is needed.
 
-**JUST PLEASE DO NOT USE THE VANILLA JAR!** 
+**JUST PLEASE DO NOT USE THE VANILLA JAR!**
 
 ## [Optimization](optimization.md)
 

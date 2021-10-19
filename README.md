@@ -1,6 +1,8 @@
+# Anything Minecraft
+
 ![Icon](https://media.discordapp.net/attachments/837476686978482207/848859250489819156/Untitled.png?width=170&height=170)
 
-# Introduction
+## Introduction
 
 Welcome to the start of a new adventure! In this repository, we will show you everything you need to do to set up a Minecraft Java Edition server!
 We will go through the steps in as much detail as possible and who knows? You might become the next Hypixel!

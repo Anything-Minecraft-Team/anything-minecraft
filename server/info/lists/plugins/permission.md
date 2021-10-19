@@ -14,6 +14,7 @@ LuckPerms is a widely used, community-favoured permissions plugin. It has more t
 If you have a small server with straight forward permissions, you might want to look to an other plugin, as luckperms is really extensive.
 
 ## [GroupManager](https://www.spigotmc.org/resources/groupmanager.38875/)
+
 GroupManager doesn't have as many features as LuckPerms, but is great for novices who need all the necessary features for their Minecraft server. It's been downloaded 400,000 times and supports inheritance of permissions, but it has only one track.
 
 ## [LightPerms](https://www.spigotmc.org/resources/1-8-1-16-lightperms.62447/)
