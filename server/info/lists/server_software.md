@@ -557,6 +557,14 @@ Private - Made private after being added to this list
 
 ### Plugins and Mods (Hybrids)
 
+- [Cricible](https://github.com/CrucibleMC/Crucible) - Crucible is a Thermos fork containing various patches for bug fixes and performance improvements.  
+  Version: 1.7.10  
+  Currently Active
+
+- [Mist](https://github.com/MinecraftMist/Mist) - Hybrid server software for Minecraft, allowing Forge mods and Bukkit plugins to run together. Fork of Mohist.  
+  Version: 1.16.5  
+  Currently Active
+
 - [Magma](https://magmafoundation.org/) - Minecraft Forge hybrid server implementing the Spigot/Bukkit API (Cauldron for 1.12).  
   Version: 1.12.2  
   Currently Active
