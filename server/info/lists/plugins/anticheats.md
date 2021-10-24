@@ -55,6 +55,16 @@ This list of free anti-cheats is sorted alphabetically.
   Rating: 4.31  
   Discontinued
 
+- [Anti Cheat](https://github.com/Paroxial/Anti-Cheat)  
+  Version: 1.8  
+  Rating: Unknown  
+  Discontinued
+
+- [Anti-Cheat](https://www.spigotmc.org/resources/51639) - Skript  
+  Version: 1.8  
+  Rating: 1  
+  Discontinued
+
 - [AntiCheat](https://dev.bukkit.org/projects/anticheat)  
   Version: 1.2.5 - 1.7.2  
   Rating: Unknown  
@@ -95,16 +105,6 @@ This list of free anti-cheats is sorted alphabetically.
   Rating: 1.5  
   Discontinued
 
-- [Anti Cheat](https://github.com/Paroxial/Anti-Cheat)  
-  Version: 1.8  
-  Rating: Unknown  
-  Discontinued
-
-- [Anti-Cheat](https://www.spigotmc.org/resources/51639) - Skript  
-  Version: 1.8  
-  Rating: 1  
-  Discontinued
-
 - [AntiCheat Base](https://www.spigotmc.org/resources/69032/)  
   Version: 1.8  
   Rating: 3.33  
@@ -135,6 +135,16 @@ This list of free anti-cheats is sorted alphabetically.
   Rating: 1  
   Discontinued
 
+- [AntiCheat 4.0](https://www.spigotmc.org/resources/anticheat-4-0.96706/)  
+  Version: 1.7 - 1.17  
+  Rating: 0  
+  Currently Active
+
+- [Anti Fastbow](https://www.spigotmc.org/resources/anti-fastbow.714/)  
+  Version: Unknown  
+  Rating: 1  
+  Lost
+
 - [Anti\*\*\*\* (censored due to profanity)](https://github.com/BigFatAlt/AntiCunt)  
   Version: 1.8.8  
   Rating: Unknown  
@@ -157,7 +167,7 @@ This list of free anti-cheats is sorted alphabetically.
 
 - [AntiHaxerman](https://www.spigotmc.org/resources/83198/)  
   Version: 1.7 - 1.8  
-  Rating: 4.74  
+  Rating: 4.55  
   Currently Active
 
 - [AntiHighJump](https://www.spigotmc.org/resources/23099/) - Skript  
@@ -184,6 +194,11 @@ This list of free anti-cheats is sorted alphabetically.
   Version: 1.16.5  
   Rating: Unknown  
   Currently Active
+
+- [AntiPass](https://www.curseforge.com/minecraft/bukkit-plugins/antipass) - NoCheat addon  
+  Version: 1.2  
+  Rating: Unknown  
+  Discontinued
 
 - [AntiReach](https://www.spigotmc.org/resources/58495)  
   Version: 1.8  
@@ -220,6 +235,11 @@ This list of free anti-cheats is sorted alphabetically.
   Rating: 3.88  
   Discontinued
 
+- [Arctic Advanced Anticheat](https://discord.gg/m324QPQFcT)  
+  Version: 1.7 - 1.12  
+  Rating: Unknown  
+  Unreleased
+
 - [ASAC](https://www.spigotmc.org/resources/38426)  
   Version: 1.8  
   Rating: 3.42  
@@ -232,7 +252,7 @@ This list of free anti-cheats is sorted alphabetically.
 
 - [AutoEye Anticheat](https://www.spigotmc.org/resources/54046/)  
   Version: 1.7 - 1.12  
-  Rating: 4.52  
+  Rating: 4.53  
   Discontinued
 
 - [AxolotlCheatDetector](https://github.com/OMGPandaYT/AxolotlCheatDetector) - Removed from spigot due to made ratings  
@@ -272,7 +292,7 @@ This list of free anti-cheats is sorted alphabetically.
 
 - [Basic Anti-Cheat](https://www.spigotmc.org/resources/70455/)  
   Version: 1.8, 1.12, 1.14  
-  Rating: 3.44  
+  Rating: 3.38  
   Discontinued
 
 - [BetterBubble](https://www.spigotmc.org/resources/81404/) - Skript  
@@ -314,6 +334,16 @@ This list of free anti-cheats is sorted alphabetically.
   Version: 1.8 - 1.12  
   Rating: Unknown  
   Currently Inactive
+
+- [Cerberus AntiCheat](https://www.spigotmc.org/resources/cerberus-anticheat.71114/)
+  Version: 1.7 - 1.8  
+  Rating: 1  
+  Discontinued
+
+- [Cheat Detection Microservice](https://github.com/TrashDetection/CheatDetectionMicroservice)  
+  Version: Unknown  
+  Rating: Unknown  
+  Discontinued
 
 - [CheatBlockerPlus](https://www.spigotmc.org/resources/59644)  
   Version: 1.8 - 1.12  
@@ -385,6 +415,11 @@ This list of free anti-cheats is sorted alphabetically.
   Rating: 0  
   Discontinued
 
+- [DiscionaryLib](https://github.com/Orress35/DictionaryLib)  
+  Version: Unknown  
+  Rating: Unknown  
+  Currently Active
+
 - [Dreya Anticheat](https://github.com/funkemunky/Dreya)  
   Version: 1.8.8  
   Rating: Unknown  
@@ -449,9 +484,14 @@ This list of free anti-cheats is sorted alphabetically.
   Rating: Unknown  
   Discontinued
 
+- [FlameAntiCheat](https://www.spigotmc.org/resources/flameanticheat.93569/)  
+  Version: 1.8 - 1.17  
+  Rating: 3.5  
+  Currently Active
+
 - [Flappy Anticheat](https://www.spigotmc.org/resources/92180/)  
   Version: 1.16 - 1.17  
-  Rating: 4.38  
+  Rating: 4.4  
   Currently Active
 
 - [FrameAntiCheat](https://www.spigotmc.org/resources/34273) - Skript  
@@ -469,6 +509,11 @@ This list of free anti-cheats is sorted alphabetically.
   Rating: 4.28  
   Discontinued
 
+- [Futsu](https://github.com/joshaprior-old/Futsu)  
+  Version: 1.14  
+  Rating: Unknown  
+  Discontinued
+
 - [GAC](https://www.spigotmc.org/resources/18982/)  
   Version: 1.9  
   Rating: 3.37  
@@ -478,6 +523,11 @@ This list of free anti-cheats is sorted alphabetically.
   Version: 1.8  
   Rating: 3.5  
   Currently Inactive
+
+- [GarbageAC](https://www.spigotmc.org/resources/garbageac.96230/)  
+  Version: 1.8, 1.12  
+  Rating: 4.78  
+  Currently Active
 
 - [GodAntiCheat](https://www.spigotmc.org/resources/49506/)  
   Version: 1.8 - 1.12  
@@ -529,6 +579,11 @@ This list of free anti-cheats is sorted alphabetically.
   Rating: 3.2  
   Discontinued
 
+- Heirteir's Anti-Cheat - From the dev of AutoEye  
+  Version: Unknown  
+  Rating: Unknown  
+  Lost
+
 - [Herex Cheat](https://www.spigotmc.org/resources/37781)  
   Version: 1.8 - 1.9  
   Rating: 4.08  
@@ -566,7 +621,7 @@ This list of free anti-cheats is sorted alphabetically.
 
 - [JightAntiC](https://www.spigotmc.org/resources/88154)  
   Version: 1.8 - 1.16  
-  Rating: 3  
+  Rating: 1  
   Currently Inactive
 
 - [KarhuAC Lite](https://www.karhu.cc/)  
@@ -576,7 +631,7 @@ This list of free anti-cheats is sorted alphabetically.
 
 - [KasAntiCheat](https://www.spigotmc.org/resources/55889)  
   Version: 1.10 - 1.12  
-  Rating: 3  
+  Rating: 3.28  
   Discontinued
 
 - [Kauri Anticheat](https://www.spigotmc.org/resources/83910)  
@@ -586,7 +641,7 @@ This list of free anti-cheats is sorted alphabetically.
 
 - [KizukiAC](https://www.spigotmc.org/resources/90468/)  
   Version: 1.8, 1.12  
-  Rating: 4.26  
+  Rating: 4.05  
   Currently Active
 
 - [Knockback++](https://www.spigotmc.org/resources/36140/)  
@@ -614,6 +669,11 @@ This list of free anti-cheats is sorted alphabetically.
   Rating: 2.83  
   Discontinued
 
+- [LightAntiCheat](https://www.spigotmc.org/resources/lightanticheat.96341/)  
+  Version: 1.13 - 1.17  
+  Rating: 4.42  
+  Currently Active
+
 - [LighterAC](https://web.archive.org/web/20200614171941/https://lighterdev.xyz/)  
   Version: Unknown  
   Rating: Unknown  
@@ -627,6 +687,11 @@ This list of free anti-cheats is sorted alphabetically.
 - [LionGuard AntiCheat](https://www.spigotmc.org/resources/67207/)  
   Version: 1.7 - 1.8  
   Rating: 3.59  
+  Discontinued
+
+- [LittleBoy](https://www.spigotmc.org/resources/littleboy-an-great-anticheat.43249/)  
+  Version: 1.7 - 1.8  
+  Rating: 2.57  
   Discontinued
 
 - [LittleNoCheat](https://www.spigotmc.org/resources/56405)  
@@ -651,7 +716,7 @@ This list of free anti-cheats is sorted alphabetically.
 
 - [Medusa AntiCheat Lite](https://www.spigotmc.org/resources/83345/)  
   Version: 1.7 - 1.12  
-  Rating: 4.62  
+  Rating: 4.64  
   Currently Inactive
 
 - [Meme AntiCheat](https://www.mc-market.org/resources/12279/)  
@@ -709,6 +774,11 @@ This list of free anti-cheats is sorted alphabetically.
   Rating: 4  
   Discontinued
 
+- [MyFirstAntiCheat](https://github.com/AdvancedAntiSkid/MyFirstAntiCheat)  
+  Version: Unknown  
+  Rating: Unknown  
+  Currently Inactive
+
 - [NebulaAC](https://github.com/GladUrBad/NebulaAC)  
   Version: 1.8.8  
   Rating: Unknown  
@@ -716,7 +786,7 @@ This list of free anti-cheats is sorted alphabetically.
 
 - [Negativity](https://www.spigotmc.org/resources/48399/)  
   Version: 1.7 - 1.17  
-  Rating: 4.06  
+  Rating: 4.05  
   Currently Active
 
 - [Nemesis](https://github.com/sim0n/Nemesis)  
@@ -731,13 +801,13 @@ This list of free anti-cheats is sorted alphabetically.
 
 - [NESS Anti-Cheat](https://www.spigotmc.org/resources/53281/)  
   Version: 1.8 - 1.12  
-  Rating: 3.9  
+  Rating: 3.59  
   Discontinued
 
 - [NESS Anti-Cheat Reloaded](https://www.spigotmc.org/resources/75887/)  
   Version: 1.8 - 1.16  
-  Rating: 3.89  
-  Currently Active
+  Rating: 3.9  
+  Discontinued
 
 - [NeviveAntiCheat](https://www.spigotmc.org/resources/88785)  
   Version: 1.8  
@@ -846,7 +916,7 @@ This list of free anti-cheats is sorted alphabetically.
 
 - [Phoenix Anti-Cheat](https://www.spigotmc.org/resources/6207/)  
   Version: 1.7 - 1.13  
-  Rating: 3.51  
+  Rating: 3.5  
   Discontinued
 
 - [PIKUCODE-SECUREPVP](https://www.spigotmc.org/resources/69700)  
@@ -869,9 +939,19 @@ This list of free anti-cheats is sorted alphabetically.
   Rating: 1  
   Discontinued
 
+- [Quantinum](https://github.com/Web-Tim/Quantinum)  
+  Version: Unknown  
+  Rating: Unknown  
+  Currently Active
+
 - [Razor AntiCheat](https://www.spigotmc.org/resources/33013) - Skript  
   Version: 1.9 - 1.11  
   Rating: 3.4  
+  Discontinued
+
+- [ReduxAnticheat](https://github.com/bigblackafricanman/ReduxAnticheat)  
+  Version: Unknown  
+  Rating: Unknown  
   Discontinued
 
 - [RoadAntiCheat LITE](https://www.spigotmc.org/resources/21044)  
@@ -882,6 +962,16 @@ This list of free anti-cheats is sorted alphabetically.
 - [RS's AntiCheat](https://www.spigotmc.org/resources/64288) - Skript  
   Version: 1.7 - 1.13  
   Rating: 2.33  
+  Discontinued
+
+- [SafeGuard](https://github.com/xdrapor/SafeGuard/)  
+  Version: Unknown  
+  Rating: Unknown  
+  Discontinued
+
+- [SafeGaurd 2](https://www.curseforge.com/minecraft/bukkit-plugins/safeguard-2)  
+  Version: 1.7  
+  Rating: Unknown  
   Discontinued
 
 - [SafeHack](https://www.spigotmc.org/resources/40847)  
@@ -909,7 +999,7 @@ This list of free anti-cheats is sorted alphabetically.
   Rating: 4.46  
   Discontinued
 
-- Sequence - Was a premium ac in development but was stopped after being called out for skidding  
+- [Sequence](https://discord.gg/5rDaA7wM4e) - Was a premium ac in development but was stopped after being called out for skidding  
   Version: Unknown  
   Rating: Unknown  
   Unreleased
@@ -938,6 +1028,11 @@ This list of free anti-cheats is sorted alphabetically.
   Version: 1.8  
   Rating: 3.33  
   Discontinued
+
+- [SkAC](https://www.spigotmc.org/resources/skac.92593/) - Skript  
+  Version: 1.7 - 1.8  
+  Rating: 2  
+  Currently Discontinued
 
 - [SKAntiCheat](https://www.spigotmc.org/resources/49412) - Skript  
   Version: 1.8  
@@ -986,7 +1081,7 @@ This list of free anti-cheats is sorted alphabetically.
 
 - [SoaromaSAC](https://www.spigotmc.org/resources/87702/)  
   Version: 1.16 - 1.17  
-  Rating: 4.41  
+  Rating: 4.5  
   Currently Active
 
 - [Spid3yCheat](https://www.spigotmc.org/resources/54741) - Skript  
@@ -1019,6 +1114,11 @@ This list of free anti-cheats is sorted alphabetically.
   Rating: Unknown  
   Discontinued
 
+- [SwornGuard](https://www.curseforge.com/minecraft/bukkit-plugins/swornguard)  
+  Version: 1.6 - 1.7  
+  Rating: Unknown  
+  Discontinued
+
 - [TestHack (Catch those hackers)](https://www.spigotmc.org/resources/11997) - Skript  
   Version: 1.6 - 1.8  
   Rating: 4.75  
@@ -1041,12 +1141,12 @@ This list of free anti-cheats is sorted alphabetically.
 
 - [Themis Anti Cheat](https://www.spigotmc.org/resources/90766/)  
   Version: 1.16 - 1.17  
-  Rating: 4.7  
+  Rating: 4.62  
   Currently Active
 
 - [ThotPatrol](https://www.spigotmc.org/resources/79978/) - Will be renamed VulcanLite in the future  
   Version: 1.7 - 1.8  
-  Rating: 4.73  
+  Rating: 4.72  
   Currently Inactive
 
 - [Thysol Anticheat](https://www.spigotmc.org/resources/61022)  
@@ -1077,6 +1177,11 @@ This list of free anti-cheats is sorted alphabetically.
 - [UCheat Anticheat](https://www.spigotmc.org/resources/ucheat-anticheat.51396)  
   Version: 1.8  
   Rating: 3.47  
+  Discontinued
+
+- [Ultimate Anti Cheat](https://www.curseforge.com/minecraft/bukkit-plugins/ultimate-anti-cheat)  
+  Version: 1.8  
+  Rating: Unknown  
   Discontinued
 
 - [Ultra Anti Cheat](https://www.spigotmc.org/resources/77855/) - Skript  
@@ -1260,13 +1365,14 @@ This list of paid anti-cheats is sorted alphabetically.
 
 - [AAC (Advanced Anti Cheat)](https://www.spigotmc.org/resources/6442/) (Best used with [AACAdditionPro](https://www.spigotmc.org/resources/33590))  
   Version: 1.8 - 1.16  
-  Rating: 4.09  
+  Rating: 4.04  
   Price: £20.00  
   Currently Active
 
 - [AACAdditionPro](https://www.spigotmc.org/resources/33590) - An addon for AAC but can be used on its own  
   Version: 1.8, 1.12 - 1.17  
-  Rating: 4.82  
+  Rating: 4.8  
+  Price: £14.99
   Currently Active
 
 - [Africa Anticheat](https://mctrades.org/resources/264/)  
@@ -1323,6 +1429,11 @@ This list of paid anti-cheats is sorted alphabetically.
   Price: €5.99  
   Discontinued
 
+- [Deep Learning Anti Cheat](https://github.com/novucs/deep-learning-anti-cheat)  
+  Version: 1.12  
+  Rating: Unknown  
+  Discontinued
+
 - [Deus](https://www.mc-market.org/threads/613168/)  
   Version: 1.7 - 1.16  
   Rating: Unknown  
@@ -1353,11 +1464,23 @@ This list of paid anti-cheats is sorted alphabetically.
   Price: $8/mo  
   Unreleased
 
+- [Fusion](https://fusion.ac)  
+  Version: 1.7 - 1.8  
+  Rating: Unknown  
+  Price: $30/$70
+  Currently Active
+
 - [GodsEye AntiCheat](https://www.spigotmc.org/resources/69595/)  
   Version: 1.8 - 1.16  
   Rating: 4.82  
   Price: £15.50  
   Currently Active
+
+- [Guardian Anti-Cheat](https://www.mc-market.org/resources/5634/)  
+  Version: 1.8 - 1.12  
+  Rating: Unknown  
+  Price: $5.99  
+  Discontinued
 
 - [Intave AntiCheat](https://intave.de/)  
   Version: Unknown  
@@ -1453,7 +1576,7 @@ This list of paid anti-cheats is sorted alphabetically.
   Version: 1.8 - 1.12  
   Rating: 3.79  
   Price: $3.50  
-  Discontinued
+  Lost
 
 - [Theia](https://discord.io/zeap)  
   Version: 1.8 - 1.16  
@@ -1475,7 +1598,7 @@ This list of paid anti-cheats is sorted alphabetically.
 
 - [Vulcan](https://www.spigotmc.org/resources/83626/)  
   Version: 1.7 - 1.17  
-  Rating: 4.96  
+  Rating: 4.94  
   Price: $20.00  
   Currently Active
 
@@ -1487,7 +1610,7 @@ This list of paid anti-cheats is sorted alphabetically.
 
 - [Wraith Anticheat](https://www.spigotmc.org/resources/66887/)  
   Version: 1.8 - 1.16  
-  Rating: 3.82  
+  Rating: 3.78  
   Price: €5.99  
   Currently Active
 
