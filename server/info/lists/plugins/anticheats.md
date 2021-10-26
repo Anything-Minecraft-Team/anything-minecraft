@@ -1555,9 +1555,9 @@ This list of paid anti-cheats is sorted alphabetically.
   Currently Active
 
 - [Sparky Anti-Cheat](https://www.mc-market.org/threads/603663/)  
-  Version: Unknown  
+  Version: 1.7 - 1.17.1  
   Rating: Unknown  
-  Price: $15/mo - $60 Lifetime/$160 Lifetime  
+  Price: £80 Lifetime  
   Currently Active
 
 - [Spartan Anti Cheat](https://www.spigotmc.org/resources/25638/)  
