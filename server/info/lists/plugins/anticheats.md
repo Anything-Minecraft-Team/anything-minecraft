@@ -1554,7 +1554,7 @@ This list of paid anti-cheats is sorted alphabetically.
   Price: €10.00  
   Currently Active
 
-- [Sparky Anti-Cheat](https://www.mc-market.org/threads/603663/)  
+- [Sparky Anti-Cheat](https://sparky.ac/)  
   Version: 1.7 - 1.17.1  
   Rating: Unknown  
   Price: £80  
