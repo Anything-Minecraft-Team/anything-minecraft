@@ -40,3 +40,4 @@ Here is a list of as many hosting providers as we can find, good and bad:
 - [SparkedHost](https://sparkedhost.com/)
 - [TitanNodes](https://titannodes.com/)
 - [WinterNode](https://winternode.com/)
+- [WitherHosting](https://witherhosting.com/)
