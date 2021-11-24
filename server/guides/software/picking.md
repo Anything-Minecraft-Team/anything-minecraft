@@ -25,4 +25,5 @@ If you want to play with mods you will need a modded server software. There are 
 If you are running a hybrid server, mods and plugins, there are a few options. If you are looking for a hybrid server that supports Bukkit plugins it will be less stable than one that is built over the mod software as it mashes two different server software together and plugins may be incompatible with other mods. If you use one that is built around the modded software it will be more stable but likely will have a smaller variety of plugins available.
 
 ### Software to stay away from
+
 It is a good idea to stay away from discontinued software and ones that support outdated versions but it's ultimately up to you. If you are deciding between a high-performance software that's not stable, like YatopiaMC, and one that has less performance but is much more stable it is generally a good idea to go with the one that is more stable. It is also a good idea to stay away from mass-produced server software, they mostly have copy-pasted code and it will quickly lead to a lack of support and abandonment.
