@@ -24,8 +24,29 @@ extra_javascript:
   - js/arcio.js
 
 markdown_extensions:
-  - pymdownx.highlight:
-      anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.keys
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.smartsymbols
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - meta
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - toc:
+      permalink: true
+  - tables
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - md_in_html
