@@ -1,4 +1,4 @@
-# Setup
+# Minecraft Server Setup
 
 This article aims to give you directions on how you can run and join your Minecraft server. This will all be done locally on your computer.
 
@@ -14,11 +14,11 @@ Once you've figured through the prerequisites, you need to find the best server 
 
 After downloading your server jar create a new folder. You can name it anything you want.
 
-![Create folder](/images/server/guides/other/SETUP/CREATE_FOLDER.png)
+![Create folder](../../../images/server/guides/other/SETUP/CREATE_FOLDER.png)
 
 Once you've done that, drag the server jar into the folder and rename it `server` so we can access it easily in the next step. Next, we need to create the file to run the server jar, you will need to enable file extensions if you haven't already.
 
-![Enable file extensions](/images/server/guides/other/SETUP/ENABLE_FILE_EXTENSIONS.png)
+![Enable file extensions](../../../images/server/guides/other/SETUP/CREATE_FOLDER.png)
 
 Create a new text document and name it "run", now open it and type
 
@@ -27,24 +27,26 @@ java -Xmx1024M -Xms1024M -jar server.jar nogui
 PAUSE
 ```
 
-![Text file](/images/server/guides/other/SETUP/TEXT_FILE.png)
+1. This is not true
+
+![Text file](../../../images/server/guides/other/SETUP/TEXT_FILE.png)
 
 1024M is how many megabytes of RAM is allocated to the server, 1024M or 2048M is good for our purpose. If you ever need to change the amount just change the values. Save the file and close your text editor, go to the file in File Explorer and right-click, rename, and highlight the file extension "txt" and type "bat".
 
-![Batch file](/images/server/guides/other/SETUP/BAT_FILE.png)
+![Batch file](../../../images/server/guides/other/SETUP/BAT_FILE.png)
 
 This changes it to a batch file so we can run the server jar. We are ready to run the server now! Double click the run.bat file and it should come up with a new terminal window and after a while say "Agree to the Minecraft EULA".
 
-![Agree to eula](/images/server/guides/other/SETUP/AGREE_TO_EULA.png)
+![Agree to eula](../../../images/server/guides/other/SETUP/AGREE_TO_EULA.png)
 
 Close out of the terminal window and find a file called `eula.txt` that was generated. Open it and change `eula=false` to `eula=true`, save it then double click `run.bat` again.
 
-![EULA file](/images/server/guides/other/SETUP/EULA_FILE.png)
+![EULA file](../../../images/server/guides/other/SETUP/EULA_FILE.png)
 
 It may take a while for all the files to generate so be patient, once it's done your server should be good to go!
 To join the server open Minecraft, go to multiplayer and add a new server, in the server IP add "localhost", click done and join your very own Minecraft server!
 
-![Add localhost](/images/server/guides/other/SETUP/ADD_LOCALHOST.png)
+![Add localhost](../../../images/server/guides/other/SETUP/ADD_LOCALHOST.png)
 
 If you would like to be able to access the server from outside your local network, you're going to have to do what's called Port Forwarding, essentially allowing traffic to flow in and out through your router through a specific port to the computer that you're running the server on. Keep in mind this varies from ISP to ISP and from router to router, so a good guide dependent on your router is [here](https://portforward.com/). By default you're going to want to port forward the port 25565 for both the TCP and UDP protocols. To check whether the port forward fully worked, we recommend heading over to this [website](https://www.yougetsignal.com/tools/open-ports/) while your minecraft server is open (preferably after a restart post port forwarding), plug in the port you'd like to check, and if it says open you're good! If not, there might be something you're going to have to redo along the process.
 
@@ -67,42 +69,73 @@ It is recommended to use an LTS version of Java. This would be Java 11 below 1.1
 
 You can do this using the following command (If your distro does not use apt, consult the wiki of your distro, for example: [Fedora](https://docs.fedoraproject.org/en-US/quick-docs/installing-java/), [Arch (and Arch-based)](https://wiki.archlinux.org/title/Java))
 
---> `sudo apt install openjdk-xx-jre`
+```bash
+sudo apt install openjdk-xx-jre
+```
 
 `xx` being the version number you're aiming for. (You can view available versions using `sudo apt-cache search openjdk`)
 
-Create a folder, for example named "server", for example in your home directory (`~`)
+Create a folder, for example named "server", for example in your home directory (`~`) and `cd` into it.
 
---> `mkdir ~/server`
+```bash
+mkdir ~/server
+cd server
+```
 
-Copy your server jar to this folder and rename it to "server.jar"
+Download the latest version of your preferred server software, i.e. Paper.
 
---> `mv ~/Downloads/spigot-1.16.5.jar ~/server/server.jar` (supposing your server jar is in `~/Downloads` and it's name is `spigot-1.16.5.jar`)
+> Make sure to change the download URL! You can copy the direct download URL from the downloads page of your server software.
+
+```bash
+wget -O server.jar https://papermc.io/api/v2/projects/paper/versions/1.17.1/builds/400/downloads/paper-1.17.1-400.jar
+```
 
 Create a text document named `start.sh` and write into it:
-`java -Xmx1024M -jar server-jar nogui` (the `nogui` might not be required)
+
+> You can create a text document with nano for example: `nano start.sh`
+>
+> Use <kbd>CTRL</kbd> + <kbd>O</kbd> to save and <kbd>CTRL</kbd> + <kbd>X</kbd> to exit.
+
+```bash title="start.sh"
+java -Xmx1024M -jar server.jar nogui # (1)
+```
+
+1. `nogui` is not required but recommended. Without it, a graphical interface will be launched. You don't really need that.
 
 `-Xmx1024M` being the parameter for the Java heap size in megabytes (1024 MB = 1 GiB). As your server grows in amount of plugins and concurrent players, you may want to increase this.
 
---> `echo "java -Xmx1024M -jar server.jar nogui" > start.sh`
+>
 
-now add execute permissions to the script and run it
+> If you have multiple versions of java installed, you may need to provide the full path to the java executable. Usually, they will be installed in `/usr/lib/jvm`.
 
---> `chmod +x start.sh`
+```bash
+echo "java -Xmx1024M -jar server.jar nogui" > start.sh
+```
 
---> `./start.sh`
+Now add execute permissions to the script and run it
+
+```bash
+chmod +x start.sh
+./start.sh
+```
 
 This will say something like
 `You need to agree to the EULA in order to run the server. Go to eula.txt for more info.`
 so you have to edit `eula.txt` to say `eula=true` instead of `eula=false`
 
---> `echo "eula=true" > eula.txt` (Warning: This overwrites the comment with the link to the EULA)
+```bash
+echo "eula=true" > eula.txt
+```
 
-now launch the server / execute `start.sh` again
+> **Warning**: This overwrites the comment with the link to the EULA
 
---> `./start.sh`
+Now launch the server by executing `start.sh` again.
 
-You have your server running. To join, launch Minecraft and join the server at `127.0.0.1` or `localhost`
+```bash
+./start.sh
+```
+
+You have your server running! To join, launch Minecraft and join the server at `127.0.0.1` or `localhost`
 
 If you want to start the server and want to be able to exit out of the terminal without the server closing, there are two ways with which you can do this
 
@@ -113,36 +146,39 @@ If you want to start the server and want to be able to exit out of the terminal 
 
 Start a tmux window
 
-`tmux new-session -t sessionName`
+```bash
+tmux new-session -t sessionName
+```
 
 `sessionName` being whatever you want to name the instance, for example `minecraft-session`
 
 This will automatically take you inside the tmux session. Start the server using
 
-`java -Xmx1024M -Xms1024M -jar server.jar nogui`
+```bash
+java -Xmx1024M -Xms1024M -jar server.jar nogui
+```
 
-Exit out of the tmux session using `Ctrl+B` **then** `D`
+Exit out of the tmux session using <kbd>CTRL</kbd> + <kbd>B</kbd> **then** <kbd>D</kbd>
 
 You server will keep running in the background.
 
-To reattach to the session,
+To reattach to the session:
 
-`tmux a -t sessionName`
+```bash
+tmux a -t sessionName
+```
 
 `sessionName` being whatever you named the instance earlier.
 
-To destroy the session completely, you can attach to the session and then `Ctrl+D` out of it. It detaches from session and destroys it too.
+To destroy the session completely, you can attach to the session and then <kbd>CTRL</kbd> + <kbd>D</kbd> out of it. It detaches from session and destroys it too.
 
 #### Setup As A System Service
 
-You need to set up a service if it should, for example automatically launch at boot or restart when it terminates
-So, create a file named `minecraft.service` in `/etc/systemd/system` (requires root permissions)
+You need to set up a service if it should, for example, automatically launch at boot or restart when it terminates.
 
---> `sudo touch /etc/systemd/system/minecraft.service` (actually optional)
+To achieve this, create a file named `minecraft.service` in `/etc/systemd/system` (requires root permissions) and write into it:
 
-And write into it:
-
-```txt
+```ini title="/etc/systemd/system/minecraft.service"
 [Unit]
 Description=A Minecraft Server
 After=network.target
@@ -154,24 +190,33 @@ User={YOURUSERNAME}
 ExecStart=/home/{YOURUSERNAME}/server/start.sh
 ```
 
-of course, replace `{YOURUSERNAME}` with your username
+> Of course, replace `{YOURUSERNAME}` with your username on the system, in order for it to not start with root permissions, which is a bad idea.
 
---> `sudo echo "[Unit]\nDescription=A Minecraft Server\nAfter=network.target\nStartLimitIntervalSec=0[Service]\nType=simple\nRestart=alwaysRestartSec=1\nUser=$USER\nExecStart=$HOME/server/start.sh" > /etc/systemd/system/minecraft.service`
-so you can now start the service
+```bash
+sudo echo "[Unit]\nDescription=A Minecraft Server\nAfter=network.target\nStartLimitIntervalSec=0[Service]\nType=simple\nRestart=alwaysRestartSec=1\nUser=$USER\nExecStart=$HOME/server/start.sh" > /etc/systemd/system/minecraft.service
+```
 
---> `systemctl start minecraft`
+Now you can start the service.
 
-Now you should be able to join
-It will restart automatically 1 second after it shut down. To make it start at boot, enable it
+```bash
+systemctl start minecraft
+```
 
---> `systemctl enable minecraft`
+Now you should be able to join.
+
+It will restart automatically 1 second after it shut down. To make it start at boot, enable it:
+
+```bash
+systemctl enable minecraft
+```
 
 ### Setup For Docker
 
 #### Prebuilt Docker
 
 > Based on the docker image with the most pulls
-> See [itzg/docker-minecraft-server for more details](https://github.com/itzg/docker-minecraft-server)
+>
+> See [itzg/docker-minecraft-server](https://github.com/itzg/docker-minecraft-server) for more details
 
 ##### Simple Launch
 
@@ -181,7 +226,7 @@ docker run -d -p 25565:25565 --name mc -e EULA=TRUE itzg/minecraft-server
 
 #### Docker Compose
 
-```yml
+```yaml title="docker-compose.yml"
 version: "3"
 
 services:
@@ -200,7 +245,7 @@ services:
 
 You can use an already built docker image or just create a Dockerfile, in your server folder, with following content:
 
-```dockerfile
+```dockerfile title="DOCKERFILE"
 FROM openjdk
 WORKDIR /data
 
@@ -213,15 +258,21 @@ ENTRYPOINT ["/data/start.sh"]
 
 Now, supposing you have docker installed, build the docker image
 
---> `docker build . -t mcserver` (You can replace `mcserver`, the name of the image, with whatever you want (as long as it doesn't interfere with the images on dockerhub))
+```bash
+docker build . -t mcserver
+```
+
+> You can replace `mcserver`, the name of the image, with whatever you want (as long as it doesn't interfere with the images on dockerhub)
 
 Run the docker image
 
---> `docker run --name mcserver -p 25565:25565 -d --restart unless-stopped mcserver`
+```bash
+docker run --name mcserver -p 25565:25565 -d --restart unless-stopped mcserver
+```
 
-or with docker compose, write following in a file named `docker-compose.yml`
+Or with docker compose, write following in a file named `docker-compose.yml`
 
-```yml
+```yaml title="docker-compose.yml"
 version: "3"
 services:
   mcserver:
@@ -232,4 +283,8 @@ services:
     volumes: -./server:/root
 ```
 
-and run it: `docker-compose up -d`
+and run it
+
+```bash
+docker-compose up -d
+```
