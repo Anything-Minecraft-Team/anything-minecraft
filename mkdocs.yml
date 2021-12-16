@@ -1,0 +1,31 @@
+site_name: Anything Minecraft
+site_url: https://anythingmc.org/
+repo_url: https://github.com/Anything-Minecraft-Team/anything-minecraft
+edit_uri: tree/main/docs
+
+theme:
+  name: material
+  favicon: https://media.discordapp.net/attachments/837476686978482207/848859250489819156/Untitled.png?width=170
+  features:
+    - content.code.annotate
+  palette:
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+    - scheme: default
+      primary: black
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+extra_javascript:
+  - js/arcio.js
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
