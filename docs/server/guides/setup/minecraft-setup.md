@@ -18,7 +18,7 @@ After downloading your server jar create a new folder. You can name it anything 
 
 Once you've done that, drag the server jar into the folder and rename it `server` so we can access it easily in the next step. Next, we need to create the file to run the server jar, you will need to enable file extensions if you haven't already.
 
-![Enable file extensions](../../../images/server/guides/other/SETUP/CREATE_FOLDER.png)
+![Enable file extensions](../../../images/server/guides/other/SETUP/ENABLE_FILE_EXTENSIONS.png)
 
 Create a new text document and name it "run", now open it and type
 
@@ -26,8 +26,6 @@ Create a new text document and name it "run", now open it and type
 java -Xmx1024M -Xms1024M -jar server.jar nogui
 PAUSE
 ```
-
-1. This is not true
 
 ![Text file](../../../images/server/guides/other/SETUP/TEXT_FILE.png)
 
