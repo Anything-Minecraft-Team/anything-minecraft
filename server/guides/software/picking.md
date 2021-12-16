@@ -2,6 +2,8 @@
 
 Here we will go through how to pick the right server software for your server. Server software contains all the code for the server, there are some for modloaders, like [Forge](https://files.minecraftforge.net/net/minecraftforge/forge) or [Fabric](https://fabricmc.net/), and some that allow you to use plugins, like [Sponge](https://www.spongepowered.org) or [SpigotMC](https://www.spigotmc.org).
 
+[Here](../../info/lists/server_software) is a list with lots of server software in one place.
+
 ## Picking your server software
 
 The first step to deciding what server software you want to use is picking what type of server you want to run. If you already know, great! If not you should go and decide before reading further.
@@ -26,4 +28,4 @@ If you are running a hybrid server, mods and plugins, there are a few options. I
 
 ### Software to stay away from
 
-It is a good idea to stay away from discontinued software and ones that support outdated versions but it's ultimately up to you. If you are deciding between a high-performance software that's not stable, like [YatopiaMC](https://yatopiamc.org), and one that has less performance but is much more stable it is generally a good idea to go with the one that is more stable. It is also a good idea to stay away from mass-produced server software, they mostly have copy-pasted code and it will quickly lead to a lack of support and abandonment.
+It is a good idea to stay away from discontinued software and ones that support outdated versions but it's ultimately up to you. If you are deciding between a high-performance software that's not stable, like [YatopiaMC](https://yatopiamc.org) was, and one that has less performance but is much more stable it is generally a good idea to go with the one that is more stable. It is also a good idea to stay away from mass-produced server software, they mostly have copy-pasted code and it will quickly lead to a lack of support and abandonment.
