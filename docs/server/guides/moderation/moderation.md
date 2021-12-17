@@ -12,25 +12,25 @@ Before your server opens, set the rules. In a small server with friends, you agr
 
 Below is a list of actions that are prohibited on many servers:
 
-- Chat
-  - Cursing/racism
-  - Spam
-  - Advertising
-  - Sharing private information
-  - Threatening players
-  - Inappropriate name/skin
-- Game
-  - Inappropriate Buildings
-  - Griefing
-  - Anti-afk system
-  - Lagging
-- Hacks
-  - X-ray
-  - Hacked Client
-  - Bug abuse
-- Server
-  - Corrupt making inventories
-  - Crashing server
+-   Chat
+    -   Cursing/racism
+    -   Spam
+    -   Advertising
+    -   Sharing private information
+    -   Threatening players
+    -   Inappropriate name/skin
+-   Game
+    -   Inappropriate Buildings
+    -   Griefing
+    -   Anti-afk system
+    -   Lagging
+-   Hacks
+    -   X-ray
+    -   Hacked Client
+    -   Bug abuse
+-   Server
+    -   Corrupt making inventories
+    -   Crashing server
 
 With a server for larger audiences, you should also share the rules. Publish them on your website, put them in the spawn or give players in the lobby a book. This way the players know what is and what is not allowed on your server. This also stops the excuse: "I didn't know this was forbidden".
 
