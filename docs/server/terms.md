@@ -29,3 +29,9 @@ Here are some terms you should familiarize yourself with.
 - Plugin: A plugin is used to change the functionality of a server purely server-side.
 
 - Mod: A mod is like a plugin but is usually required by the server and client although there are some server-side mods. Mods can add new blocks and items to the game.
+
+- Timings: Timings is a diagnostics tool on Spigot and its forks. Some other software may have their own version of it too. It is used to see a detailed breakdown of the servers performance.
+
+- Datapack: A datapack is a way to modify the game without modifying the game through plugins or mods.
+
+- OP: OP is short for operator. An operator has all permissions in a server and can ban, kick, change peoples gamemode and run any command.
