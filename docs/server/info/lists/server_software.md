@@ -1,8 +1,10 @@
 # Server Software
 
-Server software is the software that allows multiple players to play on a server together.
+Server software is the software that allows multiple players to play on a server together. Some of them feature plugin support or have special features. Couple of them aren't meant very serious and were an experiment.
 
-## Note
+!!! note
+
+    This list may become outdated from time to time. As it is a big list it it would be a lot of work to always keep all the information up to date. If you have found some outdated information we would really appreaciate it, if you'd create an issue or pull request on our [GitHub repository](https://github.com/Anything-Minecraft-Team/anything-minecraft).
 
 A \* means that the developer of that project mass produces them. This leads to a lack of support, lack of updates, and quick abandonment.
 
@@ -93,87 +95,26 @@ A \* means that the developer of that project mass produces them. This leads to 
 | [NeptuneVanilla](https://github.com/NeptunePowered/NeptuneMod)                                  | 1.8.9 - 1.9                   |     :no_entry:     |        :material-source-fork: MIT         | A continuation of CanaryMod under a new repository and name.                                                                                                                                                                                                                                                                                                                                     |
 | [NessusMS](https://web.archive.org/web/20160309120136/http://nessus.lv/)                        | 1.5.2                         |     :no_entry:     |                    N/A                    | NessusMS was a 1.5.2 server written in C.                                                                                                                                                                                                                                                                                                                                                        |
 | [Netherrack](https://github.com/Techern/Netherrack)                                             | 1.8.8                         |     :no_entry:     |       :material-source-fork: Apache       | Netherrack is a server software created in Rust for 1.8.                                                                                                                                                                                                                                                                                                                                         |
-
-
-- [Nostalgia](https://github.com/BizarreCake/Nostalgia) - Nostalgia is a server built in C++. The purpose of this was to serve as a playground for testing AI so in the end, Minecraft would play itself.  
-  Version: 1.14.4  
-  Discontinued
-
-- [NovaSpigot](https://www.mc-market.org/threads/663767) - NovaSpigot is a 1.8.8 fork of spigot aiming towards PvP servers.  
-  Version: 1.8.8  
-  Currently Active
-
-- [nylium](https://github.com/dskprt/nylium) - nylium is a server written in C#. It has a priority on performance.
-  Version: 1.16.4 - 1.16.5
-  Currently Active
-
-- [Obsidian](https://github.com/ObsidianMC/Obsidian) - Obsidian is a C# .NET 5 implementation of the Minecraft server protocol. It also has its own plugin api with plans to eventually support the spigot api.  
-  Version: 1.16.5  
-  Currently Active
-
-- [OpenSandbox](https://github.com/MarkMcCaskey/opensandbox) - OpenSandbox is a Minecraft server implementation in Haskell. It aimed to improve on the original game through server-side features.  
-  Version: 1.10  
-  Discontinued
-
-- [Origami](https://github.com/Minebench/Origami) - Custom paper fork used by [Minebench.de](https://www.minebench.de/). The fork is based on the framework used in [Spottedleaf's Tuinity](https://github.com/Spottedleaf/Tuinity).  
-  Version: 1.14.4 - 1.16.5  
-  Currently Active
-
-- [PaperBin](https://github.com/x4e/PaperBin) - PaperBin is a fork of paper, it patches dupes, bugs and more. It aims to continue 1.12.2 paper and provide support. You can even use it on top of custom paper forks because it uses JVMTI to modify Minecraft classes at runtime.  
-  Version: 1.12.2  
-  Currently Active
-
-- [PaperMC](https://papermc.io/) - Most popular JAR for Spigot/Bukkit, quite fast and stable, they roll out small patches frequently, so it is a good choice if you're just starting with your MC server and don't have much experience.  
-  Version: 1.7.10 - 1.17.1  
-  Currently Active
-
-- [PaperMC-unpatch](https://github.com/YaCodesDevelopment/PaperMC-unpatch) - PaperMC-unpatch is a fork of Paper which removes a patch for sand duping.  
-  Version: Unknown  
-  Currently Active
-
-- [PartyCraft](https://github.com/ddevault/PartyCraft) - PartyCraft is a 1.6.2 server written in C# that aims to reproduce the vanilla functionality.  
-  Version: 1.6.2  
-  Discontinued
-
-- [PerfectSpigot](https://www.mc-market.org/resources/5376/) - A 1.8.8 Paper fork focused on Factions servers with optimized cannoning and built-in world generators.  
-  Version: 1.8.8  
-  Currently Inactive
-
-- [PopupMC](https://github.com/PopupMC/Server) - A fork of PaperMC for 1.15.2.  
-  Version: 1.15.2  
-  Discontinued
-
-- [Prismarine Standalone](https://github.com/Thinkofname/Prismarine-Standalone) - Prismarine is a small Minecraft server that aims to do the minimum required for a basic Minecraft server.  
-  Version: Unknown  
-  Discontinued
-
-- [Project-Rainbow](https://ci.codecrafter47.de/job/Rainbow/) - Project-Rainbow was an attempt at overthrowing Bukkit with a new platform, but as we can tell that didn't work.  
-  Version: 1.13.2  
-  Discontinued
-
-- [Project-Poseidon](https://github.com/RhysB/Project-Poseidon) - A fork of CraftBukkit meant to fix bugs and add some features in a Beta version. It's also notable that there is a guide for adding ModLoaderMP support into the jar.
-  Version: b1.7.3
-  Currently Active
-
-- [Pukkit](https://github.com/PigeonMC/Pukkit) - A fork of the Bukkit API built for Beta 1.7.3.
-  Version: b1.7.3
-  Discontinued
-
-- [Purplane](https://github.com/TECHNOVE/Airplane/tree/purpur/1.17) - A fork of purpur that adds features from [Airplane](https://github.com/TECHNOVE/Airplane). Originally created by [notOM3GA](https://github.com/notOM3GA) ([Archived repository](https://github.com/notOM3GA/Purplane)) then discontinued as purpur added Airplanes patches but has since been removed from Purpur so now the Airplane team maintains it separately from Airplane.  
-  Version: 1.16.5 - 1.17.1  
-  Currently Active
-
-- [Purpur](https://purpur.pl3x.net/) - It's a fork of PaperMC with Tuinity patches to deliver very fast performance with stability for high player counts and it adds a lot of custom features that aren't seen on any other forks. Used to add the patches of Airplane but has removed them after it didn't increase performance as much as they thought it would.  
-  Version: 1.14.4 - 1.17  
-  Currently Active
-
-- [PyMine](https://github.com/py-mine/PyMine) - PyMine is a server built in Python. It has support for plugins. World Generation and game login is in progress.  
-  Version: 1.16.5  
-  Currently Inactive
-
-- [Quartz](https://web.archive.org/web/20101228143331/http://codaset.com/moose/quartz-public) - Quartz was a server written in C++.  
-  Version: Unknown  
-  Lost
+| [Nostalgia](https://github.com/BizarreCake/Nostalgia)                                           | 1.14.4                        |     :no_entry:     |      :material-source-fork: GPL-3.0       | Nostalgia is a server built in C++. The purpose of this was to serve as a playground for testing AI so in the end, Minecraft would play itself.                                                                                                                                                                                                                                                  |
+| [NovaSpigot](https://www.mc-market.org/threads/663767)                                          | 1.8.8                         |     :question:     |                 :dollar:                  | NovaSpigot is a 1.8.8 fork of spigot aiming towards PvP servers.                                                                                                                                                                                                                                                                                                                                 |
+| [nylium](https://github.com/dskprt/nylium)                                                      | 1.16.5                        |    :lock:/:mag:    |                   :mag:                   | nylium is a server written in C#. It has a priority on performance.                                                                                                                                                                                                                                                                                                                              |
+| [Obsidian](https://github.com/ObsidianMC/Obsidian)                                              | 1.16.5                        | :white_check_mark: |      :material-source-fork: GPL-3.0       | Obsidian is a C# .NET 6 implementation of the Minecraft server protocol. It also has its own plugin api with plans to eventually support the spigot api.                                                                                                                                                                                                                                         |
+| [OpenSandbox](https://github.com/MarkMcCaskey/opensandbox)                                      | 1.10                          |     :no_entry:     |      :material-source-fork: GPL-3.0       | OpenSandbox is a Minecraft server implementation in Haskell. It aimed to improve on the original game through server-side features.                                                                                                                                                                                                                                                              |
+| [Origami](https://github.com/Minebench/Origami)                                                 | 1.16.5                        |     :question:     |      :material-source-fork: GPL-3.0       | Custom paper fork used by [Minebench.de](https://www.minebench.de/). The fork is based on the framework used in [Spottedleaf's Tuinity](https://github.com/Spottedleaf/Tuinity).                                                                                                                                                                                                                 |
+| [PaperBin](https://github.com/x4e/PaperBin)                                                     | 1.12.2                        |     :question:     |       :material-source-fork: Custom       | PaperBin is a fork of paper, it patches dupes, bugs and more. It aims to continue 1.12.2 paper and provide support. You can even use it on top of custom paper forks because it uses JVMTI to modify Minecraft classes at runtime.                                                                                                                                                               |
+| [PaperMC](https://papermc.io/)                                                                  | 1.8.8 - 1.18.1                | :white_check_mark: |      :material-source-fork: GPL-3.0       | Most popular JAR for Spigot/Bukkit, quite fast and stable, they roll out small patches frequently, so it is a good choice if you're just starting with your MC server and don't have much experience.                                                                                                                                                                                            |
+| [PaperMC-unpatch](https://github.com/YaCodesDevelopment/PaperMC-unpatch)                        | Unknown                       |     :question:     |      :material-source-fork: GPL-3.0       | PaperMC-unpatch is a fork of Paper which removes a patch for sand duping.                                                                                                                                                                                                                                                                                                                        |
+| [PartyCraft](https://github.com/ddevault/PartyCraft)                                            | 1.6.2                         |     :no_entry:     |        :material-source-fork: MIT         | PartyCraft is a 1.6.2 server written in C# that aims to reproduce the vanilla functionality.                                                                                                                                                                                                                                                                                                     |
+| [PerfectSpigot](https://www.mc-market.org/resources/5376/)                                      | 1.8.8                         |     :no_entry:     |                 :dollar:                  | A 1.8.8 Paper fork focused on Factions servers with optimized cannoning and built-in world generators.                                                                                                                                                                                                                                                                                           |
+| [PopupMC](https://github.com/PopupMC/Server)                                                    | 1.15.2                        |     :no_entry:     |      :material-source-fork: GPL-3.0       | A fork of PaperMC for 1.15.2.                                                                                                                                                                                                                                                                                                                                                                    |
+| [Prismarine Standalone](https://github.com/Thinkofname/Prismarine-Standalone)                   | Unknown                       |     :no_entry:     |     :material-source-fork: Apache 2.0     | Prismarine is a small Minecraft server that aims to do the minimum required for a basic Minecraft server.                                                                                                                                                                                                                                                                                        |
+| [Project-Rainbow](https://github.com/CodeCrafter47/Rainbow/)                                    | 1.13.2                        |     :no_entry:     |        :material-source-fork: N/A         | Project-Rainbow was an attempt at overthrowing Bukkit with a new platform, but as we can tell that didn't work.                                                                                                                                                                                                                                                                                  |
+| [Project-Poseidon](https://github.com/RhysB/Project-Poseidon)                                   | b1.7.3                        | :white_check_mark: |      :material-source-fork: GPL-3.0       | A fork of CraftBukkit meant to fix bugs and add some features in a Beta version. It's also notable that there is a guide for adding ModLoaderMP support into the jar.                                                                                                                                                                                                                            |
+| [Pukkit](https://github.com/PigeonMC/Pukkit)                                                    | b1.7.3                        |     :no_entry:     |    :material-source-fork: GPL-3.0/MIT     | A fork of the Bukkit API built for Beta 1.7.3.                                                                                                                                                                                                                                                                                                                                                   |
+| [Purplane](https://github.com/TECHNOVE/Airplane/tree/purpur/1.17)                               | 1.16.5 - 1.17.1               | :white_check_mark: |      :material-source-fork: GPL-3.0       | A fork of purpur that adds features from [Airplane](https://github.com/TECHNOVE/Airplane). Originally created by [notOM3GA](https://github.com/notOM3GA) ([Archived repository](https://github.com/notOM3GA/Purplane)) then discontinued as purpur added Airplanes patches but has since been removed from Purpur so now the Airplane team maintains it separately from Airplane.                |
+| [Purpur](https://purpur.pl3x.net/)                                                              | 1.14.4 - 1.18.1               | :white_check_mark: |        :material-source-fork: MIT         | It's a fork of PaperMC with Tuinity patches to deliver very fast performance with stability for high player counts and it adds a lot of custom features that aren't seen on any other forks. Used to add the patches of Airplane but has removed them after it didn't increase performance as much as they thought it would.                                                                     |
+| [PyMine](https://github.com/py-mine/PyMine)                                                     | 1.16.5?                       | :white_check_mark: |      :material-source-fork: GPL-3.0       | PyMine is a server built in Python. It has support for plugins. World Generation and game login is in progress.                                                                                                                                                                                                                                                                                  |
+| [Quartz](https://web.archive.org/web/20101228143331/http://codaset.com/moose/quartz-public)     | Unknown                       |       :mag:        |                   :mag:                   | Quartz was a server written in C++.                                                                                                                                                                                                                                                                                                                                                              |
 
 - [QuartzPowered](https://github.com/quartz-powered/server)  
   Version: 1.8  
