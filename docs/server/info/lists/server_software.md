@@ -18,7 +18,7 @@ A \* means that the developer of that project mass produces them. This leads to 
 :material-source-fork: Is open source software. Source is available for download.  
 :dollar: Payment is required to use the software.  
 
-### General
+## General
 
 | Name                                                                                                                                                | Versions                      |       Status       |                  Licence                  | Description                                                                                                                                                                                                                                                                                                                                                                                      |
 | --------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- | :----------------: | :---------------------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -190,7 +190,7 @@ A \* means that the developer of that project mass produces them. This leads to 
   Version: 1.7.10  
   Discontinued
 
-### Modded Server JARS
+## Modded Server JARS
 
 | Name                                                  | Versions        |       Status       | Description                                                                                                                                                                                         |
 | ----------------------------------------------------- | --------------- | :----------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -198,7 +198,7 @@ A \* means that the developer of that project mass produces them. This leads to 
 | [Forge](http://files.minecraftforge.net/)             | b1.7.3 - 1.18.1 | :white_check_mark: | Forge is server software based on the MCP. Both the server and client need to be running the same mods. b1.7.3 - 1.0 versions can be found [here](https://mcarchive.net/mods/minecraftforge?gvsn=). |
 | [ModLoaderMP](https://mcarchive.net/mods/modloadermp) | b1.4 - 1.5.2    |     :no_entry:     | ModLoaderMP was the first multiplayer mod loader, supporting from Beta 1.4 to release 1.5.2.                                                                                                        |
 
-### Plugins and Mods (Hybrids)
+## Plugins and Mods (Hybrids)
 
 - [Cricible](https://github.com/CrucibleMC/Crucible) - Crucible is a Thermos fork containing various patches for bug fixes and performance improvements.  
   Version: 1.7.10  
