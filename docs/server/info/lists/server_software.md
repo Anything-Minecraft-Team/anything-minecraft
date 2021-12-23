@@ -164,57 +164,21 @@ A \* means that the developer of that project mass produces them. This leads to 
 
 ## Plugins and Mods (Hybrids)
 
--   [Cricible](https://github.com/CrucibleMC/Crucible) - Crucible is a Thermos fork containing various patches for bug fixes and performance improvements.  
-    Version: 1.7.10  
-    Currently Active
-
--   [Mist](https://github.com/MinecraftMist/Mist) - Hybrid server software for Minecraft, allowing Forge mods and Bukkit plugins to run together. Fork of Mohist.  
-    Version: 1.16.5  
-    Currently Active
-
--   [Magma](https://magmafoundation.org/) - Minecraft Forge hybrid server implementing the Spigot/Bukkit API (Cauldron for 1.12).  
-    Version: 1.12.2  
-    Currently Active
-
--   [Mohist](https://mohistmc.com/) - Minecraft Forge hybrid server implementing the Paper/Spigot/Bukkit API(1.12.2/1.16). Formerly known as Thermos/Kettle/Cauldron/MCPC+.  
-    Version: 1.7.10, 1.12.2, 1.16.5  
-    Currently Active
-
--   [Arclight](https://github.com/IzzelAliz/Arclight) - A Minecraft Bukkit(1.15/1.16) server implementation on Forge using Mixin.  
-    Version: 1.14 - 1.16  
-    Currently Active
-
--   [SpongeForge](https://www.spongepowered.org/downloads/spongeforge) - SpongeForge allows both SpongeVanila plugins as well as Forge mods on one server.  
-    Version: 1.10.2 - 1.12.2  
-    Currently Active
-
--   [Cardboard](https://www.curseforge.com/minecraft/mc-mods/cardboard) - Cardboard (formerly Bukkit4Fabric) is a Fabric mod that adds support for the popular Bukkit/Spigot modding API. This mod lets you use plugins that are made for Bukkit and its derivatives (Spigot and Paper) with Fabric. It's not server software but allows Fabric servers to run Bukkit plugins.  
-    Version: 1.16.4 - 1.16.5  
-    Currently Active
-
--   [AtomMC](https://github.com/josephworks/AtomMC) - Atom is a Minecraft Server Software that is based on Minecraft Forge and CraftBukkit for 1.12.2 version of Minecraft.  
-    Version: 1.12.2  
-    Currently Active
-
--   [Hotpur](https://github.com/ishlandbukkit/Hotpur) - HotPur is a 1.16.5 fork of Purpur attempting to add Fabric mod support.  
-    Version: 1.16.4  
-    Discontinued
-
--   [MCPC+](https://ci.md-5.net/job/Cauldron/) - MCPC+ was a 1.2.5 to 1.7.10 Bukkit/Forge hybrid, the first of its kind. It was also known as Cauldron.  
-    Version: Unknown
-    Discontinued
-
--   [KCauldron](https://github.com/djoveryde/KCauldron) - KCauldron is a fork of MCPC+ using Spigot instead of CraftBukkit.  
-    Version: 1.7.10  
-    Discontinued
-
--   [Thermos](https://github.com/CyberdyneCC/Thermos) - A Fork of KCauldron with many bug fixes and performance improvements.  
-    Version: 1.7.10  
-    Discontinued
-
--   [Contigo](https://github.com/djoveryde/Contigo) - A fork of Thermos that was opened after Thermos was discontinued and allowed the community to add patches and bug fixes.  
-    Version: Unknown  
-    Discontinued
+| Name                                                                           | Versions               |       Status       |             License             | Description                                                                                                                                                                                                                                                                                          |
+| ------------------------------------------------------------------------------ | ---------------------- | :----------------: | :-----------------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Cricible](https://github.com/CrucibleMC/Crucible)                             | 1.7.10                 | :white_check_mark: | :material-source-fork: GPL-3.0  | Crucible is a Thermos fork containing various patches for bug fixes and performance improvements.                                                                                                                                                                                                    |
+| [Mist](https://github.com/MinecraftMist/Mist)                                  | 1.16.5                 |     :no_entry:     | :material-source-fork: GPL-3.0  | 1.16.5  Hybrid server software for Minecraft, allowing Forge mods and Bukkit plugins to run together. Fork of Mohist.                                                                                                                                                                                |
+| [Magma](https://magmafoundation.org/)                                          | 1.12.2, 1.16.5         | :white_check_mark: | :material-source-fork: LGPL-3.0 | Minecraft Forge hybrid server implementing the Spigot/Bukkit API (Cauldron for 1.12).                                                                                                                                                                                                                |
+| [Mohist](https://mohistmc.com/)                                                | 1.7.10, 1.12.2, 1.16.5 | :white_check_mark: | :material-source-fork: GPL-3.0  | Minecraft Forge hybrid server implementing the Paper/Spigot/Bukkit API. Formerly known as Thermos/Kettle/Cauldron/MCPC+.                                                                                                                                                                             |
+| [Arclight](https://github.com/IzzelAliz/Arclight)                              | 1.14 - 1.18            | :white_check_mark: | :material-source-fork: GPL-3.0  | A Minecraft Bukkit server implementation on Forge using Mixin.                                                                                                                                                                                                                                       |
+| [SpongeForge](https://www.spongepowered.org/downloads/spongeforge)             | 1.10.2 - 1.12.2        | :white_check_mark: |   :material-source-fork: MIT    | SpongeForge allows both SpongeVanila plugins as well as Forge mods on one server.                                                                                                                                                                                                                    |
+| [Cardboard](https://www.curseforge.com/minecraft/mc-mods/cardboard)            | 1.18                   | :white_check_mark: | :material-source-fork: LGPL-3.0 | Cardboard (formerly Bukkit4Fabric) is a Fabric mod that adds support for the popular Bukkit/Spigot modding API. This mod lets you use plugins that are made for Bukkit and its derivatives (Spigot and Paper) with Fabric. It's not server software but allows Fabric servers to run Bukkit plugins. |
+| [AtomMC](https://github.com/josephworks/AtomMC)                                | 1.12.2                 |     :question:     | :material-source-fork: GPL-3.0  | Atom is a Minecraft Server Software that is based on Minecraft Forge and CraftBukkit for 1.12.2 version of Minecraft.                                                                                                                                                                                |
+| [Hotpur](https://github.com/ishlandbukkit/Hotpur)                              | 1.16.5                 |     :no_entry:     |   :material-source-fork: MIT    | HotPur is a 1.16.5 fork of Purpur attempting to add Fabric mod support.                                                                                                                                                                                                                              |
+| [Cauldron](https://sourceforge.net/projects/cauldron-unofficial/) (Unofficial) | 1.2.5 - 1.7.10         |     :no_entry:     |              :mag:              | Cauldron (formerly MCPC+) was a 1.2.5 to 1.7.10 Bukkit/Forge hybrid, the first of its kind.                                                                                                                                                                                                          |
+| [KCauldron](https://github.com/djoveryde/KCauldron)                            | 1.7.10                 |     :no_entry:     | :material-source-fork: GPL-3.0  | KCauldron is a fork of Cauldron using Spigot instead of CraftBukkit.                                                                                                                                                                                                                                 |
+| [Thermos](https://github.com/CyberdyneCC/Thermos)                              | 1.7.10                 |     :no_entry:     | :material-source-fork: GPL-3.0  | A Fork of KCauldron with many bug fixes and performance improvements.                                                                                                                                                                                                                                |
+| [Contigo](https://github.com/djoveryde/Contigo)                                | 1.8?                   |     :no_entry:     | :material-source-fork: GPL-3.0  | A fork of Thermos that was opened after Thermos was discontinued and allowed the community to add patches and bug fixes.                                                                                                                                                                             |
 
 -   [Uranium](https://github.com/UraniumMC/Uranium) - A fork of KCauldron that added new features and bug fixes and is a very popular server choice in China.  
     Version: Unknown  
