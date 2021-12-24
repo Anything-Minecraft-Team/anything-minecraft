@@ -165,7 +165,7 @@ This will automatically take you inside the tmux session. Start the server using
 java -Xmx1024M -Xms1024M -jar server.jar nogui
 ```
 
-Exit out of the tmux session using `ctrl + b` **then** `d` 
+Exit out of the tmux session using ++ctrl+b++ **then** ++d++ 
 
 Your server will keep running in the background.
 
@@ -177,7 +177,7 @@ tmux a -t sessionName
 
 `sessionName` being whatever you named the instance earlier.
 
-To destroy the session completely, you can attach to the session and then `ctrl + d` out of it. It detaches from session and destroys it too.
+To destroy the session completely, you can attach to the session and then ++ctrl+d++ out of it. It detaches from session and destroys it too.
 
 #### Setup With Screen
 
@@ -195,7 +195,7 @@ This will automatically take you inside the screen session. Start the server usi
 java -Xmx1024M -Xms1024M -jar server.jar nogui
 ```
 
-Exit out of the screen session using `ctrl + a` **then** `d` 
+Exit out of the screen session using ++ctrl+a++ **then** ++d++ 
 
 Your server will keep running in the background.
 
@@ -207,7 +207,7 @@ screen -r sessionName
 
 `sessionName` being whatever you named the instance earlier.
 
-To destroy the session completely, you can attach to the session and then `ctrl + a` **then** `k` and press `enter`.
+To destroy the session completely, you can attach to the session and then ++ctrl+a++ **then** ++k++ and press ++enter++.
 
 #### Setup As A System Service
 
