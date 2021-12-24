@@ -186,9 +186,11 @@ Start a screen session
 ```bash
 screen -S sessionName
 ```
+
 `sessionName` being whatever you want to name the instance, for example `minecraft-session`
 
 This will automatically take you inside the screen session. Start the server using
+
 ```bash
 java -Xmx1024M -Xms1024M -jar server.jar nogui
 ```
