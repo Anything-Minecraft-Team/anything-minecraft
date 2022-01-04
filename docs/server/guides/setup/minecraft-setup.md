@@ -145,8 +145,7 @@ You have your server running! To join, launch Minecraft and join the server at `
 
 If you want to start the server and want to be able to exit out of the terminal without the server closing, there are two ways with which you can do this
 
-- You can use a utility called [tmux](https://github.com/tmux/tmux/wiki). Use this if the server is intended to be temporarily up.
-- You can also use [screen](https://www.gnu.org/software/screen/) this serves the same as tmux.
+- You can use a utility called [tmux](https://github.com/tmux/tmux/wiki). Use this if the server is intended to be temporarily up. You can also use [screen](https://www.gnu.org/software/screen/) this serves the same as tmux.
 - You can register minecraft as a **system unit**. Use this if the server is intended to be up 24/7 and requires automatic restarting in case of host shutdowns/failures.
 
 #### Setup With Tmux
