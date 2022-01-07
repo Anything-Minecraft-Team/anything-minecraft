@@ -143,9 +143,9 @@ Now launch the server by executing `start.sh` again.
 
 You have your server running! To join, launch Minecraft and join the server at `127.0.0.1` or `localhost`
 
-If you want to start the server and want to be able to exit out of the terminal without the server closing, there are two ways with which you can do this
+If you want to start the server and want to be able to exit out of the terminal without the server closing, there are three ways with which you can do this
 
-- You can use a utility called [tmux](https://github.com/tmux/tmux/wiki). Use this if the server is intended to be temporarily up.
+- You can use a utility called [tmux](https://github.com/tmux/tmux/wiki). Use this if the server is intended to be temporarily up. You can also use [screen](https://www.gnu.org/software/screen/) this serves the same as tmux.
 - You can register minecraft as a **system unit**. Use this if the server is intended to be up 24/7 and requires automatic restarting in case of host shutdowns/failures.
 
 #### Setup With Tmux
@@ -164,9 +164,9 @@ This will automatically take you inside the tmux session. Start the server using
 java -Xmx1024M -Xms1024M -jar server.jar nogui
 ```
 
-Exit out of the tmux session using ++ctrl+b++ **then** ++d++
+Exit out of the tmux session using ++ctrl+b++ **then** ++d++ 
 
-You server will keep running in the background.
+Your server will keep running in the background.
 
 To reattach to the session:
 
@@ -177,6 +177,36 @@ tmux a -t sessionName
 `sessionName` being whatever you named the instance earlier.
 
 To destroy the session completely, you can attach to the session and then ++ctrl+d++ out of it. It detaches from session and destroys it too.
+
+#### Setup With Screen
+
+Start a screen session
+
+```bash
+screen -S sessionName
+```
+
+`sessionName` being whatever you want to name the instance, for example `minecraft-session`
+
+This will automatically take you inside the screen session. Start the server using the startup script mentioned above, or use
+
+```bash
+java -Xmx1024M -Xms1024M -jar server.jar nogui
+```
+
+Exit out of the screen session using ++ctrl+a++ **then** ++d++ 
+
+Your server will keep running in the background.
+
+To reattach to the session:
+
+```bash
+screen -r sessionName
+```
+
+`sessionName` being whatever you named the instance earlier.
+
+To destroy the session completely, you can attach to the session and then ++ctrl+a++ **then** ++k++ and press ++enter++.
 
 #### Setup As A System Service
 
