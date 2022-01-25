@@ -20,7 +20,7 @@ Custom software is created for better performance mainly targetting minigame ser
 
 ### Modded Software
 
-If you want to play with mods you will need a modded server software. There are a few of these but the most popular/still updated ones are [Fabric](https://fabricmc.net) and [Forge](https://files.minecraftforge.net/net/minecraftforge/forge). There are mod versions of plugins but not as much of a wide variety, hybrid servers are better for this which will be talked about later in this article. [Fabric](https://fabricmc.net) is more commonly used for servers with mods that act as plugins.
+If you want to play with mods you will need a modded server software. There are a few of these but the most popular/still updated ones are [Fabric](https://fabricmc.net) and [Forge](https://files.minecraftforge.net/net/minecraftforge/forge). There are mod versions of plugins but not as much of a wide variety, hybrid servers (explained below) are better for this. [Fabric](https://fabricmc.net) is more commonly used for servers with mods that act as plugins.
 
 ### Hybrid Software
 
