@@ -18,7 +18,7 @@ After downloading your server jar create a new folder. You can name it anything 
 
 Once you've done that, drag the server jar into the folder and rename it `server` so we can access it easily in the next step. Next, we need to create the file to run the server jar, you will need to enable file extensions if you haven't already.
 
-![Enable file extensions](../../../images/server/guides/other/SETUP/CREATE_FOLDER.png)
+![Enable file extensions](../../../images/server/guides/other/SETUP/ENABLE_FILE_EXTENSIONS.png)
 
 Create a new text document and name it "run", now open it and type
 
@@ -26,8 +26,6 @@ Create a new text document and name it "run", now open it and type
 java -Xmx1024M -Xms1024M -jar server.jar nogui
 PAUSE
 ```
-
-1. This is not true
 
 ![Text file](../../../images/server/guides/other/SETUP/TEXT_FILE.png)
 
@@ -58,7 +56,9 @@ This process is slightly different for a modded server so we will go over it her
 
 ### Setup For Linux
 
-> Warning: You should prefer using your package manager (for example `apt` on Ubuntu and Debian) to install Java because it's more organized and easier to keep up-to-date
+!!! warning
+
+    You should prefer using your package manager (for example `apt` on Ubuntu and Debian) to install Java because it's more organized and easier to keep up-to-date
 
 Depending on the Minecraft version you want to install, you'll need a specific Java version.
 
@@ -84,7 +84,9 @@ cd server
 
 Download the latest version of your preferred server software, i.e. Paper.
 
-> Make sure to change the download URL! You can copy the direct download URL from the downloads page of your server software.
+!!! attention
+
+    Make sure to change the download URL! You can copy the direct download URL from the downloads page of your server software.
 
 ```bash
 wget -O server.jar https://papermc.io/api/v2/projects/paper/versions/1.17.1/builds/400/downloads/paper-1.17.1-400.jar
@@ -92,9 +94,11 @@ wget -O server.jar https://papermc.io/api/v2/projects/paper/versions/1.17.1/buil
 
 Create a text document named `start.sh` and write into it:
 
-> You can create a text document with nano for example: `nano start.sh`
->
-> Use <kbd>CTRL</kbd> + <kbd>O</kbd> to save and <kbd>CTRL</kbd> + <kbd>X</kbd> to exit.
+??? question "How can I create a text file?"
+
+    You can create a text document with nano for example: `nano start.sh`
+
+    Use ++ctrl+o++ to save and ++ctrl+x++ to exit.
 
 ```bash title="start.sh"
 java -Xmx1024M -jar server.jar nogui # (1)
@@ -104,9 +108,9 @@ java -Xmx1024M -jar server.jar nogui # (1)
 
 `-Xmx1024M` being the parameter for the Java heap size in megabytes (1024 MB = 1 GiB). As your server grows in amount of plugins and concurrent players, you may want to increase this.
 
->
+!!! info
 
-> If you have multiple versions of java installed, you may need to provide the full path to the java executable. Usually, they will be installed in `/usr/lib/jvm`.
+    If you have multiple versions of java installed, you may need to provide the full path to the java executable. Usually, they will be installed in `/usr/lib/jvm`.
 
 ```bash
 echo "java -Xmx1024M -jar server.jar nogui" > start.sh
@@ -127,7 +131,9 @@ so you have to edit `eula.txt` to say `eula=true` instead of `eula=false`
 echo "eula=true" > eula.txt
 ```
 
-> **Warning**: This overwrites the comment with the link to the EULA
+!!! warning
+
+    This overwrites the comment with the link to the EULA!
 
 Now launch the server by executing `start.sh` again.
 
@@ -137,9 +143,9 @@ Now launch the server by executing `start.sh` again.
 
 You have your server running! To join, launch Minecraft and join the server at `127.0.0.1` or `localhost`
 
-If you want to start the server and want to be able to exit out of the terminal without the server closing, there are two ways with which you can do this
+If you want to start the server and want to be able to exit out of the terminal without the server closing, there are three ways with which you can do this
 
-- You can use a utility called [tmux](https://github.com/tmux/tmux/wiki). Use this if the server is intended to be temporarily up.
+- You can use a utility called [tmux](https://github.com/tmux/tmux/wiki). Use this if the server is intended to be temporarily up. You can also use [screen](https://www.gnu.org/software/screen/) this serves the same as tmux.
 - You can register minecraft as a **system unit**. Use this if the server is intended to be up 24/7 and requires automatic restarting in case of host shutdowns/failures.
 
 #### Setup With Tmux
@@ -158,9 +164,9 @@ This will automatically take you inside the tmux session. Start the server using
 java -Xmx1024M -Xms1024M -jar server.jar nogui
 ```
 
-Exit out of the tmux session using <kbd>CTRL</kbd> + <kbd>B</kbd> **then** <kbd>D</kbd>
+Exit out of the tmux session using ++ctrl+b++ **then** ++d++ 
 
-You server will keep running in the background.
+Your server will keep running in the background.
 
 To reattach to the session:
 
@@ -170,7 +176,37 @@ tmux a -t sessionName
 
 `sessionName` being whatever you named the instance earlier.
 
-To destroy the session completely, you can attach to the session and then <kbd>CTRL</kbd> + <kbd>D</kbd> out of it. It detaches from session and destroys it too.
+To destroy the session completely, you can attach to the session and then ++ctrl+d++ out of it. It detaches from session and destroys it too.
+
+#### Setup With Screen
+
+Start a screen session
+
+```bash
+screen -S sessionName
+```
+
+`sessionName` being whatever you want to name the instance, for example `minecraft-session`
+
+This will automatically take you inside the screen session. Start the server using the startup script mentioned above, or use
+
+```bash
+java -Xmx1024M -Xms1024M -jar server.jar nogui
+```
+
+Exit out of the screen session using ++ctrl+a++ **then** ++d++ 
+
+Your server will keep running in the background.
+
+To reattach to the session:
+
+```bash
+screen -r sessionName
+```
+
+`sessionName` being whatever you named the instance earlier.
+
+To destroy the session completely, you can attach to the session and then ++ctrl+a++ **then** ++k++ and press ++enter++.
 
 #### Setup As A System Service
 
@@ -190,7 +226,9 @@ User={YOURUSERNAME}
 ExecStart=/home/{YOURUSERNAME}/server/start.sh
 ```
 
-> Of course, replace `{YOURUSERNAME}` with your username on the system, in order for it to not start with root permissions, which is a bad idea.
+!!! note
+
+    Of course, replace `{YOURUSERNAME}` with your username on the system, in order for it to not start with root permissions, which is a bad idea.
 
 ```bash
 sudo echo "[Unit]\nDescription=A Minecraft Server\nAfter=network.target\nStartLimitIntervalSec=0[Service]\nType=simple\nRestart=alwaysRestartSec=1\nUser=$USER\nExecStart=$HOME/server/start.sh" > /etc/systemd/system/minecraft.service
@@ -262,7 +300,9 @@ Now, supposing you have docker installed, build the docker image
 docker build . -t mcserver
 ```
 
-> You can replace `mcserver`, the name of the image, with whatever you want (as long as it doesn't interfere with the images on dockerhub)
+!!! tip
+
+    You can replace `mcserver`, the name of the image, with whatever you want (as long as it doesn't interfere with the images on dockerhub)
 
 Run the docker image
 
