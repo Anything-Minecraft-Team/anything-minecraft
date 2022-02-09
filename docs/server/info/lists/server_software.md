@@ -108,16 +108,16 @@ Private - Made private after being added to this list
     Version: 1.8.8  
     Currently Inactive
 
--   [CraftBukkit](https://getbukkit.org/download/craftbukkit) - It's the BASE for all forks that are out today and they still are updating it to this day, not newbie friendly at all because it requires manual building (or you can get it [here](https://getbukkit.org)).  
-    Version: 1.0.0 - 1.18.1  
+-   [CraftBukkit](https://getbukkit.org/download/craftbukkit) - It's the BASE for all forks that are out today and they still are updating it to this day, not newbie friendly at all because it requires manual building (or you can get it [here](https://getbukkit.org)). Versions older than 1.0.0 are not available publicly but archives do exist.  
+    Version: 1.2_01 beta - 1.18.1  
     Currently Active
 
 -   Creativity - Creativity was a server software made with C++, it was been lost sadly.  
     Version: Unknown  
     Lost
 
--   [Crocus](https://github.com/ComunidadAylas/Crocus) - Crocus is a fork of Paper that adds some patches for the Khron Minecraft server. (Notice: This may be inaccurate due to Google Translate).
-    Version: Unknown
+-   [Crocus](https://github.com/ComunidadAylas/Crocus) - Crocus is a fork of Paper that adds some patches for the Khron Minecraft server. (Notice: This may be inaccurate due to Google Translate).  
+    Version: Unknown  
     Discontinued
 
 -   [Cuberite](https://cuberite.org/) - Cuberite is a server software developed in C++ and plugins are written in LUA. Cuberite is very lightweight and they also allow you to run a server on your android device! Cuberite is only 1.8-1.12, 1.13+ compatibility is being worked on. Used to be known as [MCServer](https://web.archive.org/web/20141024152021/http://mc-server.org).  
@@ -272,6 +272,10 @@ Private - Made private after being added to this list
     Version: Unknown  
     Discontinued
 
+-   [matter](https://github.com/plasmoapp/matter) - matter is server software with a pufferish and purpur branch that aims to add secure feature seed to eliminate any link between structures and ores.  
+    Version: 1.18.1  
+    Currently Active
+
 -   [MC Erl](https://github.com/clonejo/mc-erl/) - MC Erl is a 1.4.7 server written in Erlang.  
     Version: 1.4.7  
     Discontinued
@@ -314,6 +318,10 @@ Private - Made private after being added to this list
 
 -   [Minestom](https://github.com/Minestom/Minestom) - MineStorm is a server building library allowing servers to be built from the group up easily. It removes features like the server understanding what a chest is, which allows HUGE performance increases for minigame servers as they may not need that feature. Every feature can be added back. Due to this, the development would take longer and would not be suitable for survival servers.  
     Version: 1.16 - 1.18.1  
+    Currently Active
+
+-   [Mirai](https://github.com/etil2jz/Mirai) - A fork of pufferfish adding patches from many popular server software and performance mods.  
+    Version: 1.18.1  
     Currently Active
 
 -   [mSpigot](https://www.mc-market.org/resources/6864/)\* - Another premium TacoSpigot fork with promises of improved TNT and knockback aimed at PvP and Factions servers.  
@@ -473,6 +481,10 @@ Private - Made private after being added to this list
     Version: 1.15.2  
     Discontinued
 
+-   [RubberBukkit](https://web.archive.org/web/20121028005355/http://ci.ecocitycraft.com/) - RubberBukkit is a fork on craftbukkit made to work with the Rubberband proxy. Not much information is available.  
+    Version: Unknown  
+    Lost
+
 -   [Rush](https://github.com/kangarko/Rush) - Rush is a lightweight server written from scratch.  
     Version: 1.8  
     Discontinued
@@ -507,7 +519,7 @@ Private - Made private after being added to this list
     Discontinued
 
 -   [SpigotMC](https://www.spigotmc.org/) - The original fork of Bukkit. Versions before 1.4.6 exist but are not officially public.  
-    Version: 1.4.6 - 1.18.1  
+    Version: 1.3.2 - 1.18.1  
     Currently Active
 
 -   [SpongeVanilla](https://www.spongepowered.org/downloads/spongevanilla) - A server implementing the Sponge API, a different plugin API separate from the Bukkit API. This implementation also includes some general improvements regarding performance and server settings.  
@@ -729,6 +741,10 @@ Private - Made private after being added to this list
     Version: 1.7 - 1.11  
     Discontinued
 
+-   [lightfall](https://github.com/ArclightPowered/lightfall) - Lightfall is a fork of the waterfall proxy with modern forge support.  
+    Version: 1.18  
+    Currently Active
+
 -   [LilyPad](http://www.lilypadmc.org/) - A separate Proxy with its API and Plugins that has been suggestively discontinued.  
     Version: Unknown - 1.18  
     Currently Active
@@ -785,6 +801,14 @@ Private - Made private after being added to this list
     Version: 1.7 - 1.16.5  
     Lost
 
+-   [KettleCord](https://github.com/UeberallGebannt/KettleCord) - KettleCord is a HexaCord fork adding support for Forge support.  
+    Version: 1.7.10 - 1.17.1  
+    Currently Inactive
+
+-   [MetaProxy](https://github.com/meta1203/MetaProxy) - MetaProxy is a python proxy designed for cross server teleportation.  
+     Version: Unknown  
+     Discontinued
+
 -   [Miners-League-BungeeCord](https://github.com/root1599/Miners-League-BungeeCord) - MLBC is a fork of BungeeCord created by and used by the Miners League Minigames Network for any custom patches/features they may need.  
     Version: Unknown - 1.13  
     Discontinued
@@ -792,6 +816,10 @@ Private - Made private after being added to this list
 -   [NachoBungee](https://github.com/CobbleSword/NachoBungee) - NachoBungee is by the guys from NachoSpigot, which is a bad sign. On the GitHub page, they list off features of what they forked, nothing new. Was removed due to a DMCA.  
     Version: 1.7 - 1.16  
     Lost - DMCA
+
+-   Rubbercord - Rubbercord is an old proxy that originally inspired bungeecord. Not much information on it but it was mentioned [here](https://madelinemiller.dev/blog/decade-of-minecraft-multiplayer/#proxy-time). It also required a custom craftbukkit fork called RubberBukkit.  
+    Version: Unknown  
+    Lost
 
 -   [SecureCord](https://www.mc-market.org/resources/15002/) - SecureCord is a free BungeeCord fork which patches from harmful exploits.  
     Version: Unknown  
