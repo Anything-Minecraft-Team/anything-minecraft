@@ -20,7 +20,7 @@ Private - Made private after being added to this list
     Version: 1.16 - 1.17.1  
     Currently Active
 
--   [Akarin](https://github.com/Akarin-project/Akarin) - A Spigot plugin compatible project aiming at becoming fairly multicore compatible. This is a fork of Tuinity aiming to simplify the logic and implement multi-threaded computing and make servers more safe and stable.  
+-   [Akarin](https://github.com/Akarin-project/Akarin) - A Spigot plugin compatible project aiming at becoming fairly multicore compatible. This is a fork of Tuinity aiming to simplify the logic and implement multi-threaded computing and make servers more safe and stable. Used to be called Torch/TorchPowered  
     Version: 1.12.2 - 1.17.1  
     Currently Inactive
 
@@ -108,8 +108,12 @@ Private - Made private after being added to this list
     Version: 1.8.8  
     Currently Inactive
 
--   [CraftBukkit](https://getbukkit.org/download/craftbukkit) - It's the BASE for all forks that are out today and they still are updating it to this day, not newbie friendly at all because it requires manual building (or you can get it [here](https://getbukkit.org)). Versions older than 1.0.0 are not available publicly but archives do exist.  
-    Version: 1.2_01 beta - 1.18.1  
+-   [CraftBukkit++](https://web.archive.org/web/20120901000000*/http://forums.spout.org/threads/craftbukkit.938/) - CraftBukkit++ was the original performance fork. It was made to improve performance for the CraftBukkit server.  
+    Version: 1.1 - 1.2.5  
+    Lost
+
+-   [CraftBukkit](https://getbukkit.org/download/craftbukkit) - It's the BASE for all forks that are out today and they still are updating it to this day, not newbie friendly at all because it requires manual building (or you can get it [here](https://getbukkit.org)). Versions older than 1.0.0 are not available publicly but archives do exist. 1.0.2 is only available if you compile from source.  
+    Version: 1.0.2 beta - 1.18.1  
     Currently Active
 
 -   Creativity - Creativity was a server software made with C++, it was been lost sadly.  
@@ -226,6 +230,10 @@ Private - Made private after being added to this list
 
 -   [HOSE](https://github.com/softpak/HOSE) - MInecraft server with multi-thread computing.  
     Version: 1.11.2  
+    Discontinued
+
+-   [Hydrinity](https://github.com/duplexsystem/Hydrinity) - Hydrinity was a Tuinity fork with patches from some paper forks and the Lithium mod. It was removed when the developer moved to working on Yatopia, the current link is a fork before that happened.  
+    Version: Unknown  
     Discontinued
 
 -   [ImanitySpigot](https://www.mc-market.org/resources/10770/) - ImanitySpigot provides you with a better PvP experience with smooth hit detection, customizable knockback and projectile enhancements.  
@@ -518,8 +526,8 @@ Private - Made private after being added to this list
     Version: 1.8.8  
     Discontinued
 
--   [SpigotMC](https://www.spigotmc.org/) - The original fork of Bukkit. Versions before 1.4.6 exist but are not officially public.  
-    Version: 1.3.2 - 1.18.1  
+-   [SpigotMC](https://www.spigotmc.org/) - The most popular fork of Bukkit. Versions before 1.4.6 exist but are not officially public. It started as a fork of CraftBukkit++ (A performance fork of CraftBukkit), created for a server network, under the name CraftBukkit-- but eventually was renamed to Spigot (A parody of Spout).  
+    Version: 1.2.5 - 1.18.1  
     Currently Active
 
 -   [SpongeVanilla](https://www.spongepowered.org/downloads/spongevanilla) - A server implementing the Sponge API, a different plugin API separate from the Bukkit API. This implementation also includes some general improvements regarding performance and server settings.  
@@ -534,7 +542,7 @@ Private - Made private after being added to this list
     Version: 1.8  
     Discontinued
 
--   [Spout](https://github.com/SpoutDev/Spout) - Spout is a multithreaded, voxel game engine and platform written in java for Minecraft 1.5.2.  
+-   [Spout](https://github.com/SpoutDev/Spout) - Spout was basically the original SpongeForge but very different. It had a multithreaded, voxel game engine and platform written in java for Minecraft 1.5.2. More info [here](https://www.reddit.com/r/admincraft/comments/207y08/is_spout_dead_was_it_ever_alive/cg132bt/).  
     Version: 1.5.2  
     Discontinued
 
@@ -581,6 +589,10 @@ Private - Made private after being added to this list
 
 -   [Tuinity](https://github.com/Spottedleaf/Tuinity) - PaperMC fork aimed at improving stability and performance at high player counts. Now merged into PaperMC as the issues that made SpottenLeaf create Tuinity have been resolved.  
     Version: 1.13.2 - 1.17.1  
+    Discontinued
+
+-   [TweakCraft](https://github.com/Meaglin/TweakCraft) - TweakCraft was an experiment to implement a minecraft server from scratch using java and mmoserver engine.  
+    Version: Unknown  
     Discontinued
 
 -   [VoltaneSpigot](https://www.mc-market.org/threads/571429/) - A 1.8.8 based TacoSpigot fork with built-in 1.7 - 1.16 client support with multi-thread support, custom knockback editing, discord server integration, and a lot of factions based features.  
