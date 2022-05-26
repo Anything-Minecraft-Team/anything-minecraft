@@ -6,7 +6,8 @@
   "scripts": {
     "lint:markdown": "markdownlint '**/*.md' --ignore node_modules",
     "lint:prettier": "pretty-quick",
-    "lint": "npm run lint:markdown && npm run lint:prettier"
+    "lint": "npm run lint:markdown && npm run lint:prettier",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -19,15 +20,10 @@
   },
   "homepage": "https://github.com/JustDoom/anything-minecraft#readme",
   "devDependencies": {
-    "husky": "^4.3.8",
-    "markdownlint": "^0.22.0",
-    "markdownlint-cli": "^0.26.0",
-    "prettier": "^2.2.1",
+    "husky": "^8.0.0",
+    "markdownlint": "^0.25.0",
+    "markdownlint-cli": "^0.31.0",
+    "prettier": "^2.6.0",
     "pretty-quick": "^3.1.0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint"
-    }
   }
 }

@@ -17,11 +17,19 @@ If you're ready, install the dependencies by using this command in the root of t
 pip install -r requirements.txt
 ```
 
+Make sure to update regularly by using:
+
+```bash
+pip install -U -r requirements.txt
+```
+
 In addition to MkDocs, we use [Markdownlint](https://github.com/DavidAnson/markdownlint) and [Prettier](https://prettier.io/) to keep our Markdown structured and well formatted. You have to have Node.JS installed in order to use it. VS Code extensions are available for both of these. If you use another editor, you may need to change the formatting options, in order for it to use our configurations.
 
 ```bash
 # Install dependencies from package.json
 npm i
+# Setup husky (commit hooks)
+npm run prepare
 # Run the linting
 npm run lint
 ```
