@@ -1,0 +1,1355 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://anythingmc.xyz/server/guides/setup/minecraft_setup/">
+      
+      <link rel="icon" href="https://media.discordapp.net/attachments/837476686978482207/848859250489819156/Untitled.png?width=170">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.2.6">
+    
+    
+      
+        <title>Minecraft Server Setup - Anything Minecraft</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.9d5733d3.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.e6a45f82.min.css">
+        
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#minecraft-server-setup" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../.." title="Anything Minecraft" class="md-header__button md-logo" aria-label="Anything Minecraft" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Anything Minecraft
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Minecraft Server Setup
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Anything-Minecraft-Team/anything-minecraft/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../.." title="Anything Minecraft" class="md-nav__button md-logo" aria-label="Anything Minecraft" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Anything Minecraft
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Anything-Minecraft-Team/anything-minecraft/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../.." class="md-nav__link">
+        Anything Minecraft
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../contributing/" class="md-nav__link">
+        Contributing to this repository
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Server
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Server" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Server
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1">
+          Guides
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Guides" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          Guides
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_1" type="checkbox" id="__nav_3_1_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1_1">
+          Community
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Community" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          Community
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../community/community/" class="md-nav__link">
+        Community
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_2" type="checkbox" id="__nav_3_1_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1_2">
+          Moderation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Moderation" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          Moderation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../moderation/anti_xray/" class="md-nav__link">
+        Anti X-Ray
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../moderation/moderation/" class="md-nav__link">
+        Moderating a Minecraft server
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_3" type="checkbox" id="__nav_3_1_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1_3">
+          Other
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Other" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_1_3">
+          <span class="md-nav__icon md-icon"></span>
+          Other
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../other/remote_server_management/" class="md-nav__link">
+        Remote Server Management
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_4" type="checkbox" id="__nav_3_1_4" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1_4">
+          Setup
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Setup" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_1_4">
+          <span class="md-nav__icon md-icon"></span>
+          Setup
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Minecraft Server Setup
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Minecraft Server Setup
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#setting-up" class="md-nav__link">
+    Setting up
+  </a>
+  
+    <nav class="md-nav" aria-label="Setting up">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#setup-for-windows" class="md-nav__link">
+    Setup For Windows
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setup-for-linux" class="md-nav__link">
+    Setup For Linux
+  </a>
+  
+    <nav class="md-nav" aria-label="Setup For Linux">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#setup-with-tmux" class="md-nav__link">
+    Setup With Tmux
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setup-with-screen" class="md-nav__link">
+    Setup With Screen
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setup-as-a-system-service" class="md-nav__link">
+    Setup As A System Service
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setup-for-docker" class="md-nav__link">
+    Setup For Docker
+  </a>
+  
+    <nav class="md-nav" aria-label="Setup For Docker">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prebuilt-docker" class="md-nav__link">
+    Prebuilt Docker
+  </a>
+  
+    <nav class="md-nav" aria-label="Prebuilt Docker">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#simple-launch" class="md-nav__link">
+    Simple Launch
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#docker-compose" class="md-nav__link">
+    Docker Compose
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#build-it-yourself" class="md-nav__link">
+    Build it Yourself
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_5" type="checkbox" id="__nav_3_1_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1_5">
+          Software
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Software" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_1_5">
+          <span class="md-nav__icon md-icon"></span>
+          Software
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../software/optimization/" class="md-nav__link">
+        Optimization
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../software/picking/" class="md-nav__link">
+        Choosing a server software
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2">
+          Info
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Info" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          Info
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2_1" type="checkbox" id="__nav_3_2_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2_1">
+          Exploits
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Exploits" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Exploits
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../info/exploits/log4j-exploit/" class="md-nav__link">
+        Log4J JNDI Exploit
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2_2" type="checkbox" id="__nav_3_2_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2_2">
+          Lists
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Lists" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Lists
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../info/lists/hosting_providers/" class="md-nav__link">
+        Hosting Providers
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../info/lists/server_software/" class="md-nav__link">
+        Server Software
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2_2_3" type="checkbox" id="__nav_3_2_2_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2_2_3">
+          Plugins
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Plugins" data-md-level="4">
+        <label class="md-nav__title" for="__nav_3_2_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Plugins
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../info/lists/plugins/anticheats/" class="md-nav__link">
+        Anti-Cheat Plugins
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../info/lists/plugins/permission/" class="md-nav__link">
+        Permission plugins
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#setting-up" class="md-nav__link">
+    Setting up
+  </a>
+  
+    <nav class="md-nav" aria-label="Setting up">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#setup-for-windows" class="md-nav__link">
+    Setup For Windows
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setup-for-linux" class="md-nav__link">
+    Setup For Linux
+  </a>
+  
+    <nav class="md-nav" aria-label="Setup For Linux">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#setup-with-tmux" class="md-nav__link">
+    Setup With Tmux
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setup-with-screen" class="md-nav__link">
+    Setup With Screen
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setup-as-a-system-service" class="md-nav__link">
+    Setup As A System Service
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setup-for-docker" class="md-nav__link">
+    Setup For Docker
+  </a>
+  
+    <nav class="md-nav" aria-label="Setup For Docker">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prebuilt-docker" class="md-nav__link">
+    Prebuilt Docker
+  </a>
+  
+    <nav class="md-nav" aria-label="Prebuilt Docker">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#simple-launch" class="md-nav__link">
+    Simple Launch
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#docker-compose" class="md-nav__link">
+    Docker Compose
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#build-it-yourself" class="md-nav__link">
+    Build it Yourself
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+<a href="https://github.com/Anything-Minecraft-Team/anything-minecraft/tree/main/docs/server/guides/setup/minecraft_setup.md" title="Edit this page" class="md-content__button md-icon">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+</a>
+
+
+
+<h1 id="minecraft-server-setup">Minecraft Server Setup<a class="headerlink" href="#minecraft-server-setup" title="Permanent link">&para;</a></h1>
+<p>This article aims to give you directions on how you can run and join your Minecraft server. This will all be done locally on your computer.</p>
+<h2 id="setting-up">Setting up<a class="headerlink" href="#setting-up" title="Permanent link">&para;</a></h2>
+<p>The very first thing required in setting up a Minecraft server is to verify if you have all the prerequisites, be they software or hardware requirements. As for the software, an updated version of Java is highly recommended, and in some instances, required. These can be installed from Adoptium's website, and try to keep up on updating these as previously mentioned, it is sometimes required to have the latest version of Java (at the time of writing, the version is 17. You can download it from <a href="https://adoptium.net/">Adoptium's site</a>.</p>
+<p>As for the hardware requirements, they are not too strict, but they restrict what type of server you'll be running. If you don't particularly care for the performance of the server with a couple of players on a vanilla server, you should be fine to skip over this section, but if you're a hardware nerd or would like to learn more on the subject, this will attempt to enlighten you. When choosing parts for a Minecraft server, one should stray away from the higher-core-count CPUs and choose something with better single-threaded performance, as that is nearly all that Minecraft will use. Memory is often one of the most popularly sought after specs in a Server box, however a good computer alone it does not make. When choosing the parts for the computer, put more effort into finding a better CPU with the amount of RAM not as an afterthought, but a second priority. Typically speaking, more memory allows for more players and more mods, but always make sure that your CPU is keeping up with the server itself before trying to throw more memory at the server, as sometimes with more memory comes worse performance due to how java is written.</p>
+<p>Once you've figured through the prerequisites, you need to find the best server jar for your requirements; along with this thread there is a <a href="../../software/picking/">part for choosing a server jar</a>, but if you'd rather go the easy route and stick with vanilla, a popular and quite useful to get the server jars from is <a href="https://mcversions.net/">mcversions.net</a>, as that contains legacy files along with newly released versions.</p>
+<h3 id="setup-for-windows">Setup For Windows<a class="headerlink" href="#setup-for-windows" title="Permanent link">&para;</a></h3>
+<p>After downloading your server jar create a new folder. You can name it anything you want.</p>
+<p><img alt="Create folder" src="../../../../images/server/guides/other/SETUP/CREATE_FOLDER.png" /></p>
+<p>Once you've done that, drag the server jar into the folder and rename it <code>server</code> so we can access it easily in the next step. Next, we need to create the file to run the server jar, you will need to enable file extensions if you haven't already.</p>
+<p><img alt="Enable file extensions" src="../../../../images/server/guides/other/SETUP/ENABLE_FILE_EXTENSIONS.png" /></p>
+<p>Create a new text document and name it "run", now open it and type</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>java -Xmx1024M -Xms1024M -jar server.jar nogui
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="k">PAUSE</span>
+</code></pre></div>
+<p><img alt="Text file" src="../../../../images/server/guides/other/SETUP/TEXT_FILE.png" /></p>
+<p>1024M is how many megabytes of RAM is allocated to the server, 1024M or 2048M is good for our purpose. If you ever need to change the amount just change the values. Save the file and close your text editor, go to the file in File Explorer and right-click, rename, and highlight the file extension "txt" and type "bat".</p>
+<p><img alt="Batch file" src="../../../../images/server/guides/other/SETUP/BAT_FILE.png" /></p>
+<p>This changes it to a batch file so we can run the server jar. We are ready to run the server now! Double click the run.bat file and it should come up with a new terminal window and after a while say "Agree to the Minecraft EULA".</p>
+<p><img alt="Agree to eula" src="../../../../images/server/guides/other/SETUP/AGREE_TO_EULA.png" /></p>
+<p>Close out of the terminal window and find a file called <code>eula.txt</code> that was generated. Open it and change <code>eula=false</code> to <code>eula=true</code>, save it then double click <code>run.bat</code> again.</p>
+<p><img alt="EULA file" src="../../../../images/server/guides/other/SETUP/EULA_FILE.png" /></p>
+<p>It may take a while for all the files to generate so be patient, once it's done your server should be good to go!
+To join the server open Minecraft, go to multiplayer and add a new server, in the server IP add "localhost", click done and join your very own Minecraft server!</p>
+<p><img alt="Add localhost" src="../../../../images/server/guides/other/SETUP/ADD_LOCALHOST.png" /></p>
+<p>If you would like to be able to access the server from outside your local network, you're going to have to do what's called Port Forwarding, essentially allowing traffic to flow in and out through your router through a specific port to the computer that you're running the server on. Keep in mind this varies from ISP to ISP and from router to router, so a good guide dependent on your router is <a href="https://portforward.com/">here</a>. By default you're going to want to port forward the port 25565 for both the TCP and UDP protocols. To check whether the port forward fully worked, we recommend heading over to this <a href="https://www.yougetsignal.com/tools/open-ports/">website</a> while your minecraft server is open (preferably after a restart post port forwarding), plug in the port you'd like to check, and if it says open you're good! If not, there might be something you're going to have to redo along the process.</p>
+<p>Another reason a port forward might have failed is the windows firewall. To configure this, navigate to the windows defender control panel screen, and head over into advanced settings (you will need admin to do this). Go into inbound rules and outbound rules, and create a new rule for each, name it whatever you like, and make sure that it is allowing the port 25565 on BOTH TCP and UDP (you might need to set up 2 rules for each side). Once that is done, windows should no longer block a server running on that port on your machine.</p>
+<p>Note: some ISPs have built in security functions in the router itself (looking at you xFinity), and as such they may block people from connecting to the server. While we do not recommend turning off a security function for the everyday user, in some instances it is required.</p>
+<p>This process is slightly different for a modded server so we will go over it here!</p>
+<h3 id="setup-for-linux">Setup For Linux<a class="headerlink" href="#setup-for-linux" title="Permanent link">&para;</a></h3>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>You should prefer using your package manager (for example <code>apt</code> on Ubuntu and Debian) to install Java because it's more organized and easier to keep up-to-date</p>
+</div>
+<p>Depending on the Minecraft version you want to install, you'll need a specific Java version.</p>
+<ul>
+<li>Java 8 - 14 for versions 1.8 - 1.16</li>
+<li>At least Java 16 for versions 1.17 or later</li>
+</ul>
+<p>It is recommended to use an LTS version of Java. This would be Java 11 below 1.16 and Java 17 for 1.17 or later</p>
+<p>You can do this using the following command (If your distro does not use apt, consult the wiki of your distro, for example: <a href="https://docs.fedoraproject.org/en-US/quick-docs/installing-java/">Fedora</a>, <a href="https://wiki.archlinux.org/title/Java">Arch (and Arch-based)</a>)</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>sudo apt install openjdk-xx-jre
+</code></pre></div>
+<p><code>xx</code> being the version number you're aiming for. (You can view available versions using <code>sudo apt-cache search openjdk</code>)</p>
+<p>Create a folder, for example named "server", for example in your home directory (<code>~</code>) and <code>cd</code> into it.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>mkdir ~/server
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="nb">cd</span> server
+</code></pre></div>
+<p>Download the latest version of your preferred server software, i.e. Paper.</p>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>Make sure to change the download URL! You can copy the direct download URL from the downloads page of your server software.</p>
+</div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>wget -O server.jar https://papermc.io/api/v2/projects/paper/versions/1.17.1/builds/400/downloads/paper-1.17.1-400.jar
+</code></pre></div>
+<p>Create a text document named <code>start.sh</code> and write into it:</p>
+<details class="question">
+<summary>How can I create a text file?</summary>
+<p>You can create a text document with nano for example: <code>nano start.sh</code></p>
+<p>Use <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-o">O</kbd></span> to save and <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-x">X</kbd></span> to exit.</p>
+</details>
+<div class="highlight"><span class="filename">start.sh</span><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>java -Xmx1024M -jar server.jar nogui <span class="c1"># (1)</span>
+</code></pre></div>
+<ol>
+<li><code>nogui</code> is not required but recommended. Without it, a graphical interface will be launched. You don't really need that.</li>
+</ol>
+<p><code>-Xmx1024M</code> being the parameter for the Java heap size in megabytes (1024 MB = 1 GiB). As your server grows in amount of plugins and concurrent players, you may want to increase this.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>If you have multiple versions of java installed, you may need to provide the full path to the java executable. Usually, they will be installed in <code>/usr/lib/jvm</code>.</p>
+</div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="nb">echo</span> <span class="s2">&quot;java -Xmx1024M -jar server.jar nogui&quot;</span> &gt; start.sh
+</code></pre></div>
+<p>Now add execute permissions to the script and run it</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>chmod +x start.sh
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>./start.sh
+</code></pre></div>
+<p>This will say something like
+<code>You need to agree to the EULA in order to run the server. Go to eula.txt for more info.</code>
+so you have to edit <code>eula.txt</code> to say <code>eula=true</code> instead of <code>eula=false</code></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="nb">echo</span> <span class="s2">&quot;eula=true&quot;</span> &gt; eula.txt
+</code></pre></div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This overwrites the comment with the link to the EULA!</p>
+</div>
+<p>Now launch the server by executing <code>start.sh</code> again.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>./start.sh
+</code></pre></div>
+<p>You have your server running! To join, launch Minecraft and join the server at <code>127.0.0.1</code> or <code>localhost</code></p>
+<p>If you want to start the server and want to be able to exit out of the terminal without the server closing, there are three ways with which you can do this</p>
+<ul>
+<li>You can use a utility called <a href="https://github.com/tmux/tmux/wiki">tmux</a>. Use this if the server is intended to be temporarily up. You can also use <a href="https://www.gnu.org/software/screen/">screen</a> this serves the same as tmux.</li>
+<li>You can register minecraft as a <strong>system unit</strong>. Use this if the server is intended to be up 24/7 and requires automatic restarting in case of host shutdowns/failures.</li>
+</ul>
+<h4 id="setup-with-tmux">Setup With Tmux<a class="headerlink" href="#setup-with-tmux" title="Permanent link">&para;</a></h4>
+<p>Start a tmux window</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>tmux new-session -t sessionName
+</code></pre></div>
+<p><code>sessionName</code> being whatever you want to name the instance, for example <code>minecraft-session</code></p>
+<p>This will automatically take you inside the tmux session. Start the server using</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>java -Xmx1024M -Xms1024M -jar server.jar nogui
+</code></pre></div>
+<p>Exit out of the tmux session using <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-b">B</kbd></span> <strong>then</strong> <span class="keys"><kbd class="key-d">D</kbd></span> </p>
+<p>Your server will keep running in the background.</p>
+<p>To reattach to the session:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>tmux a -t sessionName
+</code></pre></div>
+<p><code>sessionName</code> being whatever you named the instance earlier.</p>
+<p>To destroy the session completely, you can attach to the session and then <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-d">D</kbd></span> out of it. It detaches from session and destroys it too.</p>
+<h4 id="setup-with-screen">Setup With Screen<a class="headerlink" href="#setup-with-screen" title="Permanent link">&para;</a></h4>
+<p>Start a screen session</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>screen -S sessionName
+</code></pre></div>
+<p><code>sessionName</code> being whatever you want to name the instance, for example <code>minecraft-session</code></p>
+<p>This will automatically take you inside the screen session. Start the server using the startup script mentioned above, or use</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>java -Xmx1024M -Xms1024M -jar server.jar nogui
+</code></pre></div>
+<p>Exit out of the screen session using <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-a">A</kbd></span> <strong>then</strong> <span class="keys"><kbd class="key-d">D</kbd></span> </p>
+<p>Your server will keep running in the background.</p>
+<p>To reattach to the session:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>screen -r sessionName
+</code></pre></div>
+<p><code>sessionName</code> being whatever you named the instance earlier.</p>
+<p>To destroy the session completely, you can attach to the session and then <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-a">A</kbd></span> <strong>then</strong> <span class="keys"><kbd class="key-k">K</kbd></span> and press <span class="keys"><kbd class="key-enter">Enter</kbd></span>.</p>
+<h4 id="setup-as-a-system-service">Setup As A System Service<a class="headerlink" href="#setup-as-a-system-service" title="Permanent link">&para;</a></h4>
+<p>You need to set up a service if it should, for example, automatically launch at boot or restart when it terminates.</p>
+<p>To achieve this, create a file named <code>minecraft.service</code> in <code>/etc/systemd/system</code> (requires root permissions) and write into it:</p>
+<div class="highlight"><span class="filename">/etc/systemd/system/minecraft.service</span><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a><span class="k">[Unit]</span><span class="w"></span>
+<a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a><span class="na">Description</span><span class="o">=</span><span class="s">A Minecraft Server</span><span class="w"></span>
+<a id="__codelineno-15-3" name="__codelineno-15-3" href="#__codelineno-15-3"></a><span class="na">After</span><span class="o">=</span><span class="s">network.target</span><span class="w"></span>
+<a id="__codelineno-15-4" name="__codelineno-15-4" href="#__codelineno-15-4"></a><span class="na">StartLimitIntervalSec</span><span class="o">=</span><span class="s">0[Service]</span><span class="w"></span>
+<a id="__codelineno-15-5" name="__codelineno-15-5" href="#__codelineno-15-5"></a><span class="na">Type</span><span class="o">=</span><span class="s">simple</span><span class="w"></span>
+<a id="__codelineno-15-6" name="__codelineno-15-6" href="#__codelineno-15-6"></a><span class="na">Restart</span><span class="o">=</span><span class="s">always</span><span class="w"></span>
+<a id="__codelineno-15-7" name="__codelineno-15-7" href="#__codelineno-15-7"></a><span class="na">RestartSec</span><span class="o">=</span><span class="s">1</span><span class="w"></span>
+<a id="__codelineno-15-8" name="__codelineno-15-8" href="#__codelineno-15-8"></a><span class="na">User</span><span class="o">=</span><span class="s">{YOURUSERNAME}</span><span class="w"></span>
+<a id="__codelineno-15-9" name="__codelineno-15-9" href="#__codelineno-15-9"></a><span class="na">ExecStart</span><span class="o">=</span><span class="s">/home/{YOURUSERNAME}/server/start.sh</span><span class="w"></span>
+</code></pre></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Of course, replace <code>{YOURUSERNAME}</code> with your username on the system, in order for it to not start with root permissions, which is a bad idea.</p>
+</div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>sudo <span class="nb">echo</span> <span class="s2">&quot;[Unit]\nDescription=A Minecraft Server\nAfter=network.target\nStartLimitIntervalSec=0[Service]\nType=simple\nRestart=alwaysRestartSec=1\nUser=</span><span class="nv">$USER</span><span class="s2">\nExecStart=</span><span class="nv">$HOME</span><span class="s2">/server/start.sh&quot;</span> &gt; /etc/systemd/system/minecraft.service
+</code></pre></div>
+<p>Now you can start the service.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>systemctl start minecraft
+</code></pre></div>
+<p>Now you should be able to join.</p>
+<p>It will restart automatically 1 second after it shut down. To make it start at boot, enable it:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>systemctl <span class="nb">enable</span> minecraft
+</code></pre></div>
+<h3 id="setup-for-docker">Setup For Docker<a class="headerlink" href="#setup-for-docker" title="Permanent link">&para;</a></h3>
+<h4 id="prebuilt-docker">Prebuilt Docker<a class="headerlink" href="#prebuilt-docker" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>Based on the docker image with the most pulls</p>
+<p>See <a href="https://github.com/itzg/docker-minecraft-server">itzg/docker-minecraft-server</a> for more details</p>
+</blockquote>
+<h5 id="simple-launch">Simple Launch<a class="headerlink" href="#simple-launch" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>docker run -d -p <span class="m">25565</span>:25565 --name mc -e <span class="nv">EULA</span><span class="o">=</span>TRUE itzg/minecraft-server
+</code></pre></div>
+<h4 id="docker-compose">Docker Compose<a class="headerlink" href="#docker-compose" title="Permanent link">&para;</a></h4>
+<div class="highlight"><span class="filename">docker-compose.yml</span><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a><span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;3&quot;</span><span class="w"></span>
+<a id="__codelineno-20-2" name="__codelineno-20-2" href="#__codelineno-20-2"></a>
+<a id="__codelineno-20-3" name="__codelineno-20-3" href="#__codelineno-20-3"></a><span class="nt">services</span><span class="p">:</span><span class="w"></span>
+<a id="__codelineno-20-4" name="__codelineno-20-4" href="#__codelineno-20-4"></a><span class="w">  </span><span class="nt">mc</span><span class="p">:</span><span class="w"></span>
+<a id="__codelineno-20-5" name="__codelineno-20-5" href="#__codelineno-20-5"></a><span class="w">    </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">itzg/minecraft-server</span><span class="w"></span>
+<a id="__codelineno-20-6" name="__codelineno-20-6" href="#__codelineno-20-6"></a><span class="w">    </span><span class="nt">ports</span><span class="p">:</span><span class="w"></span>
+<a id="__codelineno-20-7" name="__codelineno-20-7" href="#__codelineno-20-7"></a><span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">25565:25565</span><span class="w"></span>
+<a id="__codelineno-20-8" name="__codelineno-20-8" href="#__codelineno-20-8"></a><span class="w">    </span><span class="nt">environment</span><span class="p">:</span><span class="w"></span>
+<a id="__codelineno-20-9" name="__codelineno-20-9" href="#__codelineno-20-9"></a><span class="w">      </span><span class="nt">EULA</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;TRUE&quot;</span><span class="w"></span>
+<a id="__codelineno-20-10" name="__codelineno-20-10" href="#__codelineno-20-10"></a><span class="w">    </span><span class="nt">volumes</span><span class="p">:</span><span class="w"></span>
+<a id="__codelineno-20-11" name="__codelineno-20-11" href="#__codelineno-20-11"></a><span class="w">      </span><span class="c1"># attach the relative directory &#39;data&#39; to the container&#39;s /data path</span><span class="w"></span>
+<a id="__codelineno-20-12" name="__codelineno-20-12" href="#__codelineno-20-12"></a><span class="w">      </span><span class="l l-Scalar l-Scalar-Plain">./data:/data</span><span class="w"></span>
+</code></pre></div>
+<h4 id="build-it-yourself">Build it Yourself<a class="headerlink" href="#build-it-yourself" title="Permanent link">&para;</a></h4>
+<p>You can use an already built docker image or just create a Dockerfile, in your server folder, with following content:</p>
+<div class="highlight"><span class="filename">DOCKERFILE</span><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a><span class="k">FROM</span><span class="w"> </span><span class="s">openjdk</span>
+<a id="__codelineno-21-2" name="__codelineno-21-2" href="#__codelineno-21-2"></a><span class="k">WORKDIR</span><span class="w"> </span><span class="s">/data</span>
+<a id="__codelineno-21-3" name="__codelineno-21-3" href="#__codelineno-21-3"></a>
+<a id="__codelineno-21-4" name="__codelineno-21-4" href="#__codelineno-21-4"></a><span class="k">COPY</span><span class="w"> </span><span class="o">[</span><span class="s2">&quot;server.jar&quot;</span>,<span class="s2">&quot;eula.txt&quot;</span>, <span class="s2">&quot;start.sh&quot;</span><span class="o">]</span> ./
+<a id="__codelineno-21-5" name="__codelineno-21-5" href="#__codelineno-21-5"></a>
+<a id="__codelineno-21-6" name="__codelineno-21-6" href="#__codelineno-21-6"></a><span class="k">EXPOSE</span><span class="w"> </span><span class="s">25565</span>
+<a id="__codelineno-21-7" name="__codelineno-21-7" href="#__codelineno-21-7"></a>
+<a id="__codelineno-21-8" name="__codelineno-21-8" href="#__codelineno-21-8"></a><span class="k">ENTRYPOINT</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;/data/start.sh&quot;</span><span class="p">]</span>
+</code></pre></div>
+<p>Now, supposing you have docker installed, build the docker image</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>docker build . -t mcserver
+</code></pre></div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>You can replace <code>mcserver</code>, the name of the image, with whatever you want (as long as it doesn't interfere with the images on dockerhub)</p>
+</div>
+<p>Run the docker image</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>docker run --name mcserver -p <span class="m">25565</span>:25565 -d --restart unless-stopped mcserver
+</code></pre></div>
+<p>Or with docker compose, write following in a file named <code>docker-compose.yml</code></p>
+<div class="highlight"><span class="filename">docker-compose.yml</span><pre><span></span><code><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a><span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;3&quot;</span><span class="w"></span>
+<a id="__codelineno-24-2" name="__codelineno-24-2" href="#__codelineno-24-2"></a><span class="nt">services</span><span class="p">:</span><span class="w"></span>
+<a id="__codelineno-24-3" name="__codelineno-24-3" href="#__codelineno-24-3"></a><span class="w">  </span><span class="nt">mcserver</span><span class="p">:</span><span class="w"></span>
+<a id="__codelineno-24-4" name="__codelineno-24-4" href="#__codelineno-24-4"></a><span class="w">    </span><span class="nt">build</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">.</span><span class="w"></span>
+<a id="__codelineno-24-5" name="__codelineno-24-5" href="#__codelineno-24-5"></a><span class="w">    </span><span class="nt">restart</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">unless stopped</span><span class="w"></span>
+<a id="__codelineno-24-6" name="__codelineno-24-6" href="#__codelineno-24-6"></a><span class="w">    </span><span class="nt">ports</span><span class="p">:</span><span class="w"></span>
+<a id="__codelineno-24-7" name="__codelineno-24-7" href="#__codelineno-24-7"></a><span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">25565:25565</span><span class="w"></span>
+<a id="__codelineno-24-8" name="__codelineno-24-8" href="#__codelineno-24-8"></a><span class="w">    </span><span class="nt">volumes</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">-./server:/root</span><span class="w"></span>
+</code></pre></div>
+<p>and run it</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a>docker-compose up -d
+</code></pre></div>
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../../other/remote_server_management/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Remote Server Management" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Remote Server Management
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../../software/optimization/" class="md-footer__link md-footer__link--next" aria-label="Next: Optimization" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Optimization
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../../../..", "features": ["content.code.annotate"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../../../assets/javascripts/workers/search.5e67fbfe.min.js"}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.e87a5f81.min.js"></script>
+      
+        <script src="../../../../js/arcio.js"></script>
+      
+    
+  </body>
+</html>

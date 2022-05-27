@@ -1,0 +1,1343 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://anythingmc.xyz/server/guides/other/remote_server_management/">
+      
+      <link rel="icon" href="https://media.discordapp.net/attachments/837476686978482207/848859250489819156/Untitled.png?width=170">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.2.6">
+    
+    
+      
+        <title>Remote Server Management - Anything Minecraft</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.9d5733d3.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.e6a45f82.min.css">
+        
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#remote-server-management" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../.." title="Anything Minecraft" class="md-header__button md-logo" aria-label="Anything Minecraft" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Anything Minecraft
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Remote Server Management
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Anything-Minecraft-Team/anything-minecraft/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../.." title="Anything Minecraft" class="md-nav__button md-logo" aria-label="Anything Minecraft" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Anything Minecraft
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Anything-Minecraft-Team/anything-minecraft/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../.." class="md-nav__link">
+        Anything Minecraft
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../contributing/" class="md-nav__link">
+        Contributing to this repository
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Server
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Server" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Server
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1">
+          Guides
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Guides" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          Guides
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_1" type="checkbox" id="__nav_3_1_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1_1">
+          Community
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Community" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          Community
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../community/community/" class="md-nav__link">
+        Community
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_2" type="checkbox" id="__nav_3_1_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1_2">
+          Moderation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Moderation" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          Moderation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../moderation/anti_xray/" class="md-nav__link">
+        Anti X-Ray
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../moderation/moderation/" class="md-nav__link">
+        Moderating a Minecraft server
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_3" type="checkbox" id="__nav_3_1_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1_3">
+          Other
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Other" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_1_3">
+          <span class="md-nav__icon md-icon"></span>
+          Other
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Remote Server Management
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Remote Server Management
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#command-line-access-ssh" class="md-nav__link">
+    Command Line Access (SSH)
+  </a>
+  
+    <nav class="md-nav" aria-label="Command Line Access (SSH)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#putty" class="md-nav__link">
+    PuTTY
+  </a>
+  
+    <nav class="md-nav" aria-label="PuTTY">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#shortcut-setup" class="md-nav__link">
+    Shortcut Setup
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tmux" class="md-nav__link">
+    tmux
+  </a>
+  
+    <nav class="md-nav" aria-label="tmux">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#attaching-sessions" class="md-nav__link">
+    Attaching sessions
+  </a>
+  
+    <nav class="md-nav" aria-label="Attaching sessions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#attaching" class="md-nav__link">
+    Attaching
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detaching" class="md-nav__link">
+    Detaching
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sending-keys" class="md-nav__link">
+    Sending keys
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shortcuts" class="md-nav__link">
+    Shortcuts
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file-management-filezilla" class="md-nav__link">
+    File Management (FileZilla)
+  </a>
+  
+    <nav class="md-nav" aria-label="File Management (FileZilla)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#connecting" class="md-nav__link">
+    Connecting
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#navigation" class="md-nav__link">
+    Navigation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transferring-files" class="md-nav__link">
+    Transferring Files
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#editing-files" class="md-nav__link">
+    Editing Files
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    Conclusion
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_4" type="checkbox" id="__nav_3_1_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1_4">
+          Setup
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Setup" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_1_4">
+          <span class="md-nav__icon md-icon"></span>
+          Setup
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../setup/minecraft_setup/" class="md-nav__link">
+        Minecraft Server Setup
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_5" type="checkbox" id="__nav_3_1_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1_5">
+          Software
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Software" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_1_5">
+          <span class="md-nav__icon md-icon"></span>
+          Software
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../software/optimization/" class="md-nav__link">
+        Optimization
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../software/picking/" class="md-nav__link">
+        Choosing a server software
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2">
+          Info
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Info" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          Info
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2_1" type="checkbox" id="__nav_3_2_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2_1">
+          Exploits
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Exploits" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Exploits
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../info/exploits/log4j-exploit/" class="md-nav__link">
+        Log4J JNDI Exploit
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2_2" type="checkbox" id="__nav_3_2_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2_2">
+          Lists
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Lists" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Lists
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../info/lists/hosting_providers/" class="md-nav__link">
+        Hosting Providers
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../info/lists/server_software/" class="md-nav__link">
+        Server Software
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2_2_3" type="checkbox" id="__nav_3_2_2_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2_2_3">
+          Plugins
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Plugins" data-md-level="4">
+        <label class="md-nav__title" for="__nav_3_2_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Plugins
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../info/lists/plugins/anticheats/" class="md-nav__link">
+        Anti-Cheat Plugins
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../info/lists/plugins/permission/" class="md-nav__link">
+        Permission plugins
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#command-line-access-ssh" class="md-nav__link">
+    Command Line Access (SSH)
+  </a>
+  
+    <nav class="md-nav" aria-label="Command Line Access (SSH)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#putty" class="md-nav__link">
+    PuTTY
+  </a>
+  
+    <nav class="md-nav" aria-label="PuTTY">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#shortcut-setup" class="md-nav__link">
+    Shortcut Setup
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tmux" class="md-nav__link">
+    tmux
+  </a>
+  
+    <nav class="md-nav" aria-label="tmux">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#attaching-sessions" class="md-nav__link">
+    Attaching sessions
+  </a>
+  
+    <nav class="md-nav" aria-label="Attaching sessions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#attaching" class="md-nav__link">
+    Attaching
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detaching" class="md-nav__link">
+    Detaching
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sending-keys" class="md-nav__link">
+    Sending keys
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shortcuts" class="md-nav__link">
+    Shortcuts
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file-management-filezilla" class="md-nav__link">
+    File Management (FileZilla)
+  </a>
+  
+    <nav class="md-nav" aria-label="File Management (FileZilla)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#connecting" class="md-nav__link">
+    Connecting
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#navigation" class="md-nav__link">
+    Navigation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transferring-files" class="md-nav__link">
+    Transferring Files
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#editing-files" class="md-nav__link">
+    Editing Files
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    Conclusion
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+<a href="https://github.com/Anything-Minecraft-Team/anything-minecraft/tree/main/docs/server/guides/other/remote_server_management.md" title="Edit this page" class="md-content__button md-icon">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+</a>
+
+
+
+<h1 id="remote-server-management">Remote Server Management<a class="headerlink" href="#remote-server-management" title="Permanent link">&para;</a></h1>
+<p>The goal of this tutorial is to give you everything you need to manage your server when you don't have access to the physical machine. This tutorial is primarily for someone on a Windows system connecting to a Linux server.</p>
+<hr />
+<h2 id="command-line-access-ssh">Command Line Access (SSH)<a class="headerlink" href="#command-line-access-ssh" title="Permanent link">&para;</a></h2>
+<p>Since a lot of interaction with a Minecraft server is through its command line terminal, your primary tool for interacting with your remote server will be SSH.</p>
+<p><a href="https://en.wikipedia.org/wiki/SSH_(Secure_Shell)">SSH (Secure Shell)</a> is a tool that allows you to securely connect to a remote computer. You can use it through any terminal; below is me using SSH in the default Windows CMD to connect to a server on my local network.</p>
+<p><img alt="Screenshot of Windows SSH connected to an Ubuntu Server" src="https://i.imgur.com/xXKWJCK.png" /></p>
+<p>The basic syntax for this is <code>ssh &lt;username&gt;@&lt;IP address&gt;</code>. It'll prompt you for a password, and then you're in.</p>
+<p>However, there are better tools for using SSH, like PuTTY.</p>
+<h3 id="putty">PuTTY<a class="headerlink" href="#putty" title="Permanent link">&para;</a></h3>
+<p><a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/">PuTTY</a> is a very well-regarded free SSH program. Here's a view of the main menu below:</p>
+<p><img alt="PuTTY Main Menu" src="https://i.imgur.com/wxQE3ec.png" /></p>
+<p>Don't worry, though—you don't have to learn any of that. One of the best parts of PuTTY is that you can bypass having to enter your credentials, letting PuTTY take care of that for you. This is done through a shortcut with arguments.</p>
+<h4 id="shortcut-setup">Shortcut Setup<a class="headerlink" href="#shortcut-setup" title="Permanent link">&para;</a></h4>
+<ol>
+<li>
+<p>Find the default PuTTY shortcuts.</p>
+<ul>
+<li>
+<p>Press the Windows key <code>Win</code> and search for "putty". Right-click on the app result, and click "Open file location".</p>
+</li>
+<li>
+<p>The default location for this is <code>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\PuTTY (64-bit)</code>.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Copy the "PuTTY" shortcut, and paste it in the directory <code>C:\Users\&lt;username&gt;\AppData\Roaming\Microsoft\Windows\Start Menu\Programs</code>. You can rename it to something recognizable by you, such as "SSH Minecraft Server".</p>
+</li>
+<li>
+<p>Open the shortcut's properties (Right-click, "Properties").</p>
+</li>
+<li>
+<p>In "Target", enter this: <code>"C:\Program Files\PuTTY\putty.exe" -ssh &lt;username&gt;@&lt;IP address&gt; -pw &lt;password&gt;</code>. Be sure to add your proper credentials. You may need to change your path to <code>putty.exe</code> if you have it installed in a different location.</p>
+<ul>
+<li>
+<p>This gives PuTTY arguments to use when you start it. The arguments are the IP address/user you want to connect to, and the password to use for that user.</p>
+</li>
+<li>
+<p>Note that this stores your password in plaintext. If you don't want that, you can remove the <code>-pw &lt;password&gt;</code> argument, and it will prompt you to enter your password each time you run the shortcut.</p>
+</li>
+</ul>
+</li>
+</ol>
+<p>That's it! You now have a shortcut for PuTTY set up. You can open the shortcut by pressing the Windows key <code>Win</code> and searching for its name—this makes it super easy to open. You can use this SSH connection to do anything on the command-line that you'd be able to do with physical keyboard, mouse, and monitor access.</p>
+<h3 id="tmux">tmux<a class="headerlink" href="#tmux" title="Permanent link">&para;</a></h3>
+<p>tmux is an invaluable tool for a Linux server that allows you to have several processes running on different virtual windows, allowing you to switch between them. tmux lets you run your Minecraft server in the background, letting you use the Linux terminal without stopping the server. To explain better:</p>
+<ol>
+<li>
+<p>You SSH into your server. By default, you're now in the Linux terminal.</p>
+</li>
+<li>
+<p>You can run a tmux command that switches you to your Minecrft server's virtual window. Here, you can interact with your Minecraft server's terminal as normal.</p>
+</li>
+<li>
+<p>You use a keyboard shortcut to switch back to the main Linux terminal. From here, you can interact with the Linux OS like normal. You can switch to other tmux virtual windows/processes, too, if you have other things going on.</p>
+</li>
+</ol>
+<p>If tmux isn't installed already, you can do so with this command: <code>sudo apt-get install tmux</code>.</p>
+<p>You can use bash files and tmux commands to set up scripts to do all kinds of stuff to your server, but we'll go over some basic functionality now. <a href="https://www.howtogeek.com/671422/how-to-use-tmux-on-linux-and-why-its-better-than-screen/">Here's a nice low-level tmux tutorial that goes into more detail.</a></p>
+<p>First, you need to create a tmux virtual window, called a session. Use the <code>cd</code> command to switch to your Minecraft server directory. Then, run the command <code>tmux new-session -d -s &lt;session name&gt;</code>. This starts a new tmux session in your current location. The <code>-d</code> starts the session detached, meaning you don't automatically switch to it. <code>-s &lt;session name&gt;</code> specifies the session's name, which is used to refer to it in other commands.</p>
+<p>Now, there are a few things you can do to access the session.</p>
+<h4 id="attaching-sessions">Attaching sessions<a class="headerlink" href="#attaching-sessions" title="Permanent link">&para;</a></h4>
+<h5 id="attaching">Attaching<a class="headerlink" href="#attaching" title="Permanent link">&para;</a></h5>
+<p>The tmux command for attaching a session is <code>tmux attach-session -t &lt;session name&gt;</code>. When you run it, your terminal will switch from the normal Linux terminal to the tmux session's terminal. While the session is attached, any commands run will be sent to that session.</p>
+<p>For example, if you attach the session <code>tmux attach-session -t minecraft-server</code>, you can run the command <code>say Hello!</code>, and it will be sent to the Minecraft server command-line (saying "Hello!" as the server), not to the Linux command-line.</p>
+<h5 id="detaching">Detaching<a class="headerlink" href="#detaching" title="Permanent link">&para;</a></h5>
+<p>To detach the tmux session, returning to the regular Linux terminal, use the keyboard shortcut <code>Ctrl+B</code>, then press <code>D</code>.</p>
+<h4 id="sending-keys">Sending keys<a class="headerlink" href="#sending-keys" title="Permanent link">&para;</a></h4>
+<p>To send commands to the session without switching to it, use the command <code>tmux send-keys -t &lt;session name&gt;.0 "&lt;command&gt;" ENTER</code>. There's a lot to unpack in that command:</p>
+<ul>
+<li>
+<p>You're using the tmux command <code>send-keys</code> to send, well, key press input to a tmux session.</p>
+</li>
+<li>
+<p>You're using <code>-t &lt;session name&gt;.0</code> to specify what tmux session you're referring to. The <code>-t</code> argument is used in tmux commands to do this. The <code>.0</code> at the end of the session name specifies the window you want to send the keys to. This tutorial doesn't use tmux windows, but they're pretty simple: you can have multiple windows in one tmux session, switching between them.</p>
+</li>
+<li>
+<p><code>"&lt;command&gt;" ENTER</code> has the actual keys you want sent to the tmux session. A single-line command is stored in the quotation marks, and by sending the key <code>ENTER</code> at the end you'll cause the session to actually run the command. You should be able to repeat this syntax several times to send multiple commands, or you can run the entire <code>tmux send-keys</code> command several times with a different command contained each time.</p>
+</li>
+</ul>
+<p>Here's an example of this:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>tmux send-keys -t minecraft-server.0 <span class="s2">&quot;sh run_server.sh&quot;</span> ENTER
+</code></pre></div>
+<p>This sends the command <code>"sh run_server.sh" ENTER</code> to the tmux session <code>minecraft-server</code>. This will run the shell file <code>run_server.sh</code>, which probably starts the Minecraft server.</p>
+<h4 id="shortcuts">Shortcuts<a class="headerlink" href="#shortcuts" title="Permanent link">&para;</a></h4>
+<p>Since tmux commands can get sort of long, I like to use Linux aliases to shorten them. These can be set up by editing the <code>.bashrc</code> file in your user's root directory.</p>
+<p>In the <code>.bashrc</code> file, add this line to the end: <code>alias tmuxx="tmux attach-session -t $1"</code>. Save it and close it. Now, you can run the command <code>tmuxx &lt;session name&gt;</code>, and it will run the longer <code>tmux attach-session</code> command under the hood, attaching your session. The <code>$1</code> refers to the first argument after the <code>tmuxx</code> command.</p>
+<h2 id="file-management-filezilla">File Management (FileZilla)<a class="headerlink" href="#file-management-filezilla" title="Permanent link">&para;</a></h2>
+<p>You're going to need to be able to access the files on your Minecraft server's machine. This can be done through <a href="https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol">SFTP (Secure File Transfer Protocol)</a>.</p>
+<p>The best way to use SFTP is with an SFTP client such as <a href="https://filezilla-project.org/">FileZilla</a>. You can see a picture of the FileZilla UI below:</p>
+<p><img alt="FileZilla Screenshot" src="https://i.imgur.com/JWWnShc.png" /></p>
+<h3 id="connecting">Connecting<a class="headerlink" href="#connecting" title="Permanent link">&para;</a></h3>
+<p>After you've opened FileZilla, use the keyboard shortcut <code>Ctrl+S</code> to open the "Site Manager" menu, seen below:</p>
+<p><img alt="FileZilla Site Manager" src="https://i.imgur.com/CMhVtU0.png" /></p>
+<p>Here, you can specify the IP address and your credentials, very similar to SSH. After you've set it all up, click "Connect" to connect to the server using SFTP. You'll use <code>Ctrl+S</code> and "Connect" to connect to the server using SFTP from now on.</p>
+<h3 id="navigation">Navigation<a class="headerlink" href="#navigation" title="Permanent link">&para;</a></h3>
+<p>Now, you'll be able to view two locations:</p>
+<ul>
+<li>
+<p>Files in a local directory on your computer</p>
+</li>
+<li>
+<p>Files in a remote directory on the remote server</p>
+</li>
+</ul>
+<p>You can navigate through each by entering a direct location in the text boxes above the directory viewers or by double-clicking on a directory (double-click <code>..</code> to go up one directory).</p>
+<h3 id="transferring-files">Transferring Files<a class="headerlink" href="#transferring-files" title="Permanent link">&para;</a></h3>
+<p>There are several methods for transferring files using FileZilla:</p>
+<ul>
+<li>
+<p>Select and drag files from one side to the other to transfer all of the selected files.</p>
+</li>
+<li>
+<p>Double-click a file to transfer that single file. Note this behavior on a double-click; double-clicking doesn't run a file or open it in an editor.</p>
+</li>
+</ul>
+<h3 id="editing-files">Editing Files<a class="headerlink" href="#editing-files" title="Permanent link">&para;</a></h3>
+<p>You can edit a file by right-clicking and selecting "View/Edit". To set a default file editor, open the settings ("Edit" &rarr; "Settings" in the top-left) and set it up using your favorite text editor like I have below:</p>
+<p><img alt="PuTTY File Editing Settings" src="https://i.imgur.com/LhlpfRH.png" /></p>
+<p>Once you've finished editing the file, save it in your editor, and go back to FileZilla. You should be greeted with this prompt:</p>
+<p><img alt="FileZilla File Change Notification" src="https://i.imgur.com/CA6U84E.png" /></p>
+<p>By selecting "Yes", the edited file will be transferred to the remote server, overwriting the existing file with your changes.</p>
+<p>If "Finished editing and delete local file" isn't checked, you can continute to edit/save/revert changes on the local file in your editor. If you never check that box, when you close FileZilla it'll warn you that you still have a file locally:</p>
+<p><img alt="File opened notification" src="https://i.imgur.com/bqw2uCb.png" /></p>
+<p>If you've finished everything you want to do, you can safely close FileZilla and the SFTP connection will be closed.</p>
+<h2 id="conclusion">Conclusion<a class="headerlink" href="#conclusion" title="Permanent link">&para;</a></h2>
+<p>Hopefully, these three tools (PuTTY, tmux, FileZilla) will give you what you need to remotely manage a Minecraft server. Start small, and soon you'll have your host machine set up just the way you want. Good luck!</p>
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../../moderation/moderation/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Moderating a Minecraft server" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Moderating a Minecraft server
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../../setup/minecraft_setup/" class="md-footer__link md-footer__link--next" aria-label="Next: Minecraft Server Setup" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Minecraft Server Setup
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../../../..", "features": ["content.code.annotate"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../../../assets/javascripts/workers/search.5e67fbfe.min.js"}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.e87a5f81.min.js"></script>
+      
+        <script src="../../../../js/arcio.js"></script>
+      
+    
+  </body>
+</html>
